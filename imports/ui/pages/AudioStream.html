@@ -1,0 +1,5 @@
+<template name="AudioStreamSmart">
+    {{#each audioTitle in audioContext}}
+    {{>StreamAudioReusable (audioArgs audioTitle)}}
+    {{/each}}
+</template>

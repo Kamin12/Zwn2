@@ -1,0 +1,46 @@
+<template name="Users_show_page">
+<div id="usersitecontainer">
+<a id="edit"> EDIT </a>
+{{#each memberName in memberNameArray}}
+{{> UserSite (memberArgs memberName)}}
+{{/each}}
+</div>
+</template>
+
+<template name="ProductWebsite">
+{{#each productWeb in productWebs}}
+{{> MembersProduct (productWebArgs productWeb)}}
+{{/each}}
+</template>
+
+<template name="AudioWebsite">
+{{#each productWeb in productWebs}}
+{{> MembersProduct (productWebArgs productWeb)}}
+{{/each}}
+</template>
+
+<template name="TextWebsite">
+{{#each productWeb in productWebs}}
+{{> MembersProduct (productWebArgs productWeb)}}
+{{/each}}
+</template>
+
+<template name="ImageWebsite">
+{{#each productWeb in productWebs}}
+{{> MembersProduct (productWebArgs productWeb)}}
+{{/each}}
+</template>
+
+<template name="VideoWebsite">
+{{#each productWeb in productWebs}}
+{{> MembersProduct (productWebArgs productWeb)}}
+{{/each}}
+</template>
+
+<template name="MembersProduct">
+  <img id="productthumb" href="/{{id}}" src="{{Images}}"/>
+  <div id="sweatshirtinfo">
+    <a href="/{{Member}}" id="account"> {{members}} </a>
+    <a href="/{{id}}" id="title"> {{title}} </a>
+  </div>
+</template>

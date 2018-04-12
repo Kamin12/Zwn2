@@ -1,0 +1,12 @@
+<template name="AudioFeed">
+  <ul>
+    <div id="music_feed_bg">
+        <audio id="music">
+            <source src="" type="audio/mpeg">
+        </audio>
+        {{#each track in tracks}}
+            {{>AudioItemSmart track=track}}
+        {{/each}}
+    </div>
+  </ul>
+  </template>

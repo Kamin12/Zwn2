@@ -1,0 +1,1 @@
+{"head":"","body":"","js":"\nTemplate.__checkName(\"CreateSmart\");\nTemplate[\"CreateSmart\"] = new Template(\"Template.CreateSmart\", (function() {\n  var view = this;\n  return Spacebars.include(view.lookupTemplate(\"Create\"));\n}));\n","bodyAttrs":{}}
