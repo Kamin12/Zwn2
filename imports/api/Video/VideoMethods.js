@@ -4,7 +4,7 @@ import { SimpleSchema } from 'meteor/aldeed:simple-schema';
 import { DDPRateLimiter } from 'meteor/ddp-rate-limiter';
 import { _ } from 'meteor/underscore';
 
-import { Videos } from './Video.js';
+import { Videos } from '../../../lib/Video.js';
 
 export const Videosinsert = new ValidatedMethod({
 name: 'Videos.methods.insert',

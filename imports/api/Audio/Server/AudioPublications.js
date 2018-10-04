@@ -1,7 +1,7 @@
 import { Meteor } from 'meteor/meteor';
 import { SimpleSchema } from 'meteor/aldeed:simple-schema';
 
-import { Audio } from '../Audio.js';
+import { Audios } from '../../../../lib/Audio.js';
 
 if (Meteor.isServer) {
 
@@ -10,7 +10,7 @@ Meteor.publish('audioStream', function (audioTitle) {
   return this.ready();
 }
 
-  return Audio.findOne({audioTitle}, {
+  return Audios.findOne({audioTitle}, {
     fields: {
       audiomember: 1,
       audiomembers: 1,
@@ -27,7 +27,7 @@ Meteor.publish('audioFeed', function (audioTitle) {
   return this.ready();
 }
 
-  return Audio.findOne({audioTitle}, {
+  return Audios.findOne({audioTitle}, {
     fields: {
       audiomember: 1,
       audiomembers: 1,

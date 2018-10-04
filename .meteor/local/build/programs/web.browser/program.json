@@ -114,9 +114,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/modules.js?hash=9e7bf6eb9f697e3efc60f5107d2dc0b5f48d8ecd",
-      "size": 1220138,
-      "hash": "9e7bf6eb9f697e3efc60f5107d2dc0b5f48d8ecd"
+      "url": "/packages/modules.js?hash=11274d53d301d0fc5c54fb7f388b627c62a011d8",
+      "size": 1220390,
+      "hash": "11274d53d301d0fc5c54fb7f388b627c62a011d8"
     },
     {
       "path": "packages/ecmascript-runtime.js",
@@ -352,15 +352,6 @@
       "url": "/packages/shell-server.js?hash=6ff1313e4bf7618e577eb2604a580b2ea9b7631f",
       "size": 721,
       "hash": "6ff1313e4bf7618e577eb2604a580b2ea9b7631f"
-    },
-    {
-      "path": "packages/autopublish.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/packages/autopublish.js?hash=073bd4c42d2fb6182c944501b4f30e8d17bcceb3",
-      "size": 717,
-      "hash": "073bd4c42d2fb6182c944501b4f30e8d17bcceb3"
     },
     {
       "path": "packages/deps.js",
@@ -690,6 +681,42 @@
       "hash": "821b0746e602b3be69538d299d6866e222121b54"
     },
     {
+      "path": "packages/service-configuration.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/service-configuration.js?hash=42ac9ae8eb44f3e73762f9cb0003410397021984",
+      "size": 4728,
+      "hash": "42ac9ae8eb44f3e73762f9cb0003410397021984"
+    },
+    {
+      "path": "packages/less.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/less.js?hash=f316070a447c127756b4cc6fc87e7ba8f1d543e9",
+      "size": 710,
+      "hash": "f316070a447c127756b4cc6fc87e7ba8f1d543e9"
+    },
+    {
+      "path": "packages/accounts-ui-unstyled.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/accounts-ui-unstyled.js?hash=a333f207157fdce38127c3bd746bb2ea87b5e1e0",
+      "size": 250926,
+      "hash": "a333f207157fdce38127c3bd746bb2ea87b5e1e0"
+    },
+    {
+      "path": "packages/accounts-ui.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/accounts-ui.js?hash=d422694de351dcf3479caa0e49a8e9860c054130",
+      "size": 720,
+      "hash": "d422694de351dcf3479caa0e49a8e9860c054130"
+    },
+    {
       "path": "packages/webapp.js",
       "where": "client",
       "type": "js",
@@ -768,11 +795,11 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/app.js?hash=0511773f83010193256b7891b1114f1f13115b19",
+      "url": "/app/app.js?hash=b4da7b40a91a6d5ff1971f072fee2e853bfd8052",
       "sourceMap": "app/app.js.map",
-      "sourceMapUrl": "/app/0511773f83010193256b7891b1114f1f13115b19.map",
-      "size": 925112,
-      "hash": "0511773f83010193256b7891b1114f1f13115b19"
+      "sourceMapUrl": "/app/b4da7b40a91a6d5ff1971f072fee2e853bfd8052.map",
+      "size": 952650,
+      "hash": "b4da7b40a91a6d5ff1971f072fee2e853bfd8052"
     },
     {
       "path": "packages/mdg_validation-error.js",
@@ -786,24 +813,15 @@
       "hash": "9df8c3f9376af1b92879fee50b9a91c60e2cfaf2"
     },
     {
-      "path": "packages/service-configuration.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/packages/service-configuration.js?hash=42ac9ae8eb44f3e73762f9cb0003410397021984",
-      "size": 4728,
-      "hash": "42ac9ae8eb44f3e73762f9cb0003410397021984"
-    },
-    {
       "path": "merged-stylesheets.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/merged-stylesheets.css?hash=00b0ba5abdc207488f78592de3f18566c6911fbc",
+      "url": "/merged-stylesheets.css?hash=0b38029f5b1c79d0449e02699b911c1f0445fb0c",
       "sourceMap": "merged-stylesheets.css.map",
-      "sourceMapUrl": "/00b0ba5abdc207488f78592de3f18566c6911fbc.map",
-      "size": 865,
-      "hash": "00b0ba5abdc207488f78592de3f18566c6911fbc"
+      "sourceMapUrl": "/0b38029f5b1c79d0449e02699b911c1f0445fb0c.map",
+      "size": 9514,
+      "hash": "0b38029f5b1c79d0449e02699b911c1f0445fb0c"
     },
     {
       "path": "head.html",

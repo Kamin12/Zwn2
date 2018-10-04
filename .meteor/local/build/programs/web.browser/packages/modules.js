@@ -145,52 +145,54 @@ install("reactive-var");                                                        
 install("standard-minifier-css");                                                                                      // 67
 install("standard-minifier-js");                                                                                       // 68
 install("shell-server");                                                                                               // 69
-install("autopublish");                                                                                                // 70
-install("deps");                                                                                                       // 71
-install("aldeed:simple-schema");                                                                                       // 72
-install("raix:eventemitter");                                                                                          // 73
-install("aldeed:collection2-core");                                                                                    // 74
-install("aldeed:schema-index");                                                                                        // 75
-install("aldeed:schema-deny");                                                                                         // 76
-install("aldeed:collection2");                                                                                         // 77
-install("ddp-rate-limiter");                                                                                           // 78
-install("localstorage");                                                                                               // 79
-install("callback-hook");                                                                                              // 80
-install("jquery", "meteor/jquery/main.js");                                                                            // 81
-install("observe-sequence");                                                                                           // 82
-install("htmljs");                                                                                                     // 83
-install("blaze");                                                                                                      // 84
-install("accounts-base", "meteor/accounts-base/client_main.js");                                                       // 85
-install("reactive-dict");                                                                                              // 86
-install("spacebars");                                                                                                  // 87
-install("templating-compiler");                                                                                        // 88
-install("templating-runtime");                                                                                         // 89
-install("templating");                                                                                                 // 90
-install("useraccounts:core");                                                                                          // 91
-install("kadira:flow-router");                                                                                         // 92
-install("kadira:blaze-layout");                                                                                        // 93
-install("coffeescript");                                                                                               // 94
-install("softwarerero:accounts-t9n");                                                                                  // 95
-install("useraccounts:flow-routing");                                                                                  // 96
-install("useraccounts:unstyled");                                                                                      // 97
-install("mdg:validated-method");                                                                                       // 98
-install("mrgalaxy:stripe");                                                                                            // 99
-install("sha");                                                                                                        // 100
-install("srp");                                                                                                        // 101
-install("accounts-password");                                                                                          // 102
-install("zimme:active-route");                                                                                         // 103
-install("arillo:flow-router-helpers");                                                                                 // 104
-install("session");                                                                                                    // 105
-install("webapp");                                                                                                     // 106
-install("livedata");                                                                                                   // 107
-install("dynamic-import", "meteor/dynamic-import/client.js");                                                          // 108
-install("hot-code-push");                                                                                              // 109
-install("launch-screen");                                                                                              // 110
-install("ui");                                                                                                         // 111
-install("autoupdate");                                                                                                 // 112
-install("mdg:validation-error");                                                                                       // 113
-install("service-configuration");                                                                                      // 114
-                                                                                                                       // 115
+install("deps");                                                                                                       // 70
+install("aldeed:simple-schema");                                                                                       // 71
+install("raix:eventemitter");                                                                                          // 72
+install("aldeed:collection2-core");                                                                                    // 73
+install("aldeed:schema-index");                                                                                        // 74
+install("aldeed:schema-deny");                                                                                         // 75
+install("aldeed:collection2");                                                                                         // 76
+install("ddp-rate-limiter");                                                                                           // 77
+install("localstorage");                                                                                               // 78
+install("callback-hook");                                                                                              // 79
+install("jquery", "meteor/jquery/main.js");                                                                            // 80
+install("observe-sequence");                                                                                           // 81
+install("htmljs");                                                                                                     // 82
+install("blaze");                                                                                                      // 83
+install("accounts-base", "meteor/accounts-base/client_main.js");                                                       // 84
+install("reactive-dict");                                                                                              // 85
+install("spacebars");                                                                                                  // 86
+install("templating-compiler");                                                                                        // 87
+install("templating-runtime");                                                                                         // 88
+install("templating");                                                                                                 // 89
+install("useraccounts:core");                                                                                          // 90
+install("kadira:flow-router");                                                                                         // 91
+install("kadira:blaze-layout");                                                                                        // 92
+install("coffeescript");                                                                                               // 93
+install("softwarerero:accounts-t9n");                                                                                  // 94
+install("useraccounts:flow-routing");                                                                                  // 95
+install("useraccounts:unstyled");                                                                                      // 96
+install("mdg:validated-method");                                                                                       // 97
+install("mrgalaxy:stripe");                                                                                            // 98
+install("sha");                                                                                                        // 99
+install("srp");                                                                                                        // 100
+install("accounts-password");                                                                                          // 101
+install("zimme:active-route");                                                                                         // 102
+install("arillo:flow-router-helpers");                                                                                 // 103
+install("session");                                                                                                    // 104
+install("service-configuration");                                                                                      // 105
+install("less");                                                                                                       // 106
+install("accounts-ui-unstyled");                                                                                       // 107
+install("accounts-ui");                                                                                                // 108
+install("webapp");                                                                                                     // 109
+install("livedata");                                                                                                   // 110
+install("dynamic-import", "meteor/dynamic-import/client.js");                                                          // 111
+install("hot-code-push");                                                                                              // 112
+install("launch-screen");                                                                                              // 113
+install("ui");                                                                                                         // 114
+install("autoupdate");                                                                                                 // 115
+install("mdg:validation-error");                                                                                       // 116
+                                                                                                                       // 117
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 },"process.js":function(require,exports,module){

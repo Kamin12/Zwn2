@@ -1,7 +1,7 @@
 import { Meteor } from 'meteor/meteor';
 import { SimpleSchema } from 'meteor/aldeed:simple-schema';
 
-import { Images } from '../Image.js';
+import { Images } from '../../../../lib/Image.js';
 
 if (Meteor.isServer) {
 

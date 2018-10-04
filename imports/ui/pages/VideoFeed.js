@@ -6,7 +6,6 @@ if (Meteor.isClient) {
   import { FlowRouter } from 'meteor/kadira:flow-router';
 
   import '../../api/Video/Server/VideoPublications.js';
-  import '../../api/Video/Video.js';
 
   // Components used inside the template
 

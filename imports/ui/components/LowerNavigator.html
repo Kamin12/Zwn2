@@ -2,7 +2,7 @@
 
 <template name="LowerNavigator">
 <div id= "network_nav">
-
+{{#if currentUser}}
     <svg version="1.1"
     	 id="cloudicon" xmlns:cc="http://creativecommons.org/ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000"
@@ -75,7 +75,10 @@
    		 M500,1392.4c-163.5,0-296,107.5-296,240h592C796,1499.8,663.5,1392.4,500,1392.4z"/>
    </g>
    </svg>
-
+   {{else}}
+  <a id="loginbuttonnav" href="/signin"> LOGIN </a>
+  <a id="signupbuttonnav" href="/join"> SIGN-UP </a>
+   {{/if}}
   </div>
 </template>
 
@@ -84,6 +87,7 @@
 <template name="join">
 <form id="signupform">
 <input type="text" id="joingemail" placeholder="E-Mail">
+<button id="login"> LOG IN </button>
 <button id="signup"> SIGN UP </button>
 </form>
 </template>

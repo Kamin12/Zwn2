@@ -26,7 +26,7 @@ Template.AudioItemReusable.onCreated(function listShowOnCreated() {
   pathforAudioStream: function (){
     var audio = this;
     var params = {
-      audio : audio.audiotitle
+      audio : audios.audiotitle
     };
     var channel = "audio";
     var path = FlowRouter.path(channel, params);

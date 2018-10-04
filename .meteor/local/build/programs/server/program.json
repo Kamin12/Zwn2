@@ -164,9 +164,6 @@
       "path": "packages/webapp.js"
     },
     {
-      "path": "packages/autopublish.js"
-    },
-    {
       "path": "packages/callback-hook.js"
     },
     {
@@ -306,6 +303,9 @@
     },
     {
       "path": "packages/session.js"
+    },
+    {
+      "path": "packages/accounts-ui.js"
     },
     {
       "path": "packages/livedata.js"

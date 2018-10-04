@@ -9,6 +9,15 @@ import { SimpleSchema } from 'meteor/aldeed:simple-schema';
 
 import './Menu.html';
 
+
+  Template.Menu.onCreated(function Menu() {
+
+      Meteor.subscribe('textFeed');
+
+  });
+
+
+
 Template.Menu.events({
     'click .maintext3' (event, template) {
       Blaze.render(Template.Login, document.body);
@@ -18,6 +27,8 @@ Template.Menu.events({
       Blaze.render(Template.WreadAbout, document.body);
     }
 });
+
+
 
 Template.Menu.helpers({
  NotLoggedIn() {

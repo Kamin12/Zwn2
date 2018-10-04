@@ -48,9 +48,11 @@ color: white;
 }
 
 #messagenavigator {
-position: fixed;
-margin-top: 5em;
-font-family: "San Francisco Text";
+  position: absolute;
+  font-family: "San Francisco Text";
+  top: 0px;
+  margin-top: 7em;
+  z-index: 10000000000000000000000000000;
 }
 
 #creategroup {
@@ -176,7 +178,7 @@ margin-left: 52%;
 
 #send2{
   padding-top: 1.2em;
-  padding-bottom: 1.2em;
+  padding-bottom: 1.6em;
   width: 100%;
   bottom: 0px;
   border: none;
@@ -188,7 +190,7 @@ margin-left: 52%;
   position: fixed;
   z-index: 10000000000000000000000000000;
   letter-spacing: .4em;
-  margin-bottom: 3.8em;
+  margin-bottom: 3.3em;
 }
 
 #addmessages {
@@ -260,21 +262,20 @@ margin-left: 52%;
 
 #newmessage {
   color: #ffffff;
-    z-index: 1000000000000000000000000000;
-    display: block;
-    position: fixed;
-    width: 70%;
-    height: 94%;
-    margin-left: 22.6%;
-    border: 1px solid #e2e2e2;
-    top: 0px;
-    background-color: rgb(255, 255, 255);
-    margin-top: 8.5%;
-    font-family: "San Francisco Text";
-    padding-left: 4em;
-    padding-right: 4em;
-    padding-bottom: .4em;
-    padding-top: .4em;
+z-index: 1000000000000000000000000000;
+display: block;
+position: fixed;
+width: 70%;
+height: 94%;
+margin-left: 20%;
+top: 0px;
+background-color: rgb(0, 0, 0);
+margin-top: 4.5%;
+font-family: "San Francisco Text";
+padding-left: 4em;
+padding-right: 4em;
+padding-bottom: .4em;
+padding-top: .4em;
 }
 
 #tomessage {

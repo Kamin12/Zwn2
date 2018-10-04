@@ -4,7 +4,7 @@ import { SimpleSchema } from 'meteor/aldeed:simple-schema';
 import { DDPRateLimiter } from 'meteor/ddp-rate-limiter';
 import { _ } from 'meteor/underscore';
 
-import { Texts } from './Text.js';
+import { Texts } from '../../../lib/Text.js';
 
 export const Textsinsert = new ValidatedMethod({
   name : 'Texts.methods.insert',

@@ -4,7 +4,7 @@ import { SimpleSchema } from 'meteor/aldeed:simple-schema';
 import { DDPRateLimiter } from 'meteor/ddp-rate-limiter';
 import { _ } from 'meteor/underscore';
 
-import { Images } from './Image.js';
+import { Images } from '../../../lib/Image.js';
 
 export const Imagesinsert = new ValidatedMethod({
 name: 'Imagesinsert',

@@ -5,7 +5,6 @@ if (Meteor.isClient) {
 
   import './AudioFeed.html';
   import '../../api/Audio/Server/AudioPublications.js';
-  import '../../api/Audio/Audio.js';
 
 
   // Components used inside the template
@@ -13,7 +12,7 @@ if (Meteor.isClient) {
 
 Template.AudioFeed.helpers({
 tracks() {
-   return Audio.find();
+   return Audios.find();
  }
 });
 

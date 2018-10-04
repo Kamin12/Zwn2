@@ -4,7 +4,7 @@ import { SimpleSchema } from 'meteor/aldeed:simple-schema';
 import { DDPRateLimiter } from 'meteor/ddp-rate-limiter';
 import { _ } from 'meteor/underscore';
 
-import { Audio } from './Audio.js';
+import { Audios } from '../../../lib/Audio.js';
 
 export const Audioinsert = new ValidatedMethod({
   name: 'Audio.methods.insert',
@@ -13,7 +13,7 @@ export const Audioinsert = new ValidatedMethod({
       audiotext: { type: String }
     }).validator(),
     run({audiotitle, audiotext}) {
-	Audio.insert({
+	Audios.insert({
     titleaudio: audiotitle,
     textaudio: audiotext
 	});

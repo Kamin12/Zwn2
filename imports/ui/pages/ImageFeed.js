@@ -5,8 +5,6 @@ if (Meteor.isClient) {
 
   import './ImageFeed.html';
   import '../../api/Image/Server/ImagePublications.js';
-  import '../../api/Image/Image.js';
-
 
   // Components used inside the template
   import '../components/ImageItemSmart.js';

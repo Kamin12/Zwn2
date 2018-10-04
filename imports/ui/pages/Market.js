@@ -1,11 +1,9 @@
 import { Template } from 'meteor/templating';
 import { FlowRouter } from 'meteor/kadira:flow-router';
 
-import { Products } from '../../api/Products/Products.js';
 
 import './Market.html';
 import '../../api/Products/Server/ProductsPublications.js';
-import '../../api/Products/Products.js';
 
 
 // Components used inside the template

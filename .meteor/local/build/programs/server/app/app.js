@@ -1,4 +1,227 @@
-var require = meteorInstall({"imports":{"api":{"Audio":{"Server":{"AudioPublications.js":function(require,exports,module){
+var require = meteorInstall({"lib":{"Audio.js":function(require,exports,module){
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                //
+// lib/Audio.js                                                                                   //
+//                                                                                                //
+////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                                                  //
+var Mongo = void 0;                                                                               // 1
+module.watch(require("meteor/mongo"), {                                                           // 1
+  Mongo: function (v) {                                                                           // 1
+    Mongo = v;                                                                                    // 1
+  }                                                                                               // 1
+}, 0);                                                                                            // 1
+var SimpleSchema = void 0;                                                                        // 1
+module.watch(require("meteor/aldeed:simple-schema"), {                                            // 1
+  SimpleSchema: function (v) {                                                                    // 1
+    SimpleSchema = v;                                                                             // 1
+  }                                                                                               // 1
+}, 1);                                                                                            // 1
+var Audios = new Mongo.Collection('audio');                                                       // 4
+Audios.deny({                                                                                     // 6
+  insert: function () {                                                                           // 7
+    return true;                                                                                  // 7
+  },                                                                                              // 7
+  update: function () {                                                                           // 8
+    return true;                                                                                  // 8
+  },                                                                                              // 8
+  remove: function () {                                                                           // 9
+    return true;                                                                                  // 9
+  }                                                                                               // 9
+});                                                                                               // 6
+Audios.schema = new SimpleSchema({                                                                // 12
+  audioaudioblz: {                                                                                // 13
+    type: [Object]                                                                                // 13
+  },                                                                                              // 13
+  audiomediablz: {                                                                                // 14
+    type: [Object]                                                                                // 14
+  },                                                                                              // 14
+  audiotitleblz: {                                                                                // 15
+    type: String                                                                                  // 15
+  },                                                                                              // 15
+  audiotextblz: {                                                                                 // 16
+    type: String                                                                                  // 16
+  }                                                                                               // 16
+});                                                                                               // 12
+Audios.attachSchema(Audios.schema);                                                               // 19
+module.exportDefault(Audios);                                                                     // 1
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+},"Bookings.js":function(){
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                //
+// lib/Bookings.js                                                                                //
+//                                                                                                //
+////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                                                  //
+                                                                                                  //
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+},"Image.js":function(require,exports,module){
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                //
+// lib/Image.js                                                                                   //
+//                                                                                                //
+////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                                                  //
+var Mongo = void 0;                                                                               // 1
+module.watch(require("meteor/mongo"), {                                                           // 1
+  Mongo: function (v) {                                                                           // 1
+    Mongo = v;                                                                                    // 1
+  }                                                                                               // 1
+}, 0);                                                                                            // 1
+var SimpleSchema = void 0;                                                                        // 1
+module.watch(require("meteor/aldeed:simple-schema"), {                                            // 1
+  SimpleSchema: function (v) {                                                                    // 1
+    SimpleSchema = v;                                                                             // 1
+  }                                                                                               // 1
+}, 1);                                                                                            // 1
+var Images = new Mongo.Collection('images');                                                      // 4
+Images.deny({                                                                                     // 7
+  insert: function () {                                                                           // 8
+    return true;                                                                                  // 8
+  },                                                                                              // 8
+  update: function () {                                                                           // 9
+    return true;                                                                                  // 9
+  },                                                                                              // 9
+  remove: function () {                                                                           // 10
+    return true;                                                                                  // 10
+  }                                                                                               // 10
+});                                                                                               // 7
+Images.schema = new SimpleSchema({                                                                // 13
+  imagetext: {                                                                                    // 14
+    type: String                                                                                  // 14
+  },                                                                                              // 14
+  imagetitle: {                                                                                   // 15
+    type: String                                                                                  // 15
+  },                                                                                              // 15
+  imageimage: {                                                                                   // 16
+    type: Object                                                                                  // 16
+  },                                                                                              // 16
+  imagedate: {                                                                                    // 17
+    type: Date                                                                                    // 17
+  }                                                                                               // 17
+});                                                                                               // 13
+Images.attachSchema(Images.schema);                                                               // 20
+module.exportDefault(Images);                                                                     // 1
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+},"Products.js":function(require,exports,module){
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                //
+// lib/Products.js                                                                                //
+//                                                                                                //
+////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                                                  //
+module.export({                                                                                   // 1
+  Products: function () {                                                                         // 1
+    return Products;                                                                              // 1
+  }                                                                                               // 1
+});                                                                                               // 1
+var Products = new Mongo.Collection('products');                                                  // 1
+Products.deny({                                                                                   // 3
+  insert: function () {                                                                           // 4
+    return true;                                                                                  // 4
+  },                                                                                              // 4
+  update: function () {                                                                           // 5
+    return true;                                                                                  // 5
+  },                                                                                              // 5
+  remove: function () {                                                                           // 6
+    return true;                                                                                  // 6
+  }                                                                                               // 6
+});                                                                                               // 3
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+},"Text.js":function(require,exports,module){
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                //
+// lib/Text.js                                                                                    //
+//                                                                                                //
+////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                                                  //
+module.export({                                                                                   // 1
+  Texts: function () {                                                                            // 1
+    return Texts;                                                                                 // 1
+  }                                                                                               // 1
+});                                                                                               // 1
+var Mongo = void 0;                                                                               // 1
+module.watch(require("meteor/mongo"), {                                                           // 1
+  Mongo: function (v) {                                                                           // 1
+    Mongo = v;                                                                                    // 1
+  }                                                                                               // 1
+}, 0);                                                                                            // 1
+var SimpleSchema = void 0;                                                                        // 1
+module.watch(require("meteor/aldeed:simple-schema"), {                                            // 1
+  SimpleSchema: function (v) {                                                                    // 1
+    SimpleSchema = v;                                                                             // 1
+  }                                                                                               // 1
+}, 1);                                                                                            // 1
+var Texts = new Mongo.Collection('texts');                                                        // 6
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+},"Video.js":function(require,exports,module){
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                //
+// lib/Video.js                                                                                   //
+//                                                                                                //
+////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                                                  //
+module.export({                                                                                   // 1
+  Videos: function () {                                                                           // 1
+    return Videos;                                                                                // 1
+  }                                                                                               // 1
+});                                                                                               // 1
+var Mongo = void 0;                                                                               // 1
+module.watch(require("meteor/mongo"), {                                                           // 1
+  Mongo: function (v) {                                                                           // 1
+    Mongo = v;                                                                                    // 1
+  }                                                                                               // 1
+}, 0);                                                                                            // 1
+var SimpleSchema = void 0;                                                                        // 1
+module.watch(require("meteor/aldeed:simple-schema"), {                                            // 1
+  SimpleSchema: function (v) {                                                                    // 1
+    SimpleSchema = v;                                                                             // 1
+  }                                                                                               // 1
+}, 1);                                                                                            // 1
+var Videos = new Mongo.Collection('videos');                                                      // 4
+Videos.deny({                                                                                     // 6
+  insert: function () {                                                                           // 7
+    return true;                                                                                  // 7
+  },                                                                                              // 7
+  update: function () {                                                                           // 8
+    return true;                                                                                  // 8
+  },                                                                                              // 8
+  remove: function () {                                                                           // 9
+    return true;                                                                                  // 9
+  }                                                                                               // 9
+});                                                                                               // 6
+Videos.schema = new SimpleSchema({                                                                // 12
+  videotitle: {                                                                                   // 13
+    type: String                                                                                  // 13
+  },                                                                                              // 13
+  videotext: {                                                                                    // 14
+    type: String                                                                                  // 14
+  },                                                                                              // 14
+  videovideo: {                                                                                   // 15
+    type: Object                                                                                  // 15
+  },                                                                                              // 15
+  videoimage: {                                                                                   // 16
+    type: Object                                                                                  // 16
+  },                                                                                              // 16
+  videodate: {                                                                                    // 17
+    type: String                                                                                  // 17
+  }                                                                                               // 17
+});                                                                                               // 12
+Videos.attachSchema(Videos.schema);                                                               // 20
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+}},"imports":{"api":{"Audio":{"Server":{"AudioPublications.js":function(require,exports,module){
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                //
@@ -18,10 +241,10 @@ module.watch(require("meteor/aldeed:simple-schema"), {                          
     SimpleSchema = v;                                                                             // 1
   }                                                                                               // 1
 }, 1);                                                                                            // 1
-var Audio = void 0;                                                                               // 1
-module.watch(require("../Audio.js"), {                                                            // 1
-  Audio: function (v) {                                                                           // 1
-    Audio = v;                                                                                    // 1
+var Audios = void 0;                                                                              // 1
+module.watch(require("../../../../lib/Audio.js"), {                                               // 1
+  Audios: function (v) {                                                                          // 1
+    Audios = v;                                                                                   // 1
   }                                                                                               // 1
 }, 2);                                                                                            // 1
                                                                                                   //
@@ -31,7 +254,7 @@ if (Meteor.isServer) {                                                          
       return this.ready();                                                                        // 10
     }                                                                                             // 11
                                                                                                   //
-    return Audio.findOne({                                                                        // 13
+    return Audios.findOne({                                                                       // 13
       audioTitle: audioTitle                                                                      // 13
     }, {                                                                                          // 13
       fields: {                                                                                   // 14
@@ -48,7 +271,7 @@ if (Meteor.isServer) {                                                          
       return this.ready();                                                                        // 27
     }                                                                                             // 28
                                                                                                   //
-    return Audio.findOne({                                                                        // 30
+    return Audios.findOne({                                                                       // 30
       audioTitle: audioTitle                                                                      // 30
     }, {                                                                                          // 30
       fields: {                                                                                   // 31
@@ -63,57 +286,7 @@ if (Meteor.isServer) {                                                          
 }                                                                                                 // 40
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-}},"Audio.js":function(require,exports,module){
-
-////////////////////////////////////////////////////////////////////////////////////////////////////
-//                                                                                                //
-// imports/api/Audio/Audio.js                                                                     //
-//                                                                                                //
-////////////////////////////////////////////////////////////////////////////////////////////////////
-                                                                                                  //
-var Mongo = void 0;                                                                               // 1
-module.watch(require("meteor/mongo"), {                                                           // 1
-  Mongo: function (v) {                                                                           // 1
-    Mongo = v;                                                                                    // 1
-  }                                                                                               // 1
-}, 0);                                                                                            // 1
-var SimpleSchema = void 0;                                                                        // 1
-module.watch(require("meteor/aldeed:simple-schema"), {                                            // 1
-  SimpleSchema: function (v) {                                                                    // 1
-    SimpleSchema = v;                                                                             // 1
-  }                                                                                               // 1
-}, 1);                                                                                            // 1
-var Audio = new Mongo.Collection('audio');                                                        // 4
-Audio.deny({                                                                                      // 6
-  insert: function () {                                                                           // 7
-    return true;                                                                                  // 7
-  },                                                                                              // 7
-  update: function () {                                                                           // 8
-    return true;                                                                                  // 8
-  },                                                                                              // 8
-  remove: function () {                                                                           // 9
-    return true;                                                                                  // 9
-  }                                                                                               // 9
-});                                                                                               // 6
-Audio.schema = new SimpleSchema({                                                                 // 12
-  audioaudioblz: {                                                                                // 13
-    type: [Object]                                                                                // 13
-  },                                                                                              // 13
-  audiomediablz: {                                                                                // 14
-    type: [Object]                                                                                // 14
-  },                                                                                              // 14
-  audiotitleblz: {                                                                                // 15
-    type: String                                                                                  // 15
-  },                                                                                              // 15
-  audiotextblz: {                                                                                 // 16
-    type: String                                                                                  // 16
-  }                                                                                               // 16
-});                                                                                               // 12
-Audio.attachSchema(Audio.schema);                                                                 // 19
-module.exportDefault(Audio);                                                                      // 1
-////////////////////////////////////////////////////////////////////////////////////////////////////
-
-},"AudioMethods.js":function(require,exports,module){
+}},"AudioMethods.js":function(require,exports,module){
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                //
@@ -158,10 +331,10 @@ module.watch(require("meteor/underscore"), {                                    
     _ = v;                                                                                        // 1
   }                                                                                               // 1
 }, 4);                                                                                            // 1
-var Audio = void 0;                                                                               // 1
-module.watch(require("./Audio.js"), {                                                             // 1
-  Audio: function (v) {                                                                           // 1
-    Audio = v;                                                                                    // 1
+var Audios = void 0;                                                                              // 1
+module.watch(require("../../../lib/Audio.js"), {                                                  // 1
+  Audios: function (v) {                                                                          // 1
+    Audios = v;                                                                                   // 1
   }                                                                                               // 1
 }, 5);                                                                                            // 1
 var Audioinsert = new ValidatedMethod({                                                           // 9
@@ -177,7 +350,7 @@ var Audioinsert = new ValidatedMethod({                                         
   run: function (_ref) {                                                                          // 15
     var audiotitle = _ref.audiotitle,                                                             // 15
         audiotext = _ref.audiotext;                                                               // 15
-    Audio.insert({                                                                                // 16
+    Audios.insert({                                                                               // 16
       titleaudio: audiotitle,                                                                     // 17
       textaudio: audiotext                                                                        // 18
     });                                                                                           // 16
@@ -262,7 +435,7 @@ module.watch(require("meteor/aldeed:simple-schema"), {                          
   }                                                                                               // 1
 }, 1);                                                                                            // 1
 var Images = void 0;                                                                              // 1
-module.watch(require("../Image.js"), {                                                            // 1
+module.watch(require("../../../../lib/Image.js"), {                                               // 1
   Images: function (v) {                                                                          // 1
     Images = v;                                                                                   // 1
   }                                                                                               // 1
@@ -306,57 +479,7 @@ if (Meteor.isServer) {                                                          
 }                                                                                                 // 40
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-}},"Image.js":function(require,exports,module){
-
-////////////////////////////////////////////////////////////////////////////////////////////////////
-//                                                                                                //
-// imports/api/Image/Image.js                                                                     //
-//                                                                                                //
-////////////////////////////////////////////////////////////////////////////////////////////////////
-                                                                                                  //
-var Mongo = void 0;                                                                               // 1
-module.watch(require("meteor/mongo"), {                                                           // 1
-  Mongo: function (v) {                                                                           // 1
-    Mongo = v;                                                                                    // 1
-  }                                                                                               // 1
-}, 0);                                                                                            // 1
-var SimpleSchema = void 0;                                                                        // 1
-module.watch(require("meteor/aldeed:simple-schema"), {                                            // 1
-  SimpleSchema: function (v) {                                                                    // 1
-    SimpleSchema = v;                                                                             // 1
-  }                                                                                               // 1
-}, 1);                                                                                            // 1
-var Images = new Mongo.Collection('images');                                                      // 4
-Images.deny({                                                                                     // 7
-  insert: function () {                                                                           // 8
-    return true;                                                                                  // 8
-  },                                                                                              // 8
-  update: function () {                                                                           // 9
-    return true;                                                                                  // 9
-  },                                                                                              // 9
-  remove: function () {                                                                           // 10
-    return true;                                                                                  // 10
-  }                                                                                               // 10
-});                                                                                               // 7
-Images.schema = new SimpleSchema({                                                                // 13
-  imagetext: {                                                                                    // 14
-    type: String                                                                                  // 14
-  },                                                                                              // 14
-  imagetitle: {                                                                                   // 15
-    type: String                                                                                  // 15
-  },                                                                                              // 15
-  imageimage: {                                                                                   // 16
-    type: Object                                                                                  // 16
-  },                                                                                              // 16
-  imagedate: {                                                                                    // 17
-    type: Date                                                                                    // 17
-  }                                                                                               // 17
-});                                                                                               // 13
-Images.attachSchema(Images.schema);                                                               // 20
-module.exportDefault(Images);                                                                     // 1
-////////////////////////////////////////////////////////////////////////////////////////////////////
-
-},"ImageMethods.js":function(require,exports,module){
+}},"ImageMethods.js":function(require,exports,module){
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                //
@@ -402,7 +525,7 @@ module.watch(require("meteor/underscore"), {                                    
   }                                                                                               // 1
 }, 4);                                                                                            // 1
 var Images = void 0;                                                                              // 1
-module.watch(require("./Image.js"), {                                                             // 1
+module.watch(require("../../../lib/Image.js"), {                                                  // 1
   Images: function (v) {                                                                          // 1
     Images = v;                                                                                   // 1
   }                                                                                               // 1
@@ -433,28 +556,6 @@ var Imagesinsert = new ValidatedMethod({                                        
 });                                                                                               // 9
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-}},"Messages":{"server":{"Channelpublications.js":function(){
-
-////////////////////////////////////////////////////////////////////////////////////////////////////
-//                                                                                                //
-// imports/api/Messages/server/Channelpublications.js                                             //
-//                                                                                                //
-////////////////////////////////////////////////////////////////////////////////////////////////////
-                                                                                                  //
-                                                                                                  //
-////////////////////////////////////////////////////////////////////////////////////////////////////
-
-}},"MessagesMethods.js":function(){
-
-////////////////////////////////////////////////////////////////////////////////////////////////////
-//                                                                                                //
-// imports/api/Messages/MessagesMethods.js                                                        //
-//                                                                                                //
-////////////////////////////////////////////////////////////////////////////////////////////////////
-                                                                                                  //
-                                                                                                  //
-////////////////////////////////////////////////////////////////////////////////////////////////////
-
 }},"Products":{"Server":{"ProductsPublications.js":function(require,exports,module){
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -476,7 +577,7 @@ module.watch(require("meteor/aldeed:simple-schema"), {                          
   }                                                                                               // 1
 }, 1);                                                                                            // 1
 var Products = void 0;                                                                            // 1
-module.watch(require("../Products.js"), {                                                         // 1
+module.watch(require("../../../../lib/Products.js"), {                                            // 1
   Products: function (v) {                                                                        // 1
     Products = v;                                                                                 // 1
   }                                                                                               // 1
@@ -565,7 +666,7 @@ module.watch(require("meteor/underscore"), {                                    
   }                                                                                               // 1
 }, 4);                                                                                            // 1
 var Products = void 0;                                                                            // 1
-module.watch(require("./Products.js"), {                                                          // 1
+module.watch(require("../../../lib/Products.js"), {                                               // 1
   Products: function (v) {                                                                        // 1
     Products = v;                                                                                 // 1
   }                                                                                               // 1
@@ -611,33 +712,6 @@ var Productsinsert = new ValidatedMethod({                                      
 });                                                                                               // 9
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-},"Products.js":function(require,exports,module){
-
-////////////////////////////////////////////////////////////////////////////////////////////////////
-//                                                                                                //
-// imports/api/Products/Products.js                                                               //
-//                                                                                                //
-////////////////////////////////////////////////////////////////////////////////////////////////////
-                                                                                                  //
-module.export({                                                                                   // 1
-  Products: function () {                                                                         // 1
-    return Products;                                                                              // 1
-  }                                                                                               // 1
-});                                                                                               // 1
-var Products = new Mongo.Collection('products');                                                  // 1
-Products.deny({                                                                                   // 3
-  insert: function () {                                                                           // 4
-    return true;                                                                                  // 4
-  },                                                                                              // 4
-  update: function () {                                                                           // 5
-    return true;                                                                                  // 5
-  },                                                                                              // 5
-  remove: function () {                                                                           // 6
-    return true;                                                                                  // 6
-  }                                                                                               // 6
-});                                                                                               // 3
-////////////////////////////////////////////////////////////////////////////////////////////////////
-
 }},"Text":{"Server":{"TextPublications.js":function(require,exports,module){
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -659,99 +733,31 @@ module.watch(require("meteor/aldeed:simple-schema"), {                          
   }                                                                                               // 1
 }, 1);                                                                                            // 1
 var Texts = void 0;                                                                               // 1
-module.watch(require("../Text.js"), {                                                             // 1
+module.watch(require("../../../../lib/Text.js"), {                                                // 1
   Texts: function (v) {                                                                           // 1
     Texts = v;                                                                                    // 1
   }                                                                                               // 1
 }, 2);                                                                                            // 1
                                                                                                   //
 if (Meteor.isServer) {                                                                            // 6
-  Meteor.publish('textStream', function (textTitle) {                                             // 8
-    if (!this.userId) {                                                                           // 9
-      return this.ready();                                                                        // 10
-    }                                                                                             // 11
+  Meteor.publish('textStream', function () {                                                      // 8
+    function textTitle() {                                                                        // 8
+      return [Texts.find()];                                                                      // 10
+    }                                                                                             // 12
                                                                                                   //
-    return Texts.findOne({                                                                        // 13
-      textTitle: textTitle                                                                        // 13
-    }, {                                                                                          // 13
-      fields: {                                                                                   // 14
-        textmember: 1,                                                                            // 15
-        textmembers: 1,                                                                           // 16
-        texttitle: 1,                                                                             // 17
-        textdate: 1,                                                                              // 18
-        texttext: 1                                                                               // 19
-      }                                                                                           // 14
-    });                                                                                           // 13
-  });                                                                                             // 22
-  Meteor.publish('textFeed', function (productTitle) {                                            // 24
-    if (!this.userId) {                                                                           // 25
-      return this.ready();                                                                        // 26
-    }                                                                                             // 27
+    return textTitle;                                                                             // 8
+  }());                                                                                           // 8
+  Meteor.publish('textFeed', function () {                                                        // 15
+    function textFeed() {                                                                         // 15
+      return [Texts.find()];                                                                      // 17
+    }                                                                                             // 18
                                                                                                   //
-    return Texts.findOne({                                                                        // 29
-      textTitle: textTitle                                                                        // 29
-    }, {                                                                                          // 29
-      fields: {                                                                                   // 30
-        textmember: 1,                                                                            // 31
-        texttitle: 1,                                                                             // 32
-        textdate: 1,                                                                              // 33
-        texttext: 1                                                                               // 34
-      }                                                                                           // 30
-    });                                                                                           // 29
-  });                                                                                             // 37
-}                                                                                                 // 39
+    return textFeed;                                                                              // 15
+  }());                                                                                           // 15
+}                                                                                                 // 20
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-}},"Text.js":function(require,exports,module){
-
-////////////////////////////////////////////////////////////////////////////////////////////////////
-//                                                                                                //
-// imports/api/Text/Text.js                                                                       //
-//                                                                                                //
-////////////////////////////////////////////////////////////////////////////////////////////////////
-                                                                                                  //
-var Mongo = void 0;                                                                               // 1
-module.watch(require("meteor/mongo"), {                                                           // 1
-  Mongo: function (v) {                                                                           // 1
-    Mongo = v;                                                                                    // 1
-  }                                                                                               // 1
-}, 0);                                                                                            // 1
-var SimpleSchema = void 0;                                                                        // 1
-module.watch(require("meteor/aldeed:simple-schema"), {                                            // 1
-  SimpleSchema: function (v) {                                                                    // 1
-    SimpleSchema = v;                                                                             // 1
-  }                                                                                               // 1
-}, 1);                                                                                            // 1
-var Texts = new Mongo.Collection('texts');                                                        // 4
-Texts.deny({                                                                                      // 6
-  insert: function () {                                                                           // 7
-    return true;                                                                                  // 7
-  },                                                                                              // 7
-  update: function () {                                                                           // 8
-    return true;                                                                                  // 8
-  },                                                                                              // 8
-  remove: function () {                                                                           // 9
-    return true;                                                                                  // 9
-  }                                                                                               // 9
-});                                                                                               // 6
-Texts.schema = new SimpleSchema({                                                                 // 12
-  texttitle: {                                                                                    // 13
-    type: String                                                                                  // 13
-  },                                                                                              // 13
-  texttext: {                                                                                     // 14
-    type: String                                                                                  // 14
-  },                                                                                              // 14
-  textmedia: {                                                                                    // 15
-    type: Object                                                                                  // 15
-  },                                                                                              // 15
-  textdate: {                                                                                     // 16
-    type: Date                                                                                    // 16
-  }                                                                                               // 16
-});                                                                                               // 12
-Texts.attachSchema(Texts.schema);                                                                 // 19
-////////////////////////////////////////////////////////////////////////////////////////////////////
-
-},"TextMethods.js":function(require,exports,module){
+}},"TextMethods.js":function(require,exports,module){
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                //
@@ -797,7 +803,7 @@ module.watch(require("meteor/underscore"), {                                    
   }                                                                                               // 1
 }, 4);                                                                                            // 1
 var Texts = void 0;                                                                               // 1
-module.watch(require("./Text.js"), {                                                              // 1
+module.watch(require("../../../lib/Text.js"), {                                                   // 1
   Texts: function (v) {                                                                           // 1
     Texts = v;                                                                                    // 1
   }                                                                                               // 1
@@ -845,98 +851,52 @@ module.watch(require("meteor/aldeed:simple-schema"), {                          
     SimpleSchema = v;                                                                             // 1
   }                                                                                               // 1
 }, 1);                                                                                            // 1
-                                                                                                  //
-if (Meteor.isServer) {                                                                            // 5
-  Meteor.publish('videoStream', function (videoTitle) {                                           // 7
-    if (!this.userId) {                                                                           // 8
-      return this.ready();                                                                        // 9
-    }                                                                                             // 10
-                                                                                                  //
-    return Videos.findOne({                                                                       // 12
-      videoTitle: videoTitle                                                                      // 12
-    }, {                                                                                          // 12
-      fields: {                                                                                   // 13
-        videomember: 1,                                                                           // 14
-        videomembers: 1,                                                                          // 15
-        videotitle: 1,                                                                            // 16
-        videodate: 1,                                                                             // 17
-        videotext: 1                                                                              // 18
-      }                                                                                           // 13
-    });                                                                                           // 12
-  });                                                                                             // 21
-  Meteor.publish('videoFeed', function (imageTitle) {                                             // 24
-    if (!this.userId) {                                                                           // 25
-      return this.ready();                                                                        // 26
-    }                                                                                             // 27
-                                                                                                  //
-    return Videos.findOne({                                                                       // 29
-      imageTitle: imageTitle                                                                      // 29
-    }, {                                                                                          // 29
-      fields: {                                                                                   // 30
-        imagemember: 1,                                                                           // 31
-        imagemembers: 1,                                                                          // 32
-        imagetitle: 1,                                                                            // 33
-        imagedate: 1,                                                                             // 34
-        imagetext: 1                                                                              // 35
-      }                                                                                           // 30
-    });                                                                                           // 29
-  });                                                                                             // 38
-}                                                                                                 // 40
-////////////////////////////////////////////////////////////////////////////////////////////////////
-
-}},"Video.js":function(require,exports,module){
-
-////////////////////////////////////////////////////////////////////////////////////////////////////
-//                                                                                                //
-// imports/api/Video/Video.js                                                                     //
-//                                                                                                //
-////////////////////////////////////////////////////////////////////////////////////////////////////
-                                                                                                  //
-var Mongo = void 0;                                                                               // 1
-module.watch(require("meteor/mongo"), {                                                           // 1
-  Mongo: function (v) {                                                                           // 1
-    Mongo = v;                                                                                    // 1
+var Videos = void 0;                                                                              // 1
+module.watch(require("../../../../lib/Video.js"), {                                               // 1
+  Videos: function (v) {                                                                          // 1
+    Videos = v;                                                                                   // 1
   }                                                                                               // 1
-}, 0);                                                                                            // 1
-var SimpleSchema = void 0;                                                                        // 1
-module.watch(require("meteor/aldeed:simple-schema"), {                                            // 1
-  SimpleSchema: function (v) {                                                                    // 1
-    SimpleSchema = v;                                                                             // 1
-  }                                                                                               // 1
-}, 1);                                                                                            // 1
-var Videos = new Mongo.Collection('videos');                                                      // 4
-Videos.deny({                                                                                     // 6
-  insert: function () {                                                                           // 7
-    return true;                                                                                  // 7
-  },                                                                                              // 7
-  update: function () {                                                                           // 8
-    return true;                                                                                  // 8
-  },                                                                                              // 8
-  remove: function () {                                                                           // 9
-    return true;                                                                                  // 9
-  }                                                                                               // 9
-});                                                                                               // 6
-Videos.schema = new SimpleSchema({                                                                // 12
-  videotitle: {                                                                                   // 13
-    type: String                                                                                  // 13
-  },                                                                                              // 13
-  videotext: {                                                                                    // 14
-    type: String                                                                                  // 14
-  },                                                                                              // 14
-  videovideo: {                                                                                   // 15
-    type: Object                                                                                  // 15
-  },                                                                                              // 15
-  videoimage: {                                                                                   // 16
-    type: Object                                                                                  // 16
-  },                                                                                              // 16
-  videodate: {                                                                                    // 17
-    type: String                                                                                  // 17
-  }                                                                                               // 17
-});                                                                                               // 12
-Videos.attachSchema(Videos.schema);                                                               // 20
+}, 2);                                                                                            // 1
+                                                                                                  //
+if (Meteor.isServer) {                                                                            // 6
+  Meteor.publish('videoStream', function (videoTitle) {                                           // 8
+    if (!this.userId) {                                                                           // 9
+      return this.ready();                                                                        // 10
+    }                                                                                             // 11
+                                                                                                  //
+    return Videos.findOne({                                                                       // 13
+      videoTitle: videoTitle                                                                      // 13
+    }, {                                                                                          // 13
+      fields: {                                                                                   // 14
+        videomember: 1,                                                                           // 15
+        videomembers: 1,                                                                          // 16
+        videotitle: 1,                                                                            // 17
+        videodate: 1,                                                                             // 18
+        videotext: 1                                                                              // 19
+      }                                                                                           // 14
+    });                                                                                           // 13
+  });                                                                                             // 22
+  Meteor.publish('videoFeed', function (imageTitle) {                                             // 25
+    if (!this.userId) {                                                                           // 26
+      return this.ready();                                                                        // 27
+    }                                                                                             // 28
+                                                                                                  //
+    return Videos.findOne({                                                                       // 30
+      imageTitle: imageTitle                                                                      // 30
+    }, {                                                                                          // 30
+      fields: {                                                                                   // 31
+        imagemember: 1,                                                                           // 32
+        imagemembers: 1,                                                                          // 33
+        imagetitle: 1,                                                                            // 34
+        imagedate: 1,                                                                             // 35
+        imagetext: 1                                                                              // 36
+      }                                                                                           // 31
+    });                                                                                           // 30
+  });                                                                                             // 39
+}                                                                                                 // 41
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-},"VideoMethods.js":function(require,exports,module){
+}},"VideoMethods.js":function(require,exports,module){
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                //
@@ -988,7 +948,7 @@ module.watch(require("meteor/underscore"), {                                    
   }                                                                                               // 1
 }, 4);                                                                                            // 1
 var Videos = void 0;                                                                              // 1
-module.watch(require("./Video.js"), {                                                             // 1
+module.watch(require("../../../lib/Video.js"), {                                                  // 1
   Videos: function (v) {                                                                          // 1
     Videos = v;                                                                                   // 1
   }                                                                                               // 1
@@ -1025,6 +985,17 @@ var Videosinsert = new ValidatedMethod({                                        
 });                                                                                               // 9
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
+}},"Messages":{"MessagesMethods.js":function(){
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                //
+// imports/api/Messages/MessagesMethods.js                                                        //
+//                                                                                                //
+////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                                                  //
+                                                                                                  //
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
 }}},"startup":{"both":{"index.js":function(){
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1045,6 +1016,25 @@ var Videosinsert = new ValidatedMethod({                                        
 ////////////////////////////////////////////////////////////////////////////////////////////////////
                                                                                                   //
 module.watch(require("./register-api.js"));                                                       // 1
+module.watch(require("../../api/Audio/AudioMethods.js"));                                         // 1
+module.watch(require("../../api/Audio/Server/AudioPublications.js"));                             // 1
+module.watch(require("../../api/Bookings/BookingMethods.js"));                                    // 1
+module.watch(require("../../api/Bookings/Server/BookingPublications.js"));                        // 1
+module.watch(require("../../api/Image/ImageMethods.js"));                                         // 1
+module.watch(require("../../api/Image/Server/ImagePublications.js"));                             // 1
+module.watch(require("../../api/Messages/MessagesMethods.js"));                                   // 1
+module.watch(require("../../api/Products/ProductMethods.js"));                                    // 1
+module.watch(require("../../api/Products/Server/ProductsPublications.js"));                       // 1
+module.watch(require("../../api/Text/TextMethods.js"));                                           // 1
+module.watch(require("../../api/Text/Server/TextPublications.js"));                               // 1
+module.watch(require("../../api/Video/VideoMethods.js"));                                         // 1
+module.watch(require("../../api/Video/Server/VideoPublications.js"));                             // 1
+module.watch(require("../../../lib/Audio.js"));                                                   // 1
+module.watch(require("../../../lib/Bookings.js"));                                                // 1
+module.watch(require("../../../lib/Image.js"));                                                   // 1
+module.watch(require("../../../lib/Products.js"));                                                // 1
+module.watch(require("../../../lib/Text.js"));                                                    // 1
+module.watch(require("../../../lib/Video.js"));                                                   // 1
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 },"register-api.js":function(require,exports,module){
@@ -1062,13 +1052,18 @@ module.watch(require("../../api/Bookings/Server/BookingPublications.js"));      
 module.watch(require("../../api/Image/ImageMethods.js"));                                         // 1
 module.watch(require("../../api/Image/Server/ImagePublications.js"));                             // 1
 module.watch(require("../../api/Messages/MessagesMethods.js"));                                   // 1
-module.watch(require("../../api/Messages/server/Channelpublications.js"));                        // 1
 module.watch(require("../../api/Products/ProductMethods.js"));                                    // 1
 module.watch(require("../../api/Products/Server/ProductsPublications.js"));                       // 1
 module.watch(require("../../api/Text/TextMethods.js"));                                           // 1
 module.watch(require("../../api/Text/Server/TextPublications.js"));                               // 1
 module.watch(require("../../api/Video/VideoMethods.js"));                                         // 1
 module.watch(require("../../api/Video/Server/VideoPublications.js"));                             // 1
+module.watch(require("../../../lib/Audio.js"));                                                   // 1
+module.watch(require("../../../lib/Bookings.js"));                                                // 1
+module.watch(require("../../../lib/Image.js"));                                                   // 1
+module.watch(require("../../../lib/Products.js"));                                                // 1
+module.watch(require("../../../lib/Text.js"));                                                    // 1
+module.watch(require("../../../lib/Video.js"));                                                   // 1
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 }}}},"server":{"main.js":function(require,exports,module){
@@ -1079,8 +1074,29 @@ module.watch(require("../../api/Video/Server/VideoPublications.js"));           
 //                                                                                                //
 ////////////////////////////////////////////////////////////////////////////////////////////////////
                                                                                                   //
-module.watch(require("../imports/startup/server"));                                               // 1
+module.watch(require("../imports/startup/server/index.js"));                                      // 1
+module.watch(require("../imports/startup/server/register-api.js"));                               // 1
 module.watch(require("../imports/startup/both"));                                                 // 1
+module.watch(require("../lib/Text.js"));                                                          // 1
+module.watch(require("../imports/api/Audio/AudioMethods.js"));                                    // 1
+module.watch(require("../imports/api/Audio/Server/AudioPublications.js"));                        // 1
+module.watch(require("../imports/api/Bookings/BookingMethods.js"));                               // 1
+module.watch(require("../imports/api/Bookings/Server/BookingPublications.js"));                   // 1
+module.watch(require("../imports/api/Image/ImageMethods.js"));                                    // 1
+module.watch(require("../imports/api/Image/Server/ImagePublications.js"));                        // 1
+module.watch(require("../imports/api/Messages/MessagesMethods.js"));                              // 1
+module.watch(require("../imports/api/Products/ProductMethods.js"));                               // 1
+module.watch(require("../imports/api/Products/Server/ProductsPublications.js"));                  // 1
+module.watch(require("../imports/api/Text/TextMethods.js"));                                      // 1
+module.watch(require("../imports/api/Text/Server/TextPublications.js"));                          // 1
+module.watch(require("../imports/api/Video/VideoMethods.js"));                                    // 1
+module.watch(require("../imports/api/Video/Server/VideoPublications.js"));                        // 1
+module.watch(require("../lib/Audio.js"));                                                         // 1
+module.watch(require("../lib/Bookings.js"));                                                      // 1
+module.watch(require("../lib/Image.js"));                                                         // 1
+module.watch(require("../lib/Products.js"));                                                      // 1
+module.watch(require("../lib/Text.js"));                                                          // 1
+module.watch(require("../lib/Video.js"));                                                         // 1
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 }}},{
@@ -1089,5 +1105,11 @@ module.watch(require("../imports/startup/both"));                               
     ".json"
   ]
 });
+require("./lib/Audio.js");
+require("./lib/Bookings.js");
+require("./lib/Image.js");
+require("./lib/Products.js");
+require("./lib/Text.js");
+require("./lib/Video.js");
 require("./server/main.js");
 //# sourceMappingURL=app.js.map

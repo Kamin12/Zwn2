@@ -1,5 +1,6 @@
 import { Meteor } from 'meteor/meteor';
 import { SimpleSchema } from 'meteor/aldeed:simple-schema';
+import { Videos } from '../../../../lib/Video.js';
 
 
 if (Meteor.isServer) {

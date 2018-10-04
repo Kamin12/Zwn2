@@ -9,6 +9,7 @@ import { SimpleSchema } from 'meteor/aldeed:simple-schema';
 
 import './Create.html';
 
+
 import { displayError } from '../lib/errors.js';
 
 import {
@@ -165,7 +166,7 @@ template . collaborators = new ReactiveVar( false );
 
 
 Template.CreateText.events({
-'submit #CreateText': function(event, template) {
+'submit #createtextbutton': function(event, template) {
   event.preventDefault();
 
   var instance = Template.instance();
@@ -175,8 +176,22 @@ var textdata = {
   texttext : event . target . TextText . value ,
 };
 
-Textsinsert.call({textdata}, displayError);
-   },
+Textsinsert.call(textdata, (err,res) => {
+if (err) {
+if (err.error === 'validation-error') {
+  const errors = {
+   email : [],
+   description : [],
+   amount :[]
+ };
+ err.details.forEach((fieldError) => {
+   errors[fieldError.name].push(fieldError.type);
+ });
+  instance.errors.set(errors);
+}
+}
+});
+},
    'click .back': function (event, template){
      Blaze.remove(Template.instance().view);
      Session.set('SelectedForm', '+++');

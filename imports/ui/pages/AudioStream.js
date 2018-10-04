@@ -13,9 +13,9 @@ Template.AudioStreamSmart.helpers({
   audioContext: function(){
     const instance = Template.instance();
     const audioTitle = instance.getAudioTitle();
-    return Audio.findOne(audioTitle) ? [audioTitle] : [];
+    return Audios.findOne(audioTitle) ? [audioTitle] : [];
   },
   audioArgs: function(audioTitle){
-   return Audio.findOne(audioTitle);
+   return Audios.findOne(audioTitle);
   }
 });

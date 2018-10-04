@@ -1,7 +1,7 @@
 import { Meteor } from 'meteor/meteor';
 import { SimpleSchema } from 'meteor/aldeed:simple-schema';
 
-import { Products } from '../Products.js';
+import { Products } from '../../../../lib/Products.js';
 
 if ( Meteor.isServer ) {
 

@@ -75,12 +75,6 @@ FlowRouter.route('/', {
 },
 });
 
-FlowRouter.route('/join', {
-  name: 'Home',
-  action() {
-  BlazeLayout.render( 'Appbody', { top: 'Menu', main: 'join', footer: 'LowerNavigator' });
-},
-});
 
 FlowRouter.route('/messages', {
   action() {

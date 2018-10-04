@@ -1,5 +1,15 @@
-import './YourMessagesReusable.html';
+import { Meteor } from 'meteor/meteor';
+import { Template } from 'meteor/templating';
+import { Mongo } from 'meteor/mongo';
+import { ReactiveDict } from 'meteor/reactive-dict';
+import { Tracker } from 'meteor/tracker';
+import { $ } from 'meteor/jquery';
+import { FlowRouter } from 'meteor/kadira:flow-router';
+import { SimpleSchema } from 'meteor/aldeed:simple-schema';
 
+
+import './YourMessagesReusable.html';
+import './NewMessageSmart.html';
 
 if (Meteor.isClient) {
 
@@ -20,17 +30,35 @@ Template.YourMessagesRU.events({
     modal3.css('display', 'none');
     Blaze.remove(template.view);
   },
-  'click #calltologin': function(event, template) {
-    var modal3 = $('#messageswhole');
-    modal3.css('display', 'none');
-    Blaze.remove(template.view);
-  }
-});
-
-Template.YourMessagesRU.events({
   'click #addmessages': function(event, template){
   Blaze.render(Template.NewMessage, template.$('#conversation').get(0));
+},
+'change #fileInput': function(event,template){
+  if (e.currentTarget.files && e.currentTarget.files[0]) {
+    // We upload only one file, in case
+    // multiple files were selected
+    var upload = Images.insert({
+      file: e.currentTarget.files[0],
+      streams: 'dynamic',
+      chunkSize: 'dynamic'
+    }, false);
+
+    upload.on('start', function () {
+      template.currentUpload.set(this);
+    });
+
+    upload.on('end', function (error, fileObj) {
+      if (error) {
+        alert('Error during upload: ' + error);
+      } else {
+        alert('File "' + fileObj.name + '" successfully uploaded');
+      }
+      template.currentUpload.set(false);
+    });
+
+    upload.start();
   }
+}
 });
 
 Template.YourMessagesRU.onRendered(function() {
@@ -49,37 +77,8 @@ Template.YourMessagesRU.helpers({
   }
 });
 
-Template.YourMessagesRU.events({
-   'click #newmessage': function (event, template) {
-    Blaze.render(Template.NewMessage, t.$('#conversation').get(0));
-  },
-   'change #fileInput': function(event,template){
-     if (e.currentTarget.files && e.currentTarget.files[0]) {
-       // We upload only one file, in case
-       // multiple files were selected
-       var upload = Images.insert({
-         file: e.currentTarget.files[0],
-         streams: 'dynamic',
-         chunkSize: 'dynamic'
-       }, false);
 
-       upload.on('start', function () {
-         template.currentUpload.set(this);
-       });
 
-       upload.on('end', function (error, fileObj) {
-         if (error) {
-           alert('Error during upload: ' + error);
-         } else {
-           alert('File "' + fileObj.name + '" successfully uploaded');
-         }
-         template.currentUpload.set(false);
-       });
-
-       upload.start();
-     }
-   }
- });
 
  Template.YourMessagesRU.helpers({
   isLoading() {

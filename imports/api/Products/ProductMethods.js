@@ -4,7 +4,7 @@ import { SimpleSchema } from 'meteor/aldeed:simple-schema';
 import { DDPRateLimiter } from 'meteor/ddp-rate-limiter';
 import { _ } from 'meteor/underscore';
 
-import { Products } from './Products.js';
+import { Products } from '../../../lib/Products.js';
 
 export const Productsinsert = new ValidatedMethod({
   name : 'Products.methods.insert',

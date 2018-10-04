@@ -616,100 +616,112 @@ Template["LowerNavigator"] = new Template("Template.LowerNavigator", (function()
   var view = this;                                                                                                     // 4
   return HTML.DIV({                                                                                                    // 5
     id: "network_nav"                                                                                                  // 6
-  }, "\n\n    ", HTML.SVG({                                                                                            // 7
-    version: "1.1",                                                                                                    // 8
-    id: "cloudicon",                                                                                                   // 9
-    "xmlns:cc": "http://creativecommons.org/ns#",                                                                      // 10
-    "xmlns:svg": "http://www.w3.org/2000/svg",                                                                         // 11
-    "xmlns:inkscape": "http://www.inkscape.org/namespaces/inkscape",                                                   // 12
-    "xmlns:sodipodi": "http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd",                                            // 13
-    "xmlns:dc": "http://purl.org/dc/elements/1.1/",                                                                    // 14
-    "xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",                                                        // 15
-    xmlns: "http://www.w3.org/2000/svg",                                                                               // 16
-    "xmlns:xlink": "http://www.w3.org/1999/xlink",                                                                     // 17
-    x: "0px",                                                                                                          // 18
-    y: "0px",                                                                                                          // 19
-    viewBox: "0 0 1000 1000",                                                                                          // 20
-    "enable-background": "new 0 -100 1000 1000",                                                                       // 21
-    "xml:space": "preserve"                                                                                            // 22
-  }, "\n    ", HTML.G({                                                                                                // 23
-    transform: "translate(0,-952.36218)"                                                                               // 24
-  }, "\n    \t", HTML.PATH({                                                                                           // 25
-    fill: "#FFFFFF",                                                                                                   // 26
-    d: "M564,1136.4c99.9,0,169.7,89.7,160.8,178.3c58.8,11.5,103.2,63.5,103.2,125.8c0,70.7-57.3,128-128,128H308\n    \t\tc-81.3,0-136-53.4-136-120c0-55.7,39.2-110.5,96-120c0-96,88-136,152-104C444,1176.4,495.6,1136.4,564,1136.4L564,1136.4z"
-  }), "\n    "), "\n    "), "\n\n  ", HTML.SVG({                                                                       // 28
-    version: "1.1",                                                                                                    // 29
-    id: "createicon",                                                                                                  // 30
-    xmlns: "http://www.w3.org/2000/svg",                                                                               // 31
-    "xmlns:xlink": "http://www.w3.org/1999/xlink",                                                                     // 32
-    x: "0px",                                                                                                          // 33
-    y: "0px",                                                                                                          // 34
-    viewBox: "0 100 1000 1000",                                                                                        // 35
-    "enable-background": "new 0 0 1000 1000",                                                                          // 36
-    "xml:space": "preserve"                                                                                            // 37
-  }, "\n", HTML.PATH({                                                                                                 // 38
-    fill: "#FFFFFF",                                                                                                   // 39
-    stroke: "#FFFFFF",                                                                                                 // 40
-    "stroke-width": "10",                                                                                              // 41
-    "stroke-miterlimit": "10",                                                                                         // 42
-    d: "M528.9,463.2c0,6.4,10.3,6.4,10.3,0V358.9h109.1\n\tc6.6,0,6.6-9.8,0-9.9H539.2V244.7c0-6.4-10.3-6.4-10.3,0V349H419.8c-6.7,0-6.7,9.9,0,9.9h109.1V463.2z"
-  }), "\n", HTML.RECT({                                                                                                // 44
-    x: "44",                                                                                                           // 45
-    y: "736",                                                                                                          // 46
-    fill: "none",                                                                                                      // 47
-    width: "1136",                                                                                                     // 48
-    height: "356"                                                                                                      // 49
-  }), "\n"), "\n\n    ", HTML.SVG({                                                                                    // 50
-    version: "1.1",                                                                                                    // 51
-    id: "messages",                                                                                                    // 52
-    xmlns: "http://www.w3.org/2000/svg",                                                                               // 53
-    "xmlns:xlink": "http://www.w3.org/1999/xlink",                                                                     // 54
-    x: "0px",                                                                                                          // 55
-    y: "0px",                                                                                                          // 56
-    viewBox: "0 150 500 1000",                                                                                         // 57
-    "enable-background": "new 0 0 1000 1000",                                                                          // 58
-    "xml:space": "preserve"                                                                                            // 59
-  }, "\n    ", HTML.PATH({                                                                                             // 60
-    fill: "#FFFFFF",                                                                                                   // 61
-    stroke: "#FFFFFF",                                                                                                 // 62
-    "stroke-width": "14",                                                                                              // 63
-    "stroke-miterlimit": "10",                                                                                         // 64
-    d: "M351.6,350.8l-0.2-2.5l-0.2-2.3l-0.3-2.2l-0.3-2\n    \tl-0.4-2L350,338l-0.4-1.9l-0.5-1.8l-0.5-1.8l-0.6-1.8l-0.6-1.7l-0.6-1.7l-0.7-1.7l-0.7-1.6l-0.8-1.6l-0.8-1.6l-0.9-1.5l-0.9-1.5\n    \tl-0.9-1.5l-1-1.4l-1-1.4l-1.1-1.4l-1.1-1.3l-1.1-1.3l-1.2-1.3l-1.2-1.2l-1.3-1.2l-1.3-1.2l-1.3-1.1l-1.4-1.1l-1.4-1.1l-1.4-1.1\n    \tl-1.5-1l-1.5-1l-1.6-1l-1.6-0.9l-1.6-0.9l-1.7-0.9l-1.7-0.8l-1.7-0.8l-1.8-0.8l-1.8-0.7l-1.9-0.7l-1.9-0.7l-1.9-0.6l-2-0.6l-2.1-0.6\n    \tl-2.1-0.5l-2.1-0.5l-2.2-0.5l-2.2-0.4l-2.3-0.4l-2.3-0.4l-2.4-0.3l-2.5-0.3l-2.5-0.3l-2.6-0.2l-2.8-0.2l-2.9-0.2l-3.1-0.1l-3.4-0.1\n    \tl-4.6-0.1l-4.6,0.1l-3.4,0.1l-3.1,0.1l-2.9,0.2l-2.7,0.2l-2.6,0.2l-2.6,0.3l-2.5,0.3l-2.4,0.3l-2.3,0.4l-2.3,0.4l-2.2,0.4l-2.2,0.5\n    \tl-4.2,1l-2.1,0.6l-2,0.6l-1.9,0.6l-1.9,0.7l-1.9,0.7l-1.8,0.7l-1.8,0.8l-1.7,0.8l-1.7,0.8l-1.6,0.8l-3.2,1.8l-1.6,1l-1.5,1l-1.5,1\n    \tl-1.4,1.1l-1.4,1.1l-1.4,1.1l-1.3,1.1l-1.3,1.2l-1.3,1.2l-1.2,1.2l-1.3,1.3l-1.1,1.3l-1.1,1.3l-1.1,1.4l-1,1.4l-1,1.4l-0.9,1.5\n    \tl-0.9,1.5l-0.9,1.5l-0.8,1.6l-0.8,1.6l-0.7,1.6l-0.7,1.7l-0.7,1.7l-0.6,1.7l-1.1,3.6l-0.5,1.8l-0.4,1.9l-0.4,1.9l-0.4,2l-0.3,2.2\n    \tl-0.3,2.2l-0.2,2.3l-0.2,2.3v18.1l0.2,2.5l0.2,2.3l0.3,2.2l0.3,2l0.4,2l0.4,1.9l0.9,3.7l0.5,1.8l0.6,1.8l0.6,1.7l0.7,1.7l0.7,1.7\n    \tl0.7,1.6l0.8,1.6l0.8,1.6l0.9,1.5l0.9,1.5l0.9,1.5l1,1.4l1,1.4l1.1,1.4l1.1,1.3l2.3,2.6l1.2,1.2l1.3,1.2l1.3,1.2l1.3,1.1l1.4,1.1\n    \tl1.4,1.1l1.4,1.1l1.5,1l1.5,1l1.6,1l1.6,0.9l1.6,0.9l1.7,0.9l1.7,0.8l1.7,0.8l1.8,0.8l1.8,0.7l1.9,0.7l1.9,0.7l3.9,1.2l2.1,0.6\n    \tl2.1,0.5l2.1,0.5l2.2,0.5l2.2,0.4l2.3,0.4l2.3,0.4l2.4,0.3l2.5,0.3l2.5,0.3l5.3,0.4l2.9,0.2l3.1,0.1l3.4,0.1l4.6,0.1l4.6-0.1\n    \tl3.4-0.1l3.1-0.1l2.9-0.2l2.7-0.2l2.6-0.2l2.6-0.3l1.9-0.2l24.7,16.2c1.8,1.2,3.7,1.8,5.4,1.8l0,0c1.7,0,3.2-0.7,4.3-1.8\n    \tc1-1.1,1.5-2.7,1.5-4.6v-22.1l2-1.1l1.6-1l1.5-1l1.5-1l1.4-1.1l1.4-1.1l1.4-1.1l1.3-1.1l1.3-1.2l1.3-1.2l1.2-1.2l1.2-1.3l1.1-1.3\n    \tl1.1-1.3l1.1-1.4l1-1.4l1-1.4l0.9-1.5l0.9-1.5l0.9-1.5l0.8-1.6l0.8-1.6l0.7-1.6l0.7-1.7l0.7-1.7l0.6-1.7l0.6-1.8l0.5-1.8l0.5-1.8\n    \tl0.4-1.9l0.4-1.9l0.4-2l0.3-2.2l0.3-2.2l0.2-2.3l0.2-2.3l0.2-9.1L351.6,350.8z M346.5,368.7l-0.2,2.2l-0.2,2.1l-0.3,2.1l-0.3,2\n    \tl-0.3,1.9l-0.4,1.8l-0.4,1.8l-0.4,1.7l-0.5,1.7l-0.5,1.6l-0.6,1.6l-0.6,1.6l-0.6,1.5l-0.7,1.5l-0.7,1.5l-0.7,1.4l-0.8,1.4l-0.8,1.4\n    \tl-0.9,1.3l-0.9,1.3l-0.9,1.3l-1,1.3l-1,1.2l-1,1.2l-1.1,1.2l-1.1,1.1l-1.2,1.1l-1.2,1.1l-1.2,1.1l-1.3,1l-1.3,1l-1.3,1l-1.4,0.9\n    \tl-1.4,0.9l-1.4,0.9l-1.5,0.9l-1.5,0.8l-1.5,0.8v25.1c0,0.7-0.2,1-0.3,1.2c-0.1,0.1-0.3,0.2-0.5,0.2c-0.4,0-1.2-0.1-2.6-1l-26.3-17.1\n    \tl-3.7,0.4l-2.5,0.2l-2.6,0.2l-2.7,0.2l-2.8,0.2l-3,0.1l-3.4,0.1l-4.6,0.1l-4.6-0.1l-3.4-0.1l-3-0.1l-2.8-0.2l-2.7-0.2l-2.6-0.2\n    \tl-2.5-0.2l-2.4-0.3l-2.3-0.3l-2.1-0.5l-2.2-0.4l-2.1-0.4l-2.1-0.4l-2.1-0.5l-2-0.5l-1.9-0.5l-1.9-0.6l-1.8-0.6l-1.8-0.6l-1.7-0.7\n    \tl-1.7-0.7l-1.7-0.7l-1.6-0.7l-1.6-0.8l-1.6-0.8l-1.5-0.8l-1.5-0.9l-1.4-0.9l-1.4-0.9l-1.4-0.9l-1.3-1l-1.3-1l-1.3-1l-1.2-1.1\n    \tl-1.2-1.1l-1.2-1.1l-1.1-1.1l-1.1-1.2l-1-1.2l-1-1.2l-1-1.3l-0.9-1.3l-0.9-1.3l-0.9-1.3l-0.8-1.4l-0.8-1.4l-0.7-1.4l-0.7-1.5\n    \tl-0.7-1.5l-0.6-1.5l-0.6-1.6l-0.6-1.6l-0.5-1.6l-0.5-1.7l-0.4-1.7l-0.4-1.8l-0.4-1.8l-0.3-1.9l-0.3-1.9l-0.3-2.1l-0.2-2.1l-0.2-2.3\n    \tl-0.2-8.8l0.2-8.8l0.2-2.2l0.2-2.1l0.3-2.1l0.3-2l0.3-1.9l0.4-1.8l0.4-1.8l0.4-1.7l0.5-1.7l0.5-1.6l0.6-1.6l0.6-1.6l0.6-1.5l0.7-1.5\n    \tl0.7-1.5l0.7-1.4l0.8-1.4l0.8-1.4l0.9-1.3l0.9-1.3l0.9-1.3l1-1.3l1-1.2l1-1.2l1.1-1.2l1.1-1.1l1.2-1.1l1.2-1.1l1.2-1.1l1.3-1l1.3-1\n    \tl1.3-1l1.4-0.9l1.4-0.9l1.4-0.9l1.5-0.9l1.5-0.8l1.5-0.8l1.6-0.8l1.6-0.7l1.7-0.7l1.7-0.7l1.8-0.7l1.8-0.6l1.8-0.6l1.9-0.6l1.9-0.5\n    \tl2-0.5l2.1-0.5l2.1-0.4l2.1-0.4l2.2-0.4l2.3-0.3l2.3-0.3l2.4-0.3l2.5-0.2l2.6-0.2l2.7-0.2l2.8-0.2l3-0.1l3.4-0.1l4.6-0.1l4.6,0.1\n    \tl3.4,0.1l3,0.1l2.8,0.2l2.7,0.2l2.6,0.2l2.5,0.2l2.4,0.3l2.3,0.3l2.3,0.3l2.2,0.4l2.1,0.4l2.1,0.4l2.1,0.5l2,0.5l1.9,0.5l1.9,0.6\n    \tl1.8,0.6l1.8,0.6l1.7,0.7l1.7,0.7l1.7,0.7l1.6,0.7l1.6,0.8l1.6,0.8l1.5,0.8l1.5,0.9l1.4,0.9l1.4,0.9l1.4,0.9l1.3,1l1.3,1l1.3,1\n    \tl1.2,1.1l1.2,1.1l1.2,1.1l1.1,1.1l1.1,1.2l1,1.2l1,1.2l1,1.3l0.9,1.3l0.9,1.3l0.9,1.3l0.8,1.4l0.8,1.4l0.7,1.4l0.7,1.5l0.7,1.5\n    \tl0.6,1.5l0.6,1.6l0.6,1.6l0.5,1.6l0.5,1.7l0.4,1.7l0.4,1.8l0.4,1.8l0.3,1.9l0.3,1.9l0.3,2.1l0.2,2.1l0.2,2.3l0.2,8.8L346.5,368.7z"
-  }), "\n    ", HTML.PATH({                                                                                            // 66
-    fill: "#FFFFFF",                                                                                                   // 67
-    stroke: "#FFFFFF",                                                                                                 // 68
-    "stroke-miterlimit": "10",                                                                                         // 69
-    d: "M344,344.5l-9.7-25.2L317.8,304l-21.9-9.2l-22.4-3.4l-30.3-0.2\n    \tl-30.7,5.2l-28.8,17.9L172,335.6l-3,26.2l2.2,22.7l6.1,15.6l11.1,13.5l4.1,2.8c0.3,0.1,0.7,0.3,1,0.6c5.7,4.4,13.3,5.9,19.9,8.6\n    \tc2.4,1,4.9,2,7.3,3c1.2,0.2,2.4,0.3,3.6,0.4c0.7-0.5,1.5-0.7,2.6-0.6c4.1,0.4,8.1,0.5,11.9,1.5c5.9-0.5,12-1.4,17.9-1.4\n    \tc1.5-0.3,3.1-0.5,4.6-0.6c3.7-0.8,7.5-1.6,10.9,0.7c0.1,0.1,0.3,0.2,0.4,0.3c0.6,0.1,1.1,0.4,1.7,0.9c7.3,2.4,14.2,6.9,20.4,12\n    \tc2.9,2.2,5.6,4.6,8.4,7.1c1,0.6,2,1.1,3,1.7c0.9,0.5,1.8,1.1,2.7,1.6c0.3,0.1,0.5,0.2,0.8,0.3c-0.5-9.2-1.5-18.3-1-27.5\n    \tc0-0.5-0.1-1.1-0.1-1.6c-0.7-2.1,0-4.6,2.6-5.4c0.8-0.5,1.8-0.8,2.7-0.7c6.6-1.7,13.9-4.7,17.8-10.5c2.6-3.8,5.4-7.8,7.6-12\n    \tl5.3-21.7L344,344.5z"
-  }), "\n    "), "\n\n\n   ", HTML.SVG({                                                                               // 71
-    version: "1.1",                                                                                                    // 72
-    id: "usericon",                                                                                                    // 73
-    "xmlns:cc": "http://creativecommons.org/ns#",                                                                      // 74
-    "xmlns:svg": "http://www.w3.org/2000/svg",                                                                         // 75
-    "xmlns:inkscape": "http://www.inkscape.org/namespaces/inkscape",                                                   // 76
-    "xmlns:sodipodi": "http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd",                                            // 77
-    "xmlns:dc": "http://purl.org/dc/elements/1.1/",                                                                    // 78
-    "xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",                                                        // 79
-    xmlns: "http://www.w3.org/2000/svg",                                                                               // 80
-    "xmlns:xlink": "http://www.w3.org/1999/xlink",                                                                     // 81
-    x: "0px",                                                                                                          // 82
-    y: "0px",                                                                                                          // 83
-    viewBox: "0 0 1000 1000",                                                                                          // 84
-    "enable-background": "new 0 -100 1000 1000",                                                                       // 85
-    "xml:space": "preserve"                                                                                            // 86
-  }, "\n   ", HTML.G({                                                                                                 // 87
-    transform: "translate(0,-952.36218)"                                                                               // 88
-  }, "\n   \t", HTML.PATH({                                                                                            // 89
-    fill: "#FFFFFF",                                                                                                   // 90
-    d: "M500,1072.4c-75.1,0-136,60.9-136,136s60.9,136,136,136s136-60.9,136-136S575.1,1072.4,500,1072.4z\n   \t\t M500,1392.4c-163.5,0-296,107.5-296,240h592C796,1499.8,663.5,1392.4,500,1392.4z"
-  }), "\n   "), "\n   "), "\n\n  ");                                                                                   // 92
-}));                                                                                                                   // 93
-                                                                                                                       // 94
-Template.__checkName("join");                                                                                          // 95
-Template["join"] = new Template("Template.join", (function() {                                                         // 96
-  var view = this;                                                                                                     // 97
-  return HTML.Raw('<form id="signupform">\n<input type="text" id="joingemail" placeholder="E-Mail">\n<button id="signup"> SIGN UP </button>\n</form>');
-}));                                                                                                                   // 99
-                                                                                                                       // 100
+  }, "\n", Blaze.If(function() {                                                                                       // 7
+    return Spacebars.call(view.lookup("currentUser"));                                                                 // 8
+  }, function() {                                                                                                      // 9
+    return [ "\n    ", HTML.SVG({                                                                                      // 10
+      version: "1.1",                                                                                                  // 11
+      id: "cloudicon",                                                                                                 // 12
+      "xmlns:cc": "http://creativecommons.org/ns#",                                                                    // 13
+      "xmlns:svg": "http://www.w3.org/2000/svg",                                                                       // 14
+      "xmlns:inkscape": "http://www.inkscape.org/namespaces/inkscape",                                                 // 15
+      "xmlns:sodipodi": "http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd",                                          // 16
+      "xmlns:dc": "http://purl.org/dc/elements/1.1/",                                                                  // 17
+      "xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",                                                      // 18
+      xmlns: "http://www.w3.org/2000/svg",                                                                             // 19
+      "xmlns:xlink": "http://www.w3.org/1999/xlink",                                                                   // 20
+      x: "0px",                                                                                                        // 21
+      y: "0px",                                                                                                        // 22
+      viewBox: "0 0 1000 1000",                                                                                        // 23
+      "enable-background": "new 0 -100 1000 1000",                                                                     // 24
+      "xml:space": "preserve"                                                                                          // 25
+    }, "\n    ", HTML.G({                                                                                              // 26
+      transform: "translate(0,-952.36218)"                                                                             // 27
+    }, "\n    \t", HTML.PATH({                                                                                         // 28
+      fill: "#FFFFFF",                                                                                                 // 29
+      d: "M564,1136.4c99.9,0,169.7,89.7,160.8,178.3c58.8,11.5,103.2,63.5,103.2,125.8c0,70.7-57.3,128-128,128H308\n    \t\tc-81.3,0-136-53.4-136-120c0-55.7,39.2-110.5,96-120c0-96,88-136,152-104C444,1176.4,495.6,1136.4,564,1136.4L564,1136.4z"
+    }), "\n    "), "\n    "), "\n\n  ", HTML.SVG({                                                                     // 31
+      version: "1.1",                                                                                                  // 32
+      id: "createicon",                                                                                                // 33
+      xmlns: "http://www.w3.org/2000/svg",                                                                             // 34
+      "xmlns:xlink": "http://www.w3.org/1999/xlink",                                                                   // 35
+      x: "0px",                                                                                                        // 36
+      y: "0px",                                                                                                        // 37
+      viewBox: "0 100 1000 1000",                                                                                      // 38
+      "enable-background": "new 0 0 1000 1000",                                                                        // 39
+      "xml:space": "preserve"                                                                                          // 40
+    }, "\n", HTML.PATH({                                                                                               // 41
+      fill: "#FFFFFF",                                                                                                 // 42
+      stroke: "#FFFFFF",                                                                                               // 43
+      "stroke-width": "10",                                                                                            // 44
+      "stroke-miterlimit": "10",                                                                                       // 45
+      d: "M528.9,463.2c0,6.4,10.3,6.4,10.3,0V358.9h109.1\n\tc6.6,0,6.6-9.8,0-9.9H539.2V244.7c0-6.4-10.3-6.4-10.3,0V349H419.8c-6.7,0-6.7,9.9,0,9.9h109.1V463.2z"
+    }), "\n", HTML.RECT({                                                                                              // 47
+      x: "44",                                                                                                         // 48
+      y: "736",                                                                                                        // 49
+      fill: "none",                                                                                                    // 50
+      width: "1136",                                                                                                   // 51
+      height: "356"                                                                                                    // 52
+    }), "\n"), "\n\n    ", HTML.SVG({                                                                                  // 53
+      version: "1.1",                                                                                                  // 54
+      id: "messages",                                                                                                  // 55
+      xmlns: "http://www.w3.org/2000/svg",                                                                             // 56
+      "xmlns:xlink": "http://www.w3.org/1999/xlink",                                                                   // 57
+      x: "0px",                                                                                                        // 58
+      y: "0px",                                                                                                        // 59
+      viewBox: "0 150 500 1000",                                                                                       // 60
+      "enable-background": "new 0 0 1000 1000",                                                                        // 61
+      "xml:space": "preserve"                                                                                          // 62
+    }, "\n    ", HTML.PATH({                                                                                           // 63
+      fill: "#FFFFFF",                                                                                                 // 64
+      stroke: "#FFFFFF",                                                                                               // 65
+      "stroke-width": "14",                                                                                            // 66
+      "stroke-miterlimit": "10",                                                                                       // 67
+      d: "M351.6,350.8l-0.2-2.5l-0.2-2.3l-0.3-2.2l-0.3-2\n    \tl-0.4-2L350,338l-0.4-1.9l-0.5-1.8l-0.5-1.8l-0.6-1.8l-0.6-1.7l-0.6-1.7l-0.7-1.7l-0.7-1.6l-0.8-1.6l-0.8-1.6l-0.9-1.5l-0.9-1.5\n    \tl-0.9-1.5l-1-1.4l-1-1.4l-1.1-1.4l-1.1-1.3l-1.1-1.3l-1.2-1.3l-1.2-1.2l-1.3-1.2l-1.3-1.2l-1.3-1.1l-1.4-1.1l-1.4-1.1l-1.4-1.1\n    \tl-1.5-1l-1.5-1l-1.6-1l-1.6-0.9l-1.6-0.9l-1.7-0.9l-1.7-0.8l-1.7-0.8l-1.8-0.8l-1.8-0.7l-1.9-0.7l-1.9-0.7l-1.9-0.6l-2-0.6l-2.1-0.6\n    \tl-2.1-0.5l-2.1-0.5l-2.2-0.5l-2.2-0.4l-2.3-0.4l-2.3-0.4l-2.4-0.3l-2.5-0.3l-2.5-0.3l-2.6-0.2l-2.8-0.2l-2.9-0.2l-3.1-0.1l-3.4-0.1\n    \tl-4.6-0.1l-4.6,0.1l-3.4,0.1l-3.1,0.1l-2.9,0.2l-2.7,0.2l-2.6,0.2l-2.6,0.3l-2.5,0.3l-2.4,0.3l-2.3,0.4l-2.3,0.4l-2.2,0.4l-2.2,0.5\n    \tl-4.2,1l-2.1,0.6l-2,0.6l-1.9,0.6l-1.9,0.7l-1.9,0.7l-1.8,0.7l-1.8,0.8l-1.7,0.8l-1.7,0.8l-1.6,0.8l-3.2,1.8l-1.6,1l-1.5,1l-1.5,1\n    \tl-1.4,1.1l-1.4,1.1l-1.4,1.1l-1.3,1.1l-1.3,1.2l-1.3,1.2l-1.2,1.2l-1.3,1.3l-1.1,1.3l-1.1,1.3l-1.1,1.4l-1,1.4l-1,1.4l-0.9,1.5\n    \tl-0.9,1.5l-0.9,1.5l-0.8,1.6l-0.8,1.6l-0.7,1.6l-0.7,1.7l-0.7,1.7l-0.6,1.7l-1.1,3.6l-0.5,1.8l-0.4,1.9l-0.4,1.9l-0.4,2l-0.3,2.2\n    \tl-0.3,2.2l-0.2,2.3l-0.2,2.3v18.1l0.2,2.5l0.2,2.3l0.3,2.2l0.3,2l0.4,2l0.4,1.9l0.9,3.7l0.5,1.8l0.6,1.8l0.6,1.7l0.7,1.7l0.7,1.7\n    \tl0.7,1.6l0.8,1.6l0.8,1.6l0.9,1.5l0.9,1.5l0.9,1.5l1,1.4l1,1.4l1.1,1.4l1.1,1.3l2.3,2.6l1.2,1.2l1.3,1.2l1.3,1.2l1.3,1.1l1.4,1.1\n    \tl1.4,1.1l1.4,1.1l1.5,1l1.5,1l1.6,1l1.6,0.9l1.6,0.9l1.7,0.9l1.7,0.8l1.7,0.8l1.8,0.8l1.8,0.7l1.9,0.7l1.9,0.7l3.9,1.2l2.1,0.6\n    \tl2.1,0.5l2.1,0.5l2.2,0.5l2.2,0.4l2.3,0.4l2.3,0.4l2.4,0.3l2.5,0.3l2.5,0.3l5.3,0.4l2.9,0.2l3.1,0.1l3.4,0.1l4.6,0.1l4.6-0.1\n    \tl3.4-0.1l3.1-0.1l2.9-0.2l2.7-0.2l2.6-0.2l2.6-0.3l1.9-0.2l24.7,16.2c1.8,1.2,3.7,1.8,5.4,1.8l0,0c1.7,0,3.2-0.7,4.3-1.8\n    \tc1-1.1,1.5-2.7,1.5-4.6v-22.1l2-1.1l1.6-1l1.5-1l1.5-1l1.4-1.1l1.4-1.1l1.4-1.1l1.3-1.1l1.3-1.2l1.3-1.2l1.2-1.2l1.2-1.3l1.1-1.3\n    \tl1.1-1.3l1.1-1.4l1-1.4l1-1.4l0.9-1.5l0.9-1.5l0.9-1.5l0.8-1.6l0.8-1.6l0.7-1.6l0.7-1.7l0.7-1.7l0.6-1.7l0.6-1.8l0.5-1.8l0.5-1.8\n    \tl0.4-1.9l0.4-1.9l0.4-2l0.3-2.2l0.3-2.2l0.2-2.3l0.2-2.3l0.2-9.1L351.6,350.8z M346.5,368.7l-0.2,2.2l-0.2,2.1l-0.3,2.1l-0.3,2\n    \tl-0.3,1.9l-0.4,1.8l-0.4,1.8l-0.4,1.7l-0.5,1.7l-0.5,1.6l-0.6,1.6l-0.6,1.6l-0.6,1.5l-0.7,1.5l-0.7,1.5l-0.7,1.4l-0.8,1.4l-0.8,1.4\n    \tl-0.9,1.3l-0.9,1.3l-0.9,1.3l-1,1.3l-1,1.2l-1,1.2l-1.1,1.2l-1.1,1.1l-1.2,1.1l-1.2,1.1l-1.2,1.1l-1.3,1l-1.3,1l-1.3,1l-1.4,0.9\n    \tl-1.4,0.9l-1.4,0.9l-1.5,0.9l-1.5,0.8l-1.5,0.8v25.1c0,0.7-0.2,1-0.3,1.2c-0.1,0.1-0.3,0.2-0.5,0.2c-0.4,0-1.2-0.1-2.6-1l-26.3-17.1\n    \tl-3.7,0.4l-2.5,0.2l-2.6,0.2l-2.7,0.2l-2.8,0.2l-3,0.1l-3.4,0.1l-4.6,0.1l-4.6-0.1l-3.4-0.1l-3-0.1l-2.8-0.2l-2.7-0.2l-2.6-0.2\n    \tl-2.5-0.2l-2.4-0.3l-2.3-0.3l-2.1-0.5l-2.2-0.4l-2.1-0.4l-2.1-0.4l-2.1-0.5l-2-0.5l-1.9-0.5l-1.9-0.6l-1.8-0.6l-1.8-0.6l-1.7-0.7\n    \tl-1.7-0.7l-1.7-0.7l-1.6-0.7l-1.6-0.8l-1.6-0.8l-1.5-0.8l-1.5-0.9l-1.4-0.9l-1.4-0.9l-1.4-0.9l-1.3-1l-1.3-1l-1.3-1l-1.2-1.1\n    \tl-1.2-1.1l-1.2-1.1l-1.1-1.1l-1.1-1.2l-1-1.2l-1-1.2l-1-1.3l-0.9-1.3l-0.9-1.3l-0.9-1.3l-0.8-1.4l-0.8-1.4l-0.7-1.4l-0.7-1.5\n    \tl-0.7-1.5l-0.6-1.5l-0.6-1.6l-0.6-1.6l-0.5-1.6l-0.5-1.7l-0.4-1.7l-0.4-1.8l-0.4-1.8l-0.3-1.9l-0.3-1.9l-0.3-2.1l-0.2-2.1l-0.2-2.3\n    \tl-0.2-8.8l0.2-8.8l0.2-2.2l0.2-2.1l0.3-2.1l0.3-2l0.3-1.9l0.4-1.8l0.4-1.8l0.4-1.7l0.5-1.7l0.5-1.6l0.6-1.6l0.6-1.6l0.6-1.5l0.7-1.5\n    \tl0.7-1.5l0.7-1.4l0.8-1.4l0.8-1.4l0.9-1.3l0.9-1.3l0.9-1.3l1-1.3l1-1.2l1-1.2l1.1-1.2l1.1-1.1l1.2-1.1l1.2-1.1l1.2-1.1l1.3-1l1.3-1\n    \tl1.3-1l1.4-0.9l1.4-0.9l1.4-0.9l1.5-0.9l1.5-0.8l1.5-0.8l1.6-0.8l1.6-0.7l1.7-0.7l1.7-0.7l1.8-0.7l1.8-0.6l1.8-0.6l1.9-0.6l1.9-0.5\n    \tl2-0.5l2.1-0.5l2.1-0.4l2.1-0.4l2.2-0.4l2.3-0.3l2.3-0.3l2.4-0.3l2.5-0.2l2.6-0.2l2.7-0.2l2.8-0.2l3-0.1l3.4-0.1l4.6-0.1l4.6,0.1\n    \tl3.4,0.1l3,0.1l2.8,0.2l2.7,0.2l2.6,0.2l2.5,0.2l2.4,0.3l2.3,0.3l2.3,0.3l2.2,0.4l2.1,0.4l2.1,0.4l2.1,0.5l2,0.5l1.9,0.5l1.9,0.6\n    \tl1.8,0.6l1.8,0.6l1.7,0.7l1.7,0.7l1.7,0.7l1.6,0.7l1.6,0.8l1.6,0.8l1.5,0.8l1.5,0.9l1.4,0.9l1.4,0.9l1.4,0.9l1.3,1l1.3,1l1.3,1\n    \tl1.2,1.1l1.2,1.1l1.2,1.1l1.1,1.1l1.1,1.2l1,1.2l1,1.2l1,1.3l0.9,1.3l0.9,1.3l0.9,1.3l0.8,1.4l0.8,1.4l0.7,1.4l0.7,1.5l0.7,1.5\n    \tl0.6,1.5l0.6,1.6l0.6,1.6l0.5,1.6l0.5,1.7l0.4,1.7l0.4,1.8l0.4,1.8l0.3,1.9l0.3,1.9l0.3,2.1l0.2,2.1l0.2,2.3l0.2,8.8L346.5,368.7z"
+    }), "\n    ", HTML.PATH({                                                                                          // 69
+      fill: "#FFFFFF",                                                                                                 // 70
+      stroke: "#FFFFFF",                                                                                               // 71
+      "stroke-miterlimit": "10",                                                                                       // 72
+      d: "M344,344.5l-9.7-25.2L317.8,304l-21.9-9.2l-22.4-3.4l-30.3-0.2\n    \tl-30.7,5.2l-28.8,17.9L172,335.6l-3,26.2l2.2,22.7l6.1,15.6l11.1,13.5l4.1,2.8c0.3,0.1,0.7,0.3,1,0.6c5.7,4.4,13.3,5.9,19.9,8.6\n    \tc2.4,1,4.9,2,7.3,3c1.2,0.2,2.4,0.3,3.6,0.4c0.7-0.5,1.5-0.7,2.6-0.6c4.1,0.4,8.1,0.5,11.9,1.5c5.9-0.5,12-1.4,17.9-1.4\n    \tc1.5-0.3,3.1-0.5,4.6-0.6c3.7-0.8,7.5-1.6,10.9,0.7c0.1,0.1,0.3,0.2,0.4,0.3c0.6,0.1,1.1,0.4,1.7,0.9c7.3,2.4,14.2,6.9,20.4,12\n    \tc2.9,2.2,5.6,4.6,8.4,7.1c1,0.6,2,1.1,3,1.7c0.9,0.5,1.8,1.1,2.7,1.6c0.3,0.1,0.5,0.2,0.8,0.3c-0.5-9.2-1.5-18.3-1-27.5\n    \tc0-0.5-0.1-1.1-0.1-1.6c-0.7-2.1,0-4.6,2.6-5.4c0.8-0.5,1.8-0.8,2.7-0.7c6.6-1.7,13.9-4.7,17.8-10.5c2.6-3.8,5.4-7.8,7.6-12\n    \tl5.3-21.7L344,344.5z"
+    }), "\n    "), "\n\n\n   ", HTML.SVG({                                                                             // 74
+      version: "1.1",                                                                                                  // 75
+      id: "usericon",                                                                                                  // 76
+      "xmlns:cc": "http://creativecommons.org/ns#",                                                                    // 77
+      "xmlns:svg": "http://www.w3.org/2000/svg",                                                                       // 78
+      "xmlns:inkscape": "http://www.inkscape.org/namespaces/inkscape",                                                 // 79
+      "xmlns:sodipodi": "http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd",                                          // 80
+      "xmlns:dc": "http://purl.org/dc/elements/1.1/",                                                                  // 81
+      "xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",                                                      // 82
+      xmlns: "http://www.w3.org/2000/svg",                                                                             // 83
+      "xmlns:xlink": "http://www.w3.org/1999/xlink",                                                                   // 84
+      x: "0px",                                                                                                        // 85
+      y: "0px",                                                                                                        // 86
+      viewBox: "0 0 1000 1000",                                                                                        // 87
+      "enable-background": "new 0 -100 1000 1000",                                                                     // 88
+      "xml:space": "preserve"                                                                                          // 89
+    }, "\n   ", HTML.G({                                                                                               // 90
+      transform: "translate(0,-952.36218)"                                                                             // 91
+    }, "\n   \t", HTML.PATH({                                                                                          // 92
+      fill: "#FFFFFF",                                                                                                 // 93
+      d: "M500,1072.4c-75.1,0-136,60.9-136,136s60.9,136,136,136s136-60.9,136-136S575.1,1072.4,500,1072.4z\n   \t\t M500,1392.4c-163.5,0-296,107.5-296,240h592C796,1499.8,663.5,1392.4,500,1392.4z"
+    }), "\n   "), "\n   "), "\n   " ];                                                                                 // 95
+  }, function() {                                                                                                      // 96
+    return [ "\n  ", HTML.A({                                                                                          // 97
+      id: "loginbuttonnav",                                                                                            // 98
+      href: "/signin"                                                                                                  // 99
+    }, " LOGIN "), "\n  ", HTML.A({                                                                                    // 100
+      id: "signupbuttonnav",                                                                                           // 101
+      href: "/join"                                                                                                    // 102
+    }, " SIGN-UP "), "\n   " ];                                                                                        // 103
+  }), "\n  ");                                                                                                         // 104
+}));                                                                                                                   // 105
+                                                                                                                       // 106
+Template.__checkName("join");                                                                                          // 107
+Template["join"] = new Template("Template.join", (function() {                                                         // 108
+  var view = this;                                                                                                     // 109
+  return HTML.Raw('<form id="signupform">\n<input type="text" id="joingemail" placeholder="E-Mail">\n<button id="login"> LOG IN </button>\n<button id="signup"> SIGN UP </button>\n</form>');
+}));                                                                                                                   // 111
+                                                                                                                       // 112
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 },"Menu.html":function(require,exports,module){
@@ -806,7 +818,7 @@ Template["Menu"] = new Template("Template.Menu", (function() {                  
     d: "M963.7,360.2c0.3-0.7,0.6-1.5,0.9-2.2c-0.1-1.5-0.1-3-0.1-4.5c-0.2,2.2-0.5,4.3-0.7,6.5C963.7,360,963.7,360.1,963.7,360.2z\n        "
   }), "\n        ", HTML.PATH({                                                                                        // 73
     d: "M962.2,335c-0.3,0.2-0.5,0.3-0.8,0.5c0.2,1,0.3,2,0.4,3C962,337.3,962.1,336.1,962.2,335z"                        // 74
-  }), "\n      "), HTML.Raw('\n      <a id="prelaunch">\n        Pre Launch Version 1.0 : Special Collection Release\n      </a>\n      <nav style="border-bottom:none;">\n      <li style="color:white;" data-page="about" id="mainiconsone" role="presentation">\n        <a style="color:white;" class="maintext2" href="/about">WREAD WRKR</a>\n      </li>\n      <li style="color:white;" data-page="market" id="mainiconstwo" role="presentation">\n        <a style="color:white;" class="maintext2" href="/market">MARKET</a>\n      </li>\n      <li style="color:white;" data-page="market" id="mainiconstwo" role="presentation">\n        <a style="color:white;" class="maintext2" href="/market">MEDIA</a>\n      </li>\n      <li style="color:white;" data-page="market" id="mainiconstwo" role="presentation">\n        <a style="color:white;" class="maintext2" href="/market">TALENT</a>\n      </li>\n      <li style="color:white;" data-page="acccount" id="mainiconsthree" role="presentation">\n        <a style="color:white;" class="maintext2" href="/join">JOIN</a>\n      </li>\n    </nav>') ];
+  }), "\n      "), HTML.Raw('\n      <a id="prelaunch">\n        Pre Launch Version 1.0 : Special Collection Release\n      </a>\n      <nav id="navstyling">\n      <li style="color:white;" data-page="market" id="mainiconstwo" role="presentation">\n        <a style="color:white;" class="maintext2" href="/market">MARKET</a>\n      </li>\n      <li style="color:white;" data-page="market" id="mainiconstwo" role="presentation">\n        <a style="color:white;" class="maintext2" href="/market">MEDIA</a>\n      </li>\n      <li style="color:white;" data-page="market" id="mainiconstwo" role="presentation">\n        <a style="color:white;" class="maintext2" href="/market">TALENT</a>\n      </li>\n    </nav>') ];
 }));                                                                                                                   // 76
                                                                                                                        // 77
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -878,9 +890,38 @@ Template["RealNewMessage"] = new Template("Template.RealNewMessage", (function()
     id: "newmessage"                                                                                                   // 8
   }, "\n  ", HTML.A(Blaze.View("lookup:currentUser", function() {                                                      // 9
     return Spacebars.mustache(view.lookup("currentUser"));                                                             // 10
-  })), "\n  ", HTML.Raw('<label id="Tooo">To</label>'), HTML.Raw('<input id="tomessage" placeholder="Enter Username...">'), HTML.Raw('<a id="creategroup">CREATE GROUP</a>'), "\n  ", HTML.Raw('<input id="newmessaging" placeholder="Begin Typing Message">'), "\n  ", Spacebars.include(view.lookupTemplate("uploadForm")), "\n  ", HTML.Raw('<input id="attach" type="file" placeholder="ATTACH">'), HTML.Raw('<button type="submit" id="send2" placeholder="Enter Message..." href="/mymessages"> SEND </button>'), "\n  "), "\n  ");
+  })), "\n  ", HTML.Raw('<label id="Tooo">To</label>'), HTML.Raw('<input id="tomessage" placeholder="Enter Username...">'), HTML.Raw('<a id="creategroup">CREATE GROUP</a>'), "\n  ", HTML.Raw('<input id="newmessaging" placeholder="Begin Typing Message">'), "\n  ", HTML.Raw('<input id="attach" type="file" placeholder="ATTACH">'), HTML.Raw('<button type="submit" id="send2" placeholder="Enter Message..." href="/mymessages"> SEND </button>'), "\n  "), "\n  ");
 }));                                                                                                                   // 12
                                                                                                                        // 13
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+},"NewMessageSmart.html":function(require,exports,module){
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                     //
+// imports/ui/components/NewMessageSmart.html                                                                          //
+//                                                                                                                     //
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                                                                       //
+module.exports = require("./template.NewMessageSmart.js");                                                             // 1
+                                                                                                                       // 2
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+},"template.NewMessageSmart.js":function(){
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                     //
+// imports/ui/components/template.NewMessageSmart.js                                                                   //
+//                                                                                                                     //
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                                                                       //
+                                                                                                                       // 1
+Template.__checkName("NewMessage");                                                                                    // 2
+Template["NewMessage"] = new Template("Template.NewMessage", (function() {                                             // 3
+  var view = this;                                                                                                     // 4
+  return [ Spacebars.include(view.lookupTemplate("Sidebar")), HTML.Raw('\n<div id="messagenavigator"> <a id="backmessage"> BACK </a><a id="current"> New Message </a><a id="closecurrent"> X </a></div>\n'), Spacebars.include(view.lookupTemplate("RealNewMessage")) ];
+}));                                                                                                                   // 6
+                                                                                                                       // 7
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 },"PaymentModalReusable.html":function(require,exports,module){
@@ -1621,33 +1662,32 @@ Template["YourMessagesRU"] = new Template("Template.YourMessagesRU", (function()
     return [ "\n", HTML.P({                                                                                            // 33
       id: "nomessages"                                                                                                 // 34
     }, "You have no messages. "), "\n", HTML.P({                                                                       // 35
-      id: "addmessages",                                                                                               // 36
-      href: "/newmessage"                                                                                              // 37
-    }, " CREATE MESSAGE "), "\n" ];                                                                                    // 38
-  }) ];                                                                                                                // 39
-}));                                                                                                                   // 40
-                                                                                                                       // 41
-Template.__checkName("Sidebar");                                                                                       // 42
-Template["Sidebar"] = new Template("Template.Sidebar", (function() {                                                   // 43
-  var view = this;                                                                                                     // 44
-  return HTML.UL({                                                                                                     // 45
-    id: "recentmess"                                                                                                   // 46
-  }, "\n", Blaze.Each(function() {                                                                                     // 47
-    return {                                                                                                           // 48
-      _sequence: Spacebars.call(view.lookup("messages")),                                                              // 49
-      _variable: "message"                                                                                             // 50
-    };                                                                                                                 // 51
-  }, function() {                                                                                                      // 52
-    return [ "\n", Blaze._TemplateWith(function() {                                                                    // 53
-      return {                                                                                                         // 54
-        message: Spacebars.call(view.lookup("message"))                                                                // 55
-      };                                                                                                               // 56
-    }, function() {                                                                                                    // 57
-      return Spacebars.include(view.lookupTemplate("SideMessage"));                                                    // 58
-    }), "\n" ];                                                                                                        // 59
-  }), "\n");                                                                                                           // 60
-}));                                                                                                                   // 61
-                                                                                                                       // 62
+      id: "addmessages"                                                                                                // 36
+    }, " CREATE MESSAGE "), "\n" ];                                                                                    // 37
+  }) ];                                                                                                                // 38
+}));                                                                                                                   // 39
+                                                                                                                       // 40
+Template.__checkName("Sidebar");                                                                                       // 41
+Template["Sidebar"] = new Template("Template.Sidebar", (function() {                                                   // 42
+  var view = this;                                                                                                     // 43
+  return HTML.UL({                                                                                                     // 44
+    id: "recentmess"                                                                                                   // 45
+  }, "\n", Blaze.Each(function() {                                                                                     // 46
+    return {                                                                                                           // 47
+      _sequence: Spacebars.call(view.lookup("messages")),                                                              // 48
+      _variable: "message"                                                                                             // 49
+    };                                                                                                                 // 50
+  }, function() {                                                                                                      // 51
+    return [ "\n", Blaze._TemplateWith(function() {                                                                    // 52
+      return {                                                                                                         // 53
+        message: Spacebars.call(view.lookup("message"))                                                                // 54
+      };                                                                                                               // 55
+    }, function() {                                                                                                    // 56
+      return Spacebars.include(view.lookupTemplate("SideMessage"));                                                    // 57
+    }), "\n" ];                                                                                                        // 58
+  }), "\n");                                                                                                           // 59
+}));                                                                                                                   // 60
+                                                                                                                       // 61
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 },"AboutReusable.js":function(require,exports,module){
@@ -1757,7 +1797,7 @@ Template.AudioItemReusable.helpers({                                            
   pathforAudioStream: function () {                                                                                    // 26
     var audio = this;                                                                                                  // 27
     var params = {                                                                                                     // 28
-      audio: audio.audiotitle                                                                                          // 29
+      audio: audios.audiotitle                                                                                         // 29
     };                                                                                                                 // 28
     var channel = "audio";                                                                                             // 31
     var path = FlowRouter.path(channel, params);                                                                       // 32
@@ -1829,11 +1869,11 @@ if (Meteor.isClient) {                                                          
     audioTitleArray: function () {                                                                                     // 16
       var instance = Template.instance();                                                                              // 17
       var audioTitle = instance.getAudioTitle();                                                                       // 18
-      return Audio.findOne(audioTitle) ? [audioTitle] : [];                                                            // 19
+      return Audios.findOne(audioTitle) ? [audioTitle] : [];                                                           // 19
     },                                                                                                                 // 20
     audioArgs: function (audioTitle) {                                                                                 // 21
       var instance = Template.instance();                                                                              // 22
-      return Audio.findOne(audioTitle);                                                                                // 23
+      return Audios.findOne(audioTitle);                                                                               // 23
     }                                                                                                                  // 24
   });                                                                                                                  // 15
 }                                                                                                                      // 27
@@ -2011,24 +2051,24 @@ module.watch(require("../../api/Audio/AudioMethods.js"), {                      
   }                                                                                                                    // 1
 }, 13);                                                                                                                // 1
                                                                                                                        //
-if (Meteor.isClient) {                                                                                                 // 40
-  Template.Create.helpers({                                                                                            // 43
-    'NotLoggedIn': function () {                                                                                       // 44
-      if (!Meteor.user() & !Meteor.loggingIn()) {                                                                      // 45
-        return false;                                                                                                  // 45
-      } else {                                                                                                         // 45
-        return true;                                                                                                   // 45
-      }                                                                                                                // 45
-    },                                                                                                                 // 46
-    'FormRendered': function () {                                                                                      // 47
-      return Template.instance().rendered.get();                                                                       // 48
-    }                                                                                                                  // 49
-  });                                                                                                                  // 43
-  Template.CreateNavigator.onCreated(function () {                                                                     // 53
-    var renderedtemplate = Session.get('currentForm');                                                                 // 54
-    var ham = 'template.Create';                                                                                       // 55
-    var completeham = ham.concat(renderedtemplate);                                                                    // 56
-  }); /*                                                                                                               // 57
+if (Meteor.isClient) {                                                                                                 // 41
+  Template.Create.helpers({                                                                                            // 44
+    'NotLoggedIn': function () {                                                                                       // 45
+      if (!Meteor.user() & !Meteor.loggingIn()) {                                                                      // 46
+        return false;                                                                                                  // 46
+      } else {                                                                                                         // 46
+        return true;                                                                                                   // 46
+      }                                                                                                                // 46
+    },                                                                                                                 // 47
+    'FormRendered': function () {                                                                                      // 48
+      return Template.instance().rendered.get();                                                                       // 49
+    }                                                                                                                  // 50
+  });                                                                                                                  // 44
+  Template.CreateNavigator.onCreated(function () {                                                                     // 54
+    var renderedtemplate = Session.get('currentForm');                                                                 // 55
+    var ham = 'template.Create';                                                                                       // 56
+    var completeham = ham.concat(renderedtemplate);                                                                    // 57
+  }); /*                                                                                                               // 58
       Template.Create.onRendered(function CreatingisCreation(){                                                        //
       Session.set('rendered', false);                                                                                  //
                                                                                                                        //
@@ -2037,8 +2077,8 @@ if (Meteor.isClient) {                                                          
         this.errormessagecreate = new ReactiveVar('null');                                                             //
       });                                                                                                              //
       */                                                                                                               //
-  Template.CreateVideo.events({                                                                                        // 71
-    /*                                                                                                                 // 72
+  Template.CreateVideo.events({                                                                                        // 72
+    /*                                                                                                                 // 73
     'submit #CreateVideoForm': function(event) {                                                                       //
       event.preventDefault();                                                                                          //
     	var instance = Template.instance();                                                                               //
@@ -2066,135 +2106,147 @@ if (Meteor.isClient) {                                                          
     }                                                                                                                  //
     },                                                                                                                 //
     */'click .back': function (event, template) {                                                                      //
-      Blaze.remove(Template.instance().view);                                                                          // 104
-      Session.set('SelectedForm', '+++');                                                                              // 105
-    }                                                                                                                  // 106
-  });                                                                                                                  // 71
-  Template.CreateImage.events({                                                                                        // 110
-    'submit #createimage': function (event) {                                                                          // 111
-      event.preventDefault();                                                                                          // 112
-      var imagedata = {                                                                                                // 113
-        imagetext: event.target.TextImage.value,                                                                       // 114
-        imagetitle: event.target.TextImage.value,                                                                      // 115
-        imageimage: event.target.ImageImage.value                                                                      // 116
-      };                                                                                                               // 113
-      Imagesinsert.call({                                                                                              // 118
-        imagedata: imagedata                                                                                           // 118
-      }, displayError);                                                                                                // 118
-    },                                                                                                                 // 119
-    'click .back': function (event, template) {                                                                        // 120
-      Blaze.remove(Template.instance().view);                                                                          // 121
-      Session.set('SelectedForm', '+++');                                                                              // 122
-    }                                                                                                                  // 123
-  });                                                                                                                  // 110
-  Template.CreateText.onRendered(function () {                                                                         // 126
-    function createlocationvar() {                                                                                     // 126
-      Session.set('rendered', true);                                                                                   // 127
-      var template = Template.instance();                                                                              // 128
-      template.locationamount = new ReactiveVar(false);                                                                // 129
-      template.collaborators = new ReactiveVar(false);                                                                 // 130
-    }                                                                                                                  // 132
+      Blaze.remove(Template.instance().view);                                                                          // 105
+      Session.set('SelectedForm', '+++');                                                                              // 106
+    }                                                                                                                  // 107
+  });                                                                                                                  // 72
+  Template.CreateImage.events({                                                                                        // 111
+    'submit #createimage': function (event) {                                                                          // 112
+      event.preventDefault();                                                                                          // 113
+      var imagedata = {                                                                                                // 114
+        imagetext: event.target.TextImage.value,                                                                       // 115
+        imagetitle: event.target.TextImage.value,                                                                      // 116
+        imageimage: event.target.ImageImage.value                                                                      // 117
+      };                                                                                                               // 114
+      Imagesinsert.call({                                                                                              // 119
+        imagedata: imagedata                                                                                           // 119
+      }, displayError);                                                                                                // 119
+    },                                                                                                                 // 120
+    'click .back': function (event, template) {                                                                        // 121
+      Blaze.remove(Template.instance().view);                                                                          // 122
+      Session.set('SelectedForm', '+++');                                                                              // 123
+    }                                                                                                                  // 124
+  });                                                                                                                  // 111
+  Template.CreateText.onRendered(function () {                                                                         // 127
+    function createlocationvar() {                                                                                     // 127
+      Session.set('rendered', true);                                                                                   // 128
+      var template = Template.instance();                                                                              // 129
+      template.locationamount = new ReactiveVar(false);                                                                // 130
+      template.collaborators = new ReactiveVar(false);                                                                 // 131
+    }                                                                                                                  // 133
                                                                                                                        //
-    return createlocationvar;                                                                                          // 126
-  }());                                                                                                                // 126
-  Template.CreateImage.onRendered(function () {                                                                        // 134
-    function createlocationvar() {                                                                                     // 134
-      Session.set('rendered', true);                                                                                   // 135
-      var template = Template.instance();                                                                              // 136
-      template.locationamount = new ReactiveVar(false);                                                                // 137
-      template.collaborators = new ReactiveVar(false);                                                                 // 138
-    }                                                                                                                  // 140
+    return createlocationvar;                                                                                          // 127
+  }());                                                                                                                // 127
+  Template.CreateImage.onRendered(function () {                                                                        // 135
+    function createlocationvar() {                                                                                     // 135
+      Session.set('rendered', true);                                                                                   // 136
+      var template = Template.instance();                                                                              // 137
+      template.locationamount = new ReactiveVar(false);                                                                // 138
+      template.collaborators = new ReactiveVar(false);                                                                 // 139
+    }                                                                                                                  // 141
                                                                                                                        //
-    return createlocationvar;                                                                                          // 134
-  }());                                                                                                                // 134
-  Template.CreateAudio.onRendered(function () {                                                                        // 142
-    function createlocationvar() {                                                                                     // 142
-      Session.set('rendered', true);                                                                                   // 143
-      var template = Template.instance();                                                                              // 144
-      template.locationamount = new ReactiveVar(false);                                                                // 145
-      template.collaborators = new ReactiveVar(false);                                                                 // 146
-    }                                                                                                                  // 148
+    return createlocationvar;                                                                                          // 135
+  }());                                                                                                                // 135
+  Template.CreateAudio.onRendered(function () {                                                                        // 143
+    function createlocationvar() {                                                                                     // 143
+      Session.set('rendered', true);                                                                                   // 144
+      var template = Template.instance();                                                                              // 145
+      template.locationamount = new ReactiveVar(false);                                                                // 146
+      template.collaborators = new ReactiveVar(false);                                                                 // 147
+    }                                                                                                                  // 149
                                                                                                                        //
-    return createlocationvar;                                                                                          // 142
-  }());                                                                                                                // 142
-  Template.CreateProduct.onRendered(function () {                                                                      // 150
-    function createlocationvar() {                                                                                     // 150
-      Session.set('rendered', true);                                                                                   // 151
-      var template = Template.instance();                                                                              // 152
-      template.locationamount = new ReactiveVar(false);                                                                // 153
-      template.collaborators = new ReactiveVar(false);                                                                 // 154
-    }                                                                                                                  // 156
+    return createlocationvar;                                                                                          // 143
+  }());                                                                                                                // 143
+  Template.CreateProduct.onRendered(function () {                                                                      // 151
+    function createlocationvar() {                                                                                     // 151
+      Session.set('rendered', true);                                                                                   // 152
+      var template = Template.instance();                                                                              // 153
+      template.locationamount = new ReactiveVar(false);                                                                // 154
+      template.collaborators = new ReactiveVar(false);                                                                 // 155
+    }                                                                                                                  // 157
                                                                                                                        //
-    return createlocationvar;                                                                                          // 150
-  }());                                                                                                                // 150
-  Template.CreateVideo.onRendered(function () {                                                                        // 158
-    function createlocationvar() {                                                                                     // 158
-      Session.set('rendered', true);                                                                                   // 159
-      var template = Template.instance();                                                                              // 160
-      template.locationamount = new ReactiveVar(false);                                                                // 161
-      template.collaborators = new ReactiveVar(false);                                                                 // 162
-    }                                                                                                                  // 164
+    return createlocationvar;                                                                                          // 151
+  }());                                                                                                                // 151
+  Template.CreateVideo.onRendered(function () {                                                                        // 159
+    function createlocationvar() {                                                                                     // 159
+      Session.set('rendered', true);                                                                                   // 160
+      var template = Template.instance();                                                                              // 161
+      template.locationamount = new ReactiveVar(false);                                                                // 162
+      template.collaborators = new ReactiveVar(false);                                                                 // 163
+    }                                                                                                                  // 165
                                                                                                                        //
-    return createlocationvar;                                                                                          // 158
-  }());                                                                                                                // 158
-  Template.CreateText.events({                                                                                         // 167
-    'submit #CreateText': function (event, template) {                                                                 // 168
-      event.preventDefault();                                                                                          // 169
-      var instance = Template.instance();                                                                              // 171
-      var textdata = {                                                                                                 // 173
-        texttitle: event.target.TitleText.value,                                                                       // 174
-        texttext: event.target.TextText.value                                                                          // 175
-      };                                                                                                               // 173
-      Textsinsert.call({                                                                                               // 178
-        textdata: textdata                                                                                             // 178
-      }, displayError);                                                                                                // 178
-    },                                                                                                                 // 179
-    'click .back': function (event, template) {                                                                        // 180
-      Blaze.remove(Template.instance().view);                                                                          // 181
-      Session.set('SelectedForm', '+++');                                                                              // 182
-    },                                                                                                                 // 183
-    'click #textlocationbutton': function (event, template) {                                                          // 184
-      template.locationamount.set(true);                                                                               // 185
-      $('#textlocationbutton').hide();                                                                                 // 186
+    return createlocationvar;                                                                                          // 159
+  }());                                                                                                                // 159
+  Template.CreateText.events({                                                                                         // 168
+    'submit #createtextbutton': function (event, template) {                                                           // 169
+      event.preventDefault();                                                                                          // 170
+      var instance = Template.instance();                                                                              // 172
+      var textdata = {                                                                                                 // 174
+        texttitle: event.target.TitleText.value,                                                                       // 175
+        texttext: event.target.TextText.value                                                                          // 176
+      };                                                                                                               // 174
+      Textsinsert.call(textdata, function (err, res) {                                                                 // 179
+        if (err) {                                                                                                     // 180
+          if (err.error === 'validation-error') {                                                                      // 181
+            var errors = {                                                                                             // 182
+              email: [],                                                                                               // 183
+              description: [],                                                                                         // 184
+              amount: []                                                                                               // 185
+            };                                                                                                         // 182
+            err.details.forEach(function (fieldError) {                                                                // 187
+              errors[fieldError.name].push(fieldError.type);                                                           // 188
+            });                                                                                                        // 189
+            instance.errors.set(errors);                                                                               // 190
+          }                                                                                                            // 191
+        }                                                                                                              // 192
+      });                                                                                                              // 193
+    },                                                                                                                 // 194
+    'click .back': function (event, template) {                                                                        // 195
+      Blaze.remove(Template.instance().view);                                                                          // 196
+      Session.set('SelectedForm', '+++');                                                                              // 197
+    },                                                                                                                 // 198
+    'click #textlocationbutton': function (event, template) {                                                          // 199
+      template.locationamount.set(true);                                                                               // 200
+      $('#textlocationbutton').hide();                                                                                 // 201
                                                                                                                        //
-      function getLocation() {                                                                                         // 188
-        if (navigator.geolocation) {                                                                                   // 189
-          navigator.geolocation.getCurrentPosition(showPosition);                                                      // 190
-        } else {                                                                                                       // 191
-          x.innerHTML = "Geolocation is not supported by this browser.";                                               // 192
-        }                                                                                                              // 193
-      }                                                                                                                // 194
+      function getLocation() {                                                                                         // 203
+        if (navigator.geolocation) {                                                                                   // 204
+          navigator.geolocation.getCurrentPosition(showPosition);                                                      // 205
+        } else {                                                                                                       // 206
+          x.innerHTML = "Geolocation is not supported by this browser.";                                               // 207
+        }                                                                                                              // 208
+      }                                                                                                                // 209
                                                                                                                        //
-      function showPosition(position) {                                                                                // 196
-        x.innerHTML = "Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude;         // 197
-      }                                                                                                                // 199
+      function showPosition(position) {                                                                                // 211
+        x.innerHTML = "Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude;         // 212
+      }                                                                                                                // 214
                                                                                                                        //
-      var locationlatitude = getlocation();                                                                            // 201
-    }                                                                                                                  // 203
-  });                                                                                                                  // 167
-  Template.CreateText.helpers({                                                                                        // 206
-    locationvisual: function () {                                                                                      // 207
-      return template.locationamount.get();                                                                            // 208
-    },                                                                                                                 // 209
-    location: function () {                                                                                            // 210
-      return getLocation();                                                                                            // 211
-    }                                                                                                                  // 212
-  });                                                                                                                  // 206
-  Template.CreateAudio.events({                                                                                        // 216
-    'submit #createaudio': function (event, template) {                                                                // 217
-      event.preventDefault();                                                                                          // 218
-      var instance = Template.instance();                                                                              // 220
-      var data = {                                                                                                     // 222
-        audiotitle: event.target.TitleAudio.value,                                                                     // 223
-        audiotext: event.target.TextAudio.value                                                                        // 224
-      };                                                                                                               // 222
-      Audio.methods.addtext.call(data);                                                                                // 226
-    },                                                                                                                 // 227
-    'click .back': function (event, template) {                                                                        // 228
-      Blaze.remove(Template.instance().view);                                                                          // 229
-      Session.set('SelectedForm', '+++');                                                                              // 230
-    }                                                                                                                  // 231
-  }); /*                                                                                                               // 216
+      var locationlatitude = getlocation();                                                                            // 216
+    }                                                                                                                  // 218
+  });                                                                                                                  // 168
+  Template.CreateText.helpers({                                                                                        // 221
+    locationvisual: function () {                                                                                      // 222
+      return template.locationamount.get();                                                                            // 223
+    },                                                                                                                 // 224
+    location: function () {                                                                                            // 225
+      return getLocation();                                                                                            // 226
+    }                                                                                                                  // 227
+  });                                                                                                                  // 221
+  Template.CreateAudio.events({                                                                                        // 231
+    'submit #createaudio': function (event, template) {                                                                // 232
+      event.preventDefault();                                                                                          // 233
+      var instance = Template.instance();                                                                              // 235
+      var data = {                                                                                                     // 237
+        audiotitle: event.target.TitleAudio.value,                                                                     // 238
+        audiotext: event.target.TextAudio.value                                                                        // 239
+      };                                                                                                               // 237
+      Audio.methods.addtext.call(data);                                                                                // 241
+    },                                                                                                                 // 242
+    'click .back': function (event, template) {                                                                        // 243
+      Blaze.remove(Template.instance().view);                                                                          // 244
+      Session.set('SelectedForm', '+++');                                                                              // 245
+    }                                                                                                                  // 246
+  }); /*                                                                                                               // 231
       Template.CreateProject.events({                                                                                  //
         'submit #createproject': function(event) {                                                                     //
         var instance = Template.instance();                                                                            //
@@ -2250,137 +2302,137 @@ if (Meteor.isClient) {                                                          
         }                                                                                                              //
       });                                                                                                              //
       */                                                                                                               //
-  Template.CreateText.onRendered(function () {                                                                         // 291
-    $("#createtext").slideUp(3000, "slow");                                                                            // 292
-  });                                                                                                                  // 293
-  Template.CreateImage.onRendered(function () {                                                                        // 295
-    $("#createimage").slideUp(3000, "slow");                                                                           // 296
-  });                                                                                                                  // 297
-  Template.CreateAudio.onRendered(function () {                                                                        // 299
-    $("#createaudio").slideUp(3000, "slow");                                                                           // 300
-  });                                                                                                                  // 301
-  Template.Create.helpers({                                                                                            // 304
-    back: function () {                                                                                                // 305
-      return Template.instance().formback.get();                                                                       // 306
-    },                                                                                                                 // 307
-    next: function () {                                                                                                // 308
-      return Template.instance().formnext.get();                                                                       // 309
-    }                                                                                                                  // 310
-  });                                                                                                                  // 304
-  Template.CreateNavigator.helpers({                                                                                   // 313
-    currentForm: function () {                                                                                         // 314
-      return Session.get('SelectedForm');                                                                              // 315
-    }                                                                                                                  // 316
-  });                                                                                                                  // 313
-  Template.Create.onRendered(function () {                                                                             // 319
-    Session.set('SelectedForm', '+++');                                                                                // 320
-    Meteor.setTimeout(function () {                                                                                    // 321
-      var modal2 = $('.modal2');                                                                                       // 322
-      modal2.css('display', 'block');                                                                                  // 323
-    }, 500);                                                                                                           // 324
-  });                                                                                                                  // 325
-  Template.Create.events({                                                                                             // 327
-    'click #AudioSelection': function (event, template) {                                                              // 328
-      Session.set('SelectedForm', 'Audio');                                                                            // 329
-      Blaze.render(Template.CreateAudio, template.$('#createnav').get(0));                                             // 330
-    },                                                                                                                 // 331
-    'click #TextSelection': function (event, template) {                                                               // 332
-      Session.set('SelectedForm', 'Text');                                                                             // 333
-      Blaze.render(Template.CreateText, template.$('#createnav').get(0));                                              // 334
-    },                                                                                                                 // 335
-    'click #ImageSelection': function (event, template) {                                                              // 336
-      Session.set('SelectedForm', 'Image');                                                                            // 337
-      Blaze.render(Template.CreateImage, template.$('#createnav').get(0));                                             // 338
-    },                                                                                                                 // 339
-    'click #VideoSelection': function (event, template) {                                                              // 340
-      Session.set('SelectedForm', 'Video');                                                                            // 341
-      Blaze.render(Template.CreateVideo, template.$('#createnav').get(0));                                             // 342
-    },                                                                                                                 // 343
-    'click #RequestSelection': function (event, template) {                                                            // 344
-      Session.set('SelectedForm', 'Request');                                                                          // 345
-      Blaze.render(Template.CreateRequest, template.$('#createnav').get(0));                                           // 346
-    },                                                                                                                 // 347
-    'click #ProductSelection2': function (event, template) {                                                           // 348
-      Session.set('SelectedForm', 'Product');                                                                          // 349
-      Blaze.render(Template.CreateProduct, template.$('#createnav').get(0));                                           // 350
-    },                                                                                                                 // 351
-    'click .close': function (event, template) {                                                                       // 352
-      Blaze.remove(Template.instance().view);                                                                          // 353
-      Session.set('SelectedForm', '+++');                                                                              // 354
-    }                                                                                                                  // 355
-  });                                                                                                                  // 327
-  Template.CreateProduct.events({                                                                                      // 360
-    'submit .addproduct': function (event, template) {                                                                 // 361
-      event.preventDefault();                                                                                          // 362
-      var productDetails = {                                                                                           // 363
-        productmedia: event.target.MediaProduct.value,                                                                 // 364
-        producttitle: event.target.TitleProduct.value,                                                                 // 365
-        producttext: event.target.TextProduct.value,                                                                   // 366
-        productprice: event.target.PriceProduct.value,                                                                 // 367
-        productshipprice: event.target.ShipPriceProduct.value,                                                         // 368
-        productshiptime: event.target.ShipTimeProduct.value                                                            // 369
-      },                                                                                                               // 363
-          pass = true,                                                                                                 // 363
-          missingElement;                                                                                              // 363
+  Template.CreateText.onRendered(function () {                                                                         // 306
+    $("#createtext").slideUp(3000, "slow");                                                                            // 307
+  });                                                                                                                  // 308
+  Template.CreateImage.onRendered(function () {                                                                        // 310
+    $("#createimage").slideUp(3000, "slow");                                                                           // 311
+  });                                                                                                                  // 312
+  Template.CreateAudio.onRendered(function () {                                                                        // 314
+    $("#createaudio").slideUp(3000, "slow");                                                                           // 315
+  });                                                                                                                  // 316
+  Template.Create.helpers({                                                                                            // 319
+    back: function () {                                                                                                // 320
+      return Template.instance().formback.get();                                                                       // 321
+    },                                                                                                                 // 322
+    next: function () {                                                                                                // 323
+      return Template.instance().formnext.get();                                                                       // 324
+    }                                                                                                                  // 325
+  });                                                                                                                  // 319
+  Template.CreateNavigator.helpers({                                                                                   // 328
+    currentForm: function () {                                                                                         // 329
+      return Session.get('SelectedForm');                                                                              // 330
+    }                                                                                                                  // 331
+  });                                                                                                                  // 328
+  Template.Create.onRendered(function () {                                                                             // 334
+    Session.set('SelectedForm', '+++');                                                                                // 335
+    Meteor.setTimeout(function () {                                                                                    // 336
+      var modal2 = $('.modal2');                                                                                       // 337
+      modal2.css('display', 'block');                                                                                  // 338
+    }, 500);                                                                                                           // 339
+  });                                                                                                                  // 340
+  Template.Create.events({                                                                                             // 342
+    'click #AudioSelection': function (event, template) {                                                              // 343
+      Session.set('SelectedForm', 'Audio');                                                                            // 344
+      Blaze.render(Template.CreateAudio, template.$('#createnav').get(0));                                             // 345
+    },                                                                                                                 // 346
+    'click #TextSelection': function (event, template) {                                                               // 347
+      Session.set('SelectedForm', 'Text');                                                                             // 348
+      Blaze.render(Template.CreateText, template.$('#createnav').get(0));                                              // 349
+    },                                                                                                                 // 350
+    'click #ImageSelection': function (event, template) {                                                              // 351
+      Session.set('SelectedForm', 'Image');                                                                            // 352
+      Blaze.render(Template.CreateImage, template.$('#createnav').get(0));                                             // 353
+    },                                                                                                                 // 354
+    'click #VideoSelection': function (event, template) {                                                              // 355
+      Session.set('SelectedForm', 'Video');                                                                            // 356
+      Blaze.render(Template.CreateVideo, template.$('#createnav').get(0));                                             // 357
+    },                                                                                                                 // 358
+    'click #RequestSelection': function (event, template) {                                                            // 359
+      Session.set('SelectedForm', 'Request');                                                                          // 360
+      Blaze.render(Template.CreateRequest, template.$('#createnav').get(0));                                           // 361
+    },                                                                                                                 // 362
+    'click #ProductSelection2': function (event, template) {                                                           // 363
+      Session.set('SelectedForm', 'Product');                                                                          // 364
+      Blaze.render(Template.CreateProduct, template.$('#createnav').get(0));                                           // 365
+    },                                                                                                                 // 366
+    'click .close': function (event, template) {                                                                       // 367
+      Blaze.remove(Template.instance().view);                                                                          // 368
+      Session.set('SelectedForm', '+++');                                                                              // 369
+    }                                                                                                                  // 370
+  });                                                                                                                  // 342
+  Template.CreateProduct.events({                                                                                      // 375
+    'submit .addproduct': function (event, template) {                                                                 // 376
+      event.preventDefault();                                                                                          // 377
+      var productDetails = {                                                                                           // 378
+        productmedia: event.target.MediaProduct.value,                                                                 // 379
+        producttitle: event.target.TitleProduct.value,                                                                 // 380
+        producttext: event.target.TextProduct.value,                                                                   // 381
+        productprice: event.target.PriceProduct.value,                                                                 // 382
+        productshipprice: event.target.ShipPriceProduct.value,                                                         // 383
+        productshiptime: event.target.ShipTimeProduct.value                                                            // 384
+      },                                                                                                               // 378
+          pass = true,                                                                                                 // 378
+          missingElement;                                                                                              // 378
                                                                                                                        //
-      for (var key in meteorBabelHelpers.sanitizeForInObject(productDetails)) {                                        // 373
-        if (!productDetails[key]) {                                                                                    // 374
-          pass = false;                                                                                                // 375
-          missingElement = key;                                                                                        // 376
-          Template.instance().errormessagecreate.set('Error: Please Enter' + missingElement + '!!');                   // 377
-        }                                                                                                              // 378
-      }                                                                                                                // 379
+      for (var key in meteorBabelHelpers.sanitizeForInObject(productDetails)) {                                        // 388
+        if (!productDetails[key]) {                                                                                    // 389
+          pass = false;                                                                                                // 390
+          missingElement = key;                                                                                        // 391
+          Template.instance().errormessagecreate.set('Error: Please Enter' + missingElement + '!!');                   // 392
+        }                                                                                                              // 393
+      }                                                                                                                // 394
                                                                                                                        //
-      if (pass) {                                                                                                      // 380
-        Meteor.call('createProduct', productDetails, function (err, response) {                                        // 381
-          if (err) {                                                                                                   // 382
-            alert(err.messsage);                                                                                       // 383
-          } else {                                                                                                     // 384
-            Session.set('rendered', false);                                                                            // 385
-          }                                                                                                            // 386
-        });                                                                                                            // 387
-      }                                                                                                                // 388
-    },                                                                                                                 // 389
-    'click #addmember': function (event, template) {                                                                   // 390
-      var memberval = event.target.AddSearchMembers.value;                                                             // 391
-      $('#addmember').hide();                                                                                          // 392
-      template.l;                                                                                                      // 393
-    },                                                                                                                 // 395
-    'click #fone': function (event) {                                                                                  // 396
-      Template.instance().formback.set('ProductSelection2');                                                           // 397
-      Template.instance().formnext.set('ftwo');                                                                        // 398
-    },                                                                                                                 // 399
-    'click #ftwo': function (event) {                                                                                  // 400
-      Template.instance().formback.set('fone');                                                                        // 401
-      Template.instance().formnext.set('fthree');                                                                      // 402
-    },                                                                                                                 // 403
-    'click #fthree': function (event) {                                                                                // 404
-      Template.instance().formback.set('ftwo');                                                                        // 405
-    },                                                                                                                 // 406
-    'click .back': function (event, template) {                                                                        // 407
-      Blaze.remove(Template.instance().view);                                                                          // 408
-      Session.set('SelectedForm', '+++');                                                                              // 409
-    }                                                                                                                  // 410
-  });                                                                                                                  // 360
-  Template.CreateProject.events({                                                                                      // 414
-    'click #gone': function (event) {                                                                                  // 415
-      Template.instance().formback.set('ProductSelection2');                                                           // 416
-      Template.instance().formnext.set('ftwo');                                                                        // 417
+      if (pass) {                                                                                                      // 395
+        Meteor.call('createProduct', productDetails, function (err, response) {                                        // 396
+          if (err) {                                                                                                   // 397
+            alert(err.messsage);                                                                                       // 398
+          } else {                                                                                                     // 399
+            Session.set('rendered', false);                                                                            // 400
+          }                                                                                                            // 401
+        });                                                                                                            // 402
+      }                                                                                                                // 403
+    },                                                                                                                 // 404
+    'click #addmember': function (event, template) {                                                                   // 405
+      var memberval = event.target.AddSearchMembers.value;                                                             // 406
+      $('#addmember').hide();                                                                                          // 407
+      template.l;                                                                                                      // 408
+    },                                                                                                                 // 410
+    'click #fone': function (event) {                                                                                  // 411
+      Template.instance().formback.set('ProductSelection2');                                                           // 412
+      Template.instance().formnext.set('ftwo');                                                                        // 413
+    },                                                                                                                 // 414
+    'click #ftwo': function (event) {                                                                                  // 415
+      Template.instance().formback.set('fone');                                                                        // 416
+      Template.instance().formnext.set('fthree');                                                                      // 417
     },                                                                                                                 // 418
-    'click #gtwo': function (event) {                                                                                  // 419
-      Template.instance().formback.set('fone');                                                                        // 420
-      Template.instance().formnext.set('fthree');                                                                      // 421
-    },                                                                                                                 // 422
-    'click #gthree': function (event) {                                                                                // 423
-      Template.instance().formback.set('ftwo');                                                                        // 424
+    'click #fthree': function (event) {                                                                                // 419
+      Template.instance().formback.set('ftwo');                                                                        // 420
+    },                                                                                                                 // 421
+    'click .back': function (event, template) {                                                                        // 422
+      Blaze.remove(Template.instance().view);                                                                          // 423
+      Session.set('SelectedForm', '+++');                                                                              // 424
     }                                                                                                                  // 425
-  });                                                                                                                  // 414
-  Template.CreateNavigator.helpers({                                                                                   // 429
-    CurrentSelection: function (event, template) {                                                                     // 430
-      return Session.get('SelectedForm');                                                                              // 431
-    }                                                                                                                  // 432
+  });                                                                                                                  // 375
+  Template.CreateProject.events({                                                                                      // 429
+    'click #gone': function (event) {                                                                                  // 430
+      Template.instance().formback.set('ProductSelection2');                                                           // 431
+      Template.instance().formnext.set('ftwo');                                                                        // 432
+    },                                                                                                                 // 433
+    'click #gtwo': function (event) {                                                                                  // 434
+      Template.instance().formback.set('fone');                                                                        // 435
+      Template.instance().formnext.set('fthree');                                                                      // 436
+    },                                                                                                                 // 437
+    'click #gthree': function (event) {                                                                                // 438
+      Template.instance().formback.set('ftwo');                                                                        // 439
+    }                                                                                                                  // 440
   });                                                                                                                  // 429
-}                                                                                                                      // 435
+  Template.CreateNavigator.helpers({                                                                                   // 444
+    CurrentSelection: function (event, template) {                                                                     // 445
+      return Session.get('SelectedForm');                                                                              // 446
+    }                                                                                                                  // 447
+  });                                                                                                                  // 444
+}                                                                                                                      // 450
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 },"ImageItemReusable.js":function(require,exports,module){
@@ -2763,28 +2815,35 @@ module.watch(require("meteor/aldeed:simple-schema"), {                          
   }                                                                                                                    // 1
 }, 7);                                                                                                                 // 1
 module.watch(require("./Menu.html"));                                                                                  // 1
-Template.Menu.events({                                                                                                 // 12
-  'click .maintext3': function (event, template) {                                                                     // 13
-    Blaze.render(Template.Login, document.body);                                                                       // 14
-  },                                                                                                                   // 15
-  'click #waveicon': function (event, template) {                                                                      // 17
-    Blaze.render(Template.WreadAbout, document.body);                                                                  // 18
-  }                                                                                                                    // 19
-});                                                                                                                    // 12
-Template.Menu.helpers({                                                                                                // 22
-  NotLoggedIn: function () {                                                                                           // 23
-    if (!Meteor.user() & !Meteor.loggingIn()) {                                                                        // 24
-      return false;                                                                                                    // 24
-    } else {                                                                                                           // 24
-      return true;                                                                                                     // 24
-    }                                                                                                                  // 24
-  }                                                                                                                    // 25
-});                                                                                                                    // 22
-Template.StreamMenu.helpers({                                                                                          // 29
-  currentitem: function () {                                                                                           // 30
-    return Session.get('selectedItem');                                                                                // 31
-  }                                                                                                                    // 32
-});                                                                                                                    // 29
+Template.Menu.onCreated(function () {                                                                                  // 13
+  function Menu() {                                                                                                    // 13
+    Meteor.subscribe('textFeed');                                                                                      // 15
+  }                                                                                                                    // 17
+                                                                                                                       //
+  return Menu;                                                                                                         // 13
+}());                                                                                                                  // 13
+Template.Menu.events({                                                                                                 // 21
+  'click .maintext3': function (event, template) {                                                                     // 22
+    Blaze.render(Template.Login, document.body);                                                                       // 23
+  },                                                                                                                   // 24
+  'click #waveicon': function (event, template) {                                                                      // 26
+    Blaze.render(Template.WreadAbout, document.body);                                                                  // 27
+  }                                                                                                                    // 28
+});                                                                                                                    // 21
+Template.Menu.helpers({                                                                                                // 33
+  NotLoggedIn: function () {                                                                                           // 34
+    if (!Meteor.user() & !Meteor.loggingIn()) {                                                                        // 35
+      return false;                                                                                                    // 35
+    } else {                                                                                                           // 35
+      return true;                                                                                                     // 35
+    }                                                                                                                  // 35
+  }                                                                                                                    // 36
+});                                                                                                                    // 33
+Template.StreamMenu.helpers({                                                                                          // 40
+  currentitem: function () {                                                                                           // 41
+    return Session.get('selectedItem');                                                                                // 42
+  }                                                                                                                    // 43
+});                                                                                                                    // 40
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 },"Message.js":function(require,exports,module){
@@ -2866,44 +2925,92 @@ Template.Message.onCreated(function () {                                        
 //                                                                                                                     //
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                                                                                                                        //
+var Meteor = void 0;                                                                                                   // 1
+module.watch(require("meteor/meteor"), {                                                                               // 1
+  Meteor: function (v) {                                                                                               // 1
+    Meteor = v;                                                                                                        // 1
+  }                                                                                                                    // 1
+}, 0);                                                                                                                 // 1
+var Template = void 0;                                                                                                 // 1
+module.watch(require("meteor/templating"), {                                                                           // 1
+  Template: function (v) {                                                                                             // 1
+    Template = v;                                                                                                      // 1
+  }                                                                                                                    // 1
+}, 1);                                                                                                                 // 1
+var Mongo = void 0;                                                                                                    // 1
+module.watch(require("meteor/mongo"), {                                                                                // 1
+  Mongo: function (v) {                                                                                                // 1
+    Mongo = v;                                                                                                         // 1
+  }                                                                                                                    // 1
+}, 2);                                                                                                                 // 1
+var ReactiveDict = void 0;                                                                                             // 1
+module.watch(require("meteor/reactive-dict"), {                                                                        // 1
+  ReactiveDict: function (v) {                                                                                         // 1
+    ReactiveDict = v;                                                                                                  // 1
+  }                                                                                                                    // 1
+}, 3);                                                                                                                 // 1
+var Tracker = void 0;                                                                                                  // 1
+module.watch(require("meteor/tracker"), {                                                                              // 1
+  Tracker: function (v) {                                                                                              // 1
+    Tracker = v;                                                                                                       // 1
+  }                                                                                                                    // 1
+}, 4);                                                                                                                 // 1
+var $ = void 0;                                                                                                        // 1
+module.watch(require("meteor/jquery"), {                                                                               // 1
+  $: function (v) {                                                                                                    // 1
+    $ = v;                                                                                                             // 1
+  }                                                                                                                    // 1
+}, 5);                                                                                                                 // 1
+var FlowRouter = void 0;                                                                                               // 1
+module.watch(require("meteor/kadira:flow-router"), {                                                                   // 1
+  FlowRouter: function (v) {                                                                                           // 1
+    FlowRouter = v;                                                                                                    // 1
+  }                                                                                                                    // 1
+}, 6);                                                                                                                 // 1
+var SimpleSchema = void 0;                                                                                             // 1
+module.watch(require("meteor/aldeed:simple-schema"), {                                                                 // 1
+  SimpleSchema: function (v) {                                                                                         // 1
+    SimpleSchema = v;                                                                                                  // 1
+  }                                                                                                                    // 1
+}, 7);                                                                                                                 // 1
 module.watch(require("./NewMessageReusable.html"));                                                                    // 1
-Template.RealNewMessage.events({                                                                                       // 3
-  'click #send2': function (event, template) {                                                                         // 4
-    handleMessageInsert(event, template);                                                                              // 5
-  },                                                                                                                   // 6
-  'click #close4': function (event, template) {                                                                        // 7
-    var modal300 = $('#createnewmessage');                                                                             // 8
-    modal300.css('display', 'none');                                                                                   // 9
-    Blaze.remove(template.view);                                                                                       // 10
-  },                                                                                                                   // 11
-  'click #creategroup': function (event, template) {                                                                   // 12
-    Blaze.render(Template.CreateGroup, createnewmessage);                                                              // 13
-  },                                                                                                                   // 14
-  'change #fileInput': function (event, template) {                                                                    // 15
-    if (e.currentTarget.files && e.currentTarget.files[0]) {                                                           // 16
-      // We upload only one file, in case                                                                              // 17
-      // multiple files were selected                                                                                  // 18
-      var upload = Messages.insert({                                                                                   // 19
-        file: e.currentTarget.files[0],                                                                                // 20
-        streams: 'dynamic',                                                                                            // 21
-        chunkSize: 'dynamic'                                                                                           // 22
-      }, false);                                                                                                       // 19
-      upload.on('start', function () {                                                                                 // 25
-        template.currentUpload.set(this);                                                                              // 26
-      });                                                                                                              // 27
-      upload.on('end', function (error, fileObj) {                                                                     // 29
-        if (error) {                                                                                                   // 30
-          alert('Error during upload: ' + error);                                                                      // 31
-        } else {                                                                                                       // 32
-          alert('File "' + fileObj.name + '" successfully uploaded');                                                  // 33
-        }                                                                                                              // 34
-                                                                                                                       //
-        template.currentUpload.set(false);                                                                             // 35
+Template.RealNewMessage.events({                                                                                       // 12
+  'click #send2': function (event, template) {                                                                         // 13
+    handleMessageInsert(event, template);                                                                              // 14
+  },                                                                                                                   // 15
+  'click #close4': function (event, template) {                                                                        // 16
+    var modal300 = $('#createnewmessage');                                                                             // 17
+    modal300.css('display', 'none');                                                                                   // 18
+    Blaze.remove(template.view);                                                                                       // 19
+  },                                                                                                                   // 20
+  'click #creategroup': function (event, template) {                                                                   // 21
+    Blaze.render(Template.CreateGroup, createnewmessage);                                                              // 22
+  },                                                                                                                   // 23
+  'change #fileInput': function (event, template) {                                                                    // 24
+    if (e.currentTarget.files && e.currentTarget.files[0]) {                                                           // 25
+      // We upload only one file, in case                                                                              // 26
+      // multiple files were selected                                                                                  // 27
+      var upload = Messages.insert({                                                                                   // 28
+        file: e.currentTarget.files[0],                                                                                // 29
+        streams: 'dynamic',                                                                                            // 30
+        chunkSize: 'dynamic'                                                                                           // 31
+      }, false);                                                                                                       // 28
+      upload.on('start', function () {                                                                                 // 34
+        template.currentUpload.set(this);                                                                              // 35
       });                                                                                                              // 36
-      upload.start();                                                                                                  // 38
-    }                                                                                                                  // 39
-  }                                                                                                                    // 40
-});                                                                                                                    // 3
+      upload.on('end', function (error, fileObj) {                                                                     // 38
+        if (error) {                                                                                                   // 39
+          alert('Error during upload: ' + error);                                                                      // 40
+        } else {                                                                                                       // 41
+          alert('File "' + fileObj.name + '" successfully uploaded');                                                  // 42
+        }                                                                                                              // 43
+                                                                                                                       //
+        template.currentUpload.set(false);                                                                             // 44
+      });                                                                                                              // 45
+      upload.start();                                                                                                  // 47
+    }                                                                                                                  // 48
+  }                                                                                                                    // 49
+});                                                                                                                    // 12
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 },"NewMessageSmart.js":function(){
@@ -3853,123 +3960,160 @@ if (Meteor.isClient) {                                                          
 //                                                                                                                     //
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                                                                                                                        //
+var Meteor = void 0;                                                                                                   // 1
+module.watch(require("meteor/meteor"), {                                                                               // 1
+  Meteor: function (v) {                                                                                               // 1
+    Meteor = v;                                                                                                        // 1
+  }                                                                                                                    // 1
+}, 0);                                                                                                                 // 1
+var Template = void 0;                                                                                                 // 1
+module.watch(require("meteor/templating"), {                                                                           // 1
+  Template: function (v) {                                                                                             // 1
+    Template = v;                                                                                                      // 1
+  }                                                                                                                    // 1
+}, 1);                                                                                                                 // 1
+var Mongo = void 0;                                                                                                    // 1
+module.watch(require("meteor/mongo"), {                                                                                // 1
+  Mongo: function (v) {                                                                                                // 1
+    Mongo = v;                                                                                                         // 1
+  }                                                                                                                    // 1
+}, 2);                                                                                                                 // 1
+var ReactiveDict = void 0;                                                                                             // 1
+module.watch(require("meteor/reactive-dict"), {                                                                        // 1
+  ReactiveDict: function (v) {                                                                                         // 1
+    ReactiveDict = v;                                                                                                  // 1
+  }                                                                                                                    // 1
+}, 3);                                                                                                                 // 1
+var Tracker = void 0;                                                                                                  // 1
+module.watch(require("meteor/tracker"), {                                                                              // 1
+  Tracker: function (v) {                                                                                              // 1
+    Tracker = v;                                                                                                       // 1
+  }                                                                                                                    // 1
+}, 4);                                                                                                                 // 1
+var $ = void 0;                                                                                                        // 1
+module.watch(require("meteor/jquery"), {                                                                               // 1
+  $: function (v) {                                                                                                    // 1
+    $ = v;                                                                                                             // 1
+  }                                                                                                                    // 1
+}, 5);                                                                                                                 // 1
+var FlowRouter = void 0;                                                                                               // 1
+module.watch(require("meteor/kadira:flow-router"), {                                                                   // 1
+  FlowRouter: function (v) {                                                                                           // 1
+    FlowRouter = v;                                                                                                    // 1
+  }                                                                                                                    // 1
+}, 6);                                                                                                                 // 1
+var SimpleSchema = void 0;                                                                                             // 1
+module.watch(require("meteor/aldeed:simple-schema"), {                                                                 // 1
+  SimpleSchema: function (v) {                                                                                         // 1
+    SimpleSchema = v;                                                                                                  // 1
+  }                                                                                                                    // 1
+}, 7);                                                                                                                 // 1
 module.watch(require("./YourMessagesReusable.html"));                                                                  // 1
+module.watch(require("./NewMessageSmart.html"));                                                                       // 1
                                                                                                                        //
-if (Meteor.isClient) {                                                                                                 // 4
-  Template.YourMessagesRU.helpers({                                                                                    // 6
-    "user": function () {                                                                                              // 7
-      return Meteor.userId.username();                                                                                 // 8
-    }                                                                                                                  // 9
-  });                                                                                                                  // 6
-  Template.YourMessagesRU.events({                                                                                     // 12
-    "click .close3": function (event, template) {                                                                      // 13
-      var modal3 = $('#messageswhole');                                                                                // 14
-      modal3.css('display', 'none');                                                                                   // 15
-      Blaze.remove(template.view);                                                                                     // 16
-    },                                                                                                                 // 17
-    'click #calltojoin': function (event, template) {                                                                  // 18
-      var modal3 = $('#messageswhole');                                                                                // 19
-      modal3.css('display', 'none');                                                                                   // 20
-      Blaze.remove(template.view);                                                                                     // 21
-    },                                                                                                                 // 22
-    'click #calltologin': function (event, template) {                                                                 // 23
+if (Meteor.isClient) {                                                                                                 // 14
+  Template.YourMessagesRU.helpers({                                                                                    // 16
+    "user": function () {                                                                                              // 17
+      return Meteor.userId.username();                                                                                 // 18
+    }                                                                                                                  // 19
+  });                                                                                                                  // 16
+  Template.YourMessagesRU.events({                                                                                     // 22
+    "click .close3": function (event, template) {                                                                      // 23
       var modal3 = $('#messageswhole');                                                                                // 24
       modal3.css('display', 'none');                                                                                   // 25
       Blaze.remove(template.view);                                                                                     // 26
-    }                                                                                                                  // 27
-  });                                                                                                                  // 12
-  Template.YourMessagesRU.events({                                                                                     // 30
-    'click #addmessages': function (event, template) {                                                                 // 31
-      Blaze.render(Template.NewMessage, template.$('#conversation').get(0));                                           // 32
-    }                                                                                                                  // 33
-  });                                                                                                                  // 30
-  Template.YourMessagesRU.onRendered(function () {                                                                     // 36
-    Meteor.setTimeout(function () {                                                                                    // 37
-      var modal3 = $('.modal35');                                                                                      // 38
-      modal3.css('display', 'block');                                                                                  // 39
-    }, 500);                                                                                                           // 40
-  });                                                                                                                  // 41
-  Template.YourMessagesRU.helpers({                                                                                    // 46
-    'messages': function () {                                                                                          // 47
-      return Messages.find({});                                                                                        // 48
-    }                                                                                                                  // 49
-  });                                                                                                                  // 46
-  Template.YourMessagesRU.events({                                                                                     // 52
-    'click #newmessage': function (event, template) {                                                                  // 53
-      Blaze.render(Template.NewMessage, t.$('#conversation').get(0));                                                  // 54
-    },                                                                                                                 // 55
-    'change #fileInput': function (event, template) {                                                                  // 56
-      if (e.currentTarget.files && e.currentTarget.files[0]) {                                                         // 57
-        // We upload only one file, in case                                                                            // 58
-        // multiple files were selected                                                                                // 59
-        var upload = Images.insert({                                                                                   // 60
-          file: e.currentTarget.files[0],                                                                              // 61
-          streams: 'dynamic',                                                                                          // 62
-          chunkSize: 'dynamic'                                                                                         // 63
-        }, false);                                                                                                     // 60
-        upload.on('start', function () {                                                                               // 66
-          template.currentUpload.set(this);                                                                            // 67
-        });                                                                                                            // 68
-        upload.on('end', function (error, fileObj) {                                                                   // 70
-          if (error) {                                                                                                 // 71
-            alert('Error during upload: ' + error);                                                                    // 72
-          } else {                                                                                                     // 73
-            alert('File "' + fileObj.name + '" successfully uploaded');                                                // 74
-          }                                                                                                            // 75
+    },                                                                                                                 // 27
+    'click #calltojoin': function (event, template) {                                                                  // 28
+      var modal3 = $('#messageswhole');                                                                                // 29
+      modal3.css('display', 'none');                                                                                   // 30
+      Blaze.remove(template.view);                                                                                     // 31
+    },                                                                                                                 // 32
+    'click #addmessages': function (event, template) {                                                                 // 33
+      Blaze.render(Template.NewMessage, template.$('#conversation').get(0));                                           // 34
+    },                                                                                                                 // 35
+    'change #fileInput': function (event, template) {                                                                  // 36
+      if (e.currentTarget.files && e.currentTarget.files[0]) {                                                         // 37
+        // We upload only one file, in case                                                                            // 38
+        // multiple files were selected                                                                                // 39
+        var upload = Images.insert({                                                                                   // 40
+          file: e.currentTarget.files[0],                                                                              // 41
+          streams: 'dynamic',                                                                                          // 42
+          chunkSize: 'dynamic'                                                                                         // 43
+        }, false);                                                                                                     // 40
+        upload.on('start', function () {                                                                               // 46
+          template.currentUpload.set(this);                                                                            // 47
+        });                                                                                                            // 48
+        upload.on('end', function (error, fileObj) {                                                                   // 50
+          if (error) {                                                                                                 // 51
+            alert('Error during upload: ' + error);                                                                    // 52
+          } else {                                                                                                     // 53
+            alert('File "' + fileObj.name + '" successfully uploaded');                                                // 54
+          }                                                                                                            // 55
                                                                                                                        //
-          template.currentUpload.set(false);                                                                           // 76
-        });                                                                                                            // 77
-        upload.start();                                                                                                // 79
-      }                                                                                                                // 80
-    }                                                                                                                  // 81
-  });                                                                                                                  // 52
-  Template.YourMessagesRU.helpers({                                                                                    // 84
-    isLoading: function () {                                                                                           // 85
-      return Template.instance().loading.get();                                                                        // 86
-    },                                                                                                                 // 87
-    isDirect: function () {                                                                                            // 88
-      return Template.instance().isDirect.get();                                                                       // 89
-    },                                                                                                                 // 90
-    username: function () {                                                                                            // 91
-      return FlowRouter.getParam('channel');                                                                           // 92
-    }                                                                                                                  // 93
-  });                                                                                                                  // 84
-  Template.Sidebar.helpers({                                                                                           // 96
-    currentChannel: function (name) {                                                                                  // 97
-      var current = FlowRouter.getParam('channel');                                                                    // 98
+          template.currentUpload.set(false);                                                                           // 56
+        });                                                                                                            // 57
+        upload.start();                                                                                                // 59
+      }                                                                                                                // 60
+    }                                                                                                                  // 61
+  });                                                                                                                  // 22
+  Template.YourMessagesRU.onRendered(function () {                                                                     // 64
+    Meteor.setTimeout(function () {                                                                                    // 65
+      var modal3 = $('.modal35');                                                                                      // 66
+      modal3.css('display', 'block');                                                                                  // 67
+    }, 500);                                                                                                           // 68
+  });                                                                                                                  // 69
+  Template.YourMessagesRU.helpers({                                                                                    // 74
+    'messages': function () {                                                                                          // 75
+      return Messages.find({});                                                                                        // 76
+    }                                                                                                                  // 77
+  });                                                                                                                  // 74
+  Template.YourMessagesRU.helpers({                                                                                    // 83
+    isLoading: function () {                                                                                           // 84
+      return Template.instance().loading.get();                                                                        // 85
+    },                                                                                                                 // 86
+    isDirect: function () {                                                                                            // 87
+      return Template.instance().isDirect.get();                                                                       // 88
+    },                                                                                                                 // 89
+    username: function () {                                                                                            // 90
+      return FlowRouter.getParam('channel');                                                                           // 91
+    }                                                                                                                  // 92
+  });                                                                                                                  // 83
+  Template.Sidebar.helpers({                                                                                           // 95
+    currentChannel: function (name) {                                                                                  // 96
+      var current = FlowRouter.getParam('channel');                                                                    // 97
                                                                                                                        //
-      if (current) {                                                                                                   // 99
-        return current === name || current === "@" + name ? 'active' : false;                                          // 100
-      }                                                                                                                // 101
-    },                                                                                                                 // 102
-    messages: function (message) {                                                                                     // 103
-      return Messages.find({});                                                                                        // 104
-    }                                                                                                                  // 105
-  });                                                                                                                  // 96
-  Template.Sidebar.onCreated(function () {                                                                             // 108
-    var template = Template.instance();                                                                                // 109
-    template.subscribe('sidebar');                                                                                     // 110
-  });                                                                                                                  // 111
-  Template.YourMessagesRU.helpers({                                                                                    // 113
-    messageArgs: function (channel) {                                                                                  // 114
-      return {                                                                                                         // 115
-        isLoading: Template.instance().loading.get(),                                                                  // 116
-        isDirect: Template.instance().isDirect.get(),                                                                  // 117
-        username: FlowRouter.getParam('channel'),                                                                      // 118
-        currentChannel: function (name) {                                                                              // 119
-          var current = FlowRouter.getParam('channel');                                                                // 120
+      if (current) {                                                                                                   // 98
+        return current === name || current === "@" + name ? 'active' : false;                                          // 99
+      }                                                                                                                // 100
+    },                                                                                                                 // 101
+    messages: function (message) {                                                                                     // 102
+      return Messages.find({});                                                                                        // 103
+    }                                                                                                                  // 104
+  });                                                                                                                  // 95
+  Template.Sidebar.onCreated(function () {                                                                             // 107
+    var template = Template.instance();                                                                                // 108
+    template.subscribe('sidebar');                                                                                     // 109
+  });                                                                                                                  // 110
+  Template.YourMessagesRU.helpers({                                                                                    // 112
+    messageArgs: function (channel) {                                                                                  // 113
+      return {                                                                                                         // 114
+        isLoading: Template.instance().loading.get(),                                                                  // 115
+        isDirect: Template.instance().isDirect.get(),                                                                  // 116
+        username: FlowRouter.getParam('channel'),                                                                      // 117
+        currentChannel: function (name) {                                                                              // 118
+          var current = FlowRouter.getParam('channel');                                                                // 119
                                                                                                                        //
-          if (current) {                                                                                               // 121
-            return current === name || current === "@" + name ? 'active' : false;                                      // 122
-          }                                                                                                            // 123
-        }                                                                                                              // 123
-      };                                                                                                               // 115
-    },                                                                                                                 // 123
-    messages: function () {                                                                                            // 124
-      Messages.find();                                                                                                 // 124
-    }                                                                                                                  // 125
-  });                                                                                                                  // 113
-}                                                                                                                      // 127
+          if (current) {                                                                                               // 120
+            return current === name || current === "@" + name ? 'active' : false;                                      // 121
+          }                                                                                                            // 122
+        }                                                                                                              // 122
+      };                                                                                                               // 114
+    },                                                                                                                 // 122
+    messages: function () {                                                                                            // 123
+      Messages.find();                                                                                                 // 123
+    }                                                                                                                  // 124
+  });                                                                                                                  // 112
+}                                                                                                                      // 126
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 }},"layouts":{"Appbody.html":function(require,exports,module){
@@ -4331,35 +4475,73 @@ module.watch(require("meteor/jquery"), {                                        
     $ = v;                                                                                                             // 1
   }                                                                                                                    // 1
 }, 7);                                                                                                                 // 1
+var Videos = void 0;                                                                                                   // 1
+module.watch(require("../../../lib/Text.js"), {                                                                        // 1
+  Videos: function (v) {                                                                                               // 1
+    Videos = v;                                                                                                        // 1
+  }                                                                                                                    // 1
+}, 8);                                                                                                                 // 1
+var Texts = void 0;                                                                                                    // 1
+module.watch(require("../../../lib/Text.js"), {                                                                        // 1
+  Texts: function (v) {                                                                                                // 1
+    Texts = v;                                                                                                         // 1
+  }                                                                                                                    // 1
+}, 9);                                                                                                                 // 1
+var Audios = void 0;                                                                                                   // 1
+module.watch(require("../../../lib/Text.js"), {                                                                        // 1
+  Audios: function (v) {                                                                                               // 1
+    Audios = v;                                                                                                        // 1
+  }                                                                                                                    // 1
+}, 10);                                                                                                                // 1
+var Images = void 0;                                                                                                   // 1
+module.watch(require("../../../lib/Text.js"), {                                                                        // 1
+  Images: function (v) {                                                                                               // 1
+    Images = v;                                                                                                        // 1
+  }                                                                                                                    // 1
+}, 11);                                                                                                                // 1
+var Products = void 0;                                                                                                 // 1
+module.watch(require("../../../lib/Text.js"), {                                                                        // 1
+  Products: function (v) {                                                                                             // 1
+    Products = v;                                                                                                      // 1
+  }                                                                                                                    // 1
+}, 12);                                                                                                                // 1
 module.watch(require("./Appbody.html"));                                                                               // 1
-Meteor.startup(function () {                                                                                           // 12
-  Stripe.setPublishableKey(Meteor.settings.public.stripe);                                                             // 13
-}); /*                                                                                                                 // 14
-      Template.join2.events({                                                                                          //
-        "click .close": function(event, template) {                                                                    //
-          var modal = $('#myModal');                                                                                   //
-          modal.css('display', 'none');                                                                                //
-          Blaze.remove(template.view);                                                                                 //
-        }                                                                                                              //
-      });                                                                                                              //
-    */                                                                                                                 //
-Template.StreamMenu.helpers({                                                                                          // 30
-  currentitem: function () {                                                                                           // 31
-    return Session.get('selectedItem');                                                                                // 32
-  }                                                                                                                    // 33
-});                                                                                                                    // 30
-Template.LoginNow.events({                                                                                             // 36
-  'click #loginbutton': function (event, template) {                                                                   // 37
-    var modal35 = $('.modal35');                                                                                       // 38
-    modal3.css('display', 'none');                                                                                     // 39
-    Blaze.remove(template.view);                                                                                       // 40
-  },                                                                                                                   // 41
-  'click #signupbutton': function (event, template) {                                                                  // 42
-    var modal3 = $('.modal-content');                                                                                  // 43
-    modal3.css('display', 'none');                                                                                     // 44
-    Blaze.remove(template.view);                                                                                       // 45
-  }                                                                                                                    // 46
-}); /*                                                                                                                 // 36
+Meteor.startup(function () {                                                                                           // 21
+  Stripe.setPublishableKey(Meteor.settings.public.stripe);                                                             // 22
+});                                                                                                                    // 23
+Template.Appbody.onCreated(function () {                                                                               // 26
+  function bodyOnCreated() {                                                                                           // 26
+    this.state = new ReactiveDict();                                                                                   // 27
+    Meteor.subscribe('texts');                                                                                         // 28
+  }                                                                                                                    // 29
+                                                                                                                       //
+  return bodyOnCreated;                                                                                                // 26
+}()); /*                                                                                                               // 26
+        Template.join2.events({                                                                                        //
+          "click .close": function(event, template) {                                                                  //
+            var modal = $('#myModal');                                                                                 //
+            modal.css('display', 'none');                                                                              //
+            Blaze.remove(template.view);                                                                               //
+          }                                                                                                            //
+        });                                                                                                            //
+      */                                                                                                               //
+Template.StreamMenu.helpers({                                                                                          // 44
+  currentitem: function () {                                                                                           // 45
+    return Session.get('selectedItem');                                                                                // 46
+  }                                                                                                                    // 47
+});                                                                                                                    // 44
+Template.LoginNow.events({                                                                                             // 50
+  'click #loginbutton': function (event, template) {                                                                   // 51
+    var modal35 = $('.modal35');                                                                                       // 52
+    modal3.css('display', 'none');                                                                                     // 53
+    Blaze.remove(template.view);                                                                                       // 54
+  },                                                                                                                   // 55
+  'click #signupbutton': function (event, template) {                                                                  // 56
+    var modal3 = $('.modal-content');                                                                                  // 57
+    modal3.css('display', 'none');                                                                                     // 58
+    Blaze.remove(template.view);                                                                                       // 59
+  }                                                                                                                    // 60
+}); /*                                                                                                                 // 50
      Template.Register.events({                                                                                        //
        'submit #userregisterform': function(event, template) {                                                         //
          event.preventDefault();                                                                                       //
@@ -4926,21 +5108,20 @@ if (Meteor.isClient) {                                                          
   }, 1);                                                                                                               // 1
   module.watch(require("./AudioFeed.html"));                                                                           // 1
   module.watch(require("../../api/Audio/Server/AudioPublications.js"));                                                // 1
-  module.watch(require("../../api/Audio/Audio.js"));                                                                   // 1
-  // Components used inside the template                                                                               // 11
-  Template.AudioFeed.helpers({                                                                                         // 14
-    tracks: function () {                                                                                              // 15
-      return Audio.find();                                                                                             // 16
-    }                                                                                                                  // 17
-  });                                                                                                                  // 14
-  Template.AudioFeed.onCreated(function () {                                                                           // 20
-    var _this = this;                                                                                                  // 20
+  // Components used inside the template                                                                               // 10
+  Template.AudioFeed.helpers({                                                                                         // 13
+    tracks: function () {                                                                                              // 14
+      return Audios.find();                                                                                            // 15
+    }                                                                                                                  // 16
+  });                                                                                                                  // 13
+  Template.AudioFeed.onCreated(function () {                                                                           // 19
+    var _this = this;                                                                                                  // 19
                                                                                                                        //
-    this.autorun(function () {                                                                                         // 21
-      _this.subscribe('audioFeed', _this.getAudioFeed());                                                              // 22
-    });                                                                                                                // 23
-  });                                                                                                                  // 24
-}                                                                                                                      // 26
+    this.autorun(function () {                                                                                         // 20
+      _this.subscribe('audioFeed', _this.getAudioFeed());                                                              // 21
+    });                                                                                                                // 22
+  });                                                                                                                  // 23
+}                                                                                                                      // 25
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 },"AudioStream.js":function(require,exports,module){
@@ -4967,10 +5148,10 @@ Template.AudioStreamSmart.helpers({                                             
   audioContext: function () {                                                                                          // 13
     var instance = Template.instance();                                                                                // 14
     var audioTitle = instance.getAudioTitle();                                                                         // 15
-    return Audio.findOne(audioTitle) ? [audioTitle] : [];                                                              // 16
+    return Audios.findOne(audioTitle) ? [audioTitle] : [];                                                             // 16
   },                                                                                                                   // 17
   audioArgs: function (audioTitle) {                                                                                   // 18
-    return Audio.findOne(audioTitle);                                                                                  // 19
+    return Audios.findOne(audioTitle);                                                                                 // 19
   }                                                                                                                    // 20
 });                                                                                                                    // 12
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -5009,22 +5190,21 @@ if (Meteor.isClient) {                                                          
   }, 1);                                                                                                               // 1
   module.watch(require("./ImageFeed.html"));                                                                           // 1
   module.watch(require("../../api/Image/Server/ImagePublications.js"));                                                // 1
-  module.watch(require("../../api/Image/Image.js"));                                                                   // 1
   module.watch(require("../components/ImageItemSmart.js"));                                                            // 1
   module.watch(require("../components/ImageItemSmart.html"));                                                          // 1
-  Template.ImageFeed.helpers({                                                                                         // 16
-    images: function () {                                                                                              // 17
-      return Images.find();                                                                                            // 18
-    }                                                                                                                  // 19
-  });                                                                                                                  // 16
-  Template.ImageFeed.onCreated(function () {                                                                           // 23
-    var _this = this;                                                                                                  // 23
+  Template.ImageFeed.helpers({                                                                                         // 14
+    images: function () {                                                                                              // 15
+      return Images.find();                                                                                            // 16
+    }                                                                                                                  // 17
+  });                                                                                                                  // 14
+  Template.ImageFeed.onCreated(function () {                                                                           // 21
+    var _this = this;                                                                                                  // 21
                                                                                                                        //
-    this.autorun(function () {                                                                                         // 24
-      _this.subscribe('imageFeed', _this.getImageFeed());                                                              // 25
-    });                                                                                                                // 26
-  });                                                                                                                  // 27
-}                                                                                                                      // 29
+    this.autorun(function () {                                                                                         // 22
+      _this.subscribe('imageFeed', _this.getImageFeed());                                                              // 23
+    });                                                                                                                // 24
+  });                                                                                                                  // 25
+}                                                                                                                      // 27
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 },"ImageStream.js":function(require,exports,module){
@@ -5079,31 +5259,24 @@ module.watch(require("meteor/kadira:flow-router"), {                            
     FlowRouter = v;                                                                                                    // 1
   }                                                                                                                    // 1
 }, 1);                                                                                                                 // 1
-var Products = void 0;                                                                                                 // 1
-module.watch(require("../../api/Products/Products.js"), {                                                              // 1
-  Products: function (v) {                                                                                             // 1
-    Products = v;                                                                                                      // 1
-  }                                                                                                                    // 1
-}, 2);                                                                                                                 // 1
 module.watch(require("./Market.html"));                                                                                // 1
 module.watch(require("../../api/Products/Server/ProductsPublications.js"));                                            // 1
-module.watch(require("../../api/Products/Products.js"));                                                               // 1
 module.watch(require("../components/ProductItemSmart.js"));                                                            // 1
 module.watch(require("../components/ProductItemSmart.html"));                                                          // 1
-Template.Market.helpers({                                                                                              // 19
-  products: function () {                                                                                              // 20
-    return Products.find();                                                                                            // 21
-  },                                                                                                                   // 22
-  productArgs: function (productTitle) {                                                                               // 23
-    return Products.findOne(productTitle);                                                                             // 24
-  }                                                                                                                    // 25
-});                                                                                                                    // 19
-Template.Market.onCreated(function () {                                                                                // 29
-  this.productpurchased = new ReactiveVar(false);                                                                      // 33
-  this.productliked = new ReactiveVar(false);                                                                          // 34
-  this.productcommented = new ReactiveVar(false);                                                                      // 35
-  this.creatorfollowing = new ReactiveVar(false);                                                                      // 36
-});                                                                                                                    // 38
+Template.Market.helpers({                                                                                              // 17
+  products: function () {                                                                                              // 18
+    return Products.find();                                                                                            // 19
+  },                                                                                                                   // 20
+  productArgs: function (productTitle) {                                                                               // 21
+    return Products.findOne(productTitle);                                                                             // 22
+  }                                                                                                                    // 23
+});                                                                                                                    // 17
+Template.Market.onCreated(function () {                                                                                // 27
+  this.productpurchased = new ReactiveVar(false);                                                                      // 31
+  this.productliked = new ReactiveVar(false);                                                                          // 32
+  this.productcommented = new ReactiveVar(false);                                                                      // 33
+  this.creatorfollowing = new ReactiveVar(false);                                                                      // 34
+});                                                                                                                    // 36
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 },"Media.js":function(require,exports,module){
@@ -5444,23 +5617,22 @@ if (Meteor.isClient) {                                                          
     }                                                                                                                  // 1
   }, 1);                                                                                                               // 1
   module.watch(require("../../api/Video/Server/VideoPublications.js"));                                                // 1
-  module.watch(require("../../api/Video/Video.js"));                                                                   // 1
   module.watch(require("../components/VideoItemSmart.js"));                                                            // 1
   module.watch(require("../components/VideoItemSmart.html"));                                                          // 1
   module.watch(require("../pages/VideoFeed.html"));                                                                    // 1
-  Template.VideoFeed.helpers({                                                                                         // 18
-    videos: function () {                                                                                              // 19
-      return Videos.find();                                                                                            // 20
-    }                                                                                                                  // 21
-  });                                                                                                                  // 18
-  Template.VideoFeed.onCreated(function () {                                                                           // 25
-    var _this = this;                                                                                                  // 25
+  Template.VideoFeed.helpers({                                                                                         // 17
+    videos: function () {                                                                                              // 18
+      return Videos.find();                                                                                            // 19
+    }                                                                                                                  // 20
+  });                                                                                                                  // 17
+  Template.VideoFeed.onCreated(function () {                                                                           // 24
+    var _this = this;                                                                                                  // 24
                                                                                                                        //
-    this.autorun(function () {                                                                                         // 26
-      _this.subscribe('videoFeed', _this.getVideoFeed());                                                              // 27
-    });                                                                                                                // 28
-  });                                                                                                                  // 29
-}                                                                                                                      // 31
+    this.autorun(function () {                                                                                         // 25
+      _this.subscribe('videoFeed', _this.getVideoFeed());                                                              // 26
+    });                                                                                                                // 27
+  });                                                                                                                  // 28
+}                                                                                                                      // 30
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 },"VideoStream.js":function(require,exports,module){
@@ -5591,7 +5763,7 @@ module.exports = require("meteor/modules").addStyles(                           
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                                                                                                                        //
 module.exports = require("meteor/modules").addStyles(                                                                  // 1
-  "#closecurrent {\n  right: 0px;\n  top: 0px;\n  border: 1px solid black;\n  color: white;\n  position: fixed;\n  padding: 1em;\n  background-color: black;\n  margin-top: 4em;\n}\n\n#backmessage {\npadding: 1em;\nbackground-color: black;\ncolor: white;\n}\n\n#current {\n  color: black;\n  margin-left: 30em;\n}\n\n#Tooo {\n  margin-top: 5.2em;\n  position: fixed;\n  color: black;\n}\n\n\n#calltologin {\n  font-family: \"San Francisco Text\";\n    color: white;\n    margin-top: 18em;\n    position: fixed;\n    background-color: rgba(255, 255, 255, 0.35);\n    width: 10%;\n    text-align: center;\n    padding: 1em;\n    display: inline-block;\n    margin-left: 50%;\n    border-radius: 10px;\n    border: 1px solid white;\n}\n\n#tooo {\n  margin-top: 5em;\n      position: fixed;\n}\n\n#messagenavigator {\nposition: fixed;\nmargin-top: 5em;\nfont-family: \"San Francisco Text\";\n}\n\n#creategroup {\n  color: #ffffff;\n  margin-top: 4.7em;\n  right: 0px;\n  z-index: 1000000000000000;\n  background-color: rgba(0, 7, 56, 0.98);\n  position: fixed;\n  border: 1px solid rgba(0, 7, 56, 0.98);\n  padding-top: .5em;\n  padding-bottom: .5em;\n  padding-left: .5em;\n  padding-right: .5em;\n}\n\n#messageee {\n  font-family: \"San Francisco Text\";\n    color: black;\n    position: fixed;\n    display: inline-block;\n    z-index: 1000000000000000000000000000000;\n    margin-top: 8.2em;\n    margin-left: -8em;\n    padding-top: 1.8em;\n}\n\n.close3 {\n  color: #ffffff;\n  z-index: 1000000000000000000000000000;\n  border-radius: 2px;\n  float: right;\n  position: fixed;\n  width: 15%;\n  text-align: center;\n  margin-right: 1em;\n  font-size: .8em;\n  background-color: rgb(0, 0, 0);\n  border: rgba(78, 0, 0, 0.42);\n  padding-top: .5em;\n  padding-bottom: .5em;\n  margin-top: 5.39%;\n  right: 0px;\n  margin-left: .1%;\n  font-family: \"San Francisco Text\";\n  letter-spacing: 15px;\n}\n\n.close5{\n  color: #ffffff;\n  z-index: 1000000000000000000000000000;\n  display: block;\n  top: 0px;\n  width: 9.9%;\n  background-color: rgba(8, 154, 179, 0.58);\n  padding-top: .5em;\n  padding-bottom: .5em;\n  margin-top: 5.7%;\n  margin-left: 2.5%;\n  position: fixed;\n  font-family: \"San Francisco Text\";\n  padding-left: 4em;\n  padding-right: 5.5em;\n}\n\n.close4{\n  color: #616161;\n  z-index: 1000000000000000000000000000;\n  width: 12%;\n  float: right;\n  margin-right: 2%;\n  right: 0px;\n  text-align: center;\n  top: 0px;\n  border-radius: 5px;\n  border: 1px solid #888888;\n  background-color: rgba(254, 255, 255, 0.98);\n  margin-top: 6.7%;\n  position: fixed;\n  font-family: \"San Francisco Text\";\n  padding-left: 4em;\n  padding-right: 5.5em;\n  padding-bottom: .4em;\n  padding-top: .4em;\n}\n\n\n#calltosignup {\n  font-family: \"San Francisco Text\";\n    color: white;\n    margin-top: 18em;\n    position: fixed;\n    background-color: rgba(255, 255, 255, 0.35);\n    width: 10%;\n    text-align: center;\n    padding: 1em;\n    display: inline-block;\n    margin-left: 35%;\n    border-radius: 10px;\n    border: 1px solid white;\n}\n\n#createaamessage: hover {\n  background-color: white;\nwidth: 14.9%;\nfont-family: \"San Francisco Text\";\nfont-size: 1em;\ncolor: white;\ndisplay: inline-block;\nposition: absolute;\npadding-right: .4em;\nz-index: 10000000000;\ncolor: black;\nmargin-top: .2em;\npadding-top: .6em;\npadding-bottom: .6em;\nborder: 1px solid white;\nletter-spacing: .3em;\ntext-align: center;\nfont-size: .8em;\nmargin-left: 52%;\n}\n\n#send2{\n  padding-top: 1.2em;\n  padding-bottom: 1.2em;\n  width: 100%;\n  bottom: 0px;\n  border: none;\n  background-color: rgb(0, 82, 48);\n  color: rgb(255, 255, 255);\n  font-family: \"San Francisco Text\";\n  font-size: .8em;\n  right: 0px;\n  position: fixed;\n  z-index: 10000000000000000000000000000;\n  letter-spacing: .4em;\n  margin-bottom: 3.8em;\n}\n\n#addmessages {\n  font-family: \"San Francisco Text\";\n  background-color: rgb(0, 29, 24);\n  padding-top: 1.2em;\n  letter-spacing: 15px;\n  font-size: .85em;\n  margin-bottom: 4.5em;\n  font-weight: 300;\n  border: 1px solid #cecece;\n  color: #fefefe;\n  position: fixed;\n  bottom: 0px;\n  padding-bottom: 1.2em;\n  width: 100%;\n  text-align: center;\n}\n\n#nomessages {\n  font-family: \"San Francisco Text\";\n  margin-top: 12em;\n  color: #000000;\n  text-align: -webkit-center;\n  width: 100%;\n  font-weight: 300;\n  letter-spacing: 1px;\n}\n\n#messageslabel {\n  color: rgb(0, 0, 0);\n  font-family: \"San Francisco Text\";\n  text-transform: uppercase;\n  border: 1px solid rgba(0, 0, 0, 0);\n  top: 0px;\n  width: 100%;\n  text-align: center;\n  margin-top: 4.4em;\n  position: fixed;\n  padding-right: 12em;\n  padding-top: .5em;\n  padding-bottom: .5em;\n  letter-spacing: .3em;\n  display: inline-block;\n  border-radius: 4px;\n  font-size: 1em;\n  z-index: 100000000000000000000000000000;\n}\n\n#newmessagelabel {\n  color: rgb(0, 0, 0);\n  font-family: \"San Francisco Text\";\n  text-transform: uppercase;\n  position: absolute;\n  border: 1px solid rgba(0, 0, 0, 0);\n  padding-left: 12em;\n  margin-left: 40%;\n  padding-right: 12em;\n  padding-top: .5em;\n  padding-bottom: .5em;\n  letter-spacing: .3em;\n  background-color: rgba(0, 0, 0, 0.02);\n  margin-top: .5em;\n  display: inline-block;\n  border-radius: 4px;\n  font-size: .8em;\n  z-index: 10000000000000000000000000000000000;\n}\n\n#newmessage {\n  color: #ffffff;\n    z-index: 1000000000000000000000000000;\n    display: block;\n    position: fixed;\n    width: 70%;\n    height: 94%;\n    margin-left: 22.6%;\n    border: 1px solid #e2e2e2;\n    top: 0px;\n    background-color: rgb(255, 255, 255);\n    margin-top: 8.5%;\n    font-family: \"San Francisco Text\";\n    padding-left: 4em;\n    padding-right: 4em;\n    padding-bottom: .4em;\n    padding-top: .4em;\n}\n\n#tomessage {\n\tpadding-bottom: 1em;\n\tpadding-top: 1em;\n\twidth: 60%;\n\tletter-spacing: .1em;\n\tborder-left: sienna;\n\tborder-right: none;\n\tborder-top: none;\n\tmargin-left: 2em;\n\tborder-bottom: none;\n\tmargin-top: 4.2em;\n\tfont-weight: 300;\n\tposition: fixed;\n\tz-index: 10000000;\n\tmargin-bottom: .3em;\n\tdisplay: inline-block;\n\tbackground-color: rgba(255, 255, 255, 0.73);\n\tcolor: rgb(0, 0, 0);\n\tfont-size: 1em;\n\tfont-family: \"San Francisco Text\";\n}\n\n#tooo{\n  margin-top: 5em;\nposition: fixed;\ncolor: black;\n}\n\n#attach {\n  padding-top: 1.2em;\n  padding-bottom: 1.2em;\n  width: 22.8%;\n  bottom: 0px;\n  border: none;\n  background-color: rgb(0, 4, 56);\n  color: rgb(255, 255, 255);\n  font-family: \"San Francisco Text\";\n  font-size: .8em;\n  position: fixed;\n  left: 0px;\n  margin-left: 22.4%;\n  z-index: 10000000000000000000000000000;\n  letter-spacing: .4em;\n  text-align: center;\n}\n\n#newmessaging {\n\twidth: 60%;\n\tborder-bottom: none;\n\tborder-left: none;\n\tborder-top: none;\n\tletter-spacing: .05em;\n\tborder-right: none;\n\tpadding-top: .4em;\n\tposition: fixed;\n\tpadding-bottom: .3em;\n\tmargin-top: 5em;\n\tz-index: 1000000000;\n\tfont-weight: 300;\n\tdisplay: block;\n\tcolor: rgb(0, 0, 0);\n\tbackground-color: rgb(255, 255, 255);\n\tfont-size: 1.6em;\n\tfont-family: \"San Francisco Text\";\n}\n"
+  "#closecurrent {\n  right: 0px;\n  top: 0px;\n  border: 1px solid black;\n  color: white;\n  position: fixed;\n  padding: 1em;\n  background-color: black;\n  margin-top: 4em;\n}\n\n#backmessage {\npadding: 1em;\nbackground-color: black;\ncolor: white;\n}\n\n#current {\n  color: black;\n  margin-left: 30em;\n}\n\n#Tooo {\n  margin-top: 5.2em;\n  position: fixed;\n  color: black;\n}\n\n\n#calltologin {\n  font-family: \"San Francisco Text\";\n    color: white;\n    margin-top: 18em;\n    position: fixed;\n    background-color: rgba(255, 255, 255, 0.35);\n    width: 10%;\n    text-align: center;\n    padding: 1em;\n    display: inline-block;\n    margin-left: 50%;\n    border-radius: 10px;\n    border: 1px solid white;\n}\n\n#tooo {\n  margin-top: 5em;\n      position: fixed;\n}\n\n#messagenavigator {\n  position: absolute;\n  font-family: \"San Francisco Text\";\n  top: 0px;\n  margin-top: 7em;\n  z-index: 10000000000000000000000000000;\n}\n\n#creategroup {\n  color: #ffffff;\n  margin-top: 4.7em;\n  right: 0px;\n  z-index: 1000000000000000;\n  background-color: rgba(0, 7, 56, 0.98);\n  position: fixed;\n  border: 1px solid rgba(0, 7, 56, 0.98);\n  padding-top: .5em;\n  padding-bottom: .5em;\n  padding-left: .5em;\n  padding-right: .5em;\n}\n\n#messageee {\n  font-family: \"San Francisco Text\";\n    color: black;\n    position: fixed;\n    display: inline-block;\n    z-index: 1000000000000000000000000000000;\n    margin-top: 8.2em;\n    margin-left: -8em;\n    padding-top: 1.8em;\n}\n\n.close3 {\n  color: #ffffff;\n  z-index: 1000000000000000000000000000;\n  border-radius: 2px;\n  float: right;\n  position: fixed;\n  width: 15%;\n  text-align: center;\n  margin-right: 1em;\n  font-size: .8em;\n  background-color: rgb(0, 0, 0);\n  border: rgba(78, 0, 0, 0.42);\n  padding-top: .5em;\n  padding-bottom: .5em;\n  margin-top: 5.39%;\n  right: 0px;\n  margin-left: .1%;\n  font-family: \"San Francisco Text\";\n  letter-spacing: 15px;\n}\n\n.close5{\n  color: #ffffff;\n  z-index: 1000000000000000000000000000;\n  display: block;\n  top: 0px;\n  width: 9.9%;\n  background-color: rgba(8, 154, 179, 0.58);\n  padding-top: .5em;\n  padding-bottom: .5em;\n  margin-top: 5.7%;\n  margin-left: 2.5%;\n  position: fixed;\n  font-family: \"San Francisco Text\";\n  padding-left: 4em;\n  padding-right: 5.5em;\n}\n\n.close4{\n  color: #616161;\n  z-index: 1000000000000000000000000000;\n  width: 12%;\n  float: right;\n  margin-right: 2%;\n  right: 0px;\n  text-align: center;\n  top: 0px;\n  border-radius: 5px;\n  border: 1px solid #888888;\n  background-color: rgba(254, 255, 255, 0.98);\n  margin-top: 6.7%;\n  position: fixed;\n  font-family: \"San Francisco Text\";\n  padding-left: 4em;\n  padding-right: 5.5em;\n  padding-bottom: .4em;\n  padding-top: .4em;\n}\n\n\n#calltosignup {\n  font-family: \"San Francisco Text\";\n    color: white;\n    margin-top: 18em;\n    position: fixed;\n    background-color: rgba(255, 255, 255, 0.35);\n    width: 10%;\n    text-align: center;\n    padding: 1em;\n    display: inline-block;\n    margin-left: 35%;\n    border-radius: 10px;\n    border: 1px solid white;\n}\n\n#createaamessage: hover {\n  background-color: white;\nwidth: 14.9%;\nfont-family: \"San Francisco Text\";\nfont-size: 1em;\ncolor: white;\ndisplay: inline-block;\nposition: absolute;\npadding-right: .4em;\nz-index: 10000000000;\ncolor: black;\nmargin-top: .2em;\npadding-top: .6em;\npadding-bottom: .6em;\nborder: 1px solid white;\nletter-spacing: .3em;\ntext-align: center;\nfont-size: .8em;\nmargin-left: 52%;\n}\n\n#send2{\n  padding-top: 1.2em;\n  padding-bottom: 1.6em;\n  width: 100%;\n  bottom: 0px;\n  border: none;\n  background-color: rgb(0, 82, 48);\n  color: rgb(255, 255, 255);\n  font-family: \"San Francisco Text\";\n  font-size: .8em;\n  right: 0px;\n  position: fixed;\n  z-index: 10000000000000000000000000000;\n  letter-spacing: .4em;\n  margin-bottom: 3.3em;\n}\n\n#addmessages {\n  font-family: \"San Francisco Text\";\n  background-color: rgb(0, 29, 24);\n  padding-top: 1.2em;\n  letter-spacing: 15px;\n  font-size: .85em;\n  margin-bottom: 4.5em;\n  font-weight: 300;\n  border: 1px solid #cecece;\n  color: #fefefe;\n  position: fixed;\n  bottom: 0px;\n  padding-bottom: 1.2em;\n  width: 100%;\n  text-align: center;\n}\n\n#nomessages {\n  font-family: \"San Francisco Text\";\n  margin-top: 12em;\n  color: #000000;\n  text-align: -webkit-center;\n  width: 100%;\n  font-weight: 300;\n  letter-spacing: 1px;\n}\n\n#messageslabel {\n  color: rgb(0, 0, 0);\n  font-family: \"San Francisco Text\";\n  text-transform: uppercase;\n  border: 1px solid rgba(0, 0, 0, 0);\n  top: 0px;\n  width: 100%;\n  text-align: center;\n  margin-top: 4.4em;\n  position: fixed;\n  padding-right: 12em;\n  padding-top: .5em;\n  padding-bottom: .5em;\n  letter-spacing: .3em;\n  display: inline-block;\n  border-radius: 4px;\n  font-size: 1em;\n  z-index: 100000000000000000000000000000;\n}\n\n#newmessagelabel {\n  color: rgb(0, 0, 0);\n  font-family: \"San Francisco Text\";\n  text-transform: uppercase;\n  position: absolute;\n  border: 1px solid rgba(0, 0, 0, 0);\n  padding-left: 12em;\n  margin-left: 40%;\n  padding-right: 12em;\n  padding-top: .5em;\n  padding-bottom: .5em;\n  letter-spacing: .3em;\n  background-color: rgba(0, 0, 0, 0.02);\n  margin-top: .5em;\n  display: inline-block;\n  border-radius: 4px;\n  font-size: .8em;\n  z-index: 10000000000000000000000000000000000;\n}\n\n#newmessage {\n  color: #ffffff;\nz-index: 1000000000000000000000000000;\ndisplay: block;\nposition: fixed;\nwidth: 70%;\nheight: 94%;\nmargin-left: 20%;\ntop: 0px;\nbackground-color: rgb(0, 0, 0);\nmargin-top: 4.5%;\nfont-family: \"San Francisco Text\";\npadding-left: 4em;\npadding-right: 4em;\npadding-bottom: .4em;\npadding-top: .4em;\n}\n\n#tomessage {\n\tpadding-bottom: 1em;\n\tpadding-top: 1em;\n\twidth: 60%;\n\tletter-spacing: .1em;\n\tborder-left: sienna;\n\tborder-right: none;\n\tborder-top: none;\n\tmargin-left: 2em;\n\tborder-bottom: none;\n\tmargin-top: 4.2em;\n\tfont-weight: 300;\n\tposition: fixed;\n\tz-index: 10000000;\n\tmargin-bottom: .3em;\n\tdisplay: inline-block;\n\tbackground-color: rgba(255, 255, 255, 0.73);\n\tcolor: rgb(0, 0, 0);\n\tfont-size: 1em;\n\tfont-family: \"San Francisco Text\";\n}\n\n#tooo{\n  margin-top: 5em;\nposition: fixed;\ncolor: black;\n}\n\n#attach {\n  padding-top: 1.2em;\n  padding-bottom: 1.2em;\n  width: 22.8%;\n  bottom: 0px;\n  border: none;\n  background-color: rgb(0, 4, 56);\n  color: rgb(255, 255, 255);\n  font-family: \"San Francisco Text\";\n  font-size: .8em;\n  position: fixed;\n  left: 0px;\n  margin-left: 22.4%;\n  z-index: 10000000000000000000000000000;\n  letter-spacing: .4em;\n  text-align: center;\n}\n\n#newmessaging {\n\twidth: 60%;\n\tborder-bottom: none;\n\tborder-left: none;\n\tborder-top: none;\n\tletter-spacing: .05em;\n\tborder-right: none;\n\tpadding-top: .4em;\n\tposition: fixed;\n\tpadding-bottom: .3em;\n\tmargin-top: 5em;\n\tz-index: 1000000000;\n\tfont-weight: 300;\n\tdisplay: block;\n\tcolor: rgb(0, 0, 0);\n\tbackground-color: rgb(255, 255, 255);\n\tfont-size: 1.6em;\n\tfont-family: \"San Francisco Text\";\n}\n"
 );                                                                                                                     // 3
                                                                                                                        // 4
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -5647,7 +5819,7 @@ module.exports = require("meteor/modules").addStyles(                           
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                                                                                                                        //
 module.exports = require("meteor/modules").addStyles(                                                                  // 1
-  "/*****************************************************************************/\n\n\n/* Directory: Style */\n\n\n/*****************************************************************************/\n\n\n\n\n#fieldsearch {\n  border-radius: 50px;\n  width: 18%;\n}\n\n\n#posnopp {\n   border-radius: 50px;\n  margin-left: 20em;\n  margin-top: 1em;\n  width: 18%;\n}\n\n#locnopp {\n   border-radius: 50px;\n  width: 18%;\n}\n\n#searchopp {\n  border-radius: 50px;\n}\n\n#posopp:hover {\n color: black;\n border-color: black;\n}\n\n#locopp:hover {\ncolor: black;\nborder-color: black;\n}\n\n#searchopp:hover {\ncolor: black;\nborder-color: black;\n}\n\n\n\n\n.directory {\n  background-color: #19222D;\n}\ntable, th, td {\n  text-align: center;\n}\n\n/* td {\n    height: 170px;\n} */\n\ntable, tr, th, td {\n  border-collapse: collapse;\n}\n.directory_profile_files {\n  display: block;\n  min-height: 230px;\n  margin: 0 auto;\n  text-align: left;\n}\n.directory_profile_files > * {\n  display: inline;\n  height: 200px;\n  width: 200px;\n  margin: 15px 7.5px;\n}\n.directory_profile_files audio, .directory_profile_files video {\n  width: 200px;\n}\n.directory_profile_info {\n  display: block;\n}\n.directory_profile_info .propic {\n  margin-right: 65px;\n}\n.directory_profile_info h2 {\n  color: black;\n  text-align: left;\n  margin-top: 10px;\n  font-size: 16px;\n  font-weight: bold;\n}\n.directory_profile_info img {\n  border-radius: 50%;\n  border: thin solid black;\n  margin-left: 25px;\n}\n.directory_profile_info p {\n  text-align: right;\n  width: 200px;\n  margin-right: 100px;\n  margin-top: 10px;\n  color: #737373;\n}\n.directory_tags {\n  height: 50px;\n  background-color: #dae5e8;\n  box-shadow: 0px 0px 24px rgba(188, 188, 188, 1) inset;\n}\n.directory_table td {\n  border: none;\n}\n.sidebar {\n  position: absolute;\n  background-color: black;\n  left: 0px;\n  top: 3.5em;\n  width: 10em;\n  height: 100%;\n  color: white;\n}\n.sidebar .list-group-item {\n  background-color: black;\n  color: white;\n  border-radius: 0px;\n}\n.sidebarContent {\n  position: fixed;\n  width: 10em;\n}\n.main_container {\n  overflow: hidden;\n  position: relative;\n}\n.main_container .tab-content {\n  min-height: 50em;\n}\n.network_main {\n  overflow: auto;\n}\n#book, #subscribe {\n  height: 100px;\n  width: 100px;\n  border: none;\n}\n#invitationtext {\n  width: 250px;\n  height: 100px;\n}\n#browseopp>tr, #browseopp>table, #browsespace>tr, #browsespace>table {\n  width: 100%;\n}\n#browseopp>td, #browsespace>td {\n  width: 33%;\n}\n.carousel-inner {\n  position: relative;\n  width: 100%;\n}\n.carousel-inner > .item > img, .carousel-inner > .item > a > img {\n  width: 10em;\n  height: 10em;\n  max-height: 10em;\n  margin: auto;\n  padding-top: 1em;\n  padding-bottom: 1em;\n}\n#network_nav {\nbackground-color: #0a1427;\n}\n#network_nav .nav-pills > li > a {\n  color: white;\n}\n#network_nav .nav-pills > li.active > a, .cloud-modal .nav-pills > li.active > a:hover {\n  background-color: black;\n}\n#network_nav .nav-pills > li > a:hover {\n  background-color: transparent;\n}\n#searchForm .searchInput {\n  display: inline;\n  float: left;\n  position: absolute;\n  left: 28.4em;\n  top: 59.3em;\n}\n.header {\n  position: relative;\n  width: 100%;\n  background-color: white;\n  height: 55em;\n}\n.header img {\n  width: 100%;\n  height: 50em;\n  display: block;\n}\n#searchForm .suggestions {\n  position: absolute;\n  left: 28.5em;\n  top:61.5em;\n}\n#submitSearch {\n  position: absolute;\n  left: 42em;\n  top: 59.3em;\n  height: 2.3em;\n}\n#fade {\n  height: 75em;\n  width: 100%;\n  position: absolute;\n  bottom:5em;\n  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,0+35,0+66,0.26+78,0.52+87,0.77+92,1+100 */\n  background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 35%, rgba(255,255,255,0) 66%, rgba(255,255,255,0.26) 78%, rgba(255,255,255,0.52) 87%, rgba(255,255,255,0.77) 92%, rgba(255,255,255,1) 100%); /* FF3.6+ */\n  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(35%,rgba(255,255,255,0)), color-stop(66%,rgba(255,255,255,0)), color-stop(78%,rgba(255,255,255,0.26)), color-stop(87%,rgba(255,255,255,0.52)), color-stop(92%,rgba(255,255,255,0.77)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */\n  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 35%,rgba(255,255,255,0) 66%,rgba(255,255,255,0.26) 78%,rgba(255,255,255,0.52) 87%,rgba(255,255,255,0.77) 92%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */\n  background: -o-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 35%,rgba(255,255,255,0) 66%,rgba(255,255,255,0.26) 78%,rgba(255,255,255,0.52) 87%,rgba(255,255,255,0.77) 92%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */\n  background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 35%,rgba(255,255,255,0) 66%,rgba(255,255,255,0.26) 78%,rgba(255,255,255,0.52) 87%,rgba(255,255,255,0.77) 92%,rgba(255,255,255,1) 100%); /* IE10+ */\n  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 35%,rgba(255,255,255,0) 66%,rgba(255,255,255,0.26) 78%,rgba(255,255,255,0.52) 87%,rgba(255,255,255,0.77) 92%,rgba(255,255,255,1) 100%); /* W3C */\n  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */\n}\n"
+  "/*****************************************************************************/\n\n\n/* Directory: Style */\n\n\n/*****************************************************************************/\n\n\n\n\n#fieldsearch {\n  border-radius: 50px;\n  width: 18%;\n}\n\n\n#posnopp {\n   border-radius: 50px;\n  margin-left: 20em;\n  margin-top: 1em;\n  width: 18%;\n}\n\n#locnopp {\n   border-radius: 50px;\n  width: 18%;\n}\n\n#searchopp {\n  border-radius: 50px;\n}\n\n#posopp:hover {\n color: black;\n border-color: black;\n}\n\n#locopp:hover {\ncolor: black;\nborder-color: black;\n}\n\n#searchopp:hover {\ncolor: black;\nborder-color: black;\n}\n\n\n\n\n.directory {\n  background-color: #19222D;\n}\ntable, th, td {\n  text-align: center;\n}\n\n/* td {\n    height: 170px;\n} */\n\ntable, tr, th, td {\n  border-collapse: collapse;\n}\n.directory_profile_files {\n  display: block;\n  min-height: 230px;\n  margin: 0 auto;\n  text-align: left;\n}\n.directory_profile_files > * {\n  display: inline;\n  height: 200px;\n  width: 200px;\n  margin: 15px 7.5px;\n}\n.directory_profile_files audio, .directory_profile_files video {\n  width: 200px;\n}\n.directory_profile_info {\n  display: block;\n}\n.directory_profile_info .propic {\n  margin-right: 65px;\n}\n.directory_profile_info h2 {\n  color: black;\n  text-align: left;\n  margin-top: 10px;\n  font-size: 16px;\n  font-weight: bold;\n}\n.directory_profile_info img {\n  border-radius: 50%;\n  border: thin solid black;\n  margin-left: 25px;\n}\n.directory_profile_info p {\n  text-align: right;\n  width: 200px;\n  margin-right: 100px;\n  margin-top: 10px;\n  color: #737373;\n}\n.directory_tags {\n  height: 50px;\n  background-color: #dae5e8;\n  box-shadow: 0px 0px 24px rgba(188, 188, 188, 1) inset;\n}\n.directory_table td {\n  border: none;\n}\n.sidebar {\n  position: absolute;\n  background-color: black;\n  left: 0px;\n  top: 3.5em;\n  width: 10em;\n  height: 100%;\n  color: white;\n}\n.sidebar .list-group-item {\n  background-color: black;\n  color: white;\n  border-radius: 0px;\n}\n.sidebarContent {\n  position: fixed;\n  width: 10em;\n}\n.main_container {\n  overflow: hidden;\n  position: relative;\n}\n.main_container .tab-content {\n  min-height: 50em;\n}\n.network_main {\n  overflow: auto;\n}\n#book, #subscribe {\n  height: 100px;\n  width: 100px;\n  border: none;\n}\n#invitationtext {\n  width: 250px;\n  height: 100px;\n}\n#browseopp>tr, #browseopp>table, #browsespace>tr, #browsespace>table {\n  width: 100%;\n}\n#browseopp>td, #browsespace>td {\n  width: 33%;\n}\n.carousel-inner {\n  position: relative;\n  width: 100%;\n}\n.carousel-inner > .item > img, .carousel-inner > .item > a > img {\n  width: 10em;\n  height: 10em;\n  max-height: 10em;\n  margin: auto;\n  padding-top: 1em;\n  padding-bottom: 1em;\n}\n#network_nav {\nbackground-color: #000000;\n}\n#network_nav .nav-pills > li > a {\n  color: white;\n}\n#network_nav .nav-pills > li.active > a, .cloud-modal .nav-pills > li.active > a:hover {\n  background-color: black;\n}\n#network_nav .nav-pills > li > a:hover {\n  background-color: transparent;\n}\n#searchForm .searchInput {\n  display: inline;\n  float: left;\n  position: absolute;\n  left: 28.4em;\n  top: 59.3em;\n}\n.header {\n  position: relative;\n  width: 100%;\n  background-color: white;\n  height: 55em;\n}\n.header img {\n  width: 100%;\n  height: 50em;\n  display: block;\n}\n#searchForm .suggestions {\n  position: absolute;\n  left: 28.5em;\n  top:61.5em;\n}\n#submitSearch {\n  position: absolute;\n  left: 42em;\n  top: 59.3em;\n  height: 2.3em;\n}\n#fade {\n  height: 75em;\n  width: 100%;\n  position: absolute;\n  bottom:5em;\n  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,0+35,0+66,0.26+78,0.52+87,0.77+92,1+100 */\n  background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 35%, rgba(255,255,255,0) 66%, rgba(255,255,255,0.26) 78%, rgba(255,255,255,0.52) 87%, rgba(255,255,255,0.77) 92%, rgba(255,255,255,1) 100%); /* FF3.6+ */\n  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(35%,rgba(255,255,255,0)), color-stop(66%,rgba(255,255,255,0)), color-stop(78%,rgba(255,255,255,0.26)), color-stop(87%,rgba(255,255,255,0.52)), color-stop(92%,rgba(255,255,255,0.77)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */\n  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 35%,rgba(255,255,255,0) 66%,rgba(255,255,255,0.26) 78%,rgba(255,255,255,0.52) 87%,rgba(255,255,255,0.77) 92%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */\n  background: -o-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 35%,rgba(255,255,255,0) 66%,rgba(255,255,255,0.26) 78%,rgba(255,255,255,0.52) 87%,rgba(255,255,255,0.77) 92%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */\n  background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 35%,rgba(255,255,255,0) 66%,rgba(255,255,255,0.26) 78%,rgba(255,255,255,0.52) 87%,rgba(255,255,255,0.77) 92%,rgba(255,255,255,1) 100%); /* IE10+ */\n  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 35%,rgba(255,255,255,0) 66%,rgba(255,255,255,0.26) 78%,rgba(255,255,255,0.52) 87%,rgba(255,255,255,0.77) 92%,rgba(255,255,255,1) 100%); /* W3C */\n  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */\n}\n"
 );                                                                                                                     // 3
                                                                                                                        // 4
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -5675,7 +5847,7 @@ module.exports = require("meteor/modules").addStyles(                           
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                                                                                                                        //
 module.exports = require("meteor/modules").addStyles(                                                                  // 1
-  "/* CSS declarations go here */\n\n@font-face {\n\tfont-family:'Roboto';\n\tsrc: url('/fonts/Roboto-Bold.ttf');\n\tfont-weight: bold;\n}\n\n@font-face {\n\tfont-family:'Roboto';\n\tsrc: url('/fonts/Roboto-Black.ttf');\n}\n\n\n@font-face {\n\tfont-family: 'San Francisco Text';\n\tsrc: url('../fonts/System San Francisco Display Regular.ttf') format('truetype')\n;\n}\n\n@font-face {\n  font-family: 'San Francisco Text';\n  font-weight: 600;\n  src: url('/fonts/System San Francisco Display Regular.ttf') format('truetype')\n;\n}\n\n@font-face {\n  font-family: 'San Francisco Text';\n  font-weight: 400;\n  src: url('/fonts/System San Francisco Text Medium.ttf') format('truetype')\n;\n}\n\n@font-face {\n  font-family: 'San Francisco Text';\n  font-weight: 300;\n  src: url('/fonts/System San Francisco Display Thin.ttf') format('truetype')\n;\n}\n@font-face {\n  font-family: 'San Francisco Text';\n  font-weight: 200;\n  src: url('/fonts/System San Francisco Display Ultralight.ttf') format('truetype'),\n;\n}\n\n@font-face {\n  font-family: 'Coutoure';\n  src: url('/fonts/couture-bld.otf');\n}\n\n@font-face {\n  font-family: 'Coutoure';\n  font-weight: 'bold';\n  src: url('/fonts/couture-bldit.otf');\n}\n\n@font-face {\n\tfont-family: 'Bebas';\n\tsrc: url('/BEBAS.TTF')\n}\n\n@font-face {\n\tfont-family: \"Proxima\";\n\tsrc: url('/fonts/Proxima.otf')\n}\n\nul {\n  padding-left: 1%;\n  margin-bottom: 15em;\n}\n\nbody {\n   margin: 0;\n   padding: 0;\n}\n\nhtml {\n   margin: 0;\n   padding: 0;\n}\n\n\n/* CSS declarations go here */\n\n@font-face {\n\tfont-family:'Roboto';\n\tsrc: url('/fonts/Roboto-Bold.ttf');\n\tfont-weight: bold;\n}\n\n@font-face {\n\tfont-family:'Roboto';\n\tsrc: url('/fonts/Roboto-Black.ttf');\n}\n\n\n@font-face {\n\tfont-family: 'San-Francisco';\n\tsrc: url('../fonts/System San Francisco Display Regular.ttf') format('truetype')\n}\n\n@font-face {\n  font-family: 'San-Francisco';\n  font-weight: 400;\n  src: url('/fonts/System San Francisco Display Regular.ttf')  format('truetype')\n\n}\n@font-face {\n  font-family: 'San-Francisco';\n  font-weight: 300;\n  src: url('/fonts/System San Francisco Display Thin.ttf') format('truetype')\n}\n@font-face {\n  font-family: 'San-Francisco';\n  font-weight: 200;\n  src: url('/fonts/System San Francisco Display Ultralight.ttf') format('truetype')\n}\n\n#messagingicon {\n  display: inline-block;\n  position: relative;\n  height: 2.5em;\n  width: 2.5em;\n  padding-right: .5em;\n  padding-left: .5em;\n  padding-top: .5em;\n  padding-bottom: .5em;\n  border-radius: 100px;\n  background-color: rgba(255, 255, 255, 0.87);\n  margin-top: .3em;\n  float: right;\n  margin-right: 5em;\n  z-index: 10000000000;\n  border: 1px solid rgba(122, 153, 154, 0.96);\n}\n\n#productqty {\n  width: 6%;\n  height: 3em;\n  border: 1px solid rgb(234, 234, 234);\n  margin-top: 2em;\n}\n\n#shareproduct {\n\tbackground-color: rgb(2, 0, 33);\n\tpadding-right: 55%;\n\tborder: none;\n\tcolor: #ffffff;\n\tletter-spacing: 1em;\n\ttext-transform: uppercase;\n\tpadding-left: 40%;\n\tpadding-top: 1em;\n\tpadding-bottom: 1em;\n\tbottom: 0px;\n\tfont-size: .8em;\n\theight: 6em;\n\tposition: fixed;\n\tfont-family: \"San Francisco Text\";\n}\n\n#price {\n  font-family: \"San Francisco Text\";\n  font-size: .9em;\n  margin-right: 1.3em;\n  float: right;\n  padding-left: 2em;\n  padding-top: .1em;\n  font-weight: 600;\n}\n\n#saleprice {\n  width: 10%;\n  border: 1px solid rgb(234, 234, 234);\n  height: 3em;\n}\n\n#passwordregister {\n  margin-left: 5em;\nheight: 2em;\nborder: none;\npadding-left: 1em;\nbackground-color: rgba(255, 255, 255, 0.39);\nbackground-color: rgba(255, 255, 255, 0.05);\nborder: none;\npadding-left: 1em;\nborder-radius: 9px;\nmargin-top: 5em;\npadding-top: 1.6em;\nposition: absolute;\npadding-bottom: 1.qem;\npadding-right: 1.6em;\nmargin-left: 10em;\nfont-size: 1.7em;\nborder: 1px solid rgba(210, 210, 210, 0.11);\n}\n\n#at-sep {\n  margin-left: 27em;\nmargin-right: 27em;\nletter-spacing: 1em;\nborder: 1px solid white;\n}\n\n#errorlogin {\n  width: 20%;\nmargin-left: auto;\nmargin-right: auto;\n}\n\n#emailregister {\n  margin-left: 5em;\nheight: 2em;\nborder: none;\npadding-left: 1em;\nbackground-color: rgba(255, 255, 255, 0.39);\nbackground-color: rgba(255, 255, 255, 0.05);\nborder: none;\npadding-left: 1em;\nmargin-top: 3em;\npadding-top: 1.6em;\nposition: absolute;\npadding-bottom: 1em;\npadding-right: 1.6em;\nmargin-left: 10em;\nfont-size: 1.7em;\nborder: 1px solid rgba(210, 210, 210, 0.12);\n}\n\n#usernameregister {\n  margin-left: 5em;\n    height: 2em;\n    border: none;\n    padding-left: 1em;\n    background-color: rgba(255, 255, 255, 0.39);\n    background-color: rgba(255, 255, 255, 0.05);\n    border: none;\n    padding-left: 1em;\n    border-radius: 9px;\n    margin-top: 5em;\n    padding-top: 1.6em;\n    position: absolute;\n    padding-bottom: 1.qem;\n    padding-right: 1.6em;\n    margin-left: 10em;\n    font-size: 1.7em;\n    border: 1px solid rgba(210, 210, 210, 0.11);\n}\n\n#at-forgotPwd {\n  font-size: 1.4em;\n    color: #66a9a7;\n    border: 1px solid rgba(255, 255, 255, 0.11);\n    padding-top: .5em;\n    padding-bottom: .5em;\n    padding-left: 1.4em;\n    padding-right: .9em;\n    margin-top: 11em;\n    margin-left: 22em;\n    position: absolute;\n}\n\n\n#monetize {\n  font-family: \"San Francisco Text\";\n  margin-left: auto;\n  font-size: .9em;\n  margin-right: auto;\n  width: 60%;\n  border: none;\n  margin-top: 11em;\n}\n\n\n#basics {\n  font-family: \"San Francisco Text\";\n  margin-left: auto;\n  font-size: .9em;\n  margin-right: auto;\n  width: 60%;\n  border: none;\n  margin-top: 11em;\n  display: block;\n}\n\n#active {\n  border: 2px solid #010186;\ncolor: #010186;\nfont-family: \"San Francisco Text\";\npadding-right: .5em;\npadding-left: 1em;\npadding-top: .4em;\npadding-bottom: .4em;\nborder-radius: 10px;\n}\n\n#private {\n  border: 2px solid #333a65;\ncolor: #333a65;\nfont-family: \"San Francisco Text\";\npadding-right: .5em;\npadding-left: 1em;\npadding-top: .4em;\npadding-bottom: .4em;\nborder-radius: 10px;\n}\n\n#productImg {\n  height: 35em;\n      width: 35em;\n      background-color: black;\n      color: white;\n      margin-left: 30em;\n      position: absolute;\n      margin-top: 12em;\n}\n\n\n#create {\n  font-family: \"San-Francisco\";\n  letter-spacing: .3em;\n  font-size: .7em;\n  font-weight: bold;\n  border: 3px solid rgb(0, 37, 43);\n  padding-bottom: .8em;\n  padding-top: .8em;\n  background-color: rgba(0, 0, 0, 0.14);\n  border-radius: 2px;\n  padding-left: 1.9em;\n  padding-right: 1.9em;\n  text-transform: uppercase;\n  position: fixed;\n  margin-left: 6em;\n  z-index: 100000000000000000000000;\n  color: rgba(0, 0, 0, 0.97);\n}\n\n#home {\n  font-family: \"San-Francisco\";\n  letter-spacing: .3em;\n  font-size: .7em;\n  font-weight: bold;\n  border: 3px solid rgb(0, 37, 43);\n  padding-bottom: .8em;\n  padding-top: .8em;\n  background-color: rgba(0, 0, 0, 0.14);\n  border-radius: 2px;\n  padding-left: 1.9em;\n  padding-right: 1.9em;\n  text-transform: uppercase;\n  position: fixed;\n  z-index: 100000000000000000000000;\n  color: rgba(0, 0, 0, 0.97);\n}\n\n\n\n\n#loginbutton{\n  margin-top: 14em;\n  display: block;\n  width: 30%;\n  margin-left: 36%;\n  z-index: 10000000000000000000000000000;\n  position: fixed;\n  text-align: center;\n  padding: 1em;\n  border-radius: 2px;\n  background-color: rgba(255, 255, 255, 0.26);\n  font-family: \"San-Francisco\";\n  color: rgb(255, 255, 255);\n  letter-spacing: .4em;\n  font-weight: 300;\n  border: 1px solid rgba(255, 255, 255, 0.03);\n}\n\n.modal-content5 {\n  background-color: rgba(255, 255, 255, 0);\nborder: 1px solid black;\nbottom: 0;\nheight: 100%;\nwidth: 100%;\nposition: fixed;\n}\n\n#signupbutton {\n  margin-top: 18em;\n  display: block;\n  width: 30%;\n  margin-left: 36%;\n  text-align: center;\n  padding: 1em;\n  border-radius: 2px;\n  background-color: rgba(255, 255, 255, 0.26);\n  font-family: \"San-Francisco\";\n  color: rgb(255, 255, 255);\n  letter-spacing: .4em;\n  position: fixed;\n  font-weight: 300;\n  border: 1px solid rgba(255, 255, 255, 0.03);\n}\n\n\n\n.market {\nwidth: 20em;\nheight: 20em;\nbackground-color: gray;\nborder: 1px solid black;\n}\n\n#title {\n  font-family: \"San-Francisco\";\n  font-size: 1.7em;\n  font-weight: 300;\n  padding-top: .2em;\n  color: black;\n  float: right;\n  margin-right: 8em;\n  letter-spacing: .15em;\n}\n\n#sizecreate select {\n\tbackground: rgb(255, 255, 255);\n\twidth: 268px;\n\tpadding: 5px;\n\tfont-size: 16px;\n\tfont-family: \"San Francisco Text\";\n\n}\n\n.modal3 {\n  display: none;\n  position: fixed;\n  z-index: 1;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n  background-image: background-image: -webkit-gradient( linear, right bottom, left bottom, color-stop(0, #0B917F), color-stop(1, #34396E) );\n  background-image: -o-linear-gradient(left, #0B917F 0%, #34396E 100%);\n  background-image: -moz-linear-gradient(left, #0B917F 0%, #34396E 100%);\n  background-image: -webkit-linear-gradient(left, rgb(255, 255, 255) 30%, rgb(250, 255, 241) 100%);\n  background-image: -ms-linear-gradient(left, #0B917F 0%, #34396E 100%);\n  background-image: linear-gradient(to left, #002310 0% #061833 100%);\n  z-index: 10000000000000;\n}\n\n.modal35 {\n  position: fixed;\n      z-index: 10000000000000000;\n      left: 0;\n      top: 0;\n      width: 100%;\n      height: 100%;\n      overflow: auto;\n}\n\n.modal2345 {\n  display: block;\n  position: fixed;\n  z-index: 1000000000000000000000000;\n  float: left;\n  margin-top: 4em;\n  height: 90%;\n  top: 0;\n  overflow: auto;\n  background-image: background-image: -webkit-gradient( linear, right bottom, left bottom, color-stop(0, #0B917F), color-stop(1, #34396E) );\n  background-image: -o-linear-gradient(left, #0B917F 0%, #34396E 100%);\n  background-image: -moz-linear-gradient(left, #0B917F 0%, #34396E 100%);\n  background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 30%, rgb(255, 255, 255) 100%);\n  background-image: -ms-linear-gradient(left, #0B917F 0%, #34396E 100%);\n  background-image: linear-gradient(to left, #002310 0% #061833 100%);\n}\n\nmodal-contentyou0 {\n  background-color: rgb(0, 0, 0);\n  height: 90%;\n  width: 30%;\n  margin-top: 4em;\n  position: fixed;\n  left: 0;\n  display: block;\n}\n\n.closeyou1 {\n\tfont-family: \"San Francisco Text\";\n\tletter-spacing: 5px;\n\tpadding-top: 1.8em;\n\tfont-size: .8em;\n\tcolor: black;\n\tbackground-color: rgba(255, 255, 255, 0.11);\n\tdisplay: block;\n\tpadding-left: 18em;\n\tpadding-bottom: 1.8em;\n}\n\n#wread2 {\n  font-family: \"Helvetica\";\n  font-style: italic;\n}\n\n#about {\n  display: block;\n  color: #193834;\n  letter-spacing: 2px;\n  padding-right: 5em;\n  margin-top: 1em;\n  font-size: 1em;\n  padding-left: 5em;\n  padding-top: .8em;\n  padding-bottom: .8em;\n  margin-left: 4%;\n}\n\n#termsandconditions {\n  display: block;\n  font-size: .85em;\n  margin-left: 5%;\n  border: 5px solid black;\n  color: black;\n  letter-spacing: 1px;\n  margin-right: 10%;\n  padding-right: 5em;\n  padding-left: 5em;\n  padding-top: .8em;\n  padding-bottom: .8em;\n}\n\n#advertise {\n  margin-bottom: 1.5em;\n  display: block;\n  color: white;\n  letter-spacing: 5px;\n  padding-right: 5em;\n  margin-top: 4em;\n  padding-left: 5em;\n  padding-top: .8em;\n  padding-bottom: .8em;\n  margin-left: 4%;\n}\n\n#investors {\n  display: block;\n  color: black;\n  font-size: .8em;\n  letter-spacing: 5px;\n  padding-right: 5em;\n  padding-left: 5em;\n  padding-top: .8em;\n  padding-bottom: .8em;\n}\n\n#careers {\n  margin-bottom: 1.5em;\n  display: block;\n  color: black;\n  letter-spacing: 5px;\n  font-size: .8em;\n  padding-right: 5em;\n  padding-left: 5em;\n  padding-top: .8em;\n  padding-bottom: .8em;\n}\n\n#allmesslist {\n  color: black;\n  font-family: \"San Francisco Text\";\n  text-transform: uppercase;\n  font-size: .7em;\n  letter-spacing: .5em;\n  margin-left: 20%;\n}\n\n#recentmess {\n  width: 21.3%;\n  background-color: rgb(197, 197, 197);\n  height: 85%;\n  float: left;\n  border: 1px solid #f9f9f9;\n  margin-top: 3.2%;\n}\n\n.conversation {\n  width: 55%;\n  border: 5px solid rgba(113, 113, 113, 0.03);\n  background-color: #ffffff;\n  margin-left: 26%;\n  height: 63%;\n  margin-top: 4.3%;\n}\n\n.modal4 {\n  position: fixed;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  margin-top: 5.2%;\n  height: 100%;\n    background-image: -webkit-linear-gradient(left, rgb(210, 201, 201) 30%, rgb(48, 82, 64) 100%);\n\t\tbackground-image: -o-linear-gradient(left, #0B917F 0%, #34396E 100%);\n  background-image: -moz-linear-gradient(left, #0B917F 0%, #34396E 100%);\n  background-image: -webkit-linear-gradient(left, rgb(255, 255, 255) 30%, rgb(245, 245, 245) 100%);\n  background-image: -ms-linear-gradient(left, #0B917F 0%, #34396E 100%);\n  background-image: linear-gradient(to left, #002310 0% #061833 100%);\n  z-index: 1000000;\n}\n\n#createnewmessage {\n  left: 0px;\n      position: fixed;\n      z-index: 10000;\n}\n\n.message-input {\n  position: fixed;\n  width: 90%;\n  border: cyan;\n  bottom: 0;\n}\n\n#addmessage {\n  width: 61%;\n  height: 4em;\n  border: 3px solid #fdfdfd;\n  padding-bottom: 2em;\n}\n\n#createaamessage {\n  height: 100%;\n  width: 100%;\n  top: 0;\n  background-color: rgba(68, 68, 68, 0.88);\n  margin-left: auto;\n  display: block;\n  margin-right: auto;\n  position: absolute;\n}\n\n#greybackground {\n  height: 80%;\n  position: absolute;\n  width: 100%;\n  margin-top: 4em;\n}\n\n\n\n.close {\n\tcolor: #ffffff;\n\tborder-radius: 2px;\n\tfloat: right;\n\tz-index: 100000000000000000000000000000;\n\tposition: fixed;\n\twidth: 15%;\n\ttext-align: center;\n\tfont-size: .8em;\n\tbackground-color: rgb(0, 0, 0);\n\tborder: rgba(78, 0, 0, 0.42);\n\tpadding-top: .5em;\n\tpadding-bottom: .5em;\n\tright: 0px;\n\theight: 3em;\n\tmargin-left: .1%;\n\tfont-family: \"San Francisco Text\";\n\tletter-spacing: 15px;\n}\n\n\n\n#featured {\n  background-color: rgb(177, 191, 184);\n  letter-spacing: .4em;\n  padding-left: 1em;\n  border: 1px solid rgba(0, 255, 243, 0);\n  font-size: .45em;\n  border-radius: 2px;\n  padding-right: 1em;\n  padding-top: .6em;\n  width: 8%;\n  margin-left: 19%;\n  position: absolute;\n  margin-top: 5.9%;\n  display: block;\n  visibility: hidden;\n  padding-bottom: .45em;\n  font-weight: 300;\n  color: rgb(255, 255, 255);\n  font-family: \"San Francisco Text\";\n  font-style: italic;\n}\n\n#featured:hover {\n  background-color: rgba(25, 30, 35, 0.8);\n  letter-spacing: .4em;\n  padding-left: 1em;\n  border: 1px solid rgba(0, 255, 243, 0);\n  font-size: .45em;\n  border-radius: 2px;\n  padding-right: 1em;\n  padding-top: .6em;\n  width: 8%;\n  margin-left: 18%;\n  position: absolute;\n  margin-top: 5.9%;\n  display: block;\n  padding-bottom: .45em;\n  font-weight: 300;\n  color: rgb(255, 255, 255);\n  font-family: \"San Francisco Text\";\n  font-style: italic;\n}\n\n#youmenu {\n  display:hidden;\n  font-family: \"San Francisco Text\";\n}\n\n#send {\n  display: block;\n  margin-left: auto;\n  padding-left: 12em;\n  padding-right: 12em;\n  padding-top: .7em;\n  padding-bottom: .8em;\n  border-radius: 2px;\n  border-top: none;\n  margin-top: 1em;\n  border-bottom: 3px solid rgb(255, 255, 255);\n  border-left: none;\n  border-right: none;\n  margin-right: auto;\n  background-color: rgba(255, 0, 0, 0.34);\n  color: rgba(255, 255, 255, 0.54);\n  font-family: \"San Francisco Text\";\n  font-size: .8em;\n  letter-spacing: .4em;\n}\n\n#ProductSelection6 {\n\tfont-family: \"San-Francisco\";\n\tcolor: rgba(0, 0, 0, 0.87);\n\tletter-spacing: .3em;\n\tdisplay: inline-block;\n\tfont-size: 1em;\n\tmargin-left: 40%;\n\tposition: fixed;\n\twidth: 15em;\n\tz-index: 1000000000000000000000000000;\n\ttext-transform: uppercase;\n\tpadding-bottom: 1em;\n\tfloat: right;\n}\n\n\n\n\n#ProductSelection3 {\n  font-family: \"San Francisco Text\";\n      padding-left: 4em;\n      padding-right: 4em;\n      padding-top: 1em;\n      border-bottom: 1px solid black;\n      border: none;\n      position: absolute;\n      margin-left: 28em;\n      margin-top: 1em;\n}\n\n#productcreate {\n  position: fixed;\n  top: 60px;\n  margin-left: 18em;\n}\n\n.modal2{\n\tdisplay: block;\n\tposition: fixed;\n\tz-index: 1;\n\tleft: 0;\n\tbottom: 0px;\n\twidth: 100%;\n\theight: 90%;\n\toverflow: auto;\n\tbackground-image: background-image: -webkit-gradient( linear, right bottom, left bottom, color-stop(0, #0B917F), color-stop(1, #34396E) );\n\tbackground-image: -o-linear-gradient(left, #0B917F 0%, #34396E 100%);\n\tbackground-image: -moz-linear-gradient(left, #0B917F 0%, #34396E 100%);\n\tbackground-image: -webkit-linear-gradient(left, rgb(1, 18, 35) 30%, rgb(0, 27, 13) 100%);\n\tbackground-image: -ms-linear-gradient(left, #0B917F 0%, #34396E 100%);\n\tbackground-image: linear-gradient(to left, #002310 0% #061833 100%);\n\tz-index: 10000000000000;\n}\n\n.modal-content {\n\theight: 70%;\n\tmargin-left: 3%;\n\tposition: fixed;\n\tmargin-top: 15em;\n\tdisplay: block;\n\tflex-direction: row;\n}\n\n.closeyou {\n  font-family: \"San Francisco Text\";\n  letter-spacing: 5px;\n  padding-top: 1.8em;\n  font-size: .8em;\n  color: gainsboro;\n  background-color: rgba(255, 255, 255, 0.11);\n  display: block;\n  padding-left: 18em;\n  padding-bottom: 1.8em;\n}\n\n\n\n.site15 {\n\tdisplay: block;\n\tcolor: white;\n\tletter-spacing: 5px;\n\tpadding-top: inherit;\n\tmargin-bottom: 1em;\n\t    margin-top: 4.4em;\n}\n\n#settings2 {\n\tdisplay: block;\n\tcolor: black;\n\tletter-spacing: 5px;\n\tfont-weight: 600;\n\tdisplay: block;\n\tletter-spacing: 5px;\n\tpadding-top: inherit;\n\tmargin-bottom: 1em;\n\ttext-align: center;\n\twidth: 100%;\n\tfont-weight: 600;\n\tmargin-bottom: 1em;\n}\n\n#logout2 {\n\tdisplay: block;\n\t    border-left: none;\n\t    border-right: none;\n\t    color: black;\n\t    font-weight: 600;\n\t    letter-spacing: 5px;\n\t    padding-bottom: 1.1em;\n\t    display: block;\n\t    color: black;\n\t    letter-spacing: 5px;\n\t    font-weight: 600;\n\t    display: block;\n\t    letter-spacing: 5px;\n\t    padding-top: inherit;\n\t    margin-bottom: 1em;\n\t    text-align: center;\n\t    width: 100%;\n\t    font-weight: 600;\n\t    margin-bottom: 1em;\n}\n\n.modal234 {\n  display: block;\n    position: fixed;\n    z-index: 1;\n    top: 0;\n    overflow: auto;\n    background-image: background-image: -webkit-gradient( linear, right bottom, left bottom, color-stop(0, #0B917F), color-stop(1, #34396E) );\n    background-image: -o-linear-gradient(left, #0B917F 0%, #34396E 100%);\n    background-image: -moz-linear-gradient(left, #0B917F 0%, #34396E 100%);\n    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0) 100%);\n    background-image: -ms-linear-gradient(left, #0B917F 0%, #34396E 100%);\n    background-image: linear-gradient(to left, #002310 0% #061833 100%);\n    z-index: 10000000000000;\n}\n\n.modal-contentyou{\n\theight: 76%;\n\tborder: 1px solid rgba(255, 255, 255, 0.12);\n\twidth: 100%;\n\tmargin-top: 5em;\n\tposition: fixed;\n\tfont-weight: 100;\n\tdisplay: block;\n\tcolor: #0a0000;\n\tfont-weight: 600;\n\tbackground-image: -webkit-linear-gradient(left, rgb(212, 206, 222) 20%, rgb(245, 247, 234) 100%);\n}\n\n\n.at-form{\n\n}\n\n.atform {\n  margin-top: 10%;\ndisplay: block;\nleft: 0;\ntop: 0;\nwidth: 60%;\nheight: 60%;\nmargin-left: auto;\nmargin-right: auto;\noverflow: auto;\nbackground-image: background-image: -webkit-gradient( linear, right bottom, left bottom, color-stop(0, #0B917F), color-stop(1, #34396E) );\nbackground-image: -o-linear-gradient(left, #0B917F 0%, #34396E 100%);\nbackground-image: -moz-linear-gradient(left, #0B917F 0%, #34396E 100%);\nbackground-image: -webkit-linear-gradient(left, rgb(253, 254, 255) 30%, rgb(255, 255, 246) 100%);\nbackground-image: -ms-linear-gradient(left, #0B917F 0%, #34396E 100%);\nbackground-image: linear-gradient(to left, #002310 0% #061833 100%);\nz-index: 10000000000000;\n}\n\n.formnext {\n  padding-right: 6em;\n      background-color: #00aaff;\n      padding-left: 16em;\n      padding-top: 1em;\n      padding-bottom: 1em;\n      margin-left: 3em;\n      letter-spacing: .2em;\n      position: fixed;\n      font-size: .8em;\n      border: 2px solid #00aaff;\n      bottom: 0px;\n      color: white;\n}\n\n.formback {\n  background-color: #00aaff;\n  padding-left: 6em;\n  padding-right: 3em;\n  padding-top: 1em;\n  padding-bottom: 1em;\n  letter-spacing: .2em;\n  font-size: .8em;\n  left: 0px;\n  position: fixed;\n  margin-left: 23em;\n  bottom: 0px;\n  color: white;\n}\n\n#lowerlowernav {\n  font-family: \"San Francisco Text\";\n    position: fixed;\n    margin-left: 30em;\n    margin-top: 1.5em;\n}\n\n#productcreate li {\n  display: table-cell;\n  text-align: center;\n  width: 04%;\n  background-color: rgba(212, 212, 212, 0.29);\n  padding-bottom: 1em;\n  border-right: 1px solid #e2e2e2;\n  margin-right: 5em;\n  padding-right: .5em;\n  color: black;\n  padding-left: .5em;\n  padding-top: 1em;\n  letter-spacing: .1em;\n  z-index: 10000;\n  font-family: \"San-Francisco\";\n  font-size: .8em;\n}\n\n#UserId {\nfont-family: \"San Francisco Text\";\nfont-style: italic;\nletter-spacing: 5px;\nfont-size: 4em;\nmargin-left: 36.5%;\n}\n\n#aboutaccountimage3 {\nheight: 2em;\nborder-radius: 100px;\n}\n\n#userimage {\n\tborder: 1px solid white;\n\tpadding: 2em;\n\tbackground-color: black;\n}\n\n#streamproductcontainer {\nheight: 100%;\ntop: 0px;\nbackground-color: black;\nposition: absolute;\nbottom: 0px;\n}\n\n#enterbio {\n  background-color: rgba(255, 255, 255, 0.13);\nheight: 8em;\nmargin-top: 1.5em;\nwidth: 30%;\n}\n\n#enterlocation {\n  background-color: rgba(255, 255, 255, 0.13);\n      height: 4em;\n      width: 30%;\n      margin-top: 2em;\n}\n\n#userregistrationsubmit {\n\tpadding-left: 9em;\n\tpadding-right: 9em;\n\tbackground-color: #547754;\n\tborder: none;\n\tpadding-top: 1.5em;\n\tcolor: white;\n\tletter-spacing: 7px;\n\tpadding-bottom: 1.5em;\n\tmargin-top: 2em;\n\tbottom: 0;\n\tposition: fixed;\n\twidth: 100%;\n\tleft: 0px;\n}\n\n#account {\nfont-family: \"San-Francisco\";\nfont-size: 1.7em;\nfont-weight: 600;\ncolor: #000000;\nletter-spacing: .15em;\ndisplay: block;\nposition: absolute;\nmargin-left: 15%;\n}\n\n\n\n/* Stream Styles */\n#accountstream {\n  font-family: \"San Francisco Text\";\n  font-weight: 600;\n  margin-left: 15%;\n  display: inline-block;\n  margin-top: 3em;\n  font-size: 3em;\n  color: rgb(255, 255, 255);\n}\n\n#joincall2 {\n  font-family: \"San Francisco Text\";\n  text-transform: uppercase;\n  margin-top: 1.4em;\n  font-style: italic;\n  font-size: 8em;\n  margin-left: 12%;\n  border-radius: 10px;\n  color: #060606;\n  border: none;\n  position: fixed;\n  font-weight: 600;\n  z-index: 1000000000000000000000000000000000;\n}\n\n#titlestream {\n  font-family: \"San Francisco Text\";\n  font-weight: 300;\n  padding-left: 1em;\n  display: block;\n  margin-left: 8%;\n  color: white;\n  font-size: 3em;\n}\n\n#buydarkfeed {\n  font-family: \"Open Sans\";\n  padding-left: 3.5em;\n  float: right;\n  padding-right: 3.5em;\n  display: inline-block;\n  color: rgb(255, 255, 255);\n  border: none;\n  background-color: rgb(0, 0, 0);\n  font-size: .9em;\n  font-weight: 600;\n  margin-right: 17%;\n  letter-spacing: .4em;\n  bottom: 0em;\n  padding-top: .9em;\n  padding-bottom: .9em;\n}\n\n#MainFeed {\n    margin-bottom: 10em;\n}\n\n#wavyrealities {\n    height: 10em;\n    width: 10em;\n    padding-top: 3em;\n    padding-bottom: 3em;\n    margin-top: 6em;\n    padding-right: 3em;\n    padding-left: 3em;\n    margin-left: 39%;\n    margin-right: auto;\n    z-index: 100000000000000000000000000000000000;\n    display: block;\n    position: fixed;\n    border-radius: 100%;\n}\n\n#mainimages {\n  width: 60%;\n      margin-top: 3.5em;\n      display: block;\n      margin-bottom: 10em;\n}\n\n\n#buyprocess {\n\tvisibility: hidden;\n}\n\n#sharedark {\n\tfont-family: \"San Francisco Text\";\n\t    color: black;\n\t    border: 7px solid rgb(0, 0, 0);\n\t    background-color: rgb(255, 255, 255);\n\t    font-size: 1em;\n\t    padding-left: 2em;\n\t    padding-top: 2em;\n\t    padding-right: 2em;\n\t    padding-bottom: 2em;\n\t    font-weight: 600;\n\t    letter-spacing: .4em;\n\t    width: 2em;\n\t    -webkit-transition: all 150ms ease;\n\t    -moz-transition: all 150ms ease;\n\t    -o-transition: all 150ms ease;\n\t    transition: all 150ms ease;\n}\n\n#price:hover {\n\tcolor: turquoise;\n}\n\n\n#sharedark:hover {\n\tfont-family: \"San Francisco Text\";\n\t    color: black;\n\t    border: 2px solid rgb(0, 0, 0);\n\t    background-color: rgb(255, 255, 255);\n\t    font-size: 1em;\n\t    padding-left: 1.1em;\n\t    padding-top: 3.5em;\n\t    padding-right: 5em;\n\t    padding-bottom: 1.4em;\n\t    font-weight: 600;\n\t    letter-spacing: .4em;\n\t    width: 2em;\n\t    -webkit-transition: all 150ms ease;\n\t    -moz-transition: all 150ms ease;\n\t    -o-transition: all 150ms ease;\n\t    transition: all 150ms ease;\n}\n\n#buydarkfeed:hover {\n  font-family: \"San Francisco Text\";\n  color: rgb(255, 255, 255);\n  border: none;\n  background-color: rgba(0, 80, 58, 0.99);\n  font-size: .8em;\n  margin-top: 1.1%;\n  font-weight: 600;\n  letter-spacing: .2em;\n  width: 20%;\n  bottom: 0em;\n  padding-top: .7em;\n  float: right;\n  margin-right: 15%;\n  padding-bottom: .7em;\n}\n\n#shareicon {\n\theight: 3.5em;\n\twidth: 3.5em;\n\tpadding-left: .7em;\n\tpadding-top: 1.4em;\n}\n\n#leftarrowicon {\n\tmargin-top: 20em;\n\t    height: 1em;\n\t    margin-left: .3em;\n\t    padding-top: 1em;\n\t    padding-bottom: 1em;\n\t    padding-left: 1em;\n\t    padding-right: 1em;\n\t\t\tbackground-color: rgba(223, 244, 255, 0.26);\n\t    border-radius: 100px;\n\t    border: 2px solid rgba(255, 255, 255, 0.52);\n}\n\n#leftarrowicon:hover {\n\tmargin-top: 20em;\n\theight: 1em;\n\tmargin-left: .3em;\n\tpadding-top: 1em;\n\tpadding-bottom: 1em;\n\tpadding-left: 1em;\n\tpadding-right: 1em;\n\tborder-radius: 100px;\n}\n\n\n#successful {\n\tborder: 1px solid white;\n    margin-top: 2em;\n    position: absolute;\n    height: 20em;\n    font-weight: 300;\n    top: 0;\n    margin-left: 27%;\n    font-style: italic;\n}\n\n#successmessage {\n\tposition: fixed;\n\tcolor: white;\n\tfont-family: \"San Francisco Text\";\n\tmargin-top: 9em;\n\tdisplay: block;\n\tz-index: 100000000000000000000000000000;\n}\n\n#rightarrowicon {\n\tmargin-top: 20em;\n\t    height: 1em;\n\t    padding-top: 1em;\n\t    padding-bottom: 1em;\n\t    padding-left: 1em;\n\t\t\tbackground-color: rgba(223, 244, 255, 0.26);\n\t    padding-right: 1em;\n\t    border-radius: 100px;\n\t    border: 2px solid rgba(255, 255, 255, 0.52);\n}\n\n#rightarrowicon:hover {\n\tmargin-top: 20em;\n\theight: 1em;\n\tpadding-top: 1em;\n\tpadding-bottom: 1em;\n\tpadding-left: 1em;\n\tpadding-right: 1em;\n\tborder-radius: 100px;\n}\n\n#leftarrowstyle {\n  height: 100%;\n      width: 4.5em;\n      float: left;\n      position: fixed;\n      top: 0;\n      left: 0;\n}\n\n#leftarrowstyle:hover {\n\theight: 100%;\n\twidth: 4.5em;\n\tfloat: left;\n\ttop: 0;\n\tleft: 0;\n\tposition: fixed;\n\tbackground-color: #F9F9F9;\n}\n\n#rightarrowstyle {\n  width: 4.5em;\n  top: 0;\n  margin-left: 45%;\n  height: 100%;\n  position: fixed;\n}\n\n#rightarrowstyle:hover {\n\theight: 100%;\n\tborder: 1px solid rgb(253, 253, 253);\n\twidth: 4.5em;\n\tfloat: right;\n\tright: 0;\n\ttop:0;\n\tposition: fixed;\n\tbackground-color: #F9F9F9;\n}\n\n#accountid {\n\tmargin-top: 10em;\n\ttext-transform: uppercase;\n\tfont-family: \"San Francisco Text\";\n\tfont-weight: 600;\n\tcolor: gray;\n}\n\n#accounttextid{\n\tfont-family: \"San Francisco Text\";\n\tfont-weight: 200;\n\tdisplay: inline;\n}\n\n#aboutaccountimage {\n\theight: 2.7em;\ndisplay: inline;\n}\n\n#aboutaccomuntimage2{\nheight: 2em;\nborder-radius: 100px;\ndisplay:inline;\n}\n\n#aboutaccountimage3 {\n\theight: 2em;\n\tborder-radius: 100px;\n\tdisplay:inline;\n}\n\n#aboutaccountimage4{\n\theight: 2em;\n\tborder-radius: 100px;\n\tdisplay:inline;\n}\n\n#shippingid {\nfont-family: \"San Francisco Text\";\nfont-weight: 600;\ntext-transform: uppercase;\ncolor: gray;\n}\n\n#shippingtextid {\nfont-family: \"San Francisco Text\";\nfont-weight: 200;\n}\n\n#termsid {\n\tfont-family: \"San Francisco Text\";\nfont-weight: 600;\ntext-transform: uppercase;\ncolor: #434FFF;\nborder: 1px solid;\nborder-radius: 10px;\npadding-left: 11em;\npadding-top: .6em;\npadding-bottom: .6em;\n}\n\n#textid {\nfont-family: \"San Francisco Text\";\ntext-transform: uppercase;\ncolor: gray;\nfont-weight: 600;\n}\n\n#texttextid {\nfont-family: \"San Francisco Text\";\nmargin-bottom: 5em;\n}\n\na:link {\n\tcolor:inherit;\n\ttext-decoration:none;\n}\n\na:visited {\n\tcolor: inherit;\n\ttext-decoration:none;\n}\n\n#aboutcontainer {\nwidth: 50%;\nmargin-left: 20em;\ncolor: white;\n}\n\n#payment-form{\n\tdisplay: block;\n\t    margin-left: auto;\n\t    margin-right: auto;\n\t    padding: 2em;\n\t    background-color: rgba(255, 255, 255, 0.11);\n\t    width: 75%;\n\t    border: 3px solid black;\n\t    border-radius: 10px;\n}\n\n#payment-id {\n\tdisplay: block;\nwidth: 60%;\nmargin-left: auto;\nmargin-right: auto;\n}\n\n\n#successmain {\n\tfont-size: 8em;\n    color: white;\n    font-weight: 600;\n    z-index: 1000000000000000000000;\n    position: fixed;\n    font-family: \"San Francisco Text\";\n}\n\n\n\t.paymenttext {\n\t\ttext-transform: uppercase;\n\t\t    font-size: .9em;\n\t\t    color: #000000;\n\t\t    font-weight: 600;\n\t\t    margin-left: auto;\n\t\t    margin-right: auto;\n\t\t    display: block;\n\t\t    padding: 6px;\n\t\t    border: none;\n\t\t    border-left: none;\n\t\t    border-right: none;\n\t\t    border-bottom: none;\n\t\t    letter-spacing: .3em;\n\t\t    font-family: \"San Francisco Text\";\n}\n\n#cardnumber {\n\n\tpadding: 1px 0px 4px 29px;\n\theight: 2em;\n\tmargin-top: .1em;\n\twidth: 60%;\n\tfont-size: .9em;\n\tfont-weight: 600;\n\ttext-transform: uppercase;\ncolor: white;\n\tborder-bottom: none;\n\tborder-left: none;\n\tborder-top: none;\n\tborder-right: none;\n\tbackground-color: black;\n\tletter-spacing: .3em;\n\tfont-family: \"San Francisco Text\";\n}\n\n#addresslabel {\n\ttext-transform: uppercase;\n\tfont-size: .9em;\n\tcolor: #000000;\n\tfont-weight: 600;\n\tmargin-left: auto;\n\tmargin-right: auto;\n\tdisplay: block;\n\tpadding: 6px;\n\tborder: none;\n\tborder-left: none;\n\tborder-right: none;\n\tborder-bottom: none;\n\tletter-spacing: .3em;\n\tfont-family: \"San Francisco Text\";\n}\n#paymentbuy {\n\tfont-family: \"San Francisco Text\";\ncolor: white;\nbackground-color: #475D54;\nborder-radius: 4px;\npadding-left: 5em;\nletter-spacing: .6em;\nmargin-top: 1em;\npadding-top: .7em;\nborder: none;\nfont-size: .8em;\npadding-right: 5em;\nfloat: right;\npadding-bottom: .7em;\ndisplay: block;\ntext-transform: uppercase;\n}\n\n#paymentz {\n\tpadding-left: 40%;\n\tpadding-right: 40%;\n\tmargin-top: 3em;\n\tborder-radius: 5px;\n\twidth: 100%;\n\tpadding-top: 1em;\n\tborder: 1px solid rgba(5, 241, 255, 0.74);\n\tletter-spacing: .2em;\n\tcolor: #FFFFFF;\n\theight: 5em;\n\tfont-weight: 600;\n\tpadding-bottom: 1em;\n\ttext-transform: uppercase;\n\tbackground-color: rgba(0, 45, 103, 0.65);\n\tfont-size: .9em;\n\tmargin-right: auto;\n\tmargin-left: auto;\n}\n\n#paymentbuy:hover {\n\tfont-family: \"San Francisco Text\";\n\tborder: 1px solid #FFE400;\n\tbackground-color: #475D54;\n\tcolor: #FFE400;\n\tborder-radius: 4px;\n\tpadding-left: 5em;\n\tletter-spacing: .6em;\n\tmargin-top: 1em;\n\tpadding-top: .7em;\n\tborder: none;\n\tfont-size: .8em;\n\tpadding-right: 5em;\n\tfloat: right;\n\tpadding-bottom: .7em;\n\tdisplay: block;\n\ttext-transform: uppercase;\n}\n\n\n#prelaunch {\n\tfont-family: San Francisco Text;\n\t    font-size: .7em;\n\t    font-weight: 100;\n\t    color: #AFAFAF;\n\t    margin-left: auto;\n\t    text-transform: uppercase;\n\t    letter-spacing: .2em;\n\t    display: none;\n}\n\n.maintext2 {\n\tdisplay: inline-block;\n    text-align: center;\n    z-index: 1001;\n    -webkit-transition: all 150ms ease;\n    -moz-transition: all 150ms ease;\n    -o-transition: all 150ms ease;\n    transition: all 150ms ease;\n    color: #716969;\n    font-family: \"San Francisco Text\";\n    padding-right: 1.7em;\n    padding-left: .3em;\n    color: rgb(51, 51, 51);\n    letter-spacing: 2px;\n    font-weight: 600;\n    font-size: .8em;\n    text-decoration: none;\n    margin-top: 3.4em;\n}\n\n#cardcvc {\n\tpadding: 1px 0px 4px 29px;\n\theight: 2em;\n\tcolor: black;\ncolor: white;\n\twidth: 15%;\n\n\tfont-size: .9em;\n\n\n\tborder-bottom: 1px dashed black;\n\tborder-left: none;\n\tborder-top: none;\n\tborder-right: none;\n\tbackground-color: black;\n\tletter-spacing: .3em;\n\t\tfont-weight: 600;\n\tfont-family: \"San Francisco Text\";\n}\n\n#cardmonth {\n\n    padding: 1px 0px 4px 29px;\n    height: 2em;\n\n    margin-top: .1em;\n    width: 15%;\n    font-size: .9em;\ncolor: white;\n\tfont-weight: 600;\n\t\tborder-bottom: 1px dashed black;\n\t\tborder-left: none;\n\t\tborder-top: none;\n\t\tborder-right: none;\n\t\tbackground-color: black;\n\t\tletter-spacing: .3em;\n\t\tfont-family: \"San Francisco Text\";\n}\n\n#cardyear {\n    padding: 1px 0px 4px 29px;\n    height: 2em;\ncolor: white;\n    width: 15%;\n\n    font-size: .9em;\n\n\tfont-weight: 600;\n\t\tborder-bottom: 1px dashed black;\n\t\tborder-left: none;\n\t\tborder-top: none;\n\t\tborder-right: none;\n\t\tbackground-color: black;\n\t\tletter-spacing: .3em;\n\t\tfont-family: \"San Francisco Text\";\n}\n\n#streetaddress {\n    padding: 1px 0px 4px 29px;\n    margin-top: .1em;\n    height: 2em;\n    text-transform: uppercase;\n    width: 50%;\n    font-size: .9em;\n    margin-left: auto;\n    margin-right: auto;\n\n\tfont-weight: 600;\n\t\tborder-bottom: none;\n\t\tborder-left: none;\n\t\tborder-top: none;\n\t\tborder-right: none;\n\t\tbackground-color: black;\n\t\tletter-spacing: .3em;\n\t\tfont-family: \"San Francisco Text\";\n}\n\n\n\n#streetaddress1 {\ncolor: white;\n\tpadding: 1px 0px 4px 29px;\n\tmargin-top: .1em;\n\theight: 2em;\n\ttext-transform: uppercase;\n\twidth: 70%;\n\tfont-size: .9em;\n\tmargin-left: auto;\n\tmargin-right: auto;\n\tborder: none;\n\tbackground-color: black;\n\tletter-spacing: .3em;\n\tfont-family: \"San Francisco Text\";\n}\n\n#streetaddress2 {\n\n\tpadding: 1px 0px 4px 29px;\n\tmargin-top: .1em;\n\theight: 2em;\n\ttext-transform: uppercase;\n\twidth: 45%;\n\tfont-weight: 600;\n\tfont-size: .9em;\n\tmargin-left: auto;\n\tmargin-right: auto;\n\n\n\tborder: 1px dashed black;\n\tbackground-color: black;\n\tletter-spacing: .3em;\n\tfont-family: \"San Francisco Text\";\n}\n\n\n\t#fullname {\n\t\tpadding: 1px 0px 4px 29px;\n    margin-top: .1em;\n    height: 2em;\n    width: 35%;\n    font-size: .9em;\n    text-transform: uppercase;\n    font-weight: 600;\n    border: none;\n    background-color: black;\n    color: white;\n    letter-spacing: .3em;\n    font-family: \"San Francisco Text\";\n\t}\n\n#fullnameone {\n\n\tpadding: 1px 0px 4px 29px;\n\tmargin-top: .1em;\n\theight: 2em;\n\twidth: 35%;\n\tfont-weight: 600;\n\tfont-size: .9em;\n\ttext-transform: uppercase;\n  color: white;\n\tborder-bottom: 1px dashed black;\n\tborder-left: none;\n\tborder-top: none;\n\tborder-right: none;\n\tbackground-color: black;\n\tletter-spacing: .3em;\n\tfont-family: \"San Francisco Text\";\n}\n\n\t#e-mail {\n\t    border: none;\n\t    background-color: black;\n\t    padding: 1px 0px 4px 29px;\n\t    margin-top: .1em;\n\t    height: 2em;\n\t    width: 40%;\n\t    font-size: .9em;\n\t\t\tcolor: white;\n\t    text-transform: uppercase;\n\t    letter-spacing: .2em;\n\t    font-family: \"San Francisco Text\";\n\t}\n\n\n#zipcode {\n    border: none;\n\tcolor: white;\n    background-color: black;\n    padding: 1px 0px 4px 29px;\n    margin-top: .1em;\n    height: 2em;\n    width: 15%;\n    font-size: .9em;\n    text-transform: uppercase;\n    letter-spacing: .2em;\n    font-family: \"San Francisco Text\";\n}\n\n#mainiconsthree{\n  position: fixed;\n  right: 0;\n  font-size: .8em;\n  color: rgb(255, 255, 255);\n  font-family: \"San Francisco Text\";\n  padding-left: 20em;\n  padding-right: 15em;\n  padding-top: 1.3em;\n  padding-bottom: .9em;\n  background-color: rgba(0, 0, 0, 0.9);\n  letter-spacing: .5em;\n  margin-right: .3em;\n  border: 1px solid rgba(217, 255, 248, 0.09);\n  margin-left: 30%;\n}\n\n#mainiconsfour{\n  display: inline-block;\n  z-index: 10000000000000000000000;\n  color: rgb(255, 255, 255);\n  float: right;\n  margin-top: 1em;\n  margin-right: 5%;\n}\n\n#city {\n\tpadding: 1px 0px 4px 29px;\n\t    background-color: black;\n\t    height: 2em;\n\tcolor: white;\n\t    text-transform: uppercase;\n\t    width: 37%;\n\t    letter-spacing: .2em;\n\t    font-size: .9em;\n\t    margin-left: auto;\n\t    margin-right: auto;\n\t    margin-top: .1em;\n\t    border: 1px solid black;\n\t    font-family: \"San Francisco Text\";\n}\n\n#state {\n\t\t\tborder: none;\n\t\tcolor: white;\n\t    background-color: black;\n\t    padding: 1px 0px 4px 29px;\n\t    height: 2em;\n\t    width: 28%;\n\t    font-size: .9em;\n\t    letter-spacing: .2em;\n\t    text-transform: uppercase;\n\t    margin-left: auto;\n\t    margin-right: auto;\n\t    margin-top: .1em;\n\t    font-family: \"San Francisco Text\";\n}\n\n.buybuttonnavigator {\n  position: fixed;\n      margin-top: 30em;\n      margin-left: 3%;\n      border: 3px solid white;\n      padding-left: 5em;\n      font-family: \"San Francisco Text\";\n}\n\n\n#pricey {\n  color: white;\n  letter-spacing: .6em;\n  padding-left: 5em;\n  padding-right: 5em;\n  padding-top: .4em;\n  padding-bottom: .4em;\n  border-right: none;\n  border-left: none;\n  background-color: rgba(255, 255, 255, 0);\n}\n\n#mediatab {\n  font-family: \"San Francisco Text\";\n      font-weight: 600;\n      margin-left: 15%;\n      font-size: .9em;\n      margin-top: 3.2em;\n      display: inline-block;\n}\n\n\n\n#abouttab {\n  display: inline-block;\n      margin-left: 14%;\n      font-family: \"San Francisco Text\";\n      font-weight: 600;\n      font-size: .9em;\n      position: fixed;\n      margin-top: 3.2em;\n}\n\n#buyicon {\nheight: 2em;\nwidth: 2em;\npadding-left: 1em;\npadding-top: 1em;\n}\n\n#streamnavigatorone {\n  position: fixed;\n  right: 0px;\n  height: 100%;\n  width: 40%;\n  border-left: none;\n  border-right: none;\n  border-top: 1px solid rgba(210, 210, 210, 0.2);\n  background-color: black;\n}\n\n#streamnavigatorthree {\n\tbottom: 0;\n\theight: 3em;\n\tposition: fixed;\n\tfloat: right;\n\tborder-left: none;\n\tborder-right: none;\n\tbackground-color: rgba(251, 251, 251, 0);\n\tdisplay: inline-block;\n\twidth: 100%;\n}\n\n\n#accounts {\n\twidth: 55%;\n\tmargin-top: 1em;\n}\n\n#sweatshirtinfo {\n  margin-top: .3em;\n  z-index: 1000000000;\n  width: 100%;\n  height: 5em;\n}\n\n#iconsinfothree {\n\tmargin-top: 29em;\n\tmargin-left: 26.5em;\n\tbackground-color: white;\n\n}\n\n.master-navbar {\ntop: 0;\nmargin-top: 2em;\nz-index: 100000000;\nposition: fixed;\n}\n\n#lowerlowerlower {\n  bottom: 0px;\n  position: fixed;\n  height: 3em;\n  width: 100%;\n  background-image: -webkit-linear-gradient(bottom, rgb(0, 8, 23) 10%, rgb(0, 10, 25) 80%);\n}\n\n#waveicon {\n  display: inline-block;\n      position: relative;\n      float: left;\n      margin-left: 5%;\n      margin-top: 1.3%;\n      height: 1.6em;\n      border: 2px solid rgba(255, 255, 255, 0.3);\n      padding-right: .1em;\n      border-radius: 100px;\n      padding-left: .2em;\n      padding-top: .2em;\n      padding-bottom: .2em;\n      background-color: rgba(255, 255, 255, 0);\n      z-index: 10000000000;\n}\n\n\n\n\n#imagesquareone {\n\theight: 25em;\n\twidth: 25em;\n\tmargin-top: 8em;\n\tbackground-color: red;\n\tfloat: left;\n\tdisplay: inline;\n\tmargin-left: 9em;\n}\n\n\n#imagesquaretwo {\n\theight: 25em;\n\twidth: 25em;\n\tbackground-color: #949494;\n\tfloat: right;\n\tdisplay: inline;\n\tmargin-right: 9em;\n\tmargin-top: 8em;\n}\n\n#waveicon:hover {\n\tborder: 3px dotted rgb(189, 255, 231);\n\t-webkit-transition: all 800ms ease;\n\t-moz-transition: all 800ms ease;\n\t-o-transition: all 800ms ease;\n\ttransition: all 800ms ease;\n\tmargin-top: .14em;\n}\n\n\n#mainabout {\nmargin-top: 4.5em;\nmargin-left: 2.5em;\nfont-family: \"San Francisco Text\";\nfont-size: 2.5em;\ntext-transform: uppercase;\ncolor: #C3C3C3;\nfont-weight: 600;\nfont-style: Italic;\n}\n\n.master-navbar>nav {\n\theight: 4em;\n\tlist-style-type: none;\n\tmargin: 0 auto;\n\tposition: fixed;\n\twidth: 100%;\n\ttop: 0;\n\topacity: 1;\n\tleft: 0;\n\tright: 0;\n\tz-index: 1000000000000000000000000000000000;\n}\n\n\n.master-navbarusersite{\n  top: 0;\nmargin-top: 2em;\nz-index: 100000000;\nposition: fixed;\n}\n\n\n  .master-navbarusersite>nav a, .master-navbar>nav a,  .master-navbar>nav a:link{\n\t\t-webkit-transition: all 150ms ease;\n    -moz-transition: all 150ms ease;\n    -o-transition: all 150ms ease;\n    transition: all 150ms ease;\n    font-family: \"San Francisco Text\";\n    color: rgb(0, 0, 0);\n    padding-top: .8em;\n    padding-bottom: 1em;\n    font-size: .72em;\n    margin-left: 18%;\n    margin-top: 1.5%;\n    z-index: 1001;\n    font-weight: 600;\n    letter-spacing: 6px;\n    float: left;\n    display: inline-block;\n    }\n\n\n\n\n#siteback {\n  background-color: rgba(0, 49, 51, 0.03);\n      position: absolute;\n      padding-left: 1em;\n      margin-top: .1em;\n      padding-right: 4.2em;\n      border: 1px solid rgba(0, 29, 29, 0.01);\n      display: inline-block;\n      float: left;\n      color: black;\n}\n\n.master-navbarusersite>nav li {\n  display: inline-block;\nfont-family: 'San-Francisco';\ntext-align: center;\ncolor: white;\nmargin-left: .5em;\nz-index: 1001;\n-webkit-transition: all 150ms ease;\n-moz-transition: all 150ms ease;\n-o-transition: all 150ms ease;\ntransition: all 150ms ease;\n}\n\n#waveiconusersite {\n  display: inline-block;\n  position: relative;\n  height: 1.6em;\n  margin-left: 2.4em;\n  border: 1px solid rgba(0, 255, 161, 0.85);\n  padding-right: .1em;\n  border-radius: 100px;\n  padding-left: .2em;\n  padding-top: .2em;\n  padding-bottom: .2em;\n  background-color: rgba(0, 11, 35, 0.47);\n  z-index: 10000000000;\n}\n\n\n\n\n\n\n.nav: hover {\n  width: 100%;\nbackground-color: #EFEFEF;\nbottom: 0px;\nborder: none;\nmargin-top: 40em;\nposition: fixed;\npadding-top: .5em;\npadding-bottom: .63em;\npadding-left: .4em;\n}\n\n\n\n.maintext3 {\n  margin-right: 1.1%;\n  font-size: .4em;\n  background-color: rgba(255, 255, 255, 0.22);\n  float: right;\n  color: rgb(255, 255, 255);\n  letter-spacing: .4em;\n  border: 1px solid white;\n  padding-left: 1.2em;\n  padding-right: 1.2em;\n  margin-top: 1.05em;\n  box-shadow: inset 2px 0px 20px 1px rgba(109, 255, 221, 0.24);\n  text-shadow: 1px 3px 1px rgba(1, 0, 68, 0.3);\n}\n\n#Images {\n\tmargin-top: 10em;\n\t    z-index: 1000000000000000000;\n}\n\n\n#lowerideas {\n      width: 100%;\n          display: table;\n}\n\n#lowerideas li {\n  display: table-cell;\n}\n\n#mainiconsone {\n  margin-top: .3em;\n    float: left;\n}\n\n#mainiconsfive {\n  position: fixed;\n  width: 15%;\n  text-align: center;\n  font-size: .8em;\n  color: rgb(255, 255, 255);\n  font-family: \"San Francisco Text\";\n  padding-top: .7em;\n  padding-bottom: .7em;\n  background-color: rgb(72, 72, 72);\n  letter-spacing: .5em;\n  margin-right: .3em;\n  margin-top: .9em;\n  margin-left: 27%;\n  border: 1px solid rgba(0, 208, 255, 0.07);\n  font-weight: 300;\n}\n\n\n.master-navbartwo {\n\tbackground-image: -webkit-linear-gradient(left, rgb(255, 255, 255) 1%, rgb(251, 252, 255) 70%);\n\theight: 4em;\n\twidth: 100%;\n\tcolor: black;\n\tposition: fixed;\n\ttop: 0px;\n\tright: 0px;\n\tz-index: 1000000;\n\topacity: 1;\n}\n\n.master-navbartwousersite {\n  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.88) 1%, rgb(0, 9, 43) 30%);\n  box-shadow: inset 20px 20px 20px 60px rgb(0, 0, 0);\n  height: 4em;\n  width: 100%;\n  position: fixed;\n  top: 0px;\n  right: 0px;\n  z-index: 1000000;\n  opacity: 1;\n}\n\n\n.master-navbarfour {\n  top: 0px;\n  left: 0;\n  width: 100%;\n  position: fixed;\n  z-index: 1000000000000000550;\n}\n\n.master-navbar>nav ul {\n  padding: 0;\n}\n\n#usersitemenu {\n  position: fixed;\n    top: 0px;\n}\n\n#calltojoin {\n  font-family: \"San Francisco Text\";\n    font-size: 1.4em;\n    color: white;\n    margin-top: 10em;\n    position: fixed;\n    text-align: center;\n    width: 100%;\n}\n\n.master-navbar>nav li {\n  display: inline-block;\n  font-family: 'San-Francisco';\n  text-align: center;\n  color: white;\n  width: 24.5%;\n  z-index: 1001;\n  -webkit-transition: all 150ms ease;\n  -moz-transition: all 150ms ease;\n  -o-transition: all 150ms ease;\n  transition: all 150ms ease;\n}\n\n\n#paymentz {\n  padding-left: 40%;\n      padding-right: 40%;\n      margin-top: 3em;\n      border-radius: 5px;\n      display: block;\n      width: 100%;\n      padding-top: 1em;\n      border: 4px solid rgba(128, 128, 128, 0.25);\n      letter-spacing: .2em;\n      color: #FFFFFF;\n      padding-bottom: 1em;\n      text-transform: uppercase;\n      background-color: rgba(20, 231, 255, 0.44);\n      font-size: .9em;\n      margin-right: auto;\n      margin-left: auto;\n}\n\n#paymentz:hover {\n  padding-left: 40%;\n      padding-right: 40%;\n      margin-top: 3em;\n      border-radius: 5px;\n      display: block;\n      width: 100%;\n      padding-top: 1em;\n      border: 4px solid rgba(128, 128, 128, 0.25);\n      letter-spacing: .2em;\n      color: #FFFFFF;\n      padding-bottom: 1em;\n      text-transform: uppercase;\n      background-color: rgba(20, 231, 255, 0.75);\n      font-size: .9em;\n      margin-right: auto;\n      margin-left: auto;\n}\n\n.payment-errors {\nbackground-color: #AF4F4F;\nheight: 2.4em;\ncolor: white;\nfont-family: \"San Francisco Text\";\nfont-weight: 100;\npadding-left: 10em;\npadding-top: 1em;\ntext-transform: uppercase;\n}\n\n.ordertotaling{\n\tcolor: black;\n\tfont-family: \"San Francisco Text\";\n\tfont-weight: 300;\n\tborder-left: 1px solid black;\n\tpadding-left: 2em;\n}\n\n#ordertotaling2{\n\tfont-family: \"San Francisco Text\";\n\t    color: black;\n\t    width: 10%;\n\t    font-weight: 100;\n\t    font-size: .9em;\n\t    border: 1px solid #6F6F6F;\n\t    padding-left: 2em;\n\t    padding-right: 2em;\n\t    border-top: none;\n\t    border-bottom: none;\n\t    padding-top: 1em;\n\t    margin-top: 1em;\n\t    padding-bottom: 1em;\n}\n\n.home {\n  margin-left: 20%;\n}\n\n#streamnavigatortwo {\n  height: 6em;\n      right: 0px;\n      position: fixed;\n      background-color: rgb(4, 0, 0);\n      display: inline-block;\n      width: 40%;\n      top: 2em;\n      color: white;\n      border-bottom: 1px solid #212121;\n}\n\n#imagehover {\nwidth: 70%;\nmargin-right: auto;\nmargin-left: auto;\ndisplay: block;\n}\n\n#picture {\n    width: 70%;\n\t\tmargin-right: auto;\n\tmargin-left: auto;\n\tdisplay: block;\n}\n\n\n@media only screen and (max-width: 1149px) {\n\n\t#mainimages {\n    margin-left: auto;\n    margin-right: auto;\n    width: 55%;\n    margin-top: 9em;\n    display: block;\n    margin-bottom: 10em;\n}\n\n\n}\n\n\n@media only screen and (max-width: 1041px) {\n\n#rightarrowicon {\n\t    margin-top: 30em;\n}\n\n#leftarrowicon {\n\t    margin-top: 30em;\n}\n\n\n\n\t#pricey {\n\t    color: white;\n\t    letter-spacing: .6em;\n\t    padding-left: 5em;\n\t    padding-right: 12em;\n\t\t\t    margin-left: 25%;\n\t    padding-top: .4em;\n\t    padding-bottom: .4em;\n\t    border-right: none;\n\t    border-left: none;\n\t    background-color: rgba(255, 255, 255, 0);\n\t    border-top: 1px solid rgba(177, 255, 181, 0.21);\n\t    border-bottom: 1px solid rgba(0, 253, 255, 0.21);\n\t}\n\n\n\t#accountstream {\n    font-family: \"San Francisco Text\";\n    font-weight: 600;\n    margin-left: 12%;\n    display: inline-block;\n    margin-top: 1em;\n}\n\n#abouttab {\n\tdisplay: inline-block;\n\t    margin-left: 15%;\n\t    font-family: \"San Francisco Text\";\n\t    font-weight: 600;\n\t    font-size: .9em;\n\t    position: fixed;\n\t    margin-top: 1.2em;\n}\n\n\t#mainimages {\n    margin-left: auto;\n    margin-right: auto;\n    width: 75%;\n    margin-top: 9.5em;\n    display: block;\n    margin-bottom: 10em;\n}\n\n.buybuttonnavigator {\n\tpadding-top: .6em;\n\tpadding-bottom: .6em;\n\tpadding-right: 10em;\n\tpadding-left: 10em;\n\tfont-family: \"San Francisco Text\";\n\tbackground-color: #000000;\n\tcolor: #FFFFFF;\n\tdisplay: inline-block;\n\tmargin-top: .8em;\n\tfont-size: 85%;\n\tborder-radius: 2%;\n\tmargin-left: 14%;\n\twidth: 30%;\n}\n}\n\n\n@media only screen and (max-width: 824px) {\n\n\t#aboutcontainer {\n    width: 70%;\n    margin-left: 1em;\n    color: white;\n}\n\n\t#mainimages {\n\t    width: 80%;\n\t    margin-left: auto;\n\t    margin-right: auto;\n\t    margin-top: 10em;\n\t    display: block;\n\t    margin-bottom: 10em;\n\t}\n}\n\n@media only screen and (max-width: 780px) {\n\n#successmain {\n\tmargin-top: 1em;\n\tfont-size: 4em;\n\tcolor: white;\n\tfont-weight: 600;\n\tz-index: 1000000000000000000000;\n\tposition: fixed;\n\tfont-family: \"San Francisco Text\";\n}\n\n\t#rightarrowicon {\n\t\t    margin-top: 30em;\n\t}\n\n\t#leftarrowicon {\n\t\t    margin-top: 30em;\n\t}\n\n\t#joincall2 {\n\t    font-family: \"San Francisco Text\";\n\t    text-transform: uppercase;\n\t    margin-top: 8em;\n\t    font-style: italic;\n\t    font-size: 2em;\n\t    margin-left: 14%;\n\t    border-radius: 10px;\n\t    color: #060606;\n\t    border: none;\n\t    position: fixed;\n\t    font-weight: 600;\n\t    z-index: 1000000000000000000000000000000000;\n\t}\n\n#fullnameone {\n\twidth: 80%;\n}\n\n#e-mail {\n\twidth: 80%;\n}\n\n#fullname {\n\twidth: 80%;\n}\n\n#cardnumber {\n\twidth: 80%;\n}\n\n#cardcvc {\nwidth: 80%;\n}\n\n#cardmonth {\n\twidth: 80%;\n}\n\n#cardyear {\nwidth: 80%;\n}\n\n#streetaddress1{\n\twidth: 80%;\n}\n\n#city{\n\twidth: 80%;\n}\n\n#state{\n\twidth: 80%;\n}\n\n#zipcode{\nwidth: 80%;\n}\n\n\n\t#sweatshirtinfo {\n\t    margin-top: .3em;\n\t    margin-left: 3.5em;\n\t    z-index: 1000000000;\n\t}\n\n\t#mainimages {\n\t    width: 90%;\n\t    margin-left: auto;\n\t    margin-right: auto;\n\t    margin-top: 10em;\n\t    margin-bottom: 10em;\n\t    display: block;\n\t}\n\n\n#titlestream {\n    font-family: \"San Francisco Text\";\n    margin-left: 1%;\n    font-weight: 300;\n    padding-top: 1em;\n    padding-bottom: 1em;\n    padding-left: 1em;\n    border-left: 1px solid #F9F9F9;\n}\n\n.buybuttonnavigator {\n\tpadding-top: .6em;\n\tpadding-bottom: .6em;\n\tpadding-right: 2em;\n\tpadding-left: 3em;\n\tmargin-left: 5%;\n\twidth: 80%;\n\tfont-size: .8em;\n\tfont-family: \"San Francisco Text\";\n\tbackground-color: #000000;\n\tcolor: #FFFFFF;\n\tborder: 1px solid black;\n\tdisplay: inline-block;\n\tmargin-top: .8em;\n}\n\n#mediatab {\n  font-family: \"San Francisco Text\";\n  font-weight: 600;\n  margin-left: 15%;\n  font-size: .9em;\n  margin-top: 3.2em;\n  display: inline-block;\n}\n\n\n#abouttab {\n\tfont-family: \"San Francisco Text\";\n\tdisplay: inline-block;\n\tfont-size: .9em;\n\tmargin-left: 35%;\n\tposition: fixed;\n\tmargin-top: 1.2em;\n}\n\n\n#streamnavigatorone {\n    bottom: 0;\n    position: fixed;\n    height: 6em;\n    width: 100%;\n    border-left: none;\n    border-right: none;\n    border-top: 1px solid rgba(210, 210, 210, 0.2);\n    background-color: white;\n}\n\n#streamnavigatortwo {\n\tbottom: 0;\n\theight: 6em;\n\tposition: fixed;\n\tfloat: right;\n\tborder-left: none;\n\tborder-right: none;\n\tborder-top: 1px solid rgba(210, 210, 210, 0.2);\n\tbackground-color: rgba(251, 251, 251, 0);\n\tmargin-left: 40%;\n\tdisplay: inline-block;\n\twidth: 60%;\n}\n\n#ItemListing {\n\tfont-family: \"San Francisco Text\";\n\tdisplay: block;\n}\n\n#title {\n  font-family: \"San-Francisco\";\n  font-size: 1.7em;\n  font-weight: 300;\n  padding-top: .2em;\n  color: black;\n  margin-top: .4em;\n  float: right;\n  margin-right: 6em;\n  letter-spacing: .15em;\n}\n\n\n\n\t#buydarkfeed {\n    font-family: \"Open Sans\";\n        padding-left: 3em;\n        margin-left: 64%;\n        float: right;\n        padding-right: 3em;\n        color: rgb(58, 97, 70);\n        border: 4px solid rgb(58, 97, 70);\n        background-color: rgba(58, 97, 70, 0);\n        font-size: .9em;\n        border-radius: 3px;\n        font-weight: 600;\n        letter-spacing: .3em;\n        bottom: 0em;\n        padding-top: .8em;\n        margin-right: 4%;\n        padding-bottom: .8em;\n}\n\n#accountstream {\n    font-family: \"San Francisco Text\";\n    font-weight: 600;\n    margin-left: 4%;\n    display: inline-block;\n    margin-top: 1em;\n}\n\n\t}\n\n\t@media only screen and (max-width:670px) {\n\n\n\n\n\t#mainimages {\n    width: 90%;\n    margin-left: auto;\n    margin-right: auto;\n    margin-top: 10.5em;\n    margin-bottom: 10em;\n    display: block;\n}\n\n}\n\n@media only screen and (max-width:650px) {\n\t#accountstream {\n\t\tfont-family: \"San Francisco Text\";\n\t\t    font-weight: 600;\n\t\t    margin-left: 16%;\n\t\t    display: inline-block;\n\t\t    margin-top: 1em;\n\t}\n\n\t#titlestream {\n\t\t\tfont-family: \"San Francisco Text\";\n\t\t\tmargin-left: 1%;\n\t\t\tfont-weight: 300;\n\t\t\tpadding-top: 1em;\n\t\t\tpadding-bottom: 1em;\n\t\t\tpadding-left: 1em;\n\t\t\tborder-left: 1px solid #F9F9F9;\n\t}\n\n\t#mediatab {\n\t\tfont-family: \"San Francisco Text\";\n    font-weight: 600;\n    margin-left: 10%;\n    font-size: .9em;\n}\n\n#abouttab {\n\tfont-family: \"San Francisco Text\";\n\t    display: inline-block;\n\t    font-size: .9em;\n\t    margin-top: .6em;\n\t    margin-left: 65%;\n\t    font-weight: 600;\n\t    position: fixed;\n}\n\n\t.buybuttonnavigator {\n\tpadding-top: .6em;\n\tpadding-bottom: .6em;\n\tpadding-right: 2em;\n\tpadding-left: 2em;\n\tmargin-left: 1%;\n\twidth: 80%;\n\tfont-size: .8em;\n\tfont-family: \"San Francisco Text\";\n\tbackground-color: #000000;\n\tcolor: #FFFFFF;\n\tborder: 1px solid black;\n\tdisplay: inline-block;\n\tmargin-top: .5em;\n}\n\n#streamnavigatortwo {\n\tbottom: 0;\n\t    height: 5em;\n\t    position: fixed;\n\t    float: right;\n\t    border-left: none;\n\t    border-right: none;\n\t    border-top: 1px solid rgba(210, 210, 210, 0.2);\n\t    background-color: rgba(251, 251, 251, 0);\n\t    display: inline-block;\n\t    width: 100%;\n\t    margin-left: 2%\n}\n\n#streamnavigatorone {\n    bottom: 0;\n    position: fixed;\n    height: 7.5em;\n    width: 100%;\n    border-left: none;\n    border-right: none;\n    border-top: 1px solid rgba(210, 210, 210, 0.2);\n    background-color: white;\n}\n\n\n}\n\n@media only screen and (max-width: 500px) {\n\n\t#pricey {\n\t    color: white;\n\t    margin-left: 1%;\n\t    letter-spacing: .6em;\n\t    padding-left: 8em;\n\t    padding-right: 8em;\n\t    padding-top: .4em;\n\t    padding-bottom: .4em;\n\t    border-right: none;\n\t    border-left: none;\n\t    background-color: rgba(255, 255, 255, 0);\n\t    border-top: 1px solid rgba(177, 255, 181, 0.21);\n\t    border-bottom: 1px solid rgba(0, 253, 255, 0.21);\n\t}\n\n\n\t\t#title {\n\t\t\tfont-family: \"San-Francisco\";\nfont-size: 1.2em;\nfont-weight: 300;\nfloat: left;\npadding-top: .000005em;\nmargin-left: 2%;\n\t}\n\n\n\n\n\n\t\t#picture {\n    width: 100%;\n\t\tmargin-right: auto;\n\t\tmargin-left: auto;\n\t\tdisplay: block;\n}\n\n#account {\n\tfont-family: \"San-Francisco\";\n\tfont-size: 1em;\n\tfont-weight: 600;\n\tcolor: #000000;\n\tmargin-left: 8%;\n}\n\n#price {\n    font-family: \"San Francisco Text\";\n    font-size: .6em;\n    margin-right: 1em;\n    float: right;\n    font-weight: 600;\n}\n\n#buydarkfeed {\n    font-family: \"San Francisco Text\";\n    color: white;\n    border: 1px solid rgb(0, 0, 0);\n    margin-top: .000005em;\n    background-color: black;\n    font-size: .6em;\n    font-weight: 600;\n    letter-spacing: .2em;\n    padding-bottom: .7em;\n    bottom: 0em;\n    padding-top: .7em;\n    float: right;\n\t\tmargin-right: 5%;\n\t\twidth: 30%;\n}\n\n#sweatshirtinfo {\n    margin-top: .3%;\n    margin-left: 3%;\n    z-index: 1000000000;\n}\n\n#images {\n\tmargin-left: .1em;\n}\n\n#mainimages {\n    width: 90%;\n    margin-left: auto;\n    margin-right: auto;\n    margin-top: 9em;\n    display: block;\n    margin-bottom: 10em;\n}\n}\n\n\n@media only screen and (max-width: 350px) {\n\n}\n"
+  "/* CSS declarations go here */\n\n@font-face {\n\tfont-family:'Roboto';\n\tsrc: url('/fonts/Roboto-Bold.ttf');\n\tfont-weight: bold;\n}\n\n@font-face {\n\tfont-family:'Roboto';\n\tsrc: url('/fonts/Roboto-Black.ttf');\n}\n\n\n@font-face {\n\tfont-family: 'San Francisco Text';\n\tsrc: url('../fonts/System San Francisco Display Regular.ttf') format('truetype')\n;\n}\n\n@font-face {\n  font-family: 'San Francisco Text';\n  font-weight: 600;\n  src: url('/fonts/System San Francisco Display Regular.ttf') format('truetype')\n;\n}\n\n@font-face {\n  font-family: 'San Francisco Text';\n  font-weight: 400;\n  src: url('/fonts/System San Francisco Text Medium.ttf') format('truetype')\n;\n}\n\n@font-face {\n  font-family: 'San Francisco Text';\n  font-weight: 300;\n  src: url('/fonts/System San Francisco Display Thin.ttf') format('truetype')\n;\n}\n@font-face {\n  font-family: 'San Francisco Text';\n  font-weight: 200;\n  src: url('/fonts/System San Francisco Display Ultralight.ttf') format('truetype'),\n;\n}\n\n@font-face {\n  font-family: 'Coutoure';\n  src: url('/fonts/couture-bld.otf');\n}\n\n@font-face {\n  font-family: 'Coutoure';\n  font-weight: 'bold';\n  src: url('/fonts/couture-bldit.otf');\n}\n\n@font-face {\n\tfont-family: 'Bebas';\n\tsrc: url('/BEBAS.TTF')\n}\n\n@font-face {\n\tfont-family: \"Proxima\";\n\tsrc: url('/fonts/Proxima.otf')\n}\n\nul {\n  padding-left: 1%;\n  margin-bottom: 15em;\n}\n\nbody {\n   margin: 0;\n   padding: 0;\n}\n\nhtml {\n   margin: 0;\n   padding: 0;\n}\n\n\n/* CSS declarations go here */\n\n@font-face {\n\tfont-family:'Roboto';\n\tsrc: url('/fonts/Roboto-Bold.ttf');\n\tfont-weight: bold;\n}\n\n@font-face {\n\tfont-family:'Roboto';\n\tsrc: url('/fonts/Roboto-Black.ttf');\n}\n\n\n@font-face {\n\tfont-family: 'San-Francisco';\n\tsrc: url('../fonts/System San Francisco Display Regular.ttf') format('truetype')\n}\n\n@font-face {\n  font-family: 'San-Francisco';\n  font-weight: 400;\n  src: url('/fonts/System San Francisco Display Regular.ttf')  format('truetype')\n\n}\n@font-face {\n  font-family: 'San-Francisco';\n  font-weight: 300;\n  src: url('/fonts/System San Francisco Display Thin.ttf') format('truetype')\n}\n@font-face {\n  font-family: 'San-Francisco';\n  font-weight: 200;\n  src: url('/fonts/System San Francisco Display Ultralight.ttf') format('truetype')\n}\n\n.master-navbartwo1 {\n    background-image: -webkit-gradient( linear, right bottom, left bottom, color-stop(0, #0B917F), color-stop(1, #34396E) );\n    background-image: -o-linear-gradient(left, #0B917F 0%, #34396E 100%);\n    background-image: -moz-linear-gradient(left, #0B917F 0%, #34396E 100%);\n    background-image: -webkit-linear-gradient(left, rgb(0, 25, 13) 30%, rgb(0, 3, 35) 100%);\n    background-image: -ms-linear-gradient(left, #0B917F 0%, #34396E 100%);\n    background-image: linear-gradient(to left, #002310 0% #061833 100%);\n    height: 100%;\n    width: 100%;\n    position: fixed;\n    z-index: 500;\n    top: 0px;\n    right: 0px;\n}\n\n.master-navbarthree1 {\n    height: 100%;\n    top: 0px;\n    left: 0;\n    width: 100%;\n    z-index: 550;\n    position: fixed;\n    opacity: .95;\n    background-color: rgba(255, 255, 255, 0.39);\n}\n\n#login-buttons {\n    display: inline-block;\n    margin-right: 0.2px;\n    line-height: 1;\n    margin-top: 10em;\n    position: fixed;\n    z-index: 100000000000000000000000000000;\n}\n\n#creatordescription {\n  font-family: \"San Francisco Text\";\n  font-weight: 600;\n  color: black;\n  display: block;\n  margin-left: 10%;\n  width: 75%;\n  margin-top: 22em;\n  z-index: 100000000000000000000000000000000;\n  position: fixed;\n  letter-spacing: .3em;\n  border-left: 3px dashed #FFFFFF;\n  padding-left: 3%;\n}\n\n  #creatornetwork {\n    font-family: \"San Francisco Text\";\n    color: black;\n    z-index: 100000000000;\n    font-weight: 600;\n    text-transform: uppercase;\n    letter-spacing: .5em;\n    margin-top: 10em;\n    display: block;\n    margin-left: 10%;\n    padding-bottom: 1em;\n    border-bottom: 3px dashed rgb(255, 255, 255);\n    position: fixed;\n}\n\n\n\n\n\n\n.maintext2{\n  display: inline-block;\n      text-align: center;\n      z-index: 1001;\n      -webkit-transition: all 150ms ease;\n      -moz-transition: all 150ms ease;\n      -o-transition: all 150ms ease;\n      transition: all 150ms ease;\n      color: #716969;\n      font-family: \"San Francisco Text\";\n      padding-right: 1.7em;\n      padding-left: .3em;\n      color: rgb(255, 255, 255);\n      border-bottom: none;\n      border-top: none;\n      letter-spacing: 2px;\n      font-weight: 600;\n      font-size: .8em;\n      border-right: none;\n      border-left: none;\n      text-decoration: none;\n      margin-top: 3.4em;\n}\n\n#joingemail {\n  background-color: rgba(0, 0, 0, 0.5);\nborder: none;\nwidth: 60%;\nheight: 5em;\nborder-radius: 5px;\npadding-left: 5em;\nfont-size: 1.2em;\nletter-spacing: .4em;\ntext-transform: uppercase;\ncolor:white;\nposition: absolute;\n}\n\n#launchtag {\n  z-index: 100000000000000000000000;\n  display: block;\n  width: 100%;\n  position: absolute;\n  bottom: 0px;\n  top: 6em;\n  background-image: -webkit-linear-gradient(left, rgb(187, 187, 187) 30%, rgb(109, 109, 109) 100%);\n}\n\n#signupform {\n  width: 80%;\n      display: block;\n      z-index: 1000000000000000000000000;\n      position: relative;\n      margin-left: auto;\n      margin-right: auto;\n      margin-top: 8em;\n}\n\n\n#joingemail:hover {\nbackground-color: rgba(0, 0, 0, 0.5);\nborder: 1px solid turquoise;\nwidth: 60%;\nheight: 5em;\nborder-radius: 5px;\npadding-left: 5em;\nfont-size: 1.2em;\nletter-spacing: .4em;\ntext-transform: uppercase;\n}\n\n#sizes {\nmargin-bottom: 1em;\ndisplay: block;\n}\n\n#signup{\n\tfont-size: 1.2em;\n\tposition: absolute;\n\tborder: 1px solid white;\n\tcolor: rgb(255, 255, 255);\n\tletter-spacing: .4em;\n\tfont-family: \"San Francisco Text\";\n\tpadding-left: 1.8em;\n\tpadding-right: 1.8em;\n\theight: 5em;\n\tmargin-top: 10em;\n\twidth: 70%;\n\tbackground-color: black;\n\tborder-radius: 5px;\n}\n\n#login{\n\tfont-size: 1.2em;\n\tposition: absolute;\n\tborder: 1px solid white;\n\tcolor: rgb(255, 255, 255);\n\tletter-spacing: .4em;\n\tfont-family: \"San Francisco Text\";\n\tpadding-left: 1.8em;\n\tpadding-right: 1.8em;\n\theight: 5em;\n\tmargin-top: 15em;\n\twidth: 70%;\n\tbackground-color: black;\n\tborder-radius: 5px;\n}\n\n#signup:hover{\n  height: 5em;\n  font-size: 1.2em;\n  border: 1px solid white;\n  color: rgb(255, 255, 255);\n  letter-spacing: .4em;\n  font-family: \"San Francisco Text\";\n  padding-left: 1.8em;\n  padding-right: 1.8em;\n  background-color: rgba(255, 255, 255, 0.18);\n  border-radius: 5px;\n}\n\n#successmessage {\nposition: fixed;\ncolor: white;\nfont-family: \"San Francisco Text\";\nmargin-top: 5em;\ndisplay: block;\nz-index: 100000000000000000000000000000;\n}\n\n#idsent {\n  background-color: rgba(66, 66, 66, 0.31);\npadding-bottom: .4em;\npadding-top: .4em;\nmargin-left: 40em;\n}\n\n.modal3 {\n  display: none;\n  position: fixed;\n  z-index: 1;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n  background-image: background-image: -webkit-gradient( linear, right bottom, left bottom, color-stop(0, #0B917F), color-stop(1, #34396E) );\n  background-image: -o-linear-gradient(left, #0B917F 0%, #34396E 100%);\n  background-image: -moz-linear-gradient(left, #0B917F 0%, #34396E 100%);\n  background-image: -webkit-linear-gradient(left, rgb(186, 203, 210) 30%, rgb(156, 173, 160) 100%);\n  background-image: -ms-linear-gradient(left, #0B917F 0%, #34396E 100%);\n  background-image: linear-gradient(to left, #002310 0% #061833 100%);\n  z-index: 10000000000000;\n}\n\n.at-title {\n  font-family: \"San Francisco Text\";\ncolor: white;\ntext-transform: uppercase;\ntext-align: center;\nmargin-top: 4em;\nletter-spacing: 3px;\n}\n\n#at-pwd-form {\n  text-align: center;\ncolor: white;\nfont-family: \"San Francisco Text\";\nfont-weight: 300;\nletter-spacing: 3px;\n}\n\n#at-field-email{\n\tfont-family: \"San Francisco Text\";\n\t    text-transform: uppercase;\n\t    color: white;\n\t    font-weight: 300;\n\t    letter-spacing: 5px;\n\t    font-size: 1em;\n\t    background-color: black;\n}\n\n\n\n.at-form{\n    background-image: -webkit-linear-gradient(left, rgb(0, 33, 31) 30%, rgb(0, 14, 51) 100%);\n      height: 100%;\n      width: 100%;\n      left: 0px;\n      position: fixed;\n          margin-top: 2.9em;\n}\n\n.signintitle {\n  align-items: center;\n    margin-top: 4em;\n    font-family: \"San Francisco Text\";\n    text-transform: uppercase;\n    margin-left: 40%;\n    letter-spacing: .5em;\n    font-weight: 100;\n    color: white;\n}\n\n#container {\n  margin-left: 26%;\n    margin-top: 4em;\n}\n\n.at-input {\n  color: white;\n  font-weight: 300;\n  font-family: \"San Francisco Text\";\n  letter-spacing: 5px;\n    text-transform: uppercase;\n    color: white;\nfont-weight: 300;\nletter-spacing: 5px;\n}\n\n.at-email {\n  text-transform: uppercase;\n    letter-spacing: .4em;\n    color: white;\n}\n\n.at-field-email {\n  width: 25%;\n  height: 4em;\n  width: 25%;\nheight: 4em;\n}\n\n.at-password {\n  text-transform: uppercase;\n    letter-spacing: .4em;\n    color: white;\n}\n\n#at-btn submit {\nwidth: 30%;\nbackground-color: black;\ncolor: white;\nheight: 5em;\n}\n\n#at-field-password {\n\theight: 4em;\n\twidth: 25%;\n\tfont-size: 1em;\n\tbackground-color: black;\n}\n\n.at-btn-submit {\n  font-size: .7em;\n  padding-left: 5em;\n  padding-right: 5em;\n  padding-top: 1em;\n  background-color: rgba(77, 144, 104, 0.7);\n  padding-bottom: 1em;\n  border: none;\n  color: white;\n  font-family: \"San Francisco Text\";\n  text-transform: uppercase;\n  letter-spacing: 5px;\n}\n\n#submitregistration {\n  padding-left: 5em;\n  padding-right: 5em;\n  padding-top: 1em;\n  padding-bottom: 1em;\n  border-radius: 2px;\n  text-align:center;\n  letter-spacing: 7px;\n  border: none;\n  background-color: #608e60;\n  color: white;\n}\n\n#userregisterform {\n      text-align: center;\n}\n\n.content {\n  height: 100%;\n  width: 100%;\n  background-color: white;\n  color: white;\n}\n\n.at-signup-link {\n  font-family: \"San Francisco Text\";\n  margin-top: 4em;\n  font-weight: 100;\n  letter-spacing: .4em;\n  font-size: .7em;\n  color: white;\n  text-align: center;\n}\n\n#userimage {\n  border: 1px solid white;\npadding: 2em;\nborder-radius: 10px;\n}\n\n#at-signUp {\n  text-transform: uppercase;\n  color: #ffffff;\n  border: 1px solid white;\n  padding: .3em;\n  border-radius: 2px;\n  margin-top: 2em;\n  font-weight: 400;\n}\n\n#navstyling {\n\tborder-bottom: none;\nbackground-color: black;\n}\n\n\n#mainiconstwo {\n\tdisplay: inline-block;\n}\n\n\n#messagingicon {\n  display: inline-block;\n  position: relative;\n  height: 2.5em;\n  width: 2.5em;\n  padding-right: .5em;\n  padding-left: .5em;\n  padding-top: .5em;\n  padding-bottom: .5em;\n  border-radius: 100px;\n  background-color: rgba(255, 255, 255, 0.87);\n  margin-top: .3em;\n  float: right;\n  margin-right: 5em;\n  z-index: 10000000000;\n  border: 1px solid rgba(122, 153, 154, 0.96);\n}\n\n#productqty {\n  width: 6%;\n  height: 3em;\n  border: 1px solid rgb(234, 234, 234);\n  margin-top: 2em;\n}\n\n#shareproduct {\n\tbackground-color: rgb(2, 0, 33);\n\tpadding-right: 55%;\n\tborder: none;\n\tcolor: #ffffff;\n\tletter-spacing: 1em;\n\ttext-transform: uppercase;\n\tpadding-left: 40%;\n\tpadding-top: 1em;\n\tpadding-bottom: 1em;\n\tbottom: 0px;\n\tfont-size: .8em;\n\theight: 6em;\n\tposition: fixed;\n\tfont-family: \"San Francisco Text\";\n}\n\n#price {\n  font-family: \"San Francisco Text\";\n  font-size: .9em;\n  margin-right: 1.3em;\n  float: right;\n  padding-left: 2em;\n  padding-top: .1em;\n  font-weight: 600;\n}\n\n#saleprice {\n  width: 10%;\n  border: 1px solid rgb(234, 234, 234);\n  height: 3em;\n}\n\n#passwordregister {\n  margin-left: 5em;\nheight: 2em;\nborder: none;\npadding-left: 1em;\nbackground-color: rgba(255, 255, 255, 0.39);\nbackground-color: rgba(255, 255, 255, 0.05);\nborder: none;\npadding-left: 1em;\nborder-radius: 9px;\nmargin-top: 5em;\npadding-top: 1.6em;\nposition: absolute;\npadding-bottom: 1.qem;\npadding-right: 1.6em;\nmargin-left: 10em;\nfont-size: 1.7em;\nborder: 1px solid rgba(210, 210, 210, 0.11);\n}\n\n#at-sep {\n  margin-left: 27em;\nmargin-right: 27em;\nletter-spacing: 1em;\nborder: 1px solid white;\n}\n\n#errorlogin {\n  width: 20%;\nmargin-left: auto;\nmargin-right: auto;\n}\n\n#emailregister {\n  margin-left: 5em;\nheight: 2em;\nborder: none;\npadding-left: 1em;\nbackground-color: rgba(255, 255, 255, 0.39);\nbackground-color: rgba(255, 255, 255, 0.05);\nborder: none;\npadding-left: 1em;\nmargin-top: 3em;\npadding-top: 1.6em;\nposition: absolute;\npadding-bottom: 1em;\npadding-right: 1.6em;\nmargin-left: 10em;\nfont-size: 1.7em;\nborder: 1px solid rgba(210, 210, 210, 0.12);\n}\n\n#usernameregister {\n  margin-left: 5em;\n    height: 2em;\n    border: none;\n    padding-left: 1em;\n    background-color: rgba(255, 255, 255, 0.39);\n    background-color: rgba(255, 255, 255, 0.05);\n    border: none;\n    padding-left: 1em;\n    border-radius: 9px;\n    margin-top: 5em;\n    padding-top: 1.6em;\n    position: absolute;\n    padding-bottom: 1.qem;\n    padding-right: 1.6em;\n    margin-left: 10em;\n    font-size: 1.7em;\n    border: 1px solid rgba(210, 210, 210, 0.11);\n}\n\n#at-forgotPwd {\n  font-size: 1.4em;\n    color: #66a9a7;\n    border: 1px solid rgba(255, 255, 255, 0.11);\n    padding-top: .5em;\n    padding-bottom: .5em;\n    padding-left: 1.4em;\n    padding-right: .9em;\n    margin-top: 11em;\n    margin-left: 22em;\n    position: absolute;\n}\n\n\n#monetize {\n  font-family: \"San Francisco Text\";\n  margin-left: auto;\n  font-size: .9em;\n  margin-right: auto;\n  width: 60%;\n  border: none;\n  margin-top: 11em;\n}\n\n\n#basics {\n  font-family: \"San Francisco Text\";\n  margin-left: auto;\n  font-size: .9em;\n  margin-right: auto;\n  width: 60%;\n  border: none;\n  margin-top: 11em;\n  display: block;\n}\n\n#active {\n  border: 2px solid #010186;\ncolor: #010186;\nfont-family: \"San Francisco Text\";\npadding-right: .5em;\npadding-left: 1em;\npadding-top: .4em;\npadding-bottom: .4em;\nborder-radius: 10px;\n}\n\n#private {\n  border: 2px solid #333a65;\ncolor: #333a65;\nfont-family: \"San Francisco Text\";\npadding-right: .5em;\npadding-left: 1em;\npadding-top: .4em;\npadding-bottom: .4em;\nborder-radius: 10px;\n}\n\n#productImg {\n  height: 35em;\n      width: 35em;\n      background-color: black;\n      color: white;\n      margin-left: 30em;\n      position: absolute;\n      margin-top: 12em;\n}\n\n\n#create {\n  font-family: \"San-Francisco\";\n  letter-spacing: .3em;\n  font-size: .7em;\n  font-weight: bold;\n  border: 3px solid rgb(0, 37, 43);\n  padding-bottom: .8em;\n  padding-top: .8em;\n  background-color: rgba(0, 0, 0, 0.14);\n  border-radius: 2px;\n  padding-left: 1.9em;\n  padding-right: 1.9em;\n  text-transform: uppercase;\n  position: fixed;\n  margin-left: 6em;\n  z-index: 100000000000000000000000;\n  color: rgba(0, 0, 0, 0.97);\n}\n\n#home {\n  font-family: \"San-Francisco\";\n  letter-spacing: .3em;\n  font-size: .7em;\n  font-weight: bold;\n  border: 3px solid rgb(0, 37, 43);\n  padding-bottom: .8em;\n  padding-top: .8em;\n  background-color: rgba(0, 0, 0, 0.14);\n  border-radius: 2px;\n  padding-left: 1.9em;\n  padding-right: 1.9em;\n  text-transform: uppercase;\n  position: fixed;\n  z-index: 100000000000000000000000;\n  color: rgba(0, 0, 0, 0.97);\n}\n\n\n\n\n#loginbutton{\n  margin-top: 14em;\n  display: block;\n  width: 30%;\n  margin-left: 36%;\n  z-index: 10000000000000000000000000000;\n  position: fixed;\n  text-align: center;\n  padding: 1em;\n  border-radius: 2px;\n  background-color: rgba(255, 255, 255, 0.26);\n  font-family: \"San-Francisco\";\n  color: rgb(255, 255, 255);\n  letter-spacing: .4em;\n  font-weight: 300;\n  border: 1px solid rgba(255, 255, 255, 0.03);\n}\n\n.modal-content5 {\n  background-color: rgba(255, 255, 255, 0);\nborder: 1px solid black;\nbottom: 0;\nheight: 100%;\nwidth: 100%;\nposition: fixed;\n}\n\n#signupbutton {\n  margin-top: 18em;\n  display: block;\n  width: 30%;\n  margin-left: 36%;\n  text-align: center;\n  padding: 1em;\n  border-radius: 2px;\n  background-color: rgba(255, 255, 255, 0.26);\n  font-family: \"San-Francisco\";\n  color: rgb(255, 255, 255);\n  letter-spacing: .4em;\n  position: fixed;\n  font-weight: 300;\n  border: 1px solid rgba(255, 255, 255, 0.03);\n}\n\n\n\n.market {\nwidth: 20em;\nheight: 20em;\nbackground-color: gray;\nborder: 1px solid black;\n}\n\n#title {\n  font-family: \"San-Francisco\";\n  font-size: 1.7em;\n  font-weight: 300;\n  padding-top: .2em;\n  color: black;\n  float: right;\n  margin-right: 8em;\n  letter-spacing: .15em;\n}\n\n#sizecreate select {\n\tbackground: rgb(255, 255, 255);\n\twidth: 268px;\n\tpadding: 5px;\n\tfont-size: 16px;\n\tfont-family: \"San Francisco Text\";\n\n}\n\n.modal3 {\n  display: none;\n  position: fixed;\n  z-index: 1;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n  background-image: background-image: -webkit-gradient( linear, right bottom, left bottom, color-stop(0, #0B917F), color-stop(1, #34396E) );\n  background-image: -o-linear-gradient(left, #0B917F 0%, #34396E 100%);\n  background-image: -moz-linear-gradient(left, #0B917F 0%, #34396E 100%);\n  background-image: -webkit-linear-gradient(left, rgb(255, 255, 255) 30%, rgb(250, 255, 241) 100%);\n  background-image: -ms-linear-gradient(left, #0B917F 0%, #34396E 100%);\n  background-image: linear-gradient(to left, #002310 0% #061833 100%);\n  z-index: 10000000000000;\n}\n\n.modal35 {\n  position: fixed;\n      z-index: 10000000000000000;\n      left: 0;\n      top: 0;\n      width: 100%;\n      height: 100%;\n      overflow: auto;\n}\n\n.modal2345 {\n  display: block;\n  position: fixed;\n  z-index: 1000000000000000000000000;\n  float: left;\n  margin-top: 4em;\n  height: 90%;\n  top: 0;\n  overflow: auto;\n  background-image: background-image: -webkit-gradient( linear, right bottom, left bottom, color-stop(0, #0B917F), color-stop(1, #34396E) );\n  background-image: -o-linear-gradient(left, #0B917F 0%, #34396E 100%);\n  background-image: -moz-linear-gradient(left, #0B917F 0%, #34396E 100%);\n  background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 30%, rgb(255, 255, 255) 100%);\n  background-image: -ms-linear-gradient(left, #0B917F 0%, #34396E 100%);\n  background-image: linear-gradient(to left, #002310 0% #061833 100%);\n}\n\nmodal-contentyou0 {\n  background-color: rgb(0, 0, 0);\n  height: 90%;\n  width: 30%;\n  margin-top: 4em;\n  position: fixed;\n  left: 0;\n  display: block;\n}\n\n.closeyou1 {\n\tfont-family: \"San Francisco Text\";\n\tletter-spacing: 5px;\n\tpadding-top: 1.8em;\n\tfont-size: .8em;\n\tcolor: black;\n\tbackground-color: rgba(255, 255, 255, 0.11);\n\tdisplay: block;\n\tpadding-left: 18em;\n\tpadding-bottom: 1.8em;\n}\n\n#wread2 {\n  font-family: \"Helvetica\";\n  font-style: italic;\n}\n\n#about {\n  display: block;\n  color: #193834;\n  letter-spacing: 2px;\n  padding-right: 5em;\n  margin-top: 1em;\n  font-size: 1em;\n  padding-left: 5em;\n  padding-top: .8em;\n  padding-bottom: .8em;\n  margin-left: 4%;\n}\n\n#termsandconditions {\n  display: block;\n  font-size: .85em;\n  margin-left: 5%;\n  border: 5px solid black;\n  color: black;\n  letter-spacing: 1px;\n  margin-right: 10%;\n  padding-right: 5em;\n  padding-left: 5em;\n  padding-top: .8em;\n  padding-bottom: .8em;\n}\n\n#advertise {\n  margin-bottom: 1.5em;\n  display: block;\n  color: white;\n  letter-spacing: 5px;\n  padding-right: 5em;\n  margin-top: 4em;\n  padding-left: 5em;\n  padding-top: .8em;\n  padding-bottom: .8em;\n  margin-left: 4%;\n}\n\n#investors {\n  display: block;\n  color: black;\n  font-size: .8em;\n  letter-spacing: 5px;\n  padding-right: 5em;\n  padding-left: 5em;\n  padding-top: .8em;\n  padding-bottom: .8em;\n}\n\n#careers {\n  margin-bottom: 1.5em;\n  display: block;\n  color: black;\n  letter-spacing: 5px;\n  font-size: .8em;\n  padding-right: 5em;\n  padding-left: 5em;\n  padding-top: .8em;\n  padding-bottom: .8em;\n}\n\n#allmesslist {\n  color: black;\n  font-family: \"San Francisco Text\";\n  text-transform: uppercase;\n  font-size: .7em;\n  letter-spacing: .5em;\n  margin-left: 20%;\n}\n\n#recentmess {\n\twidth: 21.3%;\n\tbackground-color: rgb(0, 0, 0);\n\theight: 85%;\n\tmargin-top: 3.7em;\n\ttop: 0px;\n\tz-index: 100000000000000000000000000000000000000;\n\tfloat: left;\n\tposition: absolute;\n}\n\n.conversation {\n  width: 55%;\n  border: 5px solid rgba(113, 113, 113, 0.03);\n  background-color: #ffffff;\n  margin-left: 26%;\n  height: 63%;\n  margin-top: 4.3%;\n}\n\n.modal4 {\n  position: fixed;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  margin-top: 5.2%;\n  height: 100%;\n    background-image: -webkit-linear-gradient(left, rgb(210, 201, 201) 30%, rgb(48, 82, 64) 100%);\n\t\tbackground-image: -o-linear-gradient(left, #0B917F 0%, #34396E 100%);\n  background-image: -moz-linear-gradient(left, #0B917F 0%, #34396E 100%);\n  background-image: -webkit-linear-gradient(left, rgb(255, 255, 255) 30%, rgb(245, 245, 245) 100%);\n  background-image: -ms-linear-gradient(left, #0B917F 0%, #34396E 100%);\n  background-image: linear-gradient(to left, #002310 0% #061833 100%);\n  z-index: 1000000;\n}\n\n#createnewmessage {\n  left: 0px;\n      position: fixed;\n      z-index: 10000;\n}\n\n.message-input {\n  position: fixed;\n  width: 90%;\n  border: cyan;\n  bottom: 0;\n}\n\n#addmessage {\n  width: 61%;\n  height: 4em;\n  border: 3px solid #fdfdfd;\n  padding-bottom: 2em;\n}\n\n#createaamessage {\n  height: 100%;\n  width: 100%;\n  top: 0;\n  background-color: rgba(68, 68, 68, 0.88);\n  margin-left: auto;\n  display: block;\n  margin-right: auto;\n  position: absolute;\n}\n\n#greybackground {\n  height: 80%;\n  position: absolute;\n  width: 100%;\n  margin-top: 4em;\n}\n\n\n\n.close {\n\tcolor: #ffffff;\n\tborder-radius: 2px;\n\tfloat: right;\n\tz-index: 100000000000000000000000000000;\n\tposition: fixed;\n\twidth: 15%;\n\ttext-align: center;\n\tfont-size: .8em;\n\tbackground-color: rgb(0, 0, 0);\n\tborder: rgba(78, 0, 0, 0.42);\n\tpadding-top: .5em;\n\tpadding-bottom: .5em;\n\tright: 0px;\n\theight: 3em;\n\tmargin-left: .1%;\n\tfont-family: \"San Francisco Text\";\n\tletter-spacing: 15px;\n}\n\n\n\n#featured {\n  background-color: rgb(177, 191, 184);\n  letter-spacing: .4em;\n  padding-left: 1em;\n  border: 1px solid rgba(0, 255, 243, 0);\n  font-size: .45em;\n  border-radius: 2px;\n  padding-right: 1em;\n  padding-top: .6em;\n  width: 8%;\n  margin-left: 19%;\n  position: absolute;\n  margin-top: 5.9%;\n  display: block;\n  visibility: hidden;\n  padding-bottom: .45em;\n  font-weight: 300;\n  color: rgb(255, 255, 255);\n  font-family: \"San Francisco Text\";\n  font-style: italic;\n}\n\n#featured:hover {\n  background-color: rgba(25, 30, 35, 0.8);\n  letter-spacing: .4em;\n  padding-left: 1em;\n  border: 1px solid rgba(0, 255, 243, 0);\n  font-size: .45em;\n  border-radius: 2px;\n  padding-right: 1em;\n  padding-top: .6em;\n  width: 8%;\n  margin-left: 18%;\n  position: absolute;\n  margin-top: 5.9%;\n  display: block;\n  padding-bottom: .45em;\n  font-weight: 300;\n  color: rgb(255, 255, 255);\n  font-family: \"San Francisco Text\";\n  font-style: italic;\n}\n\n#youmenu {\n  display:hidden;\n  font-family: \"San Francisco Text\";\n}\n\n#send {\n  display: block;\n  margin-left: auto;\n  padding-left: 12em;\n  padding-right: 12em;\n  padding-top: .7em;\n  padding-bottom: .8em;\n  border-radius: 2px;\n  border-top: none;\n  margin-top: 1em;\n  border-bottom: 3px solid rgb(255, 255, 255);\n  border-left: none;\n  border-right: none;\n  margin-right: auto;\n  background-color: rgba(255, 0, 0, 0.34);\n  color: rgba(255, 255, 255, 0.54);\n  font-family: \"San Francisco Text\";\n  font-size: .8em;\n  letter-spacing: .4em;\n}\n\n#ProductSelection6 {\n\tfont-family: \"San-Francisco\";\n\tcolor: rgba(0, 0, 0, 0.87);\n\tletter-spacing: .3em;\n\tdisplay: inline-block;\n\tfont-size: 1em;\n\tmargin-left: 40%;\n\tposition: fixed;\n\twidth: 15em;\n\tz-index: 1000000000000000000000000000;\n\ttext-transform: uppercase;\n\tpadding-bottom: 1em;\n\tfloat: right;\n}\n\n\n\n\n#ProductSelection3 {\n  font-family: \"San Francisco Text\";\n      padding-left: 4em;\n      padding-right: 4em;\n      padding-top: 1em;\n      border-bottom: 1px solid black;\n      border: none;\n      position: absolute;\n      margin-left: 28em;\n      margin-top: 1em;\n}\n\n#productcreate {\n  position: fixed;\n  top: 60px;\n  margin-left: 18em;\n}\n\n.modal2{\n\tdisplay: block;\n\tposition: fixed;\n\tz-index: 1;\n\tleft: 0;\n\tbottom: 0px;\n\twidth: 100%;\n\theight: 90%;\n\toverflow: auto;\n\tbackground-image: background-image: -webkit-gradient( linear, right bottom, left bottom, color-stop(0, #0B917F), color-stop(1, #34396E) );\n\tbackground-image: -o-linear-gradient(left, #0B917F 0%, #34396E 100%);\n\tbackground-image: -moz-linear-gradient(left, #0B917F 0%, #34396E 100%);\n\tbackground-image: -webkit-linear-gradient(left, rgb(1, 18, 35) 30%, rgb(0, 27, 13) 100%);\n\tbackground-image: -ms-linear-gradient(left, #0B917F 0%, #34396E 100%);\n\tbackground-image: linear-gradient(to left, #002310 0% #061833 100%);\n\tz-index: 10000000000000;\n}\n\n.modal-content {\n\theight: 70%;\n\tmargin-left: 3%;\n\tposition: fixed;\n\tmargin-top: 15em;\n\tdisplay: block;\n\tflex-direction: row;\n}\n\n.closeyou {\n  font-family: \"San Francisco Text\";\n  letter-spacing: 5px;\n  padding-top: 1.8em;\n  font-size: .8em;\n  color: gainsboro;\n  background-color: rgba(255, 255, 255, 0.11);\n  display: block;\n  padding-left: 18em;\n  padding-bottom: 1.8em;\n}\n\n\n\n.site15 {\n\tdisplay: block;\n\tcolor: white;\n\tletter-spacing: 5px;\n\tpadding-top: inherit;\n\tmargin-bottom: 1em;\n\t    margin-top: 4.4em;\n}\n\n#settings2 {\n\tdisplay: block;\n\tcolor: black;\n\tletter-spacing: 5px;\n\tfont-weight: 600;\n\tdisplay: block;\n\tletter-spacing: 5px;\n\tpadding-top: inherit;\n\tmargin-bottom: 1em;\n\ttext-align: center;\n\twidth: 100%;\n\tfont-weight: 600;\n\tmargin-bottom: 1em;\n}\n\n#logout2 {\n\tdisplay: block;\n\t    border-left: none;\n\t    border-right: none;\n\t    color: black;\n\t    font-weight: 600;\n\t    letter-spacing: 5px;\n\t    padding-bottom: 1.1em;\n\t    display: block;\n\t    color: black;\n\t    letter-spacing: 5px;\n\t    font-weight: 600;\n\t    display: block;\n\t    letter-spacing: 5px;\n\t    padding-top: inherit;\n\t    margin-bottom: 1em;\n\t    text-align: center;\n\t    width: 100%;\n\t    font-weight: 600;\n\t    margin-bottom: 1em;\n}\n\n.modal234 {\n  display: block;\n    position: fixed;\n    z-index: 1;\n    top: 0;\n    overflow: auto;\n    background-image: background-image: -webkit-gradient( linear, right bottom, left bottom, color-stop(0, #0B917F), color-stop(1, #34396E) );\n    background-image: -o-linear-gradient(left, #0B917F 0%, #34396E 100%);\n    background-image: -moz-linear-gradient(left, #0B917F 0%, #34396E 100%);\n    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0) 100%);\n    background-image: -ms-linear-gradient(left, #0B917F 0%, #34396E 100%);\n    background-image: linear-gradient(to left, #002310 0% #061833 100%);\n    z-index: 10000000000000;\n}\n\n.modal-contentyou{\n\theight: 76%;\n\tborder: 1px solid rgba(255, 255, 255, 0.12);\n\twidth: 100%;\n\tmargin-top: 5em;\n\tposition: fixed;\n\tfont-weight: 100;\n\tdisplay: block;\n\tcolor: #0a0000;\n\tfont-weight: 600;\n\tbackground-image: -webkit-linear-gradient(left, rgb(212, 206, 222) 20%, rgb(245, 247, 234) 100%);\n}\n\n\n.at-form{\n\n}\n\n.atform {\n  margin-top: 10%;\ndisplay: block;\nleft: 0;\ntop: 0;\nwidth: 60%;\nheight: 60%;\nmargin-left: auto;\nmargin-right: auto;\noverflow: auto;\nbackground-image: background-image: -webkit-gradient( linear, right bottom, left bottom, color-stop(0, #0B917F), color-stop(1, #34396E) );\nbackground-image: -o-linear-gradient(left, #0B917F 0%, #34396E 100%);\nbackground-image: -moz-linear-gradient(left, #0B917F 0%, #34396E 100%);\nbackground-image: -webkit-linear-gradient(left, rgb(253, 254, 255) 30%, rgb(255, 255, 246) 100%);\nbackground-image: -ms-linear-gradient(left, #0B917F 0%, #34396E 100%);\nbackground-image: linear-gradient(to left, #002310 0% #061833 100%);\nz-index: 10000000000000;\n}\n\n.formnext {\n  padding-right: 6em;\n      background-color: #00aaff;\n      padding-left: 16em;\n      padding-top: 1em;\n      padding-bottom: 1em;\n      margin-left: 3em;\n      letter-spacing: .2em;\n      position: fixed;\n      font-size: .8em;\n      border: 2px solid #00aaff;\n      bottom: 0px;\n      color: white;\n}\n\n.formback {\n  background-color: #00aaff;\n  padding-left: 6em;\n  padding-right: 3em;\n  padding-top: 1em;\n  padding-bottom: 1em;\n  letter-spacing: .2em;\n  font-size: .8em;\n  left: 0px;\n  position: fixed;\n  margin-left: 23em;\n  bottom: 0px;\n  color: white;\n}\n\n#lowerlowernav {\n  font-family: \"San Francisco Text\";\n    position: fixed;\n    margin-left: 30em;\n    margin-top: 1.5em;\n}\n\n#productcreate li {\n  display: table-cell;\n  text-align: center;\n  width: 04%;\n  background-color: rgba(212, 212, 212, 0.29);\n  padding-bottom: 1em;\n  border-right: 1px solid #e2e2e2;\n  margin-right: 5em;\n  padding-right: .5em;\n  color: black;\n  padding-left: .5em;\n  padding-top: 1em;\n  letter-spacing: .1em;\n  z-index: 10000;\n  font-family: \"San-Francisco\";\n  font-size: .8em;\n}\n\n#UserId {\nfont-family: \"San Francisco Text\";\nfont-style: italic;\nletter-spacing: 5px;\nfont-size: 4em;\nmargin-left: 36.5%;\n}\n\n#aboutaccountimage3 {\nheight: 2em;\nborder-radius: 100px;\n}\n\n#userimage {\n\tborder: 1px solid white;\n\tpadding: 2em;\n\tbackground-color: black;\n}\n\n#streamproductcontainer {\nheight: 100%;\ntop: 0px;\nbackground-color: black;\nposition: absolute;\nbottom: 0px;\n}\n\n#enterbio {\n  background-color: rgba(255, 255, 255, 0.13);\nheight: 8em;\nmargin-top: 1.5em;\nwidth: 30%;\n}\n\n#enterlocation {\n  background-color: rgba(255, 255, 255, 0.13);\n      height: 4em;\n      width: 30%;\n      margin-top: 2em;\n}\n\n#userregistrationsubmit {\n\tpadding-left: 9em;\n\tpadding-right: 9em;\n\tbackground-color: #547754;\n\tborder: none;\n\tpadding-top: 1.5em;\n\tcolor: white;\n\tletter-spacing: 7px;\n\tpadding-bottom: 1.5em;\n\tmargin-top: 2em;\n\tbottom: 0;\n\tposition: fixed;\n\twidth: 100%;\n\tleft: 0px;\n}\n\n#account {\nfont-family: \"San-Francisco\";\nfont-size: 1.7em;\nfont-weight: 600;\ncolor: #000000;\nletter-spacing: .15em;\ndisplay: block;\nposition: absolute;\nmargin-left: 15%;\n}\n\n\n\n/* Stream Styles */\n#accountstream {\n  font-family: \"San Francisco Text\";\n  font-weight: 600;\n  margin-left: 15%;\n  display: inline-block;\n  margin-top: 3em;\n  font-size: 3em;\n  color: rgb(255, 255, 255);\n}\n\n#joincall2 {\n  font-family: \"San Francisco Text\";\n  text-transform: uppercase;\n  margin-top: 1.4em;\n  font-style: italic;\n  font-size: 8em;\n  margin-left: 12%;\n  border-radius: 10px;\n  color: #060606;\n  border: none;\n  position: fixed;\n  font-weight: 600;\n  z-index: 1000000000000000000000000000000000;\n}\n\n#titlestream {\n  font-family: \"San Francisco Text\";\n  font-weight: 300;\n  padding-left: 1em;\n  display: block;\n  margin-left: 8%;\n  color: white;\n  font-size: 3em;\n}\n\n#buydarkfeed {\n  font-family: \"Open Sans\";\n  padding-left: 3.5em;\n  float: right;\n  padding-right: 3.5em;\n  display: inline-block;\n  color: rgb(255, 255, 255);\n  border: none;\n  background-color: rgb(0, 0, 0);\n  font-size: .9em;\n  font-weight: 600;\n  margin-right: 17%;\n  letter-spacing: .4em;\n  bottom: 0em;\n  padding-top: .9em;\n  padding-bottom: .9em;\n}\n\n#MainFeed {\n    margin-bottom: 10em;\n}\n\n#wavyrealities {\n    height: 10em;\n    width: 10em;\n    padding-top: 3em;\n    padding-bottom: 3em;\n    margin-top: 6em;\n    padding-right: 3em;\n    padding-left: 3em;\n    margin-left: 39%;\n    margin-right: auto;\n    z-index: 100000000000000000000000000000000000;\n    display: block;\n    position: fixed;\n    border-radius: 100%;\n}\n\n#mainimages {\n  width: 60%;\n      margin-top: 3.5em;\n      display: block;\n      margin-bottom: 10em;\n}\n\n\n#buyprocess {\n\tvisibility: hidden;\n}\n\n#sharedark {\n\tfont-family: \"San Francisco Text\";\n\t    color: black;\n\t    border: 7px solid rgb(0, 0, 0);\n\t    background-color: rgb(255, 255, 255);\n\t    font-size: 1em;\n\t    padding-left: 2em;\n\t    padding-top: 2em;\n\t    padding-right: 2em;\n\t    padding-bottom: 2em;\n\t    font-weight: 600;\n\t    letter-spacing: .4em;\n\t    width: 2em;\n\t    -webkit-transition: all 150ms ease;\n\t    -moz-transition: all 150ms ease;\n\t    -o-transition: all 150ms ease;\n\t    transition: all 150ms ease;\n}\n\n#price:hover {\n\tcolor: turquoise;\n}\n\n\n#sharedark:hover {\n\tfont-family: \"San Francisco Text\";\n\t    color: black;\n\t    border: 2px solid rgb(0, 0, 0);\n\t    background-color: rgb(255, 255, 255);\n\t    font-size: 1em;\n\t    padding-left: 1.1em;\n\t    padding-top: 3.5em;\n\t    padding-right: 5em;\n\t    padding-bottom: 1.4em;\n\t    font-weight: 600;\n\t    letter-spacing: .4em;\n\t    width: 2em;\n\t    -webkit-transition: all 150ms ease;\n\t    -moz-transition: all 150ms ease;\n\t    -o-transition: all 150ms ease;\n\t    transition: all 150ms ease;\n}\n\n#buydarkfeed:hover {\n  font-family: \"San Francisco Text\";\n  color: rgb(255, 255, 255);\n  border: none;\n  background-color: rgba(0, 80, 58, 0.99);\n  font-size: .8em;\n  margin-top: 1.1%;\n  font-weight: 600;\n  letter-spacing: .2em;\n  width: 20%;\n  bottom: 0em;\n  padding-top: .7em;\n  float: right;\n  margin-right: 15%;\n  padding-bottom: .7em;\n}\n\n#shareicon {\n\theight: 3.5em;\n\twidth: 3.5em;\n\tpadding-left: .7em;\n\tpadding-top: 1.4em;\n}\n\n#leftarrowicon {\n\tmargin-top: 20em;\n\t    height: 1em;\n\t    margin-left: .3em;\n\t    padding-top: 1em;\n\t    padding-bottom: 1em;\n\t    padding-left: 1em;\n\t    padding-right: 1em;\n\t\t\tbackground-color: rgba(223, 244, 255, 0.26);\n\t    border-radius: 100px;\n\t    border: 2px solid rgba(255, 255, 255, 0.52);\n}\n\n#leftarrowicon:hover {\n\tmargin-top: 20em;\n\theight: 1em;\n\tmargin-left: .3em;\n\tpadding-top: 1em;\n\tpadding-bottom: 1em;\n\tpadding-left: 1em;\n\tpadding-right: 1em;\n\tborder-radius: 100px;\n}\n\n\n#successful {\n\tborder: 1px solid white;\n    margin-top: 2em;\n    position: absolute;\n    height: 20em;\n    font-weight: 300;\n    top: 0;\n    margin-left: 27%;\n    font-style: italic;\n}\n\n#successmessage {\n\tposition: fixed;\n\tcolor: white;\n\tfont-family: \"San Francisco Text\";\n\tmargin-top: 9em;\n\tdisplay: block;\n\tz-index: 100000000000000000000000000000;\n}\n\n#rightarrowicon {\n\tmargin-top: 20em;\n\t    height: 1em;\n\t    padding-top: 1em;\n\t    padding-bottom: 1em;\n\t    padding-left: 1em;\n\t\t\tbackground-color: rgba(223, 244, 255, 0.26);\n\t    padding-right: 1em;\n\t    border-radius: 100px;\n\t    border: 2px solid rgba(255, 255, 255, 0.52);\n}\n\n#rightarrowicon:hover {\n\tmargin-top: 20em;\n\theight: 1em;\n\tpadding-top: 1em;\n\tpadding-bottom: 1em;\n\tpadding-left: 1em;\n\tpadding-right: 1em;\n\tborder-radius: 100px;\n}\n\n#leftarrowstyle {\n  height: 100%;\n      width: 4.5em;\n      float: left;\n      position: fixed;\n      top: 0;\n      left: 0;\n}\n\n#leftarrowstyle:hover {\n\theight: 100%;\n\twidth: 4.5em;\n\tfloat: left;\n\ttop: 0;\n\tleft: 0;\n\tposition: fixed;\n\tbackground-color: #F9F9F9;\n}\n\n#rightarrowstyle {\n  width: 4.5em;\n  top: 0;\n  margin-left: 45%;\n  height: 100%;\n  position: fixed;\n}\n\n#rightarrowstyle:hover {\n\theight: 100%;\n\tborder: 1px solid rgb(253, 253, 253);\n\twidth: 4.5em;\n\tfloat: right;\n\tright: 0;\n\ttop:0;\n\tposition: fixed;\n\tbackground-color: #F9F9F9;\n}\n\n#accountid {\n\tmargin-top: 10em;\n\ttext-transform: uppercase;\n\tfont-family: \"San Francisco Text\";\n\tfont-weight: 600;\n\tcolor: gray;\n}\n\n#accounttextid{\n\tfont-family: \"San Francisco Text\";\n\tfont-weight: 200;\n\tdisplay: inline;\n}\n\n#aboutaccountimage {\n\theight: 2.7em;\ndisplay: inline;\n}\n\n#aboutaccomuntimage2{\nheight: 2em;\nborder-radius: 100px;\ndisplay:inline;\n}\n\n#aboutaccountimage3 {\n\theight: 2em;\n\tborder-radius: 100px;\n\tdisplay:inline;\n}\n\n#aboutaccountimage4{\n\theight: 2em;\n\tborder-radius: 100px;\n\tdisplay:inline;\n}\n\n#shippingid {\nfont-family: \"San Francisco Text\";\nfont-weight: 600;\ntext-transform: uppercase;\ncolor: gray;\n}\n\n#shippingtextid {\nfont-family: \"San Francisco Text\";\nfont-weight: 200;\n}\n\n#termsid {\n\tfont-family: \"San Francisco Text\";\nfont-weight: 600;\ntext-transform: uppercase;\ncolor: #434FFF;\nborder: 1px solid;\nborder-radius: 10px;\npadding-left: 11em;\npadding-top: .6em;\npadding-bottom: .6em;\n}\n\n#textid {\nfont-family: \"San Francisco Text\";\ntext-transform: uppercase;\ncolor: gray;\nfont-weight: 600;\n}\n\n#texttextid {\nfont-family: \"San Francisco Text\";\nmargin-bottom: 5em;\n}\n\na:link {\n\tcolor:inherit;\n\ttext-decoration:none;\n}\n\na:visited {\n\tcolor: inherit;\n\ttext-decoration:none;\n}\n\n#aboutcontainer {\nwidth: 50%;\nmargin-left: 20em;\ncolor: white;\n}\n\n#payment-form{\n\tdisplay: block;\n\t    margin-left: auto;\n\t    margin-right: auto;\n\t    padding: 2em;\n\t    background-color: rgba(255, 255, 255, 0.11);\n\t    width: 75%;\n\t    border: 3px solid black;\n\t    border-radius: 10px;\n}\n\n#payment-id {\n\tdisplay: block;\nwidth: 60%;\nmargin-left: auto;\nmargin-right: auto;\n}\n\n\n#successmain {\n\tfont-size: 8em;\n    color: white;\n    font-weight: 600;\n    z-index: 1000000000000000000000;\n    position: fixed;\n    font-family: \"San Francisco Text\";\n}\n\n\n\t.paymenttext {\n\t\ttext-transform: uppercase;\n\t\t    font-size: .9em;\n\t\t    color: #000000;\n\t\t    font-weight: 600;\n\t\t    margin-left: auto;\n\t\t    margin-right: auto;\n\t\t    display: block;\n\t\t    padding: 6px;\n\t\t    border: none;\n\t\t    border-left: none;\n\t\t    border-right: none;\n\t\t    border-bottom: none;\n\t\t    letter-spacing: .3em;\n\t\t    font-family: \"San Francisco Text\";\n}\n\n#cardnumber {\n\n\tpadding: 1px 0px 4px 29px;\n\theight: 2em;\n\tmargin-top: .1em;\n\twidth: 60%;\n\tfont-size: .9em;\n\tfont-weight: 600;\n\ttext-transform: uppercase;\ncolor: white;\n\tborder-bottom: none;\n\tborder-left: none;\n\tborder-top: none;\n\tborder-right: none;\n\tbackground-color: black;\n\tletter-spacing: .3em;\n\tfont-family: \"San Francisco Text\";\n}\n\n#addresslabel {\n\ttext-transform: uppercase;\n\tfont-size: .9em;\n\tcolor: #000000;\n\tfont-weight: 600;\n\tmargin-left: auto;\n\tmargin-right: auto;\n\tdisplay: block;\n\tpadding: 6px;\n\tborder: none;\n\tborder-left: none;\n\tborder-right: none;\n\tborder-bottom: none;\n\tletter-spacing: .3em;\n\tfont-family: \"San Francisco Text\";\n}\n#paymentbuy {\n\tfont-family: \"San Francisco Text\";\ncolor: white;\nbackground-color: #475D54;\nborder-radius: 4px;\npadding-left: 5em;\nletter-spacing: .6em;\nmargin-top: 1em;\npadding-top: .7em;\nborder: none;\nfont-size: .8em;\npadding-right: 5em;\nfloat: right;\npadding-bottom: .7em;\ndisplay: block;\ntext-transform: uppercase;\n}\n\n#paymentz {\n\tpadding-left: 40%;\n\tpadding-right: 40%;\n\tmargin-top: 3em;\n\tborder-radius: 5px;\n\twidth: 100%;\n\tpadding-top: 1em;\n\tborder: 1px solid rgba(5, 241, 255, 0.74);\n\tletter-spacing: .2em;\n\tcolor: #FFFFFF;\n\theight: 5em;\n\tfont-weight: 600;\n\tpadding-bottom: 1em;\n\ttext-transform: uppercase;\n\tbackground-color: rgba(0, 45, 103, 0.65);\n\tfont-size: .9em;\n\tmargin-right: auto;\n\tmargin-left: auto;\n}\n\n#paymentbuy:hover {\n\tfont-family: \"San Francisco Text\";\n\tborder: 1px solid #FFE400;\n\tbackground-color: #475D54;\n\tcolor: #FFE400;\n\tborder-radius: 4px;\n\tpadding-left: 5em;\n\tletter-spacing: .6em;\n\tmargin-top: 1em;\n\tpadding-top: .7em;\n\tborder: none;\n\tfont-size: .8em;\n\tpadding-right: 5em;\n\tfloat: right;\n\tpadding-bottom: .7em;\n\tdisplay: block;\n\ttext-transform: uppercase;\n}\n\n\n#prelaunch {\n\tfont-family: San Francisco Text;\n\t    font-size: .7em;\n\t    font-weight: 100;\n\t    color: #AFAFAF;\n\t    margin-left: auto;\n\t    text-transform: uppercase;\n\t    letter-spacing: .2em;\n\t    display: none;\n}\n\n.maintext2 {\n\tdisplay: inline-block;\n    text-align: center;\n    z-index: 1001;\n    -webkit-transition: all 150ms ease;\n    -moz-transition: all 150ms ease;\n    -o-transition: all 150ms ease;\n    transition: all 150ms ease;\n    color: #716969;\n    font-family: \"San Francisco Text\";\n    padding-right: 1.7em;\n    padding-left: .3em;\n    color: rgb(51, 51, 51);\n    letter-spacing: 2px;\n    font-weight: 600;\n    font-size: .8em;\n    text-decoration: none;\n    margin-top: 3.4em;\n}\n\n#cardcvc {\n\tpadding: 1px 0px 4px 29px;\n\theight: 2em;\n\tcolor: black;\ncolor: white;\n\twidth: 15%;\n\n\tfont-size: .9em;\n\n\n\tborder-bottom: 1px dashed black;\n\tborder-left: none;\n\tborder-top: none;\n\tborder-right: none;\n\tbackground-color: black;\n\tletter-spacing: .3em;\n\t\tfont-weight: 600;\n\tfont-family: \"San Francisco Text\";\n}\n\n#cardmonth {\n\n    padding: 1px 0px 4px 29px;\n    height: 2em;\n\n    margin-top: .1em;\n    width: 15%;\n    font-size: .9em;\ncolor: white;\n\tfont-weight: 600;\n\t\tborder-bottom: 1px dashed black;\n\t\tborder-left: none;\n\t\tborder-top: none;\n\t\tborder-right: none;\n\t\tbackground-color: black;\n\t\tletter-spacing: .3em;\n\t\tfont-family: \"San Francisco Text\";\n}\n\n#cardyear {\n    padding: 1px 0px 4px 29px;\n    height: 2em;\ncolor: white;\n    width: 15%;\n\n    font-size: .9em;\n\n\tfont-weight: 600;\n\t\tborder-bottom: 1px dashed black;\n\t\tborder-left: none;\n\t\tborder-top: none;\n\t\tborder-right: none;\n\t\tbackground-color: black;\n\t\tletter-spacing: .3em;\n\t\tfont-family: \"San Francisco Text\";\n}\n\n#streetaddress {\n    padding: 1px 0px 4px 29px;\n    margin-top: .1em;\n    height: 2em;\n    text-transform: uppercase;\n    width: 50%;\n    font-size: .9em;\n    margin-left: auto;\n    margin-right: auto;\n\n\tfont-weight: 600;\n\t\tborder-bottom: none;\n\t\tborder-left: none;\n\t\tborder-top: none;\n\t\tborder-right: none;\n\t\tbackground-color: black;\n\t\tletter-spacing: .3em;\n\t\tfont-family: \"San Francisco Text\";\n}\n\n\n\n#streetaddress1 {\ncolor: white;\n\tpadding: 1px 0px 4px 29px;\n\tmargin-top: .1em;\n\theight: 2em;\n\ttext-transform: uppercase;\n\twidth: 70%;\n\tfont-size: .9em;\n\tmargin-left: auto;\n\tmargin-right: auto;\n\tborder: none;\n\tbackground-color: black;\n\tletter-spacing: .3em;\n\tfont-family: \"San Francisco Text\";\n}\n\n#streetaddress2 {\n\n\tpadding: 1px 0px 4px 29px;\n\tmargin-top: .1em;\n\theight: 2em;\n\ttext-transform: uppercase;\n\twidth: 45%;\n\tfont-weight: 600;\n\tfont-size: .9em;\n\tmargin-left: auto;\n\tmargin-right: auto;\n\n\n\tborder: 1px dashed black;\n\tbackground-color: black;\n\tletter-spacing: .3em;\n\tfont-family: \"San Francisco Text\";\n}\n\n\n\t#fullname {\n\t\tpadding: 1px 0px 4px 29px;\n    margin-top: .1em;\n    height: 2em;\n    width: 35%;\n    font-size: .9em;\n    text-transform: uppercase;\n    font-weight: 600;\n    border: none;\n    background-color: black;\n    color: white;\n    letter-spacing: .3em;\n    font-family: \"San Francisco Text\";\n\t}\n\n#fullnameone {\n\n\tpadding: 1px 0px 4px 29px;\n\tmargin-top: .1em;\n\theight: 2em;\n\twidth: 35%;\n\tfont-weight: 600;\n\tfont-size: .9em;\n\ttext-transform: uppercase;\n  color: white;\n\tborder-bottom: 1px dashed black;\n\tborder-left: none;\n\tborder-top: none;\n\tborder-right: none;\n\tbackground-color: black;\n\tletter-spacing: .3em;\n\tfont-family: \"San Francisco Text\";\n}\n\n\t#e-mail {\n\t    border: none;\n\t    background-color: black;\n\t    padding: 1px 0px 4px 29px;\n\t    margin-top: .1em;\n\t    height: 2em;\n\t    width: 40%;\n\t    font-size: .9em;\n\t\t\tcolor: white;\n\t    text-transform: uppercase;\n\t    letter-spacing: .2em;\n\t    font-family: \"San Francisco Text\";\n\t}\n\n\n#zipcode {\n    border: none;\n\tcolor: white;\n    background-color: black;\n    padding: 1px 0px 4px 29px;\n    margin-top: .1em;\n    height: 2em;\n    width: 15%;\n    font-size: .9em;\n    text-transform: uppercase;\n    letter-spacing: .2em;\n    font-family: \"San Francisco Text\";\n}\n\n#mainiconsthree{\n  position: fixed;\n  right: 0;\n  font-size: .8em;\n  color: rgb(255, 255, 255);\n  font-family: \"San Francisco Text\";\n  padding-left: 20em;\n  padding-right: 15em;\n  padding-top: 1.3em;\n  padding-bottom: .9em;\n  background-color: rgba(0, 0, 0, 0.9);\n  letter-spacing: .5em;\n  margin-right: .3em;\n  border: 1px solid rgba(217, 255, 248, 0.09);\n  margin-left: 30%;\n}\n\n#mainiconsfour{\n  display: inline-block;\n  z-index: 10000000000000000000000;\n  color: rgb(255, 255, 255);\n  float: right;\n  margin-top: 1em;\n  margin-right: 5%;\n}\n\n#city {\n\tpadding: 1px 0px 4px 29px;\n\t    background-color: black;\n\t    height: 2em;\n\tcolor: white;\n\t    text-transform: uppercase;\n\t    width: 37%;\n\t    letter-spacing: .2em;\n\t    font-size: .9em;\n\t    margin-left: auto;\n\t    margin-right: auto;\n\t    margin-top: .1em;\n\t    border: 1px solid black;\n\t    font-family: \"San Francisco Text\";\n}\n\n#state {\n\t\t\tborder: none;\n\t\tcolor: white;\n\t    background-color: black;\n\t    padding: 1px 0px 4px 29px;\n\t    height: 2em;\n\t    width: 28%;\n\t    font-size: .9em;\n\t    letter-spacing: .2em;\n\t    text-transform: uppercase;\n\t    margin-left: auto;\n\t    margin-right: auto;\n\t    margin-top: .1em;\n\t    font-family: \"San Francisco Text\";\n}\n\n.buybuttonnavigator {\n  position: fixed;\n      margin-top: 30em;\n      margin-left: 3%;\n      border: 3px solid white;\n      padding-left: 5em;\n      font-family: \"San Francisco Text\";\n}\n\n\n#pricey {\n  color: white;\n  letter-spacing: .6em;\n  padding-left: 5em;\n  padding-right: 5em;\n  padding-top: .4em;\n  padding-bottom: .4em;\n  border-right: none;\n  border-left: none;\n  background-color: rgba(255, 255, 255, 0);\n}\n\n#mediatab {\n  font-family: \"San Francisco Text\";\n      font-weight: 600;\n      margin-left: 15%;\n      font-size: .9em;\n      margin-top: 3.2em;\n      display: inline-block;\n}\n\n\n\n#abouttab {\n  display: inline-block;\n      margin-left: 14%;\n      font-family: \"San Francisco Text\";\n      font-weight: 600;\n      font-size: .9em;\n      position: fixed;\n      margin-top: 3.2em;\n}\n\n#buyicon {\nheight: 2em;\nwidth: 2em;\npadding-left: 1em;\npadding-top: 1em;\n}\n\n#streamnavigatorone {\n  position: fixed;\n  right: 0px;\n  height: 100%;\n  width: 40%;\n  border-left: none;\n  border-right: none;\n  border-top: 1px solid rgba(210, 210, 210, 0.2);\n  background-color: black;\n}\n\n#streamnavigatorthree {\n\tbottom: 0;\n\theight: 3em;\n\tposition: fixed;\n\tfloat: right;\n\tborder-left: none;\n\tborder-right: none;\n\tbackground-color: rgba(251, 251, 251, 0);\n\tdisplay: inline-block;\n\twidth: 100%;\n}\n\n\n#accounts {\n\twidth: 55%;\n\tmargin-top: 1em;\n}\n\n#sweatshirtinfo {\n  margin-top: .3em;\n  z-index: 1000000000;\n  width: 100%;\n  height: 5em;\n}\n\n#iconsinfothree {\n\tmargin-top: 29em;\n\tmargin-left: 26.5em;\n\tbackground-color: white;\n\n}\n\n.master-navbar {\ntop: 0;\nmargin-top: 2em;\nz-index: 100000000;\nposition: fixed;\n}\n\n#lowerlowerlower {\n  bottom: 0px;\n  position: fixed;\n  height: 3em;\n  width: 100%;\n  background-image: -webkit-linear-gradient(bottom, rgb(0, 8, 23) 10%, rgb(0, 10, 25) 80%);\n}\n\n#waveicon {\n  display: inline-block;\n      position: relative;\n      float: left;\n      margin-left: 5%;\n      margin-top: 1.3%;\n      height: 1.6em;\n      border: 2px solid rgba(255, 255, 255, 0.3);\n      padding-right: .1em;\n      border-radius: 100px;\n      padding-left: .2em;\n      padding-top: .2em;\n      padding-bottom: .2em;\n      background-color: rgba(255, 255, 255, 0);\n      z-index: 10000000000;\n}\n\n\n\n\n#imagesquareone {\n\theight: 25em;\n\twidth: 25em;\n\tmargin-top: 8em;\n\tbackground-color: red;\n\tfloat: left;\n\tdisplay: inline;\n\tmargin-left: 9em;\n}\n\n\n#imagesquaretwo {\n\theight: 25em;\n\twidth: 25em;\n\tbackground-color: #949494;\n\tfloat: right;\n\tdisplay: inline;\n\tmargin-right: 9em;\n\tmargin-top: 8em;\n}\n\n#waveicon:hover {\n\tborder: 3px dotted rgb(189, 255, 231);\n\t-webkit-transition: all 800ms ease;\n\t-moz-transition: all 800ms ease;\n\t-o-transition: all 800ms ease;\n\ttransition: all 800ms ease;\n\tmargin-top: .14em;\n}\n\n\n#mainabout {\nmargin-top: 4.5em;\nmargin-left: 2.5em;\nfont-family: \"San Francisco Text\";\nfont-size: 2.5em;\ntext-transform: uppercase;\ncolor: #C3C3C3;\nfont-weight: 600;\nfont-style: Italic;\n}\n\n.master-navbar>nav {\n\theight: 4em;\n\tlist-style-type: none;\n\tmargin: 0 auto;\n\tposition: fixed;\n\twidth: 100%;\n\ttop: 0;\n\topacity: 1;\n\tleft: 0;\n\tright: 0;\n\tz-index: 1000000000000000000000000000000000;\n}\n\n\n.master-navbarusersite{\n  top: 0;\nmargin-top: 2em;\nz-index: 100000000;\nposition: fixed;\n}\n\n\n  .master-navbarusersite>nav a, .master-navbar>nav a,  .master-navbar>nav a:link{\n\t\t-webkit-transition: all 150ms ease;\n    -moz-transition: all 150ms ease;\n    -o-transition: all 150ms ease;\n    transition: all 150ms ease;\n    font-family: \"San Francisco Text\";\n    color: rgb(0, 0, 0);\n    padding-top: .8em;\n    padding-bottom: 1em;\n    font-size: .72em;\n    margin-left: 18%;\n    margin-top: 1.5%;\n    z-index: 1001;\n    font-weight: 600;\n    letter-spacing: 6px;\n    float: left;\n    display: inline-block;\n    }\n\n\n\n\n#siteback {\n  background-color: rgba(0, 49, 51, 0.03);\n      position: absolute;\n      padding-left: 1em;\n      margin-top: .1em;\n      padding-right: 4.2em;\n      border: 1px solid rgba(0, 29, 29, 0.01);\n      display: inline-block;\n      float: left;\n      color: black;\n}\n\n.master-navbarusersite>nav li {\n  display: inline-block;\nfont-family: 'San-Francisco';\ntext-align: center;\ncolor: white;\nmargin-left: .5em;\nz-index: 1001;\n-webkit-transition: all 150ms ease;\n-moz-transition: all 150ms ease;\n-o-transition: all 150ms ease;\ntransition: all 150ms ease;\n}\n\n#waveiconusersite {\n  display: inline-block;\n  position: relative;\n  height: 1.6em;\n  margin-left: 2.4em;\n  border: 1px solid rgba(0, 255, 161, 0.85);\n  padding-right: .1em;\n  border-radius: 100px;\n  padding-left: .2em;\n  padding-top: .2em;\n  padding-bottom: .2em;\n  background-color: rgba(0, 11, 35, 0.47);\n  z-index: 10000000000;\n}\n\n\n\n\n\n\n.nav: hover {\n  width: 100%;\nbackground-color: #EFEFEF;\nbottom: 0px;\nborder: none;\nmargin-top: 40em;\nposition: fixed;\npadding-top: .5em;\npadding-bottom: .63em;\npadding-left: .4em;\n}\n\n\n\n.maintext3 {\n  margin-right: 1.1%;\n  font-size: .4em;\n  background-color: rgba(255, 255, 255, 0.22);\n  float: right;\n  color: rgb(255, 255, 255);\n  letter-spacing: .4em;\n  border: 1px solid white;\n  padding-left: 1.2em;\n  padding-right: 1.2em;\n  margin-top: 1.05em;\n  box-shadow: inset 2px 0px 20px 1px rgba(109, 255, 221, 0.24);\n  text-shadow: 1px 3px 1px rgba(1, 0, 68, 0.3);\n}\n\n#Images {\n\tmargin-top: 10em;\n\t    z-index: 1000000000000000000;\n}\n\n\n#lowerideas {\n      width: 100%;\n          display: table;\n}\n\n#lowerideas li {\n  display: table-cell;\n}\n\n#mainiconsone {\n  margin-top: .3em;\n    float: left;\n}\n\n#mainiconsfive {\n  position: fixed;\n  width: 15%;\n  text-align: center;\n  font-size: .8em;\n  color: rgb(255, 255, 255);\n  font-family: \"San Francisco Text\";\n  padding-top: .7em;\n  padding-bottom: .7em;\n  background-color: rgb(72, 72, 72);\n  letter-spacing: .5em;\n  margin-right: .3em;\n  margin-top: .9em;\n  margin-left: 27%;\n  border: 1px solid rgba(0, 208, 255, 0.07);\n  font-weight: 300;\n}\n\n\n.master-navbartwo {\n\tbackground-image: -webkit-linear-gradient(left, rgb(255, 255, 255) 1%, rgb(251, 252, 255) 70%);\n\theight: 4em;\n\twidth: 100%;\n\tcolor: black;\n\tposition: fixed;\n\ttop: 0px;\n\tright: 0px;\n\tz-index: 1000000;\n\topacity: 1;\n}\n\n.master-navbartwousersite {\n  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.88) 1%, rgb(0, 9, 43) 30%);\n  box-shadow: inset 20px 20px 20px 60px rgb(0, 0, 0);\n  height: 4em;\n  width: 100%;\n  position: fixed;\n  top: 0px;\n  right: 0px;\n  z-index: 1000000;\n  opacity: 1;\n}\n\n\n.master-navbarfour {\n  top: 0px;\n  left: 0;\n  width: 100%;\n  position: fixed;\n  z-index: 1000000000000000550;\n}\n\n.master-navbar>nav ul {\n  padding: 0;\n}\n\n#usersitemenu {\n  position: fixed;\n    top: 0px;\n}\n\n#calltojoin {\n  font-family: \"San Francisco Text\";\n    font-size: 1.4em;\n    color: white;\n    margin-top: 10em;\n    position: fixed;\n    text-align: center;\n    width: 100%;\n}\n\n.master-navbar>nav li {\n  display: inline-block;\n  font-family: 'San-Francisco';\n  text-align: center;\n  color: white;\n  width: 24.5%;\n  z-index: 1001;\n  -webkit-transition: all 150ms ease;\n  -moz-transition: all 150ms ease;\n  -o-transition: all 150ms ease;\n  transition: all 150ms ease;\n}\n\n\n#paymentz {\n  padding-left: 40%;\n      padding-right: 40%;\n      margin-top: 3em;\n      border-radius: 5px;\n      display: block;\n      width: 100%;\n      padding-top: 1em;\n      border: 4px solid rgba(128, 128, 128, 0.25);\n      letter-spacing: .2em;\n      color: #FFFFFF;\n      padding-bottom: 1em;\n      text-transform: uppercase;\n      background-color: rgba(20, 231, 255, 0.44);\n      font-size: .9em;\n      margin-right: auto;\n      margin-left: auto;\n}\n\n#paymentz:hover {\n  padding-left: 40%;\n      padding-right: 40%;\n      margin-top: 3em;\n      border-radius: 5px;\n      display: block;\n      width: 100%;\n      padding-top: 1em;\n      border: 4px solid rgba(128, 128, 128, 0.25);\n      letter-spacing: .2em;\n      color: #FFFFFF;\n      padding-bottom: 1em;\n      text-transform: uppercase;\n      background-color: rgba(20, 231, 255, 0.75);\n      font-size: .9em;\n      margin-right: auto;\n      margin-left: auto;\n}\n\n.payment-errors {\nbackground-color: #AF4F4F;\nheight: 2.4em;\ncolor: white;\nfont-family: \"San Francisco Text\";\nfont-weight: 100;\npadding-left: 10em;\npadding-top: 1em;\ntext-transform: uppercase;\n}\n\n.ordertotaling{\n\tcolor: black;\n\tfont-family: \"San Francisco Text\";\n\tfont-weight: 300;\n\tborder-left: 1px solid black;\n\tpadding-left: 2em;\n}\n\n#ordertotaling2{\n\tfont-family: \"San Francisco Text\";\n\t    color: black;\n\t    width: 10%;\n\t    font-weight: 100;\n\t    font-size: .9em;\n\t    border: 1px solid #6F6F6F;\n\t    padding-left: 2em;\n\t    padding-right: 2em;\n\t    border-top: none;\n\t    border-bottom: none;\n\t    padding-top: 1em;\n\t    margin-top: 1em;\n\t    padding-bottom: 1em;\n}\n\n.home {\n  margin-left: 20%;\n}\n\n#streamnavigatortwo {\n  height: 6em;\n      right: 0px;\n      position: fixed;\n      background-color: rgb(4, 0, 0);\n      display: inline-block;\n      width: 40%;\n      top: 2em;\n      color: white;\n      border-bottom: 1px solid #212121;\n}\n\n#imagehover {\nwidth: 70%;\nmargin-right: auto;\nmargin-left: auto;\ndisplay: block;\n}\n\n#picture {\n    width: 70%;\n\t\tmargin-right: auto;\n\tmargin-left: auto;\n\tdisplay: block;\n}\n\n\n@media only screen and (max-width: 1149px) {\n\n\t#mainimages {\n    margin-left: auto;\n    margin-right: auto;\n    width: 55%;\n    margin-top: 9em;\n    display: block;\n    margin-bottom: 10em;\n}\n\n\n}\n\n\n@media only screen and (max-width: 1041px) {\n\n#rightarrowicon {\n\t    margin-top: 30em;\n}\n\n#leftarrowicon {\n\t    margin-top: 30em;\n}\n\n\n\n\t#pricey {\n\t    color: white;\n\t    letter-spacing: .6em;\n\t    padding-left: 5em;\n\t    padding-right: 12em;\n\t\t\t    margin-left: 25%;\n\t    padding-top: .4em;\n\t    padding-bottom: .4em;\n\t    border-right: none;\n\t    border-left: none;\n\t    background-color: rgba(255, 255, 255, 0);\n\t    border-top: 1px solid rgba(177, 255, 181, 0.21);\n\t    border-bottom: 1px solid rgba(0, 253, 255, 0.21);\n\t}\n\n\n\t#accountstream {\n    font-family: \"San Francisco Text\";\n    font-weight: 600;\n    margin-left: 12%;\n    display: inline-block;\n    margin-top: 1em;\n}\n\n#abouttab {\n\tdisplay: inline-block;\n\t    margin-left: 15%;\n\t    font-family: \"San Francisco Text\";\n\t    font-weight: 600;\n\t    font-size: .9em;\n\t    position: fixed;\n\t    margin-top: 1.2em;\n}\n\n\t#mainimages {\n    margin-left: auto;\n    margin-right: auto;\n    width: 75%;\n    margin-top: 9.5em;\n    display: block;\n    margin-bottom: 10em;\n}\n\n.buybuttonnavigator {\n\tpadding-top: .6em;\n\tpadding-bottom: .6em;\n\tpadding-right: 10em;\n\tpadding-left: 10em;\n\tfont-family: \"San Francisco Text\";\n\tbackground-color: #000000;\n\tcolor: #FFFFFF;\n\tdisplay: inline-block;\n\tmargin-top: .8em;\n\tfont-size: 85%;\n\tborder-radius: 2%;\n\tmargin-left: 14%;\n\twidth: 30%;\n}\n}\n\n\n@media only screen and (max-width: 824px) {\n\n\t#aboutcontainer {\n    width: 70%;\n    margin-left: 1em;\n    color: white;\n}\n\n\t#mainimages {\n\t    width: 80%;\n\t    margin-left: auto;\n\t    margin-right: auto;\n\t    margin-top: 10em;\n\t    display: block;\n\t    margin-bottom: 10em;\n\t}\n}\n\n@media only screen and (max-width: 780px) {\n\n#successmain {\n\tmargin-top: 1em;\n\tfont-size: 4em;\n\tcolor: white;\n\tfont-weight: 600;\n\tz-index: 1000000000000000000000;\n\tposition: fixed;\n\tfont-family: \"San Francisco Text\";\n}\n\n\t#rightarrowicon {\n\t\t    margin-top: 30em;\n\t}\n\n\t#leftarrowicon {\n\t\t    margin-top: 30em;\n\t}\n\n\t#joincall2 {\n\t    font-family: \"San Francisco Text\";\n\t    text-transform: uppercase;\n\t    margin-top: 8em;\n\t    font-style: italic;\n\t    font-size: 2em;\n\t    margin-left: 14%;\n\t    border-radius: 10px;\n\t    color: #060606;\n\t    border: none;\n\t    position: fixed;\n\t    font-weight: 600;\n\t    z-index: 1000000000000000000000000000000000;\n\t}\n\n#fullnameone {\n\twidth: 80%;\n}\n\n#e-mail {\n\twidth: 80%;\n}\n\n#fullname {\n\twidth: 80%;\n}\n\n#cardnumber {\n\twidth: 80%;\n}\n\n#cardcvc {\nwidth: 80%;\n}\n\n#cardmonth {\n\twidth: 80%;\n}\n\n#cardyear {\nwidth: 80%;\n}\n\n#streetaddress1{\n\twidth: 80%;\n}\n\n#city{\n\twidth: 80%;\n}\n\n#state{\n\twidth: 80%;\n}\n\n#zipcode{\nwidth: 80%;\n}\n\n\n\t#sweatshirtinfo {\n\t    margin-top: .3em;\n\t    margin-left: 3.5em;\n\t    z-index: 1000000000;\n\t}\n\n\t#mainimages {\n\t    width: 90%;\n\t    margin-left: auto;\n\t    margin-right: auto;\n\t    margin-top: 10em;\n\t    margin-bottom: 10em;\n\t    display: block;\n\t}\n\n\n#titlestream {\n    font-family: \"San Francisco Text\";\n    margin-left: 1%;\n    font-weight: 300;\n    padding-top: 1em;\n    padding-bottom: 1em;\n    padding-left: 1em;\n    border-left: 1px solid #F9F9F9;\n}\n\n.buybuttonnavigator {\n\tpadding-top: .6em;\n\tpadding-bottom: .6em;\n\tpadding-right: 2em;\n\tpadding-left: 3em;\n\tmargin-left: 5%;\n\twidth: 80%;\n\tfont-size: .8em;\n\tfont-family: \"San Francisco Text\";\n\tbackground-color: #000000;\n\tcolor: #FFFFFF;\n\tborder: 1px solid black;\n\tdisplay: inline-block;\n\tmargin-top: .8em;\n}\n\n#mediatab {\n  font-family: \"San Francisco Text\";\n  font-weight: 600;\n  margin-left: 15%;\n  font-size: .9em;\n  margin-top: 3.2em;\n  display: inline-block;\n}\n\n\n#abouttab {\n\tfont-family: \"San Francisco Text\";\n\tdisplay: inline-block;\n\tfont-size: .9em;\n\tmargin-left: 35%;\n\tposition: fixed;\n\tmargin-top: 1.2em;\n}\n\n\n#streamnavigatorone {\n    bottom: 0;\n    position: fixed;\n    height: 6em;\n    width: 100%;\n    border-left: none;\n    border-right: none;\n    border-top: 1px solid rgba(210, 210, 210, 0.2);\n    background-color: white;\n}\n\n#streamnavigatortwo {\n\tbottom: 0;\n\theight: 6em;\n\tposition: fixed;\n\tfloat: right;\n\tborder-left: none;\n\tborder-right: none;\n\tborder-top: 1px solid rgba(210, 210, 210, 0.2);\n\tbackground-color: rgba(251, 251, 251, 0);\n\tmargin-left: 40%;\n\tdisplay: inline-block;\n\twidth: 60%;\n}\n\n#ItemListing {\n\tfont-family: \"San Francisco Text\";\n\tdisplay: block;\n}\n\n#title {\n  font-family: \"San-Francisco\";\n  font-size: 1.7em;\n  font-weight: 300;\n  padding-top: .2em;\n  color: black;\n  margin-top: .4em;\n  float: right;\n  margin-right: 6em;\n  letter-spacing: .15em;\n}\n\n\n\n\t#buydarkfeed {\n    font-family: \"Open Sans\";\n        padding-left: 3em;\n        margin-left: 64%;\n        float: right;\n        padding-right: 3em;\n        color: rgb(58, 97, 70);\n        border: 4px solid rgb(58, 97, 70);\n        background-color: rgba(58, 97, 70, 0);\n        font-size: .9em;\n        border-radius: 3px;\n        font-weight: 600;\n        letter-spacing: .3em;\n        bottom: 0em;\n        padding-top: .8em;\n        margin-right: 4%;\n        padding-bottom: .8em;\n}\n\n#accountstream {\n    font-family: \"San Francisco Text\";\n    font-weight: 600;\n    margin-left: 4%;\n    display: inline-block;\n    margin-top: 1em;\n}\n\n\t}\n\n\t@media only screen and (max-width:670px) {\n\n\n\n\n\t#mainimages {\n    width: 90%;\n    margin-left: auto;\n    margin-right: auto;\n    margin-top: 10.5em;\n    margin-bottom: 10em;\n    display: block;\n}\n\n}\n\n@media only screen and (max-width:650px) {\n\t#accountstream {\n\t\tfont-family: \"San Francisco Text\";\n\t\t    font-weight: 600;\n\t\t    margin-left: 16%;\n\t\t    display: inline-block;\n\t\t    margin-top: 1em;\n\t}\n\n\t#titlestream {\n\t\t\tfont-family: \"San Francisco Text\";\n\t\t\tmargin-left: 1%;\n\t\t\tfont-weight: 300;\n\t\t\tpadding-top: 1em;\n\t\t\tpadding-bottom: 1em;\n\t\t\tpadding-left: 1em;\n\t\t\tborder-left: 1px solid #F9F9F9;\n\t}\n\n\t#mediatab {\n\t\tfont-family: \"San Francisco Text\";\n    font-weight: 600;\n    margin-left: 10%;\n    font-size: .9em;\n}\n\n#abouttab {\n\tfont-family: \"San Francisco Text\";\n\t    display: inline-block;\n\t    font-size: .9em;\n\t    margin-top: .6em;\n\t    margin-left: 65%;\n\t    font-weight: 600;\n\t    position: fixed;\n}\n\n\t.buybuttonnavigator {\n\tpadding-top: .6em;\n\tpadding-bottom: .6em;\n\tpadding-right: 2em;\n\tpadding-left: 2em;\n\tmargin-left: 1%;\n\twidth: 80%;\n\tfont-size: .8em;\n\tfont-family: \"San Francisco Text\";\n\tbackground-color: #000000;\n\tcolor: #FFFFFF;\n\tborder: 1px solid black;\n\tdisplay: inline-block;\n\tmargin-top: .5em;\n}\n\n#streamnavigatortwo {\n\tbottom: 0;\n\t    height: 5em;\n\t    position: fixed;\n\t    float: right;\n\t    border-left: none;\n\t    border-right: none;\n\t    border-top: 1px solid rgba(210, 210, 210, 0.2);\n\t    background-color: rgba(251, 251, 251, 0);\n\t    display: inline-block;\n\t    width: 100%;\n\t    margin-left: 2%\n}\n\n#streamnavigatorone {\n    bottom: 0;\n    position: fixed;\n    height: 7.5em;\n    width: 100%;\n    border-left: none;\n    border-right: none;\n    border-top: 1px solid rgba(210, 210, 210, 0.2);\n    background-color: white;\n}\n\n\n}\n\n@media only screen and (max-width: 500px) {\n\n\t#pricey {\n\t    color: white;\n\t    margin-left: 1%;\n\t    letter-spacing: .6em;\n\t    padding-left: 8em;\n\t    padding-right: 8em;\n\t    padding-top: .4em;\n\t    padding-bottom: .4em;\n\t    border-right: none;\n\t    border-left: none;\n\t    background-color: rgba(255, 255, 255, 0);\n\t    border-top: 1px solid rgba(177, 255, 181, 0.21);\n\t    border-bottom: 1px solid rgba(0, 253, 255, 0.21);\n\t}\n\n\n\t\t#title {\n\t\t\tfont-family: \"San-Francisco\";\nfont-size: 1.2em;\nfont-weight: 300;\nfloat: left;\npadding-top: .000005em;\nmargin-left: 2%;\n\t}\n\n\n\n\n\n\t\t#picture {\n    width: 100%;\n\t\tmargin-right: auto;\n\t\tmargin-left: auto;\n\t\tdisplay: block;\n}\n\n#account {\n\tfont-family: \"San-Francisco\";\n\tfont-size: 1em;\n\tfont-weight: 600;\n\tcolor: #000000;\n\tmargin-left: 8%;\n}\n\n#price {\n    font-family: \"San Francisco Text\";\n    font-size: .6em;\n    margin-right: 1em;\n    float: right;\n    font-weight: 600;\n}\n\n#buydarkfeed {\n    font-family: \"San Francisco Text\";\n    color: white;\n    border: 1px solid rgb(0, 0, 0);\n    margin-top: .000005em;\n    background-color: black;\n    font-size: .6em;\n    font-weight: 600;\n    letter-spacing: .2em;\n    padding-bottom: .7em;\n    bottom: 0em;\n    padding-top: .7em;\n    float: right;\n\t\tmargin-right: 5%;\n\t\twidth: 30%;\n}\n\n#sweatshirtinfo {\n    margin-top: .3%;\n    margin-left: 3%;\n    z-index: 1000000000;\n}\n\n#images {\n\tmargin-left: .1em;\n}\n\n#mainimages {\n    width: 90%;\n    margin-left: auto;\n    margin-right: auto;\n    margin-top: 9em;\n    display: block;\n    margin-bottom: 10em;\n}\n}\n\n\n@media only screen and (max-width: 350px) {\n\n}\n"
 );                                                                                                                     // 3
                                                                                                                        // 4
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -5700,10 +5872,10 @@ module.watch(require("meteor/aldeed:simple-schema"), {                          
     SimpleSchema = v;                                                                                                  // 1
   }                                                                                                                    // 1
 }, 1);                                                                                                                 // 1
-var Audio = void 0;                                                                                                    // 1
-module.watch(require("../Audio.js"), {                                                                                 // 1
-  Audio: function (v) {                                                                                                // 1
-    Audio = v;                                                                                                         // 1
+var Audios = void 0;                                                                                                   // 1
+module.watch(require("../../../../lib/Audio.js"), {                                                                    // 1
+  Audios: function (v) {                                                                                               // 1
+    Audios = v;                                                                                                        // 1
   }                                                                                                                    // 1
 }, 2);                                                                                                                 // 1
                                                                                                                        //
@@ -5713,7 +5885,7 @@ if (Meteor.isServer) {                                                          
       return this.ready();                                                                                             // 10
     }                                                                                                                  // 11
                                                                                                                        //
-    return Audio.findOne({                                                                                             // 13
+    return Audios.findOne({                                                                                            // 13
       audioTitle: audioTitle                                                                                           // 13
     }, {                                                                                                               // 13
       fields: {                                                                                                        // 14
@@ -5730,7 +5902,7 @@ if (Meteor.isServer) {                                                          
       return this.ready();                                                                                             // 27
     }                                                                                                                  // 28
                                                                                                                        //
-    return Audio.findOne({                                                                                             // 30
+    return Audios.findOne({                                                                                            // 30
       audioTitle: audioTitle                                                                                           // 30
     }, {                                                                                                               // 30
       fields: {                                                                                                        // 31
@@ -5745,57 +5917,7 @@ if (Meteor.isServer) {                                                          
 }                                                                                                                      // 40
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-}},"Audio.js":function(require,exports,module){
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//                                                                                                                     //
-// imports/api/Audio/Audio.js                                                                                          //
-//                                                                                                                     //
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                                                                                                                       //
-var Mongo = void 0;                                                                                                    // 1
-module.watch(require("meteor/mongo"), {                                                                                // 1
-  Mongo: function (v) {                                                                                                // 1
-    Mongo = v;                                                                                                         // 1
-  }                                                                                                                    // 1
-}, 0);                                                                                                                 // 1
-var SimpleSchema = void 0;                                                                                             // 1
-module.watch(require("meteor/aldeed:simple-schema"), {                                                                 // 1
-  SimpleSchema: function (v) {                                                                                         // 1
-    SimpleSchema = v;                                                                                                  // 1
-  }                                                                                                                    // 1
-}, 1);                                                                                                                 // 1
-var Audio = new Mongo.Collection('audio');                                                                             // 4
-Audio.deny({                                                                                                           // 6
-  insert: function () {                                                                                                // 7
-    return true;                                                                                                       // 7
-  },                                                                                                                   // 7
-  update: function () {                                                                                                // 8
-    return true;                                                                                                       // 8
-  },                                                                                                                   // 8
-  remove: function () {                                                                                                // 9
-    return true;                                                                                                       // 9
-  }                                                                                                                    // 9
-});                                                                                                                    // 6
-Audio.schema = new SimpleSchema({                                                                                      // 12
-  audioaudioblz: {                                                                                                     // 13
-    type: [Object]                                                                                                     // 13
-  },                                                                                                                   // 13
-  audiomediablz: {                                                                                                     // 14
-    type: [Object]                                                                                                     // 14
-  },                                                                                                                   // 14
-  audiotitleblz: {                                                                                                     // 15
-    type: String                                                                                                       // 15
-  },                                                                                                                   // 15
-  audiotextblz: {                                                                                                      // 16
-    type: String                                                                                                       // 16
-  }                                                                                                                    // 16
-});                                                                                                                    // 12
-Audio.attachSchema(Audio.schema);                                                                                      // 19
-module.exportDefault(Audio);                                                                                           // 1
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-},"AudioMethods.js":function(require,exports,module){
+}},"AudioMethods.js":function(require,exports,module){
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                                     //
@@ -5840,10 +5962,10 @@ module.watch(require("meteor/underscore"), {                                    
     _ = v;                                                                                                             // 1
   }                                                                                                                    // 1
 }, 4);                                                                                                                 // 1
-var Audio = void 0;                                                                                                    // 1
-module.watch(require("./Audio.js"), {                                                                                  // 1
-  Audio: function (v) {                                                                                                // 1
-    Audio = v;                                                                                                         // 1
+var Audios = void 0;                                                                                                   // 1
+module.watch(require("../../../lib/Audio.js"), {                                                                       // 1
+  Audios: function (v) {                                                                                               // 1
+    Audios = v;                                                                                                        // 1
   }                                                                                                                    // 1
 }, 5);                                                                                                                 // 1
 var Audioinsert = new ValidatedMethod({                                                                                // 9
@@ -5859,7 +5981,7 @@ var Audioinsert = new ValidatedMethod({                                         
   run: function (_ref) {                                                                                               // 15
     var audiotitle = _ref.audiotitle,                                                                                  // 15
         audiotext = _ref.audiotext;                                                                                    // 15
-    Audio.insert({                                                                                                     // 16
+    Audios.insert({                                                                                                    // 16
       titleaudio: audiotitle,                                                                                          // 17
       textaudio: audiotext                                                                                             // 18
     });                                                                                                                // 16
@@ -5888,7 +6010,7 @@ module.watch(require("meteor/aldeed:simple-schema"), {                          
   }                                                                                                                    // 1
 }, 1);                                                                                                                 // 1
 var Images = void 0;                                                                                                   // 1
-module.watch(require("../Image.js"), {                                                                                 // 1
+module.watch(require("../../../../lib/Image.js"), {                                                                    // 1
   Images: function (v) {                                                                                               // 1
     Images = v;                                                                                                        // 1
   }                                                                                                                    // 1
@@ -5932,57 +6054,7 @@ if (Meteor.isServer) {                                                          
 }                                                                                                                      // 40
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-}},"Image.js":function(require,exports,module){
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//                                                                                                                     //
-// imports/api/Image/Image.js                                                                                          //
-//                                                                                                                     //
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                                                                                                                       //
-var Mongo = void 0;                                                                                                    // 1
-module.watch(require("meteor/mongo"), {                                                                                // 1
-  Mongo: function (v) {                                                                                                // 1
-    Mongo = v;                                                                                                         // 1
-  }                                                                                                                    // 1
-}, 0);                                                                                                                 // 1
-var SimpleSchema = void 0;                                                                                             // 1
-module.watch(require("meteor/aldeed:simple-schema"), {                                                                 // 1
-  SimpleSchema: function (v) {                                                                                         // 1
-    SimpleSchema = v;                                                                                                  // 1
-  }                                                                                                                    // 1
-}, 1);                                                                                                                 // 1
-var Images = new Mongo.Collection('images');                                                                           // 4
-Images.deny({                                                                                                          // 7
-  insert: function () {                                                                                                // 8
-    return true;                                                                                                       // 8
-  },                                                                                                                   // 8
-  update: function () {                                                                                                // 9
-    return true;                                                                                                       // 9
-  },                                                                                                                   // 9
-  remove: function () {                                                                                                // 10
-    return true;                                                                                                       // 10
-  }                                                                                                                    // 10
-});                                                                                                                    // 7
-Images.schema = new SimpleSchema({                                                                                     // 13
-  imagetext: {                                                                                                         // 14
-    type: String                                                                                                       // 14
-  },                                                                                                                   // 14
-  imagetitle: {                                                                                                        // 15
-    type: String                                                                                                       // 15
-  },                                                                                                                   // 15
-  imageimage: {                                                                                                        // 16
-    type: Object                                                                                                       // 16
-  },                                                                                                                   // 16
-  imagedate: {                                                                                                         // 17
-    type: Date                                                                                                         // 17
-  }                                                                                                                    // 17
-});                                                                                                                    // 13
-Images.attachSchema(Images.schema);                                                                                    // 20
-module.exportDefault(Images);                                                                                          // 1
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-},"ImageMethods.js":function(require,exports,module){
+}},"ImageMethods.js":function(require,exports,module){
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                                     //
@@ -6028,7 +6100,7 @@ module.watch(require("meteor/underscore"), {                                    
   }                                                                                                                    // 1
 }, 4);                                                                                                                 // 1
 var Images = void 0;                                                                                                   // 1
-module.watch(require("./Image.js"), {                                                                                  // 1
+module.watch(require("../../../lib/Image.js"), {                                                                       // 1
   Images: function (v) {                                                                                               // 1
     Images = v;                                                                                                        // 1
   }                                                                                                                    // 1
@@ -6080,7 +6152,7 @@ module.watch(require("meteor/aldeed:simple-schema"), {                          
   }                                                                                                                    // 1
 }, 1);                                                                                                                 // 1
 var Products = void 0;                                                                                                 // 1
-module.watch(require("../Products.js"), {                                                                              // 1
+module.watch(require("../../../../lib/Products.js"), {                                                                 // 1
   Products: function (v) {                                                                                             // 1
     Products = v;                                                                                                      // 1
   }                                                                                                                    // 1
@@ -6169,7 +6241,7 @@ module.watch(require("meteor/underscore"), {                                    
   }                                                                                                                    // 1
 }, 4);                                                                                                                 // 1
 var Products = void 0;                                                                                                 // 1
-module.watch(require("./Products.js"), {                                                                               // 1
+module.watch(require("../../../lib/Products.js"), {                                                                    // 1
   Products: function (v) {                                                                                             // 1
     Products = v;                                                                                                      // 1
   }                                                                                                                    // 1
@@ -6215,33 +6287,6 @@ var Productsinsert = new ValidatedMethod({                                      
 });                                                                                                                    // 9
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-},"Products.js":function(require,exports,module){
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//                                                                                                                     //
-// imports/api/Products/Products.js                                                                                    //
-//                                                                                                                     //
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                                                                                                                       //
-module.export({                                                                                                        // 1
-  Products: function () {                                                                                              // 1
-    return Products;                                                                                                   // 1
-  }                                                                                                                    // 1
-});                                                                                                                    // 1
-var Products = new Mongo.Collection('products');                                                                       // 1
-Products.deny({                                                                                                        // 3
-  insert: function () {                                                                                                // 4
-    return true;                                                                                                       // 4
-  },                                                                                                                   // 4
-  update: function () {                                                                                                // 5
-    return true;                                                                                                       // 5
-  },                                                                                                                   // 5
-  remove: function () {                                                                                                // 6
-    return true;                                                                                                       // 6
-  }                                                                                                                    // 6
-});                                                                                                                    // 3
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 }},"Video":{"Server":{"VideoPublications.js":function(require,exports,module){
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -6262,98 +6307,52 @@ module.watch(require("meteor/aldeed:simple-schema"), {                          
     SimpleSchema = v;                                                                                                  // 1
   }                                                                                                                    // 1
 }, 1);                                                                                                                 // 1
-                                                                                                                       //
-if (Meteor.isServer) {                                                                                                 // 5
-  Meteor.publish('videoStream', function (videoTitle) {                                                                // 7
-    if (!this.userId) {                                                                                                // 8
-      return this.ready();                                                                                             // 9
-    }                                                                                                                  // 10
-                                                                                                                       //
-    return Videos.findOne({                                                                                            // 12
-      videoTitle: videoTitle                                                                                           // 12
-    }, {                                                                                                               // 12
-      fields: {                                                                                                        // 13
-        videomember: 1,                                                                                                // 14
-        videomembers: 1,                                                                                               // 15
-        videotitle: 1,                                                                                                 // 16
-        videodate: 1,                                                                                                  // 17
-        videotext: 1                                                                                                   // 18
-      }                                                                                                                // 13
-    });                                                                                                                // 12
-  });                                                                                                                  // 21
-  Meteor.publish('videoFeed', function (imageTitle) {                                                                  // 24
-    if (!this.userId) {                                                                                                // 25
-      return this.ready();                                                                                             // 26
-    }                                                                                                                  // 27
-                                                                                                                       //
-    return Videos.findOne({                                                                                            // 29
-      imageTitle: imageTitle                                                                                           // 29
-    }, {                                                                                                               // 29
-      fields: {                                                                                                        // 30
-        imagemember: 1,                                                                                                // 31
-        imagemembers: 1,                                                                                               // 32
-        imagetitle: 1,                                                                                                 // 33
-        imagedate: 1,                                                                                                  // 34
-        imagetext: 1                                                                                                   // 35
-      }                                                                                                                // 30
-    });                                                                                                                // 29
-  });                                                                                                                  // 38
-}                                                                                                                      // 40
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-}},"Video.js":function(require,exports,module){
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//                                                                                                                     //
-// imports/api/Video/Video.js                                                                                          //
-//                                                                                                                     //
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                                                                                                                       //
-var Mongo = void 0;                                                                                                    // 1
-module.watch(require("meteor/mongo"), {                                                                                // 1
-  Mongo: function (v) {                                                                                                // 1
-    Mongo = v;                                                                                                         // 1
+var Videos = void 0;                                                                                                   // 1
+module.watch(require("../../../../lib/Video.js"), {                                                                    // 1
+  Videos: function (v) {                                                                                               // 1
+    Videos = v;                                                                                                        // 1
   }                                                                                                                    // 1
-}, 0);                                                                                                                 // 1
-var SimpleSchema = void 0;                                                                                             // 1
-module.watch(require("meteor/aldeed:simple-schema"), {                                                                 // 1
-  SimpleSchema: function (v) {                                                                                         // 1
-    SimpleSchema = v;                                                                                                  // 1
-  }                                                                                                                    // 1
-}, 1);                                                                                                                 // 1
-var Videos = new Mongo.Collection('videos');                                                                           // 4
-Videos.deny({                                                                                                          // 6
-  insert: function () {                                                                                                // 7
-    return true;                                                                                                       // 7
-  },                                                                                                                   // 7
-  update: function () {                                                                                                // 8
-    return true;                                                                                                       // 8
-  },                                                                                                                   // 8
-  remove: function () {                                                                                                // 9
-    return true;                                                                                                       // 9
-  }                                                                                                                    // 9
-});                                                                                                                    // 6
-Videos.schema = new SimpleSchema({                                                                                     // 12
-  videotitle: {                                                                                                        // 13
-    type: String                                                                                                       // 13
-  },                                                                                                                   // 13
-  videotext: {                                                                                                         // 14
-    type: String                                                                                                       // 14
-  },                                                                                                                   // 14
-  videovideo: {                                                                                                        // 15
-    type: Object                                                                                                       // 15
-  },                                                                                                                   // 15
-  videoimage: {                                                                                                        // 16
-    type: Object                                                                                                       // 16
-  },                                                                                                                   // 16
-  videodate: {                                                                                                         // 17
-    type: String                                                                                                       // 17
-  }                                                                                                                    // 17
-});                                                                                                                    // 12
-Videos.attachSchema(Videos.schema);                                                                                    // 20
+}, 2);                                                                                                                 // 1
+                                                                                                                       //
+if (Meteor.isServer) {                                                                                                 // 6
+  Meteor.publish('videoStream', function (videoTitle) {                                                                // 8
+    if (!this.userId) {                                                                                                // 9
+      return this.ready();                                                                                             // 10
+    }                                                                                                                  // 11
+                                                                                                                       //
+    return Videos.findOne({                                                                                            // 13
+      videoTitle: videoTitle                                                                                           // 13
+    }, {                                                                                                               // 13
+      fields: {                                                                                                        // 14
+        videomember: 1,                                                                                                // 15
+        videomembers: 1,                                                                                               // 16
+        videotitle: 1,                                                                                                 // 17
+        videodate: 1,                                                                                                  // 18
+        videotext: 1                                                                                                   // 19
+      }                                                                                                                // 14
+    });                                                                                                                // 13
+  });                                                                                                                  // 22
+  Meteor.publish('videoFeed', function (imageTitle) {                                                                  // 25
+    if (!this.userId) {                                                                                                // 26
+      return this.ready();                                                                                             // 27
+    }                                                                                                                  // 28
+                                                                                                                       //
+    return Videos.findOne({                                                                                            // 30
+      imageTitle: imageTitle                                                                                           // 30
+    }, {                                                                                                               // 30
+      fields: {                                                                                                        // 31
+        imagemember: 1,                                                                                                // 32
+        imagemembers: 1,                                                                                               // 33
+        imagetitle: 1,                                                                                                 // 34
+        imagedate: 1,                                                                                                  // 35
+        imagetext: 1                                                                                                   // 36
+      }                                                                                                                // 31
+    });                                                                                                                // 30
+  });                                                                                                                  // 39
+}                                                                                                                      // 41
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-},"VideoMethods.js":function(require,exports,module){
+}},"VideoMethods.js":function(require,exports,module){
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                                     //
@@ -6405,7 +6404,7 @@ module.watch(require("meteor/underscore"), {                                    
   }                                                                                                                    // 1
 }, 4);                                                                                                                 // 1
 var Videos = void 0;                                                                                                   // 1
-module.watch(require("./Video.js"), {                                                                                  // 1
+module.watch(require("../../../lib/Video.js"), {                                                                       // 1
   Videos: function (v) {                                                                                               // 1
     Videos = v;                                                                                                        // 1
   }                                                                                                                    // 1
@@ -6442,56 +6441,7 @@ var Videosinsert = new ValidatedMethod({                                        
 });                                                                                                                    // 9
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-}},"Text":{"Text.js":function(require,exports,module){
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//                                                                                                                     //
-// imports/api/Text/Text.js                                                                                            //
-//                                                                                                                     //
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                                                                                                                       //
-var Mongo = void 0;                                                                                                    // 1
-module.watch(require("meteor/mongo"), {                                                                                // 1
-  Mongo: function (v) {                                                                                                // 1
-    Mongo = v;                                                                                                         // 1
-  }                                                                                                                    // 1
-}, 0);                                                                                                                 // 1
-var SimpleSchema = void 0;                                                                                             // 1
-module.watch(require("meteor/aldeed:simple-schema"), {                                                                 // 1
-  SimpleSchema: function (v) {                                                                                         // 1
-    SimpleSchema = v;                                                                                                  // 1
-  }                                                                                                                    // 1
-}, 1);                                                                                                                 // 1
-var Texts = new Mongo.Collection('texts');                                                                             // 4
-Texts.deny({                                                                                                           // 6
-  insert: function () {                                                                                                // 7
-    return true;                                                                                                       // 7
-  },                                                                                                                   // 7
-  update: function () {                                                                                                // 8
-    return true;                                                                                                       // 8
-  },                                                                                                                   // 8
-  remove: function () {                                                                                                // 9
-    return true;                                                                                                       // 9
-  }                                                                                                                    // 9
-});                                                                                                                    // 6
-Texts.schema = new SimpleSchema({                                                                                      // 12
-  texttitle: {                                                                                                         // 13
-    type: String                                                                                                       // 13
-  },                                                                                                                   // 13
-  texttext: {                                                                                                          // 14
-    type: String                                                                                                       // 14
-  },                                                                                                                   // 14
-  textmedia: {                                                                                                         // 15
-    type: Object                                                                                                       // 15
-  },                                                                                                                   // 15
-  textdate: {                                                                                                          // 16
-    type: Date                                                                                                         // 16
-  }                                                                                                                    // 16
-});                                                                                                                    // 12
-Texts.attachSchema(Texts.schema);                                                                                      // 19
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-},"TextMethods.js":function(require,exports,module){
+}},"Text":{"TextMethods.js":function(require,exports,module){
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                                     //
@@ -6537,7 +6487,7 @@ module.watch(require("meteor/underscore"), {                                    
   }                                                                                                                    // 1
 }, 4);                                                                                                                 // 1
 var Texts = void 0;                                                                                                    // 1
-module.watch(require("./Text.js"), {                                                                                   // 1
+module.watch(require("../../../lib/Text.js"), {                                                                        // 1
   Texts: function (v) {                                                                                                // 1
     Texts = v;                                                                                                         // 1
   }                                                                                                                    // 1
@@ -6685,51 +6635,49 @@ FlowRouter.route('/', {                                                         
     });                                                                                                                // 74
   }                                                                                                                    // 75
 });                                                                                                                    // 71
-FlowRouter.route('/join', {                                                                                            // 78
-  name: 'Home',                                                                                                        // 79
+FlowRouter.route('/messages', {                                                                                        // 79
   action: function () {                                                                                                // 80
     BlazeLayout.render('Appbody', {                                                                                    // 81
       top: 'Menu',                                                                                                     // 81
-      main: 'join',                                                                                                    // 81
+      main: 'YourMessagesRU',                                                                                          // 81
       footer: 'LowerNavigator'                                                                                         // 81
     });                                                                                                                // 81
   }                                                                                                                    // 82
-});                                                                                                                    // 78
-FlowRouter.route('/messages', {                                                                                        // 85
-  action: function () {                                                                                                // 86
-    BlazeLayout.render('Appbody', {                                                                                    // 87
-      top: 'Menu',                                                                                                     // 87
-      main: 'YourMessagesRU',                                                                                          // 87
-      footer: 'LowerNavigator'                                                                                         // 87
-    });                                                                                                                // 87
-  }                                                                                                                    // 88
-});                                                                                                                    // 85
-FlowRouter.route('/welcome', {                                                                                         // 92
+});                                                                                                                    // 79
+FlowRouter.route('/welcome', {                                                                                         // 86
+  action: function () {                                                                                                // 87
+    BlazeLayout.render('Appbody', {                                                                                    // 88
+      top: "Menu"                                                                                                      // 88
+    });                                                                                                                // 88
+  }                                                                                                                    // 89
+});                                                                                                                    // 86
+FlowRouter.route('/create', {                                                                                          // 92
   action: function () {                                                                                                // 93
     BlazeLayout.render('Appbody', {                                                                                    // 94
-      top: "Menu"                                                                                                      // 94
+      top: "Menu",                                                                                                     // 94
+      main: 'Create',                                                                                                  // 94
+      footer: 'LowerNavigator'                                                                                         // 94
     });                                                                                                                // 94
   }                                                                                                                    // 95
 });                                                                                                                    // 92
-FlowRouter.route('/create', {                                                                                          // 98
-  action: function () {                                                                                                // 99
-    BlazeLayout.render('Appbody', {                                                                                    // 100
-      top: "Menu",                                                                                                     // 100
-      main: 'Create',                                                                                                  // 100
-      footer: 'LowerNavigator'                                                                                         // 100
-    });                                                                                                                // 100
-  }                                                                                                                    // 101
-});                                                                                                                    // 98
-FlowRouter.route('/cloud', {                                                                                           // 105
+FlowRouter.route('/cloud', {                                                                                           // 99
+  action: function () {                                                                                                // 100
+    BlazeLayout.render('Appbody', {                                                                                    // 101
+      top: "Menu",                                                                                                     // 101
+      main: 'Cloud',                                                                                                   // 101
+      footer: 'LowerNavigator'                                                                                         // 101
+    });                                                                                                                // 101
+  }                                                                                                                    // 102
+});                                                                                                                    // 99
+FlowRouter.route('/home', {                                                                                            // 105
   action: function () {                                                                                                // 106
     BlazeLayout.render('Appbody', {                                                                                    // 107
       top: "Menu",                                                                                                     // 107
-      main: 'Cloud',                                                                                                   // 107
       footer: 'LowerNavigator'                                                                                         // 107
     });                                                                                                                // 107
   }                                                                                                                    // 108
 });                                                                                                                    // 105
-FlowRouter.route('/home', {                                                                                            // 111
+FlowRouter.route('/media', {                                                                                           // 111
   action: function () {                                                                                                // 112
     BlazeLayout.render('Appbody', {                                                                                    // 113
       top: "Menu",                                                                                                     // 113
@@ -6737,160 +6685,152 @@ FlowRouter.route('/home', {                                                     
     });                                                                                                                // 113
   }                                                                                                                    // 114
 });                                                                                                                    // 111
-FlowRouter.route('/media', {                                                                                           // 117
-  action: function () {                                                                                                // 118
-    BlazeLayout.render('Appbody', {                                                                                    // 119
-      top: "Menu",                                                                                                     // 119
-      footer: 'LowerNavigator'                                                                                         // 119
-    });                                                                                                                // 119
-  }                                                                                                                    // 120
-});                                                                                                                    // 117
-FlowRouter.route('/about', {                                                                                           // 124
+FlowRouter.route('/about', {                                                                                           // 118
+  action: function () {                                                                                                // 119
+    BlazeLayout.render('Appbody', {                                                                                    // 120
+      top: 'Menu',                                                                                                     // 120
+      main: 'About',                                                                                                   // 120
+      footer: 'LowerNavigator'                                                                                         // 120
+    });                                                                                                                // 120
+  }                                                                                                                    // 121
+});                                                                                                                    // 118
+FlowRouter.route('/market', {                                                                                          // 124
   action: function () {                                                                                                // 125
     BlazeLayout.render('Appbody', {                                                                                    // 126
       top: 'Menu',                                                                                                     // 126
-      main: 'About',                                                                                                   // 126
+      main: 'Market',                                                                                                  // 126
       footer: 'LowerNavigator'                                                                                         // 126
     });                                                                                                                // 126
   }                                                                                                                    // 127
 });                                                                                                                    // 124
-FlowRouter.route('/market', {                                                                                          // 130
+FlowRouter.route('/newmessage', {                                                                                      // 130
   action: function () {                                                                                                // 131
     BlazeLayout.render('Appbody', {                                                                                    // 132
       top: 'Menu',                                                                                                     // 132
-      main: 'Market',                                                                                                  // 132
+      main: 'NewMessage',                                                                                              // 132
       footer: 'LowerNavigator'                                                                                         // 132
     });                                                                                                                // 132
   }                                                                                                                    // 133
 });                                                                                                                    // 130
-FlowRouter.route('/newmessage', {                                                                                      // 136
-  action: function () {                                                                                                // 137
-    BlazeLayout.render('Appbody', {                                                                                    // 138
-      top: 'Menu',                                                                                                     // 138
-      main: 'NewMessage',                                                                                              // 138
-      footer: 'LowerNavigator'                                                                                         // 138
-    });                                                                                                                // 138
-  }                                                                                                                    // 139
-});                                                                                                                    // 136
-FlowRouter.route('/talent', {                                                                                          // 143
+FlowRouter.route('/talent', {                                                                                          // 137
+  action: function () {                                                                                                // 138
+    BlazeLayout.render('Appbody', {                                                                                    // 139
+      top: 'Menu',                                                                                                     // 139
+      main: 'Talent',                                                                                                  // 139
+      footer: 'LowerNavigator'                                                                                         // 139
+    });                                                                                                                // 139
+  }                                                                                                                    // 140
+});                                                                                                                    // 137
+FlowRouter.route('/register', {                                                                                        // 143
   action: function () {                                                                                                // 144
     BlazeLayout.render('Appbody', {                                                                                    // 145
-      top: 'Menu',                                                                                                     // 145
-      main: 'Talent',                                                                                                  // 145
-      footer: 'LowerNavigator'                                                                                         // 145
+      main: 'Register'                                                                                                 // 145
     });                                                                                                                // 145
   }                                                                                                                    // 146
 });                                                                                                                    // 143
-FlowRouter.route('/register', {                                                                                        // 149
+FlowRouter.route('/settings', {                                                                                        // 149
   action: function () {                                                                                                // 150
     BlazeLayout.render('Appbody', {                                                                                    // 151
-      main: 'Register'                                                                                                 // 151
+      top: 'Menu',                                                                                                     // 151
+      main: 'Settings',                                                                                                // 151
+      footer: 'LowerNavigator'                                                                                         // 151
     });                                                                                                                // 151
   }                                                                                                                    // 152
 });                                                                                                                    // 149
-FlowRouter.route('/settings', {                                                                                        // 155
+FlowRouter.route('/mysite', {                                                                                          // 155
   action: function () {                                                                                                // 156
     BlazeLayout.render('Appbody', {                                                                                    // 157
-      top: 'Menu',                                                                                                     // 157
-      main: 'Settings',                                                                                                // 157
-      footer: 'LowerNavigator'                                                                                         // 157
+      main: 'Mysite'                                                                                                   // 157
     });                                                                                                                // 157
   }                                                                                                                    // 158
 });                                                                                                                    // 155
-FlowRouter.route('/mysite', {                                                                                          // 161
+FlowRouter.route('/createproduct', {                                                                                   // 161
   action: function () {                                                                                                // 162
     BlazeLayout.render('Appbody', {                                                                                    // 163
-      main: 'Mysite'                                                                                                   // 163
+      main: 'CreateProduct'                                                                                            // 163
     });                                                                                                                // 163
   }                                                                                                                    // 164
 });                                                                                                                    // 161
-FlowRouter.route('/createproduct', {                                                                                   // 167
+FlowRouter.route('/createaudio', {                                                                                     // 167
   action: function () {                                                                                                // 168
     BlazeLayout.render('Appbody', {                                                                                    // 169
-      main: 'CreateProduct'                                                                                            // 169
+      main: 'CreateAudio'                                                                                              // 169
     });                                                                                                                // 169
   }                                                                                                                    // 170
 });                                                                                                                    // 167
-FlowRouter.route('/createaudio', {                                                                                     // 173
+FlowRouter.route('/createtext', {                                                                                      // 173
   action: function () {                                                                                                // 174
     BlazeLayout.render('Appbody', {                                                                                    // 175
-      main: 'CreateAudio'                                                                                              // 175
+      main: 'CreateText'                                                                                               // 175
     });                                                                                                                // 175
   }                                                                                                                    // 176
 });                                                                                                                    // 173
-FlowRouter.route('/createtext', {                                                                                      // 179
+FlowRouter.route('/createvideo', {                                                                                     // 179
   action: function () {                                                                                                // 180
     BlazeLayout.render('Appbody', {                                                                                    // 181
-      main: 'CreateText'                                                                                               // 181
+      main: 'CreateVideo'                                                                                              // 181
     });                                                                                                                // 181
   }                                                                                                                    // 182
 });                                                                                                                    // 179
-FlowRouter.route('/createvideo', {                                                                                     // 185
+FlowRouter.route('/createimage', {                                                                                     // 185
   action: function () {                                                                                                // 186
     BlazeLayout.render('Appbody', {                                                                                    // 187
-      main: 'CreateVideo'                                                                                              // 187
+      main: 'CreateImage'                                                                                              // 187
     });                                                                                                                // 187
   }                                                                                                                    // 188
 });                                                                                                                    // 185
-FlowRouter.route('/createimage', {                                                                                     // 191
+FlowRouter.route('/createbooking', {                                                                                   // 191
   action: function () {                                                                                                // 192
     BlazeLayout.render('Appbody', {                                                                                    // 193
-      main: 'CreateImage'                                                                                              // 193
+      main: 'CreateBooking'                                                                                            // 193
     });                                                                                                                // 193
   }                                                                                                                    // 194
 });                                                                                                                    // 191
-FlowRouter.route('/createbooking', {                                                                                   // 197
-  action: function () {                                                                                                // 198
-    BlazeLayout.render('Appbody', {                                                                                    // 199
-      main: 'CreateBooking'                                                                                            // 199
-    });                                                                                                                // 199
-  }                                                                                                                    // 200
-});                                                                                                                    // 197
-FlowRouter.route('/products/:ProductTitle', {                                                                          // 204
-  name: 'StreamProduct',                                                                                               // 205
-  action: function (params) {                                                                                          // 206
-    BlazeLayout.render('Appbody', {                                                                                    // 207
-      top: 'Menu',                                                                                                     // 207
-      main: 'StreamProductMain'                                                                                        // 207
-    });                                                                                                                // 207
-  }                                                                                                                    // 208
-});                                                                                                                    // 204
-FlowRouter.route('/videos/:video', {                                                                                   // 212
-  name: 'StreamVideo',                                                                                                 // 213
-  action: function (params) {                                                                                          // 214
-    BlazeLayout.render('Appbody', {                                                                                    // 215
-      top: 'Menu',                                                                                                     // 215
-      main: 'StreamProductMain'                                                                                        // 215
-    });                                                                                                                // 215
-  }                                                                                                                    // 216
-});                                                                                                                    // 212
-FlowRouter.route('/texts/:text', {                                                                                     // 219
-  name: 'StreamText',                                                                                                  // 220
-  action: function (params) {                                                                                          // 221
-    BlazeLayout.render('Appbody', {                                                                                    // 222
-      top: 'Menu',                                                                                                     // 222
-      main: 'StreamProductMain'                                                                                        // 222
-    });                                                                                                                // 222
-  }                                                                                                                    // 223
-});                                                                                                                    // 219
-FlowRouter.route('/images/:image', {                                                                                   // 226
-  name: 'StreamImage',                                                                                                 // 227
-  action: function (params) {                                                                                          // 228
-    BlazeLayout.render('Appbody', {                                                                                    // 229
-      top: 'Menu',                                                                                                     // 229
-      main: 'StreamProductMain'                                                                                        // 229
-    });                                                                                                                // 229
-  }                                                                                                                    // 230
-});                                                                                                                    // 226
-FlowRouter.route('/requests/:request', {                                                                               // 233
-  name: 'StreamRequest',                                                                                               // 234
-  action: function (params) {                                                                                          // 235
-    BlazeLayout.render('Appbody', {                                                                                    // 236
-      top: 'Menu',                                                                                                     // 236
-      main: 'StreamProductMain'                                                                                        // 236
-    });                                                                                                                // 236
-  }                                                                                                                    // 237
-});                                                                                                                    // 233
+FlowRouter.route('/products/:ProductTitle', {                                                                          // 198
+  name: 'StreamProduct',                                                                                               // 199
+  action: function (params) {                                                                                          // 200
+    BlazeLayout.render('Appbody', {                                                                                    // 201
+      top: 'Menu',                                                                                                     // 201
+      main: 'StreamProductMain'                                                                                        // 201
+    });                                                                                                                // 201
+  }                                                                                                                    // 202
+});                                                                                                                    // 198
+FlowRouter.route('/videos/:video', {                                                                                   // 206
+  name: 'StreamVideo',                                                                                                 // 207
+  action: function (params) {                                                                                          // 208
+    BlazeLayout.render('Appbody', {                                                                                    // 209
+      top: 'Menu',                                                                                                     // 209
+      main: 'StreamProductMain'                                                                                        // 209
+    });                                                                                                                // 209
+  }                                                                                                                    // 210
+});                                                                                                                    // 206
+FlowRouter.route('/texts/:text', {                                                                                     // 213
+  name: 'StreamText',                                                                                                  // 214
+  action: function (params) {                                                                                          // 215
+    BlazeLayout.render('Appbody', {                                                                                    // 216
+      top: 'Menu',                                                                                                     // 216
+      main: 'StreamProductMain'                                                                                        // 216
+    });                                                                                                                // 216
+  }                                                                                                                    // 217
+});                                                                                                                    // 213
+FlowRouter.route('/images/:image', {                                                                                   // 220
+  name: 'StreamImage',                                                                                                 // 221
+  action: function (params) {                                                                                          // 222
+    BlazeLayout.render('Appbody', {                                                                                    // 223
+      top: 'Menu',                                                                                                     // 223
+      main: 'StreamProductMain'                                                                                        // 223
+    });                                                                                                                // 223
+  }                                                                                                                    // 224
+});                                                                                                                    // 220
+FlowRouter.route('/requests/:request', {                                                                               // 227
+  name: 'StreamRequest',                                                                                               // 228
+  action: function (params) {                                                                                          // 229
+    BlazeLayout.render('Appbody', {                                                                                    // 230
+      top: 'Menu',                                                                                                     // 230
+      main: 'StreamProductMain'                                                                                        // 230
+    });                                                                                                                // 230
+  }                                                                                                                    // 231
+});                                                                                                                    // 227
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 },"useraccounts-configuration.js":function(){
@@ -6966,7 +6906,230 @@ AccountsTemplates.configureRoute('resetPwd', {                                  
     */                                                                                                                 //
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-}}}},"client":{"main.js":function(require,exports,module){
+}}}},"lib":{"Audio.js":function(require,exports,module){
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                     //
+// lib/Audio.js                                                                                                        //
+//                                                                                                                     //
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                                                                       //
+var Mongo = void 0;                                                                                                    // 1
+module.watch(require("meteor/mongo"), {                                                                                // 1
+  Mongo: function (v) {                                                                                                // 1
+    Mongo = v;                                                                                                         // 1
+  }                                                                                                                    // 1
+}, 0);                                                                                                                 // 1
+var SimpleSchema = void 0;                                                                                             // 1
+module.watch(require("meteor/aldeed:simple-schema"), {                                                                 // 1
+  SimpleSchema: function (v) {                                                                                         // 1
+    SimpleSchema = v;                                                                                                  // 1
+  }                                                                                                                    // 1
+}, 1);                                                                                                                 // 1
+var Audios = new Mongo.Collection('audio');                                                                            // 4
+Audios.deny({                                                                                                          // 6
+  insert: function () {                                                                                                // 7
+    return true;                                                                                                       // 7
+  },                                                                                                                   // 7
+  update: function () {                                                                                                // 8
+    return true;                                                                                                       // 8
+  },                                                                                                                   // 8
+  remove: function () {                                                                                                // 9
+    return true;                                                                                                       // 9
+  }                                                                                                                    // 9
+});                                                                                                                    // 6
+Audios.schema = new SimpleSchema({                                                                                     // 12
+  audioaudioblz: {                                                                                                     // 13
+    type: [Object]                                                                                                     // 13
+  },                                                                                                                   // 13
+  audiomediablz: {                                                                                                     // 14
+    type: [Object]                                                                                                     // 14
+  },                                                                                                                   // 14
+  audiotitleblz: {                                                                                                     // 15
+    type: String                                                                                                       // 15
+  },                                                                                                                   // 15
+  audiotextblz: {                                                                                                      // 16
+    type: String                                                                                                       // 16
+  }                                                                                                                    // 16
+});                                                                                                                    // 12
+Audios.attachSchema(Audios.schema);                                                                                    // 19
+module.exportDefault(Audios);                                                                                          // 1
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+},"Bookings.js":function(){
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                     //
+// lib/Bookings.js                                                                                                     //
+//                                                                                                                     //
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                                                                       //
+                                                                                                                       //
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+},"Image.js":function(require,exports,module){
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                     //
+// lib/Image.js                                                                                                        //
+//                                                                                                                     //
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                                                                       //
+var Mongo = void 0;                                                                                                    // 1
+module.watch(require("meteor/mongo"), {                                                                                // 1
+  Mongo: function (v) {                                                                                                // 1
+    Mongo = v;                                                                                                         // 1
+  }                                                                                                                    // 1
+}, 0);                                                                                                                 // 1
+var SimpleSchema = void 0;                                                                                             // 1
+module.watch(require("meteor/aldeed:simple-schema"), {                                                                 // 1
+  SimpleSchema: function (v) {                                                                                         // 1
+    SimpleSchema = v;                                                                                                  // 1
+  }                                                                                                                    // 1
+}, 1);                                                                                                                 // 1
+var Images = new Mongo.Collection('images');                                                                           // 4
+Images.deny({                                                                                                          // 7
+  insert: function () {                                                                                                // 8
+    return true;                                                                                                       // 8
+  },                                                                                                                   // 8
+  update: function () {                                                                                                // 9
+    return true;                                                                                                       // 9
+  },                                                                                                                   // 9
+  remove: function () {                                                                                                // 10
+    return true;                                                                                                       // 10
+  }                                                                                                                    // 10
+});                                                                                                                    // 7
+Images.schema = new SimpleSchema({                                                                                     // 13
+  imagetext: {                                                                                                         // 14
+    type: String                                                                                                       // 14
+  },                                                                                                                   // 14
+  imagetitle: {                                                                                                        // 15
+    type: String                                                                                                       // 15
+  },                                                                                                                   // 15
+  imageimage: {                                                                                                        // 16
+    type: Object                                                                                                       // 16
+  },                                                                                                                   // 16
+  imagedate: {                                                                                                         // 17
+    type: Date                                                                                                         // 17
+  }                                                                                                                    // 17
+});                                                                                                                    // 13
+Images.attachSchema(Images.schema);                                                                                    // 20
+module.exportDefault(Images);                                                                                          // 1
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+},"Products.js":function(require,exports,module){
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                     //
+// lib/Products.js                                                                                                     //
+//                                                                                                                     //
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                                                                       //
+module.export({                                                                                                        // 1
+  Products: function () {                                                                                              // 1
+    return Products;                                                                                                   // 1
+  }                                                                                                                    // 1
+});                                                                                                                    // 1
+var Products = new Mongo.Collection('products');                                                                       // 1
+Products.deny({                                                                                                        // 3
+  insert: function () {                                                                                                // 4
+    return true;                                                                                                       // 4
+  },                                                                                                                   // 4
+  update: function () {                                                                                                // 5
+    return true;                                                                                                       // 5
+  },                                                                                                                   // 5
+  remove: function () {                                                                                                // 6
+    return true;                                                                                                       // 6
+  }                                                                                                                    // 6
+});                                                                                                                    // 3
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+},"Text.js":function(require,exports,module){
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                     //
+// lib/Text.js                                                                                                         //
+//                                                                                                                     //
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                                                                       //
+module.export({                                                                                                        // 1
+  Texts: function () {                                                                                                 // 1
+    return Texts;                                                                                                      // 1
+  }                                                                                                                    // 1
+});                                                                                                                    // 1
+var Mongo = void 0;                                                                                                    // 1
+module.watch(require("meteor/mongo"), {                                                                                // 1
+  Mongo: function (v) {                                                                                                // 1
+    Mongo = v;                                                                                                         // 1
+  }                                                                                                                    // 1
+}, 0);                                                                                                                 // 1
+var SimpleSchema = void 0;                                                                                             // 1
+module.watch(require("meteor/aldeed:simple-schema"), {                                                                 // 1
+  SimpleSchema: function (v) {                                                                                         // 1
+    SimpleSchema = v;                                                                                                  // 1
+  }                                                                                                                    // 1
+}, 1);                                                                                                                 // 1
+var Texts = new Mongo.Collection('texts');                                                                             // 6
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+},"Video.js":function(require,exports,module){
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                     //
+// lib/Video.js                                                                                                        //
+//                                                                                                                     //
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                                                                       //
+module.export({                                                                                                        // 1
+  Videos: function () {                                                                                                // 1
+    return Videos;                                                                                                     // 1
+  }                                                                                                                    // 1
+});                                                                                                                    // 1
+var Mongo = void 0;                                                                                                    // 1
+module.watch(require("meteor/mongo"), {                                                                                // 1
+  Mongo: function (v) {                                                                                                // 1
+    Mongo = v;                                                                                                         // 1
+  }                                                                                                                    // 1
+}, 0);                                                                                                                 // 1
+var SimpleSchema = void 0;                                                                                             // 1
+module.watch(require("meteor/aldeed:simple-schema"), {                                                                 // 1
+  SimpleSchema: function (v) {                                                                                         // 1
+    SimpleSchema = v;                                                                                                  // 1
+  }                                                                                                                    // 1
+}, 1);                                                                                                                 // 1
+var Videos = new Mongo.Collection('videos');                                                                           // 4
+Videos.deny({                                                                                                          // 6
+  insert: function () {                                                                                                // 7
+    return true;                                                                                                       // 7
+  },                                                                                                                   // 7
+  update: function () {                                                                                                // 8
+    return true;                                                                                                       // 8
+  },                                                                                                                   // 8
+  remove: function () {                                                                                                // 9
+    return true;                                                                                                       // 9
+  }                                                                                                                    // 9
+});                                                                                                                    // 6
+Videos.schema = new SimpleSchema({                                                                                     // 12
+  videotitle: {                                                                                                        // 13
+    type: String                                                                                                       // 13
+  },                                                                                                                   // 13
+  videotext: {                                                                                                         // 14
+    type: String                                                                                                       // 14
+  },                                                                                                                   // 14
+  videovideo: {                                                                                                        // 15
+    type: Object                                                                                                       // 15
+  },                                                                                                                   // 15
+  videoimage: {                                                                                                        // 16
+    type: Object                                                                                                       // 16
+  },                                                                                                                   // 16
+  videodate: {                                                                                                         // 17
+    type: String                                                                                                       // 17
+  }                                                                                                                    // 17
+});                                                                                                                    // 12
+Videos.attachSchema(Videos.schema);                                                                                    // 20
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+}},"client":{"main.js":function(require,exports,module){
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                                     //
@@ -6987,4 +7150,10 @@ module.watch(require("../imports/startup/client/routes.js"));                   
     ".css"
   ]
 });
+require("./lib/Audio.js");
+require("./lib/Bookings.js");
+require("./lib/Image.js");
+require("./lib/Products.js");
+require("./lib/Text.js");
+require("./lib/Video.js");
 require("./client/main.js");
